@@ -4,10 +4,9 @@ Solved question papers in one fixed look: blue question numbers, bold point labe
 navy tables. Every paper comes out as a **PDF** and as **high-quality PNG pages**
 (300 DPI, 2481 × 3508 px on A4).
 
-**Sized for 9-in-1 printing.** You print 9 pages on one A4 sheet, which shrinks each
-page to about a third. Pages keep two columns, and the text is 1.6× the original size,
-just big enough to read after that (about 4.2 pt on paper). The original size printed
-at 2.8 pt and could not be read. The HRM answers fit on 9 pages = one sheet.
+**Answer text is 10 pt** (your original pages used 8.5 pt), in the original two-column
+layout. Everything else keeps its original size. The HRM answers take 5 pages
+(`samples/hrm-question-bank/output/numbers-only.pdf`), one sheet when printed 9-in-1.
 
 The look was copied from the HRM pages in
 [samples/hrm-question-bank/reference](samples/hrm-question-bank/reference); the same
@@ -46,9 +45,9 @@ Needs Python 3 with `pip install -r requirements.txt` (reportlab, pymupdf).
 python render.py papers/hrm-sem3-2026/answers.md
 ```
 
-Options: `--scale 1.8` (text size; default 1.6, bigger = easier to read but more
-pages), `--columns 1` (default 2), `--paper letter` (default A4), `--dpi 200`
-(default 300), `--out some/folder`. `--scale 1` gives the original small pages.
+Options: `--scale 1.6` (draws everything 1.6× bigger, more pages), `--columns 1`
+(default 2), `--paper letter` (default A4), `--dpi 200` (default 300),
+`--out some/folder`.
 
 ## Answer file format
 

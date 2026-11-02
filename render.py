@@ -2,7 +2,7 @@
 """Turn an answers .md file into the exam-answer PDF + PNG pages (sized for 9-in-1 printing).
 
     python render.py papers/hrm-sem3-2026/answers.md
-    python render.py answers.md --scale 1 --columns 2   # the original small two-column size
+    python render.py answers.md --scale 1.6   # everything 1.6x bigger (more pages)
 
 The .md format is described in README.md ("Answer file format").
 Output: <out>/<name>.pdf and <out>/<name>-page-N.png (300 dpi by default).
@@ -29,14 +29,15 @@ ALT = HexColor("#EAF1FA")    # every second table row
 GRID = HexColor("#C3CCD6")   # table lines
 
 MARGIN_X, MARGIN_TOP, MARGIN_BOTTOM, GUTTER = 11, 11, 12, 10.5  # pt
-BODY, LEADING, INDENT = 8.5, 9.8, 10.9                          # pt (reference leading 10.25)
+# Answer text: 10 pt, the user's choice (reference 8.5 pt / 10.25 leading / 10.9 indent,
+# all three raised by the same 10/8.5). Everything else keeps its reference size.
+BODY, LEADING, INDENT = 10, 12.05, 12.8                         # pt
 PAPERS = {"a4": A4, "letter": LETTER}
 
-# Everything above is drawn this many times bigger. The user prints 9 pages on one A4
-# sheet (each page shrinks to about 0.31): 1x gave 2.8 pt text (unreadable), 1.8 gave
-# 5 pt (readable, but 12 pages for what was 4), 1.6 with 9.8 pt leading gives 4.2 pt
-# and fits the HRM sample on 9 pages = one sheet. Two columns per page is the user's rule.
-SCALE, COLUMNS = 1.6, 2
+# Everything above can be drawn this many times bigger (--scale). The user prints 9 pages
+# per A4 sheet; on 2026-11-02 they tried 1.6-2.2x, then chose plain 1x with 10 pt
+# answers: the HRM answers take 5 pages instead of 4. Two columns is the user's rule.
+SCALE, COLUMNS = 1, 2
 
 
 def register_fonts():
@@ -57,7 +58,7 @@ def make_styles(font, bold):
     body = ParagraphStyle("body", fontName=font, fontSize=BODY, leading=LEADING, textColor=black, allowWidows=0)
     return {
         "h1": ParagraphStyle("h1", fontName=bold, fontSize=9.3, leading=11, textColor=NAVY, spaceBefore=1.5),
-        # question line holds only "Q3." now, the user's way to find answers: body size, not 7 pt
+        # 8.5 pt, not the reference 7 pt: the line holds only "Q3." now, the user's way to find answers
         "q": ParagraphStyle("q", fontName=bold, fontSize=8.5, leading=9.6, textColor=QBLUE, spaceBefore=3.15),
         "sub": ParagraphStyle("sub", fontName=bold, fontSize=7.4, leading=LEADING, textColor=QBLUE),
         "body": body,
