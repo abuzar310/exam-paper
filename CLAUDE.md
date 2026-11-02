@@ -57,7 +57,8 @@ Don't mark or mention sources, on the page or in chat (the user's call, 2026-11-
 - Question line = the number only: `## Q3.` (parts as on the paper, `## Q3. (a)`).
   Never copy the question text; the user matches answers to the paper by number.
   (The sample has full question text only because it rebuilds the user's old pages.)
-  For "answer any N of M" papers, answer all of them unless the user says otherwise.
+  Choice questions ("answer any 10 of 12", "any 6 of 8"): answer **only the first N**
+  in paper order and skip the rest (the user's rule, 2026-11-02).
 
 ## Size: the user prints 9-in-1
 
