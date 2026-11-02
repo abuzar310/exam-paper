@@ -29,15 +29,14 @@ ALT = HexColor("#EAF1FA")    # every second table row
 GRID = HexColor("#C3CCD6")   # table lines
 
 MARGIN_X, MARGIN_TOP, MARGIN_BOTTOM, GUTTER = 11, 11, 12, 10.5  # pt
-BODY, LEADING, INDENT = 8.5, 10.25, 10.9                        # pt
+BODY, LEADING, INDENT = 8.5, 9.8, 10.9                          # pt (reference leading 10.25)
 PAPERS = {"a4": A4, "letter": LETTER}
 
 # Everything above is drawn this many times bigger. The user prints 9 pages on one A4
-# sheet (each page shrinks to about 0.31), so 1.8 puts body text near 5 pt on paper:
-# readable, without adding more pages than needed (1x gave 2.8 pt, unreadable).
-# At that size two columns get too narrow (tables split words), so one column per page.
-# The reference pages themselves are --scale 1 --columns 2.
-SCALE, COLUMNS = 1.8, 1
+# sheet (each page shrinks to about 0.31): 1x gave 2.8 pt text (unreadable), 1.8 gave
+# 5 pt (readable, but 12 pages for what was 4), 1.6 with 9.8 pt leading gives 4.2 pt
+# and fits the HRM sample on 9 pages = one sheet. Two columns per page is the user's rule.
+SCALE, COLUMNS = 1.6, 2
 
 
 def register_fonts():
@@ -60,7 +59,7 @@ def make_styles(font, bold):
         "h1": ParagraphStyle("h1", fontName=bold, fontSize=9.3, leading=11, textColor=NAVY, spaceBefore=1.5),
         # question line holds only "Q3." now, the user's way to find answers: body size, not 7 pt
         "q": ParagraphStyle("q", fontName=bold, fontSize=8.5, leading=9.6, textColor=QBLUE, spaceBefore=3.15),
-        "sub": ParagraphStyle("sub", fontName=bold, fontSize=7.4, leading=10.25, textColor=QBLUE),
+        "sub": ParagraphStyle("sub", fontName=bold, fontSize=7.4, leading=LEADING, textColor=QBLUE),
         "body": body,
         "item": ParagraphStyle("item", parent=body, leftIndent=INDENT, firstLineIndent=-INDENT),
         # tables: 6.45 pt in the reference, raised so they survive 9-in-1 printing
@@ -116,7 +115,10 @@ def parse(text):
 def make_table(rows, st, col_w):
     n = max(len(r) for r in rows)
     rows = [r + [""] * (n - len(r)) for r in rows]
-    first = col_w * (0.22 if n >= 3 else 0.32) if n > 1 else col_w
+    # first column 22% as in the reference, but wide enough for its longest word
+    longest = max(pdfmetrics.stringWidth(word, st["td1"].fontName, st["td1"].fontSize)
+                  for r in rows for word in re.sub(r"[*_]", "", r[0]).split() or [""])
+    first = max(col_w * (0.22 if n >= 3 else 0.32), longest + 9) if n > 1 else col_w
     widths = [first] + [(col_w - first) / (n - 1)] * (n - 1)
     data = [[Paragraph(inline(c), st["th"]) for c in rows[0]]]
     data += [[Paragraph(inline(r[0]), st["td1"])] + [Paragraph(inline(c), st["td"]) for c in r[1:]]
@@ -156,7 +158,7 @@ def build(blocks, st, col_w):
     # a section title and its first question would stop their spaces from overlapping.
     out, prev = [], None
     for kind, *rest in blocks:
-        if kind in ("h1", "q", "sub") and prev not in ("h1", "sub"):
+        if kind in ("h1", "q", "sub") and prev not in ("h1", "q", "sub"):
             out.append(CondPageBreak(0))
         if kind == "h1":
             out += heading(Paragraph(inline(rest[0]), st["h1"]),
@@ -195,11 +197,12 @@ def render(md, paper="a4", dpi=300, out_dir=None, scale=SCALE, columns=COLUMNS):
 
     # Lay out at the reference sizes on a page `scale` times smaller, then enlarge each
     # page onto the real paper (still vector), so text, lines and gaps all grow together.
+    # Margins and the gap between columns stay their reference size on paper (not enlarged).
     page_w, page_h = PAPERS[paper]
     w, h = page_w / scale, page_h / scale
-    col_w = (w - 2 * MARGIN_X - (columns - 1) * GUTTER) / columns
-    frames = [Frame(MARGIN_X + i * (col_w + GUTTER), MARGIN_BOTTOM, col_w,
-                    h - MARGIN_TOP - MARGIN_BOTTOM, id=f"col{i}",
+    mx, mt, mb, gap = MARGIN_X / scale, MARGIN_TOP / scale, MARGIN_BOTTOM / scale, GUTTER / scale
+    col_w = (w - 2 * mx - (columns - 1) * gap) / columns
+    frames = [Frame(mx + i * (col_w + gap), mb, col_w, h - mt - mb, id=f"col{i}",
                     leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0) for i in range(columns)]
     small = io.BytesIO()
     doc = BaseDocTemplate(small, pagesize=(w, h), pageTemplates=[PageTemplate(frames=frames)])
