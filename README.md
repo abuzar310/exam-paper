@@ -18,8 +18,8 @@ answers rebuilt by this project are in
    - first from your notes,
    - then from older solved papers in this repo,
    - and only when your notes don't cover a question, from the internet.
-   Each answer has a hidden comment saying where it came from, and Claude tells you
-   which questions came from the internet.
+
+   Each answer is headed by its number only (`Q1.`, `Q2.`), not the question text.
 4. **`render.py` makes the PDF and PNGs** in `papers/<subject>-<exam>/output/`.
 5. Everything is committed and pushed to GitHub (`abuzar310/exam-paper`, private), and
    the session is written up in `sessions/`.
@@ -50,26 +50,26 @@ Plain text, one answer file per paper:
 
 ```
 # 2 MARKS                                   ← section title with the thick blue line
-## Q1. Define Human Resource Management.    ← question line with the thin grey line
+## Q1.                                      ← question number with the thin grey line
 **Human Resource Management (HRM)** is the process of ...   ← paragraph
 
-## Q2. State any two HRM issues.
+## Q2.
 1. **High attrition:** Employees leave quickly for higher pay.   ← numbered point
 2. **Work-life balance:** Long working hours ...
 
-## Q3. Distinguish between HRM and Personnel Management.
+## Q3.
 | Basis | HRM | Personnel Management |       ← table: first row = navy header
 |---|---|---|
 | Nature | Modern and proactive | Traditional and reactive |
 
 # 10 MARKS
-## Q1. Explain the functions of HRM.
+## Q1.
 ### Managerial functions                    ← small blue sub-heading
 1. **Planning:** ...
 ### Operative functions
 6. **Procurement:** ...
 
-<!-- src: notes/hrm/unit-1.jpg -->           ← hidden note, never printed
+<!-- anything in here is never printed -->
 ```
 
 `**bold**` and `*italic*` work inside any line. `- ` makes a bullet point.

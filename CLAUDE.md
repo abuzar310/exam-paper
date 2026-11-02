@@ -12,17 +12,15 @@ answer-file syntax.
    the notes without re-reading images.
 2. **Question paper arrives** → make `papers/<subject>-<exam>/` (e.g.
    `papers/hrm-sem3-nov-2026/`), save the paper there as `question-paper.<ext>`.
-   Read every question; keep the paper's own question numbers, wording and section
-   order.
+   Read every question; keep the paper's own question numbers and section order.
 3. **Write `answers.md`** in that folder (rules below).
 4. **Render**: `python render.py papers/<folder>/answers.md` → `output/<folder>.pdf`
    and `output/<folder>-page-N.png` (A4, 300 DPI). Look at every PNG before handing
    it over: no heading stranded at a column bottom, no table cut badly, no missing
    question.
-5. **Hand over** with SendUserFile: the PDF and the PNGs. In the message, list the
-   questions answered from the internet (not from the notes).
-6. **Save**: write `sessions/<date>-<topic>.md` (what was asked, what was made, which
-   sources). For the full step list, export this session (export_transcript "self"),
+5. **Hand over** with SendUserFile: the PDF and the PNGs.
+6. **Save**: write `sessions/<date>-<topic>.md` (what was asked, what was made).
+   For the full step list, export this session (export_transcript "self"),
    unzip it to the scratchpad and run
    `python sessions/to_md.py <unzipped>/transcript.jsonl sessions/<date>-<topic>-transcript.md "<title>"`.
    Never commit the raw export (it holds images and private system text).
@@ -37,8 +35,7 @@ answer-file syntax.
 3. Only if neither covers the question: the internet (standard Indian university
    textbook answers). Never invent facts, sections or case laws.
 
-Mark the source above each answer with a hidden comment, e.g.
-`<!-- src: notes/hrm/unit-2.md -->` or `<!-- src: web -->`.
+Don't mark or mention sources, on the page or in chat (the user's call, 2026-11-02).
 
 ## How answers look (copy samples/hrm-question-bank/answers.md)
 
@@ -57,7 +54,9 @@ Mark the source above each answer with a hidden comment, e.g.
   programme). No filler intros or conclusions; the page is meant to be crammed.
 - Section titles: the paper's own (e.g. `# SECTION A`) if it has them, else
   `# 2 MARKS`, `# 5 MARKS`, `# 10 MARKS`.
-- Questions written as on the paper: `## Q3. Explain the steps in Selection Process.`
+- Question line = the number only: `## Q3.` (parts as on the paper, `## Q3. (a)`).
+  Never copy the question text; the user matches answers to the paper by number.
+  (The sample has full question text only because it rebuilds the user's old pages.)
   For "answer any N of M" papers, answer all of them unless the user says otherwise.
 
 ## Don't change the look by accident
