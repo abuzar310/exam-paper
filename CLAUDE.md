@@ -21,8 +21,12 @@ answer-file syntax.
    question.
 5. **Hand over** with SendUserFile: the PDF and the PNGs. In the message, list the
    questions answered from the internet (not from the notes).
-6. **Save**: append to `sessions/<date>-<topic>.md` (what was asked, what was made,
-   which sources), commit, push to `origin main` (`abuzar310/exam-paper`, private).
+6. **Save**: write `sessions/<date>-<topic>.md` (what was asked, what was made, which
+   sources). For the full step list, export this session (export_transcript "self"),
+   unzip it to the scratchpad and run
+   `python sessions/to_md.py <unzipped>/transcript.jsonl sessions/<date>-<topic>-transcript.md "<title>"`.
+   Never commit the raw export (it holds images and private system text).
+   Then commit and push to `origin main` (`abuzar310/exam-paper`, private).
    Commit as `Abuzar <abuzaarfirooz@gmail.com>` via GIT_AUTHOR_*/GIT_COMMITTER_* env
    vars, no AI co-author trailer.
 
