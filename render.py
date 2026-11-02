@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Turn an answers .md file into the two-column exam-answer PDF + PNG pages.
+"""Turn an answers .md file into the exam-answer PDF + PNG pages (sized for 9-in-1 printing).
 
     python render.py papers/hrm-sem3-2026/answers.md
-    python render.py answers.md --paper letter --dpi 200
+    python render.py answers.md --scale 1 --columns 2   # the original small two-column size
 
 The .md format is described in README.md ("Answer file format").
 Output: <out>/<name>.pdf and <out>/<name>-page-N.png (300 dpi by default).
 """
 import argparse
+import io
 import re
 from pathlib import Path
 
@@ -31,6 +32,13 @@ MARGIN_X, MARGIN_TOP, MARGIN_BOTTOM, GUTTER = 11, 11, 12, 10.5  # pt
 BODY, LEADING, INDENT = 8.5, 10.25, 10.9                        # pt
 PAPERS = {"a4": A4, "letter": LETTER}
 
+# Everything above is drawn this many times bigger. The user prints 9 pages on one A4
+# sheet (each page shrinks to about 0.31), so 1.8 puts body text near 5 pt on paper:
+# readable, without adding more pages than needed (1x gave 2.8 pt, unreadable).
+# At that size two columns get too narrow (tables split words), so one column per page.
+# The reference pages themselves are --scale 1 --columns 2.
+SCALE, COLUMNS = 1.8, 1
+
 
 def register_fonts():
     """Arial from Windows if present, else the built-in Helvetica (same widths)."""
@@ -50,13 +58,15 @@ def make_styles(font, bold):
     body = ParagraphStyle("body", fontName=font, fontSize=BODY, leading=LEADING, textColor=black, allowWidows=0)
     return {
         "h1": ParagraphStyle("h1", fontName=bold, fontSize=9.3, leading=11, textColor=NAVY, spaceBefore=1.5),
-        "q": ParagraphStyle("q", fontName=bold, fontSize=7, leading=8.4, textColor=QBLUE, spaceBefore=3.15),
+        # question line holds only "Q3." now, the user's way to find answers: body size, not 7 pt
+        "q": ParagraphStyle("q", fontName=bold, fontSize=8.5, leading=9.6, textColor=QBLUE, spaceBefore=3.15),
         "sub": ParagraphStyle("sub", fontName=bold, fontSize=7.4, leading=10.25, textColor=QBLUE),
         "body": body,
         "item": ParagraphStyle("item", parent=body, leftIndent=INDENT, firstLineIndent=-INDENT),
-        "th": ParagraphStyle("th", fontName=bold, fontSize=6.45, leading=7.8, textColor=white),
-        "td": ParagraphStyle("td", fontName=font, fontSize=6.45, leading=7.8, textColor=black),
-        "td1": ParagraphStyle("td1", fontName=bold, fontSize=6.45, leading=7.8, textColor=black),
+        # tables: 6.45 pt in the reference, raised so they survive 9-in-1 printing
+        "th": ParagraphStyle("th", fontName=bold, fontSize=7.4, leading=8.8, textColor=white),
+        "td": ParagraphStyle("td", fontName=font, fontSize=7.4, leading=8.8, textColor=black),
+        "td1": ParagraphStyle("td1", fontName=bold, fontSize=7.4, leading=8.8, textColor=black),
     }
 
 
@@ -125,19 +135,37 @@ def make_table(rows, st, col_w):
     return t
 
 
+def heading(*flowables):
+    for f in flowables:
+        f.heading = True
+    return list(flowables)
+
+
+def first_piece(f, col_w):
+    """Height of the smallest part of f that can start at a column bottom."""
+    h = f.wrap(col_w, 1e6)[1]
+    if isinstance(f, Table):
+        return sum(f._rowHeights[:2])                       # header row + first row
+    return h if h <= 3 * LEADING + 1 else 2 * LEADING        # 3 lines can't split 2+1
+
+
 def build(blocks, st, col_w):
-    # CondPageBreak = "start a new column unless this much room is left", so a heading
-    # always has at least two lines of its answer under it, but long answers may split.
-    out = []
+    # Each heading gets a CondPageBreak = "start a new column unless the heading plus the
+    # first piece of its answer fits", so no heading is left alone at a column bottom
+    # while long answers may still split. One check per run of headings: a break between
+    # a section title and its first question would stop their spaces from overlapping.
+    out, prev = [], None
     for kind, *rest in blocks:
+        if kind in ("h1", "q", "sub") and prev not in ("h1", "sub"):
+            out.append(CondPageBreak(0))
         if kind == "h1":
-            out += [CondPageBreak(54), Paragraph(inline(rest[0]), st["h1"]),
-                    HRFlowable(width="100%", thickness=1.6, color=NAVY, spaceBefore=2.4, spaceAfter=3.2)]
+            out += heading(Paragraph(inline(rest[0]), st["h1"]),
+                           HRFlowable(width="100%", thickness=1.6, color=NAVY, spaceBefore=2.4, spaceAfter=3.2))
         elif kind == "q":
-            out += [CondPageBreak(35), Paragraph(inline(rest[0]), st["q"]),
-                    HRFlowable(width="100%", thickness=0.55, color=GREY, spaceBefore=0.6, spaceAfter=1.2)]
+            out += heading(Paragraph(inline(rest[0]), st["q"]),
+                           HRFlowable(width="100%", thickness=0.55, color=GREY, spaceBefore=0.6, spaceAfter=1.2))
         elif kind == "sub":
-            out += [CondPageBreak(31), Paragraph(inline(rest[0]), st["sub"])]
+            out += heading(Paragraph(inline(rest[0]), st["sub"]))
         elif kind == "para":
             out.append(Paragraph(inline(rest[0]), st["body"]))
         elif kind == "item":
@@ -145,30 +173,47 @@ def build(blocks, st, col_w):
             out.append(Paragraph(f"<b>{mark}</b> {inline(rest[1])}", st["item"]))
         else:
             out.append(make_table(rest[0], st, col_w))
+        prev = kind
+
+    for i, f in enumerate(out):
+        if isinstance(f, CondPageBreak):
+            j = i + 1
+            while j < len(out) and getattr(out[j], "heading", False):
+                f.height += out[j].wrap(col_w, 1e6)[1] + out[j].getSpaceBefore() + out[j].getSpaceAfter()
+                j += 1
+            if j < len(out):
+                f.height += first_piece(out[j], col_w)
     return out
 
 
-def render(md, paper="a4", dpi=300, out_dir=None):
+def render(md, paper="a4", dpi=300, out_dir=None, scale=SCALE, columns=COLUMNS):
     md = Path(md)
     name = md.parent.name if md.stem == "answers" else md.stem
     out_dir = Path(out_dir) if out_dir else md.parent / "output"
     out_dir.mkdir(parents=True, exist_ok=True)
     pdf = out_dir / f"{name}.pdf"
 
+    # Lay out at the reference sizes on a page `scale` times smaller, then enlarge each
+    # page onto the real paper (still vector), so text, lines and gaps all grow together.
     page_w, page_h = PAPERS[paper]
-    col_w = (page_w - 2 * MARGIN_X - GUTTER) / 2
+    w, h = page_w / scale, page_h / scale
+    col_w = (w - 2 * MARGIN_X - (columns - 1) * GUTTER) / columns
     frames = [Frame(MARGIN_X + i * (col_w + GUTTER), MARGIN_BOTTOM, col_w,
-                    page_h - MARGIN_TOP - MARGIN_BOTTOM, id=f"col{i}",
-                    leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0) for i in (0, 1)]
-    doc = BaseDocTemplate(str(pdf), pagesize=(page_w, page_h), title=name, author="",
-                          pageTemplates=[PageTemplate(frames=frames)])
+                    h - MARGIN_TOP - MARGIN_BOTTOM, id=f"col{i}",
+                    leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0) for i in range(columns)]
+    small = io.BytesIO()
+    doc = BaseDocTemplate(small, pagesize=(w, h), pageTemplates=[PageTemplate(frames=frames)])
     st = make_styles(*register_fonts())
     doc.build(build(parse(md.read_text(encoding="utf-8")), st, col_w))
 
     for old in out_dir.glob(f"{name}-page-*.png"):
         old.unlink()
     pngs = []
-    with pymupdf.open(pdf) as d:
+    with pymupdf.open("pdf", small.getvalue()) as src, pymupdf.open() as d:
+        for i in range(len(src)):
+            d.new_page(width=page_w, height=page_h).show_pdf_page(pymupdf.Rect(0, 0, page_w, page_h), src, i)
+        d.set_metadata({"title": name})
+        d.save(pdf, garbage=3, deflate=True)
         for i, page in enumerate(d, 1):
             png = out_dir / f"{name}-page-{i}.png"
             page.get_pixmap(matrix=pymupdf.Matrix(dpi / 72, dpi / 72)).save(png)
@@ -182,8 +227,11 @@ if __name__ == "__main__":
     ap.add_argument("--paper", choices=PAPERS, default="a4")
     ap.add_argument("--dpi", type=float, default=300, help="PNG resolution (default 300)")
     ap.add_argument("--out", help="output folder (default: <md folder>/output)")
+    ap.add_argument("--scale", type=float, default=SCALE,
+                    help=f"size vs the reference pages (default {SCALE}, readable when printed 9-in-1; 1 = original size)")
+    ap.add_argument("--columns", type=int, default=COLUMNS, help=f"columns per page (default {COLUMNS})")
     a = ap.parse_args()
-    pdf, pngs = render(a.md, a.paper, a.dpi, a.out)
+    pdf, pngs = render(a.md, a.paper, a.dpi, a.out, a.scale, a.columns)
     print(f"{pdf}  ({len(pngs)} page{'s' * (len(pngs) != 1)})")
     for p in pngs:
         print(p)
