@@ -1,8 +1,13 @@
 # Exam Paper
 
-Solved question papers in one fixed look: two columns, blue question lines, bold point
-labels, navy tables. Every paper comes out as a **PDF** and as **high-quality PNG pages**
+Solved question papers in one fixed look: blue question numbers, bold point labels,
+navy tables. Every paper comes out as a **PDF** and as **high-quality PNG pages**
 (300 DPI, 2481 × 3508 px on A4).
+
+**Sized for 9-in-1 printing.** You print 9 pages on one A4 sheet, which shrinks each
+page to about a third. The text is made just big enough to read after that (body text
+about 5 pt on paper), with one column per page. The original small two-column size
+printed at 2.8 pt and could not be read.
 
 The look was copied from the HRM pages in
 [samples/hrm-question-bank/reference](samples/hrm-question-bank/reference); the same
@@ -41,8 +46,9 @@ Needs Python 3 with `pip install -r requirements.txt` (reportlab, pymupdf).
 python render.py papers/hrm-sem3-2026/answers.md
 ```
 
-Options: `--paper letter` (default is A4), `--dpi 200` (default 300),
-`--out some/folder`.
+Options: `--scale 2` (text size; default 1.8, bigger = easier to read but more pages),
+`--columns 2`, `--paper letter` (default A4), `--dpi 200` (default 300),
+`--out some/folder`. `--scale 1 --columns 2` gives the original small two-column pages.
 
 ## Answer file format
 

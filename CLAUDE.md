@@ -16,7 +16,7 @@ answer-file syntax.
 3. **Write `answers.md`** in that folder (rules below).
 4. **Render**: `python render.py papers/<folder>/answers.md` → `output/<folder>.pdf`
    and `output/<folder>-page-N.png` (A4, 300 DPI). Look at every PNG before handing
-   it over: no heading stranded at a column bottom, no table cut badly, no missing
+   it over: no heading stranded at a page bottom, no table cut badly, no missing
    question.
 5. **Hand over** with SendUserFile: the PDF and the PNGs.
 6. **Save**: write `sessions/<date>-<topic>.md` (what was asked, what was made).
@@ -59,10 +59,20 @@ Don't mark or mention sources, on the page or in chat (the user's call, 2026-11-
   (The sample has full question text only because it rebuilds the user's old pages.)
   For "answer any N of M" papers, answer all of them unless the user says otherwise.
 
+## Size: the user prints 9-in-1
+
+The user prints 9 pages per A4 sheet (each page shrinks to ~0.31). The original size
+came out at 2.8 pt and was unreadable, so pages are drawn 1.8× (`SCALE` in render.py,
+body ≈ 5 pt on paper) with one column. They asked for "just readable", not bigger:
+more scale = more pages. Don't change the size without asking.
+
 ## Don't change the look by accident
 
 Colours, sizes and spacing in `render.py` were measured off the reference pages in
-`samples/hrm-question-bank/reference/` (Letter, 1236 × 1600 px). After any change to
-`render.py`, re-render the sample with
-`python render.py samples/hrm-question-bank/answers.md --paper letter --dpi 145.41 --out <scratch>`
-and compare it with the reference pages side by side before committing.
+`samples/hrm-question-bank/reference/` (Letter, 1236 × 1600 px). Deliberate changes
+since: the question line is 8.5 pt (it holds only the number now) and table text is
+7.4 pt (was 6.45), both for 9-in-1 readability. After any change to `render.py`,
+re-render the sample with
+`python render.py samples/hrm-question-bank/answers.md --scale 1 --columns 2 --paper letter --dpi 145.41 --out <scratch>`
+and compare it with the reference pages side by side before committing. To check the
+printed result, put the PDF pages 3×3 on A4 at 300 DPI and read a crop at 1:1.
