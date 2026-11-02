@@ -40,18 +40,20 @@ PAPERS = {"a4": A4, "letter": LETTER}
 SCALE, COLUMNS = 1, 2
 
 
-def register_fonts():
-    """Arial from Windows if present, else the built-in Helvetica (same widths)."""
+def register_fonts(hindi=False):
+    """Arial from Windows, or Nirmala UI when the paper has Hindi (Arial has no Devanagari);
+    without Windows fonts, the built-in Helvetica (same widths as Arial)."""
     win = Path("C:/Windows/Fonts")
-    faces = {"Arial": "arial.ttf", "Arial-Bold": "arialbd.ttf",
-             "Arial-Italic": "ariali.ttf", "Arial-BoldItalic": "arialbi.ttf"}
+    files = (("Nirmala.ttf", "NirmalaB.ttf", "Nirmala.ttf", "NirmalaB.ttf") if hindi
+             else ("arial.ttf", "arialbd.ttf", "ariali.ttf", "arialbi.ttf"))
+    faces = dict(zip(("Body", "Body-Bold", "Body-Italic", "Body-BoldItalic"), files))
     if not all((win / f).exists() for f in faces.values()):
         return "Helvetica", "Helvetica-Bold"
     for name, f in faces.items():
         pdfmetrics.registerFont(TTFont(name, str(win / f)))
-    pdfmetrics.registerFontFamily("Arial", normal="Arial", bold="Arial-Bold",
-                                  italic="Arial-Italic", boldItalic="Arial-BoldItalic")
-    return "Arial", "Arial-Bold"
+    pdfmetrics.registerFontFamily("Body", normal="Body", bold="Body-Bold",
+                                  italic="Body-Italic", boldItalic="Body-BoldItalic")
+    return "Body", "Body-Bold"
 
 
 def make_styles(font, bold):
@@ -207,8 +209,12 @@ def render(md, paper="a4", dpi=300, out_dir=None, scale=SCALE, columns=COLUMNS):
                     leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0) for i in range(columns)]
     small = io.BytesIO()
     doc = BaseDocTemplate(small, pagesize=(w, h), pageTemplates=[PageTemplate(frames=frames)])
-    st = make_styles(*register_fonts())
-    doc.build(build(parse(md.read_text(encoding="utf-8")), st, col_w))
+    text = md.read_text(encoding="utf-8")
+    hindi = bool(re.search("[ऀ-ॿ]", text))
+    st = make_styles(*register_fonts(hindi))
+    for style in st.values():
+        style.shaping = int(hindi)  # HarfBuzz puts Hindi vowel signs and joined letters in place
+    doc.build(build(parse(text), st, col_w))
 
     for old in out_dir.glob(f"{name}-page-*.png"):
         old.unlink()
