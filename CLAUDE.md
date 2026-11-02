@@ -71,6 +71,13 @@ identifiable) and chose **10 pt answer text in the original layout** (`SCALE` 1)
 HRM answers take 5 pages, about 3.2 pt on the 9-in-1 sheet, sent for a test print.
 Don't change the size or columns without asking.
 
+## Hindi papers
+
+Write Hindi answers in Devanagari as usual. `render.py` sees the Devanagari, switches to
+Windows' Nirmala UI font (Arial has no Hindi letters) and turns on HarfBuzz shaping
+(`uharfbuzz` in requirements.txt). Without shaping, vowel signs land in the wrong place
+("किसी" prints as "कसिी"), so check that `uharfbuzz` imports before rendering Hindi.
+
 ## Don't change the look by accident
 
 Colours, sizes and spacing in `render.py` were measured off the reference pages in

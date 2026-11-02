@@ -1,2 +1,3 @@
 reportlab>=4
 pymupdf>=1.24
+uharfbuzz>=0.40  # Hindi: puts vowel signs and joined letters in place
