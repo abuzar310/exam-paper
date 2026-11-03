@@ -30,6 +30,7 @@ Question paper: the AS 29 question is in the Accounting Standards paper above.
 Notes:
 
 - [ ] `notes/accounting-standards/as-9-study-material.md` — `as-9-study-material.pdf`
+- [ ] `notes/accounting-standards/as-9-revenue-recognition.md` — `as-9-revenue-recognition.pdf`
 
 Question paper: the revenue questions are in the Accounting Standards paper above.
 
@@ -128,10 +129,6 @@ Question paper:
 ## Not converted yet
 
 These are still only the original scan or photo. Grouped by subject.
-
-### AS 9
-
-- [ ] `notes/accounting-standards/as-9-revenue-recognition.pdf`
 
 ### Log tables
 
