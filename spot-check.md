@@ -103,9 +103,13 @@ Notes:
 - [ ] `notes/business-statistics/log-and-antilog.md` — `log-and-antilog.pdf`
 - [ ] `notes/business-statistics/log-and-antilog-2.md` — `log-and-antilog-2.pdf` (same tables as the file above)
 
-Question paper:
+Question papers:
 
 - [ ] `papers/sem3-dec-2025-jan-2026/all-question-papers.md` — Business Statistics, Q.P. 54322, inside `all-question-papers.pdf`
+- [ ] `papers/sem3-dec-2025-jan-2026/business-statistics-54322-scan.md` — `business-statistics-54322-scan.pdf` (the page prints 24CC72)
+- [ ] `papers/business-statistics/bba-statistics-for-business-decisions.md` — `bba-statistics-for-business-decisions.pdf`
+- [ ] `papers/business-statistics/bba-statistics-jan-2024.md` — `bba-statistics-jan-2024.pdf`
+- [ ] `papers/business-statistics/fundamentals-of-statistics-older-papers.md` — `fundamentals-of-statistics-older-papers.pdf` (several older papers in one file; the 2014 sheet is faint and one question number sits off the edge of the scan)
 
 ## Kannada
 
@@ -127,15 +131,4 @@ Question paper:
 ## Timetable
 
 - [ ] `papers/sem3-dec-2025-jan-2026/timetable.md` — `timetable.jpg`
-
-## Not converted yet
-
-These are still only the original scan or photo. Grouped by subject.
-
-### Statistics
-
-- [ ] `papers/sem3-dec-2025-jan-2026/business-statistics-54322-scan.pdf`
-- [ ] `papers/business-statistics/bba-statistics-for-business-decisions.pdf`
-- [ ] `papers/business-statistics/bba-statistics-jan-2024.pdf`
-- [ ] `papers/business-statistics/fundamentals-of-statistics-older-papers.pdf`
 
