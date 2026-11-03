@@ -95,6 +95,11 @@ Question paper:
 
 ## Statistics
 
+Notes:
+
+- [ ] `notes/business-statistics/correlation.md` — `correlation.pdf`
+- [ ] `notes/business-statistics/regression-theory.md` — `regression-theory.pdf`
+
 Question paper:
 
 - [ ] `papers/sem3-dec-2025-jan-2026/all-question-papers.md` — Business Statistics, Q.P. 54322, inside `all-question-papers.pdf`
@@ -127,14 +132,6 @@ These are still only the original scan or photo. Grouped by subject.
 ### AS 9
 
 - [ ] `notes/accounting-standards/as-9-revenue-recognition.pdf`
-
-### Correlation
-
-- [ ] `notes/business-statistics/correlation.pdf`
-
-### Regression
-
-- [ ] `notes/business-statistics/regression-theory.pdf`
 
 ### Log tables
 
