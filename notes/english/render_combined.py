@@ -127,8 +127,41 @@ def build(blocks, st, col_w):
     return out
 
 
+MARK = (0.08, 0.22, 0.36)
+GOLD = (0.72, 0.52, 0.12)
+POTION = (0.42, 0.28, 0.62)
+
+
+def _spark(page, x, y, r=1.7):
+    page.draw_line(pymupdf.Point(x, y - r), pymupdf.Point(x, y + r), color=GOLD, width=0.7)
+    page.draw_line(pymupdf.Point(x - r, y), pymupdf.Point(x + r, y), color=GOLD, width=0.7)
+
+
+def _hat(page, x, y):
+    """Wizard hat with three sparks. x, y is the top-left of a 16 by 14 box."""
+    page.draw_polyline(
+        [pymupdf.Point(x + 1, y + 11), pymupdf.Point(x + 8, y + 1), pymupdf.Point(x + 15, y + 11)],
+        color=MARK, fill=MARK, width=0.3, closePath=True)
+    page.draw_line(pymupdf.Point(x - 1, y + 12.5), pymupdf.Point(x + 17, y + 12.5), color=MARK, width=1.5)
+    _spark(page, x + 18, y + 3, 1.5)
+    _spark(page, x + 22, y + 8, 1.2)
+    _spark(page, x - 3, y + 6, 1.2)
+
+
+def _potion(page, x, y):
+    """Tiny corked bottle. x, y is the top-left of a 12 by 16 box."""
+    page.draw_rect(pymupdf.Rect(x + 4, y, x + 8, y + 3), color=(0.45, 0.28, 0.12),
+                   fill=(0.55, 0.36, 0.16), width=0.3)
+    page.draw_rect(pymupdf.Rect(x + 4.4, y + 3, x + 7.6, y + 6), color=MARK,
+                   fill=(0.90, 0.94, 0.97), width=0.4)
+    page.draw_oval(pymupdf.Rect(x + 1, y + 6, x + 11, y + 16), color=MARK,
+                   fill=(0.86, 0.90, 0.96), width=0.6)
+    page.draw_oval(pymupdf.Rect(x + 2.2, y + 10, x + 9.8, y + 15.2), color=POTION,
+                   fill=POTION, width=0.2)
+
+
 def stamp(doc):
-    """Page number and chapter name. A chapter continues until the next one starts."""
+    """Footer mark on every page: hat, 'brewed by Abuzar', potion, then the chapter and page."""
     chapter = ""
     for page in doc:
         head = page.get_text()[:500]
@@ -136,14 +169,17 @@ def stamp(doc):
             if name in head:
                 chapter = name
                 break
-        y = page.rect.height - 26
-        page.draw_line(pymupdf.Point(50, y - 8), pymupdf.Point(page.rect.width - 50, y - 8),
-                       color=(0.08, 0.22, 0.36), width=0.4)
-        page.insert_text(pymupdf.Point(50, y + 6), chapter, fontsize=9, fontname="hebo",
-                         color=(0.08, 0.22, 0.36))
+        y = page.rect.height - 28
+        page.draw_line(pymupdf.Point(48, y - 10), pymupdf.Point(page.rect.width - 48, y - 10),
+                       color=MARK, width=0.4)
+        _hat(page, 50, y - 6)
+        page.insert_text(pymupdf.Point(78, y + 6), "brewed by Abuzar", fontsize=9,
+                         fontname="hebo", color=MARK)
+        _potion(page, 172, y - 7)
+        page.insert_text(pymupdf.Point(196, y + 6), chapter, fontsize=8, fontname="helv", color=MARK)
         label = str(page.number + 1)
-        page.insert_text(pymupdf.Point(page.rect.width - 50 - len(label) * 5.2, y + 6), label,
-                         fontsize=9, fontname="helv", color=(0.08, 0.22, 0.36))
+        page.insert_text(pymupdf.Point(page.rect.width - 48 - len(label) * 5.2, y + 6), label,
+                         fontsize=9, fontname="helv", color=MARK)
 
 
 def main():
