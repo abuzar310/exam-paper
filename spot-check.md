@@ -100,6 +100,8 @@ Notes:
 
 - [ ] `notes/business-statistics/correlation.md` — `correlation.pdf`
 - [ ] `notes/business-statistics/regression-theory.md` — `regression-theory.pdf`
+- [ ] `notes/business-statistics/log-and-antilog.md` — `log-and-antilog.pdf`
+- [ ] `notes/business-statistics/log-and-antilog-2.md` — `log-and-antilog-2.pdf` (same tables as the file above)
 
 Question paper:
 
@@ -129,11 +131,6 @@ Question paper:
 ## Not converted yet
 
 These are still only the original scan or photo. Grouped by subject.
-
-### Log tables
-
-- [ ] `notes/business-statistics/log-and-antilog.pdf`
-- [ ] `notes/business-statistics/log-and-antilog-2.pdf`
 
 ### Statistics
 
