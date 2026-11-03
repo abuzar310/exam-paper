@@ -17,6 +17,14 @@ Question paper:
 
 - [ ] `papers/sem3-dec-2025-jan-2026/all-question-papers.md` — Accounting Standards I, Q.P. 54323, inside `all-question-papers.pdf`
 
+## AS 29
+
+Notes:
+
+- [ ] `notes/accounting-standards/as-29-provisions.md` — `as-29-provisions.pdf`
+
+Question paper: the AS 29 question is in the Accounting Standards paper above.
+
 ## AS 9
 
 Notes:
@@ -99,10 +107,6 @@ These are still only the original scan or photo. Grouped by subject.
 ### AS 9
 
 - [ ] `notes/accounting-standards/as-9-revenue-recognition.pdf`
-
-### AS 29
-
-- [ ] `notes/accounting-standards/as-29-provisions.pdf`
 
 ### Correlation
 
