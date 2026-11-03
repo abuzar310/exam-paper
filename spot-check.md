@@ -39,6 +39,11 @@ Notes:
 
 - [ ] `notes/corporate-accounting/profit-prior-to-incorporation.md` — `profit-prior-to-incorporation.pptx`
 
+Syllabus:
+
+- [ ] `notes/corporate-accounting/syllabus-scan.md` — `syllabus-scan.pdf`
+- [ ] `notes/corporate-accounting/syllabus-scan-2.md` — `syllabus-scan-2.pdf` (same text as the file above)
+
 Question paper:
 
 - [ ] `papers/sem3-dec-2025-jan-2026/corporate-accounting-54321.md` — `corporate-accounting-54321.pdf`
@@ -59,6 +64,7 @@ Notes:
 Question paper:
 
 - [ ] `papers/sem3-dec-2025-jan-2026/all-question-papers.md` — English, Q.P. 54302, inside `all-question-papers.pdf`
+- [ ] `papers/sem3-dec-2025-jan-2026/english-54302-scan.md` — `english-54302-scan.pdf`
 
 ## Human Resource Development
 
@@ -67,6 +73,10 @@ Notes:
 - [ ] `notes/human-resource-development/module-1.md` — `module-1.pdf`
 - [ ] `notes/human-resource-development/module-2.md` — `module-2.pdf`
 - [ ] `notes/human-resource-development/module-3-aarav-retail.md` — `module-3-aarav-retail.docx`
+
+Syllabus:
+
+- [ ] `notes/human-resource-development/syllabus.md` — `syllabus.pdf`
 
 Question paper:
 
@@ -100,6 +110,16 @@ Question paper:
 - [ ] `papers/sem3-dec-2025-jan-2026/all-question-papers.md` — `all-question-papers.pdf` (English, Statistics, HRD, Personality Development, Kannada, Corporate Accounting, Accounting Standards)
 - [ ] `papers/sem3-dec-2025-jan-2026/corporate-accounting-54321.md` — `corporate-accounting-54321.pdf`
 
+## Corporate Administration
+
+Question paper:
+
+- [ ] `papers/corporate-administration-sem2-may-2026/question-paper.md` — `question-paper-1.webp` and `question-paper-2.webp`
+
+## Timetable
+
+- [ ] `papers/sem3-dec-2025-jan-2026/timetable.md` — `timetable.jpg`
+
 ## Not converted yet
 
 These are still only the original scan or photo. Grouped by subject.
@@ -121,12 +141,6 @@ These are still only the original scan or photo. Grouped by subject.
 - [ ] `notes/business-statistics/log-and-antilog.pdf`
 - [ ] `notes/business-statistics/log-and-antilog-2.pdf`
 
-### Syllabi
-
-- [ ] `notes/corporate-accounting/syllabus-scan.pdf`
-- [ ] `notes/corporate-accounting/syllabus-scan-2.pdf`
-- [ ] `notes/human-resource-development/syllabus.pdf`
-
 ### Statistics
 
 - [ ] `papers/sem3-dec-2025-jan-2026/business-statistics-54322-scan.pdf`
@@ -134,15 +148,3 @@ These are still only the original scan or photo. Grouped by subject.
 - [ ] `papers/business-statistics/bba-statistics-jan-2024.pdf`
 - [ ] `papers/business-statistics/fundamentals-of-statistics-older-papers.pdf`
 
-### English
-
-- [ ] `papers/sem3-dec-2025-jan-2026/english-54302-scan.pdf`
-
-### Corporate Administration
-
-- [ ] `papers/corporate-administration-sem2-may-2026/question-paper-1.webp`
-- [ ] `papers/corporate-administration-sem2-may-2026/question-paper-2.webp`
-
-### Timetable
-
-- [ ] `papers/sem3-dec-2025-jan-2026/timetable.jpg`
