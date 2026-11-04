@@ -48,6 +48,8 @@ In the Statement of Profit and Loss (Schedule III of the Companies Act, 2013):
 ## Q1. (j)
 **Super profit** is the excess of the average profit over the normal profit. Normal profit is capital employed multiplied by the normal rate of return. Super profit = Average profit minus Normal profit.
 
+![](output/section-a.png)
+
 # SECTION B - 5 MARKS
 
 ## Q2.
@@ -68,6 +70,8 @@ Value of one fully paid share = 22,50,000 / 20,000 = **Rs. 112.50**.
 
 Check: (10,000 x 112.50) + (10,000 x 87.50) = 11,25,000 + 8,75,000 = 20,00,000.
 
+![](output/q2-share-values.png)
+
 ## Q3.
 | Year | Profit after tax (Rs.) |
 |---|---|
@@ -83,6 +87,8 @@ Check: (10,000 x 112.50) + (10,000 x 87.50) = 11,25,000 + 8,75,000 = 20,00,000.
 3. **Super profit** = 4,80,000 minus 4,00,000 = **Rs. 80,000**.
 4. **Goodwill** = Super profit x 3 years' purchase = 80,000 x 3 = **Rs. 2,40,000**.
 
+![](output/q3-goodwill.png)
+
 ## Q4.
 The business was taken over on 1.4.2021, the company was incorporated on 1.7.2021, and the accounts close on 31.3.2022.
 
@@ -91,6 +97,8 @@ The business was taken over on 1.4.2021, the company was incorporated on 1.7.202
 3. **Time ratio** = 3 : 9 = **1 : 3**.
 
 **Sales ratio:** The paper says total sales are Rs. 3,00,000, of which Rs. 10,00,000 relates to the period up to 1.7.2021. Sales of one part cannot be larger than the sales of the whole year, so a sales ratio cannot be calculated from the figures as printed. The time ratio above does not depend on those figures.
+
+![](output/q4-time-ratio.png)
 
 ## Q5.
 ### Working: cost of goods sold
@@ -132,6 +140,8 @@ Sales Rs. 9,83,500 less returns Rs. 4,700 is the revenue. Interest on investment
 
 No tax is given, so **profit for the year is Rs. 1,85,100**.
 
+![](output/q5-profit-and-loss.png)
+
 ## Q6.
 1. **On assets realised:** 5% of Rs. 5,00,000 = **Rs. 25,000**.
 2. Secured creditors are paid before the unsecured and preferential creditors. Cash left = 5,00,000 minus 1,00,000 minus 25,000 = **Rs. 3,75,000**.
@@ -139,6 +149,8 @@ No tax is given, so **profit for the year is Rs. 1,85,100**.
 4. The 4% is on the amount actually distributed. If that amount is D, then D + 4% of D = 3,75,000.
 5. **Remuneration on distribution** = 3,75,000 x 4/104 = **Rs. 14,423.08**. Amount paid to those creditors = Rs. 3,60,576.92.
 6. **Total liquidator's remuneration** = 25,000 + 14,423.08 = **Rs. 39,423.08**.
+
+![](output/q6-liquidator-remuneration.png)
 
 ## Q7.
 Issue: 20,000 shares. Gross liability: X 50% = 10,000, Y 30% = 6,000, Z 20% = 4,000.
@@ -156,6 +168,8 @@ X 3,000, Y 1,800, Z 1,200.
 
 No underwriter is in surplus, so nothing is reallocated. **X takes 2,500 shares, Y 1,200 and Z 300.** Total 4,000, which is the unsubscribed balance (20,000 minus 16,000).
 
+![](output/q7-underwriting-liability.png)
+
 # SECTION C - 10 MARKS
 
 ## Q10.
@@ -170,6 +184,8 @@ These are the methods named in Davangere University B.Com. 3.1 (SEP). The prescr
 1. **Average profits method.** Average profit = Total of the adjusted profits / Number of years. Goodwill = Average profit x Number of years' purchase. Abnormal items are removed before the average is taken.
 2. **Super profits method.** Normal profit = Capital employed x Normal rate of return. Super profit = Average profit minus Normal profit. Goodwill = Super profit x Number of years' purchase. Goodwill arises only when the business earns more than the normal return.
 3. **Annuity method.** Super profit is treated as an annuity for a fixed number of years, and it is discounted. Goodwill = Super profit x Present value of an annuity of Re. 1 for the given years at the normal rate. The goodwill is lower than under a plain years' purchase because later years' profit is discounted.
+
+![](output/q10-valuation-methods.png)
 
 ## Q11.
 ### (a) Net asset method
@@ -199,6 +215,8 @@ Yield value of one equity share = (20 / 10) x Rs. 10 = **Rs. 20**.
 ### (c) Fair value method
 Fair value = (Intrinsic value + Yield value) / 2 = (15 + 20) / 2 = **Rs. 17.50**.
 
+![](output/q11-equity-share-value.png)
+
 ## Q12.
 Firm underwriting is given apart from the marked forms, and the 1,80,000 applications include the firm shares. Unmarked applications = 1,80,000 minus marked 1,30,000 minus firm 40,000 = **10,000**. These are shared in the gross-liability ratio 1,00,000 : 60,000 : 40,000, that is 5 : 3 : 2. A 5,000, B 3,000, C 2,000.
 
@@ -219,3 +237,5 @@ C's surplus is credited to A and B in 5 : 3.
 Firm underwriting is credited to the underwriter who agreed to it. That is the treatment in S.P. Jain and K.L. Narang, a book named in the Davangere syllabus, when firm applications are given apart from the marked forms. The same statement then adds the firm shares back, because those shares are also part of each underwriter's liability.
 
 **Total liability: A 22,500 shares, B 27,500 shares, C 10,000 shares.** Of this, the extra shares still to be taken are A 2,500 and B 17,500. C has already covered its firm shares and has no further shortfall. The extra shares total 20,000, which is the shortfall on the issue (2,00,000 minus 1,80,000).
+
+![](output/q12-surya-underwriting.png)
