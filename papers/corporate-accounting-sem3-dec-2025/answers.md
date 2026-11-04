@@ -159,6 +159,8 @@ No underwriter is in surplus, so nothing is reallocated. **X takes 2,500 shares,
 # SECTION C - 10 MARKS
 
 ## Q10.
+These are the methods named in Davangere University B.Com. 3.1 (SEP). The prescribed books are Maheshwari, Jain and Narang, Shukla and Grewal, and Tulsian.
+
 ### Valuation of shares
 1. **Net assets method (intrinsic value).** The share is worth the net assets that belong to it. Real assets are taken, fictitious assets such as preliminary expenses are excluded, and outside liabilities and preference capital are deducted. Intrinsic value per equity share = Net assets available to equity holders / Number of equity shares.
 2. **Yield method.** The share is worth what its dividend, or the earnings on it, yields as compared with the normal rate. Expected rate = (Profit available for equity / Equity paid-up capital) x 100. Yield value = (Expected rate / Normal rate) x Paid-up value of one share.
@@ -211,5 +213,9 @@ C's surplus is credited to A and B in 5 : 3.
 | Balance | 5,000 | 19,000 | (4,000) |
 | C's surplus in 5:3 | 2,500 | 1,500 | 4,000 |
 | Net liability | 2,500 | 17,500 | Nil |
+| Add: Firm underwriting | 20,000 | 10,000 | 10,000 |
+| Total liability | 22,500 | 27,500 | 10,000 |
 
-**A must take 2,500 shares, B 17,500 shares, and C has no further liability.** The total, 20,000 shares, equals the shortfall on the issue (2,00,000 minus 1,80,000).
+Firm underwriting is credited to the underwriter who agreed to it. That is the treatment in S.P. Jain and K.L. Narang, a book named in the Davangere syllabus, when firm applications are given apart from the marked forms. The same statement then adds the firm shares back, because those shares are also part of each underwriter's liability.
+
+**Total liability: A 22,500 shares, B 27,500 shares, C 10,000 shares.** Of this, the extra shares still to be taken are A 2,500 and B 17,500. C has already covered its firm shares and has no further shortfall. The extra shares total 20,000, which is the shortfall on the issue (2,00,000 minus 1,80,000).
