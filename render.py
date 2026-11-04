@@ -18,7 +18,7 @@ from reportlab.lib.pagesizes import A4, LETTER
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import (BaseDocTemplate, CondPageBreak, Frame, HRFlowable, PageTemplate,
+from reportlab.platypus import (BaseDocTemplate, CondPageBreak, Frame, HRFlowable, Image, PageTemplate,
                                 Paragraph, Table, TableStyle)
 
 # Colours and sizes measured from the reference pages (samples/hrm-question-bank/reference).
@@ -103,6 +103,11 @@ def parse(text):
             blocks.append([("h1", "q", "sub")[len(m[1]) - 1], m[2]])
             cont = None
             continue
+        m = re.match(r"!\[([^\]]*)\]\(([^)]+)\)\s*$", s)
+        if m:
+            blocks.append(["image", m[2], m[1]])
+            cont = None
+            continue
         m = re.match(r"(\d+[.)]|[-*•])\s+(.*)", s)
         if m:
             cont = ["item", m[1], m[2]]
@@ -154,7 +159,25 @@ def first_piece(f, col_w):
     return h if h <= 3 * LEADING + 1 else 2 * LEADING        # 3 lines can't split 2+1
 
 
-def build(blocks, st, col_w):
+def make_image(path, caption, st, col_w, max_h):
+    """A figure kept to the column width, and never taller than the column."""
+    img = Image(str(path))
+    iw, ih = img.imageWidth, img.imageHeight
+    w = col_w
+    h = ih * w / iw
+    if h > max_h:
+        h = max_h
+        w = iw * h / ih
+    img.drawWidth, img.drawHeight = w, h
+    img.hAlign = "CENTER"
+    img.spaceBefore, img.spaceAfter = 4, 2
+    flow = [img]
+    if caption:
+        flow.append(Paragraph(inline(caption), st["body"]))
+    return flow
+
+
+def build(blocks, st, col_w, image_base=None, max_h=700):
     # Each heading gets a CondPageBreak = "start a new column unless the heading plus the
     # first piece of its answer fits", so no heading is left alone at a column bottom
     # while long answers may still split. One check per run of headings: a break between
@@ -176,6 +199,11 @@ def build(blocks, st, col_w):
         elif kind == "item":
             mark = "•" if rest[0] in "-*•" else rest[0]
             out.append(Paragraph(f"<b>{mark}</b> {inline(rest[1])}", st["item"]))
+        elif kind == "image":
+            path = Path(rest[0])
+            if not path.is_absolute():
+                path = Path(image_base) / path
+            out.extend(make_image(path, rest[1], st, col_w, max_h))
         else:
             out.append(make_table(rest[0], st, col_w))
         prev = kind
@@ -214,7 +242,8 @@ def render(md, paper="a4", dpi=300, out_dir=None, scale=SCALE, columns=COLUMNS):
     st = make_styles(*register_fonts(hindi))
     for style in st.values():
         style.shaping = int(hindi)  # HarfBuzz puts Hindi vowel signs and joined letters in place
-    doc.build(build(parse(text), st, col_w))
+    frame_h = h - mt - mb - 8
+    doc.build(build(parse(text), st, col_w, md.parent, frame_h))
 
     for old in out_dir.glob(f"{name}-page-*.png"):
         old.unlink()
