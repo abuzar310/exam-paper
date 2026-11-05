@@ -58,7 +58,7 @@ Notes:
 - [ ] `notes/english/the-overcoat-notes.md` — `the-overcoat-notes.docx`
 - [ ] `notes/english/kirubunkal-notes.md` — `kirubunkal-notes.docx`
 - [ ] `notes/english/kirubunkal-summary.md` — `kirubunkal-summary.docx`
-- [ ] `notes/english/on-the-way-to-goregaon.md` — `on-the-way-to-goregaon.docx`
+- [ ] `notes/english/on-the-way-to-goregaon.md` — combined from `on-the-way-to-goregaon.docx` and `way-to-goregaon-answers.docx`
 - [ ] `notes/english/harvest-ii-workbook.md` — `harvest-ii-workbook.pdf`
 - [ ] `notes/english/model-business-letters.md` — `model-business-letters.pdf`
 
