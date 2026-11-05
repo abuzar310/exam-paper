@@ -75,12 +75,15 @@ The combination teaches that a society grows when it respects both tradition and
 
 ## Q3. (1)
 LAKSHMI COSMETICS
+
 Bazaar Street, Davangere - 577002
 
 12 August 2025
 
 The Sales Manager
+
 Karnataka Cosmetics
+
 Industrial Area, Hubli
 
 Dear Sir,
@@ -99,16 +102,20 @@ I will place an order only after I receive your catalogue and quotation. Please 
 Thank you.
 
 Yours faithfully,
+
 Proprietor
 
 ## Q3. (2)
 CHETAN BOOKS
+
 P.B. Road, Near Bus Stand, Davangere - 577002
 
 20 August 2025
 
 The Proprietor
+
 Vinayaka Book House
+
 Nehru Road, Shimoga
 
 Dear Sir,
@@ -136,17 +143,22 @@ Please send your order if the terms suit you. A catalogue is enclosed.
 Thank you.
 
 Yours faithfully,
+
 Proprietor
 
 ## Q3. (3)
 VINAYAKA BOOK HOUSE
+
 Nehru Road, Shimoga
 
 28 August 2025
 
 The Manager
+
 Chetan Books
+
 P.B. Road, Near Bus Stand
+
 Davangere - 577002
 
 Dear Sir,
@@ -173,15 +185,18 @@ Please pack the books securely and confirm the dispatch.
 Thank you.
 
 Yours faithfully,
+
 Proprietor
 
 ## Q3. (4)
 SRI VINAYAKA MEDICALS
+
 Nehru Road, Shimoga
 
 5 September 2025
 
 Nutan Medical Wholesale Dealers
+
 Hubli
 
 Dear Sir,
@@ -199,10 +214,12 @@ We have dealt with you regularly and hope you will set this right at once.
 Thank you.
 
 Yours faithfully,
+
 Proprietor
 
 ## Q3. (5)
 DEEPA COSMETICS
+
 Industrial Estate, Davangere - 577002
 
 1 October 2025
@@ -218,6 +235,7 @@ Please visit our stall during that week. You can see the full range, and our sta
 We look forward to meeting you.
 
 Yours faithfully,
+
 Proprietor
 
 ## Q3. (6)
