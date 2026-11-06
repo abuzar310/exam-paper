@@ -18,7 +18,7 @@ answer-file syntax.
    and `output/<folder>-page-N.png` (A4, 300 DPI). Look at every PNG before handing
    it over: no heading stranded at a page bottom, no table cut badly, no missing
    question.
-5. **Hand over** with SendUserFile: the PDF and the PNGs.
+5. **Hand over** with SendUserFile: the PDF and the PNGs. Before that, ask whether to add 3 blank pages (the rule below). Do not skip the question.
 6. **Save**: write `sessions/<date>-<topic>.md` (what was asked, what was made).
    For the full step list, export this session (export_transcript "self"),
    unzip it to the scratchpad and run
@@ -70,6 +70,10 @@ then said only the answers matter (question numbers and section titles just need
 identifiable) and chose **10 pt answer text in the original layout** (`SCALE` 1): the
 HRM answers take 5 pages, about 3.2 pt on the 9-in-1 sheet, sent for a test print.
 Don't change the size or columns without asking.
+
+## Three blank pages (the user's call, 2026-11-06)
+
+When a PDF is ready, ask in the same message: "Add 3 blank white pages at the end for printing?" Add them only after the user says yes. The blanks are empty A4 pages so one print job is easy to tell apart from the next. Never add them silently. Leave the type size, columns, and the answer pages as they are. The PNG previews stay of the answer pages only.
 
 ## Hindi papers
 
