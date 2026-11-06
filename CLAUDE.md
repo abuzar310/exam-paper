@@ -60,6 +60,13 @@ Don't mark or mention sources, on the page or in chat (the user's call, 2026-11-
   Choice questions ("answer any 10 of 12", "any 6 of 8"): answer **only the first N**
   in paper order and skip the rest (the user's rule, 2026-11-02).
 
+## Which shape, by subject (the user's call, 2026-11-06)
+
+The 2 / 5 / 10 point layout above is for HRM-style theory papers. Two subjects differ:
+
+- **Accounting standards:** follow the notes. A theory answer opens with a short paragraph, then points where the standard itself lists items (benefits, types, conditions, methods, levels). A problem is a working and a table, with one line for the result. Do not force exactly 5 or exactly 10 points.
+- **English:** paragraphs. Short notes and long answers are written in prose, the way the English notes are written. Do not turn them into numbered points.
+
 ## Size: the user prints 9-in-1
 
 The user prints 9 pages per A4 sheet (each page shrinks to ~0.31). History, all on
