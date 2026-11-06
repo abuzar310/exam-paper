@@ -76,7 +76,11 @@ TEXTILE SHOP
 
 Chitradurga - 577501
 
+Ref. No.: TS/ENQ/12/2026
+
 1 October 2026
+
+To
 
 The Sales Manager
 
@@ -99,14 +103,18 @@ Thank you.
 
 Yours faithfully,
 
-Proprietor
+(Proprietor)
 
 ## Q3. (2)
 BHADRAVATHI PAPER MILLS
 
 D. V. G. Road, Industrial Area, Bhadravathi - 560002
 
+Ref. No.: BPM/QUO/18/2026
+
 10 October 2026
+
+To
 
 The Proprietor
 
@@ -120,7 +128,7 @@ Sub: Quotation for printing paper.
 
 Ref: Your letter asking for a quotation.
 
-Thank you for your letter. We are pleased to quote for the paper in our stock. Samples are enclosed.
+Thank you for your letter. We are pleased to quote for the paper in our stock.
 
 | Paper | Pack | Price (Rs.) |
 |---|---|---|
@@ -140,14 +148,20 @@ Thank you.
 
 Yours faithfully,
 
-Sales Manager
+(Sales Manager)
+
+Encl.: Samples of paper
 
 ## Q3. (3)
 GENERAL STORES
 
 Station Road, Dharwad
 
+Ref. No.: GS/ORD/22/2026
+
 18 October 2026
+
+To
 
 The Manager
 
@@ -177,14 +191,28 @@ Thank you.
 
 Yours faithfully,
 
-Proprietor
+(Proprietor)
 
 ## Q3. (4)
+Web: www.nilfur.in
+
+E-mail: nilfur@gmail.com
+
+Telephone: 022 5482484
+
+Mobile: 7817824567
+
 NEELKAMAL FURNITURE
 
 No. 342, Nehru Road, Mumbai - 400022
 
+Our Ref. No.: NF/REP/25/2025
+
+Your Ref. No.: 81/SGB/2025
+
 25 June 2025
+
+To
 
 Sai Garden Dhaba
 
@@ -192,11 +220,9 @@ Near Shamanur, Bypass Road
 
 Davanagere - 577005
 
-Dear Sir,
+Dear Sirs,
 
 Sub: Reply to your complaint about furniture of inferior quality.
-
-Ref: Your letter No. 81/SGB/2025 dated 20 June 2025.
 
 We thank you for your letter of 20 June 2025 and for bringing your concern to our attention. We sincerely apologise for the inconvenience caused by the goods of inferior quality supplied to you.
 
@@ -210,16 +236,28 @@ Thank you.
 
 Yours faithfully,
 
+for NEELKAMAL FURNITURE
+
+(MALLIK ROBERT K.)
+
 Sales Manager
 
 ## Q3. (5)
+Web: www.malnaad.com
+
+E-mail: malnaad@gmail.com
+
+Telephone: 08182 434215
+
+Mobile: 9448199442
+
 MALNAD FOOTWEARS
 
 No. 328, Near Gopi Circle, Nehru Road, Shivamogga - 577201
 
-20 March 2026
+20 March 2025
 
-Dear Customer,
+Dear Sir/Madam,
 
 Sub: Our new footwear for the monsoon.
 
@@ -233,7 +271,11 @@ Thank you.
 
 Yours faithfully,
 
+(ACHCHARI H. N.)
+
 Proprietor
+
+Encl.: Catalogue
 
 ## Q3. (6)
 1. **Blockchain:** A blockchain is used in cryptocurrency. It is a continuously growing list of records called blocks, linked and secured by cryptography. Each block contains a set of verified transactions. Once a transaction is recorded, it is virtually impossible to alter.
