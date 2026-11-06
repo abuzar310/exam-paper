@@ -220,9 +220,4 @@ Amount met from the specific loan = Rs. 2,00,000. Balance met from general borro
 
 Interest to be capitalised = 16,000 + 68,950 = **Rs. 84,950**. Cost of the building = 13,00,000 + 84,950 = **Rs. 13,84,950**.
 
-| Particulars | Debit Rs. | Credit Rs. |
-| --- | --- | --- |
-| Building account Dr. | 13,84,950 | |
-| To Bank account | | 13,00,000 |
-| To Interest on specific loan | | 16,000 |
-| To Interest on general borrowings | | 68,950 |
+**Journal:** Building Dr. 13,84,950. To Bank 13,00,000. To Interest capitalised 84,950.
