@@ -12,6 +12,7 @@ Notes:
 - [ ] `notes/accounting-standards/as-9-study-material.md` — `as-9-study-material.pdf`
 - [ ] `notes/accounting-standards/unit-4-employee-benefits.md` — `unit-4-employee-benefits.pdf`
 - [ ] `notes/accounting-standards/unit-5-construction-contracts.md` — `unit-5-construction-contracts.pdf`
+- [ ] `notes/accounting-standards/as-7-construction-contracts.md` — `as-7-construction-contracts.pdf`
 
 Question paper:
 
