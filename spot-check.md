@@ -17,6 +17,7 @@ Notes:
 Question paper:
 
 - [ ] `papers/sem3-dec-2025-jan-2026/all-question-papers.md` — Accounting Standards I, Q.P. 54323, inside `all-question-papers.pdf`
+- [ ] `papers/accounting-standards-model-nov-2026/question-paper.md` — Don Bosco model paper, November 2026, `question-paper-1.jpg` and `question-paper-2.jpg`
 
 ## AS 29
 
