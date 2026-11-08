@@ -16,8 +16,6 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
   | `cursor/corporate-accounting-54321-cbe8` | Corporate Accounting Q.P. 54321, solved, with a figure for each answer |
   | `cursor/corporate-admin-grok-cbe8` | A test answer of Corporate Administration Q.P. 54224 in `papers/corporate-administration-grok-test/`. `main` already has this paper solved, so this branch may not be needed |
   | `cursor/goregaon-notes-merge-cbe8` | Goregaon lesson summary merged with the exam answers |
-  | `cursor/project-context-cbe8` | This file and `PROJECT_CONTEXT.md` |
-
 - [ ] **Old branches already inside `main`:** `as29-notes-md`, `as9-slides-md`, `as-7-notes`, `correlation-regression-md`, `english-54302-answers`, `english-notes-pdf`, `log-tables-md`, `print-blank-ask`, `scan-notes-md`, `sem3-notes`, `spot-check-by-subject`, `stats-papers-md`, `syllabi-photos-md` (all `cursor/…-cbe8`). They hold nothing new and can be deleted when he agrees.
 
 ## To collect
@@ -38,3 +36,4 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 - 2026-11-06: AS 7 full chapter added to `notes/accounting-standards/` on `main`.
 - 2026-11-06: Rule added: ask before adding 3 blank pages to a print PDF.
 - 2026-11-07: Accounting Standards model paper of 7 November 2026 solved. Print and single-column PDFs.
+- 2026-11-08: `PROJECT_CONTEXT.md` and `TASKS.md` added and merged into `main`.

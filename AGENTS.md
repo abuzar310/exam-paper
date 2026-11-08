@@ -10,8 +10,8 @@ Where a cloud agent works differently:
 
 - **Setup:** `pip install -r requirements.txt`. There is no Arial on Linux;
   `render.py` falls back to Helvetica (same letter widths). That is fine.
-- **Git:** work on your own branch and open a PR. Never merge into `main`; the user
-  merges. Skip the session-export step.
+- **Git:** work on your own branch and open a PR. Merge into `main` only when the user
+  asks you to merge, and then merge only what they named. Skip the session-export step.
 - **Hand-over in chat:** you can't attach files, so end your final reply with a link to
   the PDF and to every page image on your branch, one per line:
 
