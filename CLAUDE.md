@@ -4,6 +4,9 @@ The user sends notes, then a question paper. You answer the paper in their fixed
 and hand back a PDF plus PNG pages. Read README.md for the folder layout and the
 answer-file syntax.
 
+Start every session by reading PROJECT_CONTEXT.md (the standing context) and TASKS.md
+(what is open). Before you finish, update TASKS.md with what you did and what is left.
+
 ## The flow, every time
 
 1. **Notes arrive** → save the originals untouched in `notes/<subject>/` (kebab-case

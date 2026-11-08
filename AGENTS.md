@@ -1,6 +1,7 @@
 # Rules for other AI agents (Cursor, Codex, ...)
 
-Read CLAUDE.md and README.md first and follow every rule in them. CLAUDE.md was written
+Read PROJECT_CONTEXT.md and TASKS.md first, then CLAUDE.md and README.md, and follow
+every rule in them. Update TASKS.md before you finish. CLAUDE.md was written
 for Claude, but the rules are the same for every agent: answers from the user's notes
 first, 10 pt answers, question numbers only, only the first N of choice questions, no
 sources mentioned.
