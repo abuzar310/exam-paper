@@ -27,6 +27,7 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-09: owner-only admin sign-in at bcom3.vercel.app/#/admin (remove Just landed papers, hide/show any paper). Password stored only as a hash on Vercel.
 - 2026-11-06: Accounting Standards I, Q.P. 54323, solved in the notes' shape. Print PDF with 3 blank pages, and a single-column reading copy.
 - 2026-11-06: AS 7 full chapter added to `notes/accounting-standards/` on `main`.
 - 2026-11-06: Rule added: ask before adding 3 blank pages to a print PDF.

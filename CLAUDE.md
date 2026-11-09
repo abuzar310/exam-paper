@@ -45,6 +45,11 @@ Question papers photographed with the site's camera button land in the upload se
 3. Solve and render as usual: both versions, then `python site/build.py`.
 4. `python site/inbox.py done <id>` hides it from "Just landed". Commit and push everything.
 
+The user can also remove a "Just landed" paper, or hide any paper, from the site itself: they sign
+in at `https://bcom3.vercel.app/#/admin` (owner only, set up 2026-11-09; details in
+`upload-api/README.md`). The password is never written in this repo or in transcripts:
+`sessions/to_md.py` blanks every line of the gitignored `sessions/.redact`.
+
 ## Where answers come from (in this order)
 
 1. The user's notes in `notes/<subject>/`. Use their wording and their points.

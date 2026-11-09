@@ -22,8 +22,20 @@ SECRET = re.compile(r"(vc[pkia]_[A-Za-z0-9]{20,}|gh[opsu]_[A-Za-z0-9]{20,}|githu
                     r"|sk-[A-Za-z0-9_-]{20,}|eyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+)")
 
 
+# Private strings typed in chat (e.g. the admin password), one per line, in sessions/.redact.
+# That file is gitignored and stays on this PC.
+_REDACT_FILE = __import__("pathlib").Path(__file__).with_name(".redact")
+REDACT = [x for x in _REDACT_FILE.read_text(encoding="utf-8").splitlines() if x.strip()] if _REDACT_FILE.exists() else []
+
+
+def hide_private(s):
+    for x in REDACT:
+        s = s.replace(x, "[private]")
+    return SECRET.sub("[token removed]", s)
+
+
 def clean(s):
-    s = SECRET.sub("[token removed]", s)  # the repo is public: never publish a pasted key
+    s = hide_private(s)  # the repo is public: never publish a pasted key or password
     s = re.sub(r"<system-reminder>.*?</system-reminder>", "", s, flags=re.S)
     s = re.sub(r"\[Image: source: [^\]]*\]", "[image]", s)
     return s.strip()
@@ -32,7 +44,7 @@ def clean(s):
 def step(block):
     inp = block.get("input", {})
     what = inp.get("description") or inp.get("file_path") or inp.get("title") or inp.get("query") or ""
-    return SECRET.sub("[token removed]", f"- `{block['name'].split('__')[-1]}` {what}".rstrip())
+    return hide_private(f"- `{block['name'].split('__')[-1]}` {what}".rstrip())
 
 
 def main(src, dst, title):

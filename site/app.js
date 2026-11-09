@@ -6,7 +6,7 @@
   const viewerCaption = document.getElementById("viewer-caption");
   const viewerOpen = document.getElementById("viewer-open");
   const viewerDl = document.getElementById("viewer-dl");
-  const UPLOAD_API = "https://exam-paper-upload.vercel.app/api";
+  const UPLOAD_API = (location.hostname === "localhost" && localStorage.getItem("api")) || "https://exam-paper-upload.vercel.app/api";
   let data = null;
   let landed = [];
   let gallery = { items: [], index: 0, label: "" };
@@ -21,6 +21,9 @@
     open: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     download: '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     search: '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M16 16l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+    trash: '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M5 7h14M10 7V4.5h4V7M7 7l1 13h8l1-13M10.5 11v5.5M13.5 11v5.5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    eyeOff: '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M3 3l18 18M10.6 6.1A9.7 9.7 0 0 1 12 6c5 0 8.5 4.4 9.5 6-.4.7-1.3 1.9-2.5 3.1M6.6 7.6C4.6 8.9 3.2 10.8 2.5 12c1 1.6 4.5 6 9.5 6 1.6 0 3-.4 4.3-1.1M9.9 10a3 3 0 0 0 4.2 4.2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    eye: '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M2.5 12c1-1.6 4.5-6 9.5-6s8.5 4.4 9.5 6c-1 1.6-4.5 6-9.5 6s-8.5-4.4-9.5-6z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.9"/></svg>',
     print: '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M7 9V4h10v5M7 17H5a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2M7 14h10v6H7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',
   };
 
@@ -49,7 +52,7 @@
 
   function renderHome() {
     document.title = "Exam Paper · III B.Com solved papers";
-    const solved = data.subjects.reduce((n, s) => n + s.solved.length, 0);
+    const solved = data.subjects.reduce((n, s) => n + seen(s).solved.length, 0);
     view.innerHTML = `
       <section class="intro">
         <h1>Solved papers for every subject, ready to print.</h1>
@@ -62,9 +65,9 @@
         ${icon.search}
         <input id="q" type="search" placeholder="Subject or paper code" autocomplete="off" enterkeyhint="search">
       </div>
-      <ul class="shelf" id="shelf">${data.subjects.map(subjectTile).join("")}</ul>
+      <ul class="shelf" id="shelf">${data.subjects.map((s, i) => subjectTile(seen(s), i)).join("")}</ul>
       <p class="no-match" id="no-match" hidden>No subject matches that. Try a paper code like 54321.</p>
-      ${data.earlier.length ? `<section class="earlier"><h2>Earlier semesters</h2><ul class="shelf">${data.earlier.map(subjectTile).join("")}</ul></section>` : ""}`;
+      ${data.earlier.length ? `<section class="earlier"><h2>Earlier semesters</h2><ul class="shelf">${data.earlier.map((s, i) => subjectTile(seen(s), i)).join("")}</ul></section>` : ""}`;
     renderLanded();
     loadLanded();
     const q = document.getElementById("q");
@@ -110,10 +113,12 @@
 
   function solvedCard(p, subject) {
     const label = `${subject.name}, ${p.title}`;
-    return `<article class="paper">
+    const key = paperKey(p);
+    return `<article class="paper${hidden.has(key) ? " is-hidden" : ""}">
       <div>
         <h3>${esc(p.title)}</h3>
         <p class="paper__meta"><span>Updated ${esc(p.updated)}</span><span>${plural(p.versions.length, "version")}</span></p>
+        ${adminBar(key, label)}
       </div>
       ${p.answered ? `<p class="paper__note">${esc(p.answered)}</p>` : ""}
       ${p.versions.map((v) => versionBlock(v, label)).join("")}
@@ -121,12 +126,15 @@
   }
 
   function questionRow(q, subject) {
+    const key = questionKey(q);
+    const cls = `qrow${hidden.has(key) ? " is-hidden" : ""}`;
+    const bar = adminBar(key, `${subject.name}, ${q.title}`);
     if (q.photos) {
       const items = q.photos.map((f) => ({ full: f, thumb: f }));
-      return `<div class="qrow"><div><h3>${esc(q.title)}</h3><p class="paper__meta"><span>${plural(q.photos.length, "photo")}</span></p></div>${thumbs(items, `${subject.name}, ${q.title}`)}</div>`;
+      return `<div class="${cls}"><div><h3>${esc(q.title)}</h3><p class="paper__meta"><span>${plural(q.photos.length, "photo")}</span></p>${bar}</div>${thumbs(items, `${subject.name}, ${q.title}`)}</div>`;
     }
-    return `<div class="qrow">
-      <div><h3>${esc(q.title)}</h3><p class="paper__meta"><span>${plural(q.pdf_pages, "page")}</span><span>${esc(q.pdf_size)}</span></p></div>
+    return `<div class="${cls}">
+      <div><h3>${esc(q.title)}</h3><p class="paper__meta"><span>${plural(q.pdf_pages, "page")}</span><span>${esc(q.pdf_size)}</span></p>${bar}</div>
       <div class="actions">
         <a class="btn" href="${esc(q.pdf)}" target="_blank" rel="noopener">${icon.open}Open</a>
         <a class="btn" href="${esc(q.pdf)}" download="${esc(fileName(q.pdf))}" aria-label="Download ${esc(q.title)}">${icon.download}Download</a>
@@ -135,6 +143,7 @@
   }
 
   function renderSubject(s) {
+    s = seen(s);
     document.title = `${s.name} · Exam Paper`;
     const counts = [plural(s.solved.length, "solved paper"), plural(s.questions.length, "question paper")].join(" · ");
     view.innerHTML = `
@@ -159,7 +168,7 @@
     const id = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
     const s = [...data.subjects, ...data.earlier].find((x) => x.id === id);
     const draw = () => {
-      s ? renderSubject(s) : renderHome();
+      id === "admin" ? renderAdmin() : s ? renderSubject(s) : renderHome();
       view.classList.remove("view-enter");
       void view.offsetWidth;
       view.classList.add("view-enter");
@@ -224,7 +233,8 @@
         const meta = [subjectName(u.subject), when(u.uploaded), plural(u.photos.length, "photo")];
         return `<div class="qrow landed__item">
           <div><h3>${esc(u.note || `${subjectName(u.subject)} question paper`)}</h3>
-          <p class="paper__meta">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</p></div>
+          <p class="paper__meta">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</p>
+          ${admin ? `<div class="admin-row"><button type="button" class="btn btn--small btn--danger" data-admin="remove-upload" data-id="${esc(u.id)}">${icon.trash}Remove</button></div>` : ""}</div>
           ${thumbs(items, `${subjectName(u.subject)}, uploaded ${when(u.uploaded)}`, true)}
         </div>`;
       }).join("")}</div>`;
@@ -239,12 +249,12 @@
   const baseTitle = () => document.title.replace(/^\(\d+\) /, "");
   let unseen = 0;
 
-  function toast(text) {
+  function toast(text, link = true) {
     const t = document.getElementById("toast");
-    t.innerHTML = `<span>${esc(text)}</span><a href="#/">See it</a><button type="button" aria-label="Dismiss">✕</button>`;
+    t.innerHTML = `<span>${esc(text)}</span>${link ? '<a href="#/">See it</a>' : ""}<button type="button" aria-label="Dismiss">✕</button>`;
     t.hidden = false;
     t.classList.remove("toast--in"); void t.offsetWidth; t.classList.add("toast--in");
-    t.querySelector("a").onclick = () => { t.hidden = true; };
+    if (link) t.querySelector("a").onclick = () => { t.hidden = true; };
     t.querySelector("button").onclick = () => { t.hidden = true; };
     clearTimeout(toast.timer);
     toast.timer = setTimeout(() => { t.hidden = true; }, 12000);
@@ -274,7 +284,7 @@
   function loadLanded() {
     fetch(`${UPLOAD_API}/inbox`, { cache: "no-store" })
       .then((r) => (r.ok ? r.json() : { items: [] }))
-      .then((d) => { landed = d.items || []; renderLanded(); noticeNew(landed); })
+      .then((d) => { landed = d.items || []; renderLanded(); noticeNew(landed); takeHidden(d.hidden); })
       .catch(() => {});
   }
 
@@ -301,6 +311,175 @@
     drawBell();
     bell.addEventListener("click", () => Notification.requestPermission().then(drawBell));
   }
+
+  // ---- Admin: only the site's owner signs in, at #/admin (no button for classmates).
+  // Signed in, they can remove "Just landed" papers and hide or show any paper.
+  const tokenStore = {
+    get() { try { const t = JSON.parse(localStorage.getItem("admin-token") || "null"); return t && t.exp > Date.now() ? t : null; } catch { return null; } },
+    set(t) { try { t ? localStorage.setItem("admin-token", JSON.stringify(t)) : localStorage.removeItem("admin-token"); } catch { /* private mode */ } },
+  };
+  let admin = tokenStore.get();
+  let hidden = new Set((() => { try { return JSON.parse(localStorage.getItem("hidden-items") || "[]"); } catch { return []; } })());
+
+  const paperKey = (p) => `p:${(p.versions[0]?.pdf || "").split("/")[1] || ""}`;
+  const questionKey = (q) => `q:${q.pdf || (q.photos || [])[0] || ""}`;
+  // What a visitor sees of a subject: everything for the admin, hidden papers left out for everyone else.
+  const seen = (s) => admin ? s : {
+    ...s,
+    solved: s.solved.filter((p) => !hidden.has(paperKey(p))),
+    questions: s.questions.filter((q) => !hidden.has(questionKey(q))),
+  };
+
+  function adminBar(key, title) {
+    if (!admin) return "";
+    const off = hidden.has(key);
+    return `<div class="admin-row">
+      ${off ? '<span class="tag-hidden">Hidden from classmates</span>' : ""}
+      <button type="button" class="btn btn--small" data-admin="${off ? "show" : "hide"}" data-key="${esc(key)}" data-title="${esc(title)}">
+        ${off ? `${icon.eye}Show on the site` : `${icon.eyeOff}Hide from the site`}</button>
+    </div>`;
+  }
+
+  function redraw() {
+    const y = window.scrollY;
+    route();
+    window.scrollTo(0, y);
+  }
+
+  function takeHidden(keys) {
+    if (!Array.isArray(keys)) return;
+    const next = new Set(keys);
+    if (next.size === hidden.size && [...next].every((k) => hidden.has(k))) return;
+    hidden = next;
+    try { localStorage.setItem("hidden-items", JSON.stringify([...hidden])); } catch { /* private mode */ }
+    redraw();
+  }
+
+  function drawPill() { document.getElementById("admin-pill").hidden = !admin; }
+  drawPill();
+
+  function signOut() {
+    admin = null;
+    tokenStore.set(null);
+    drawPill();
+  }
+
+  async function adminCall(body) {
+    const r = await fetch(`${UPLOAD_API}/admin`, {
+      method: "POST",
+      headers: { "content-type": "application/json", authorization: `Bearer ${admin?.token || ""}` },
+      body: JSON.stringify(body),
+    });
+    const d = await r.json().catch(() => ({}));
+    if (r.status === 401) { signOut(); redraw(); }
+    if (!r.ok) throw new Error(d.error || `That did not work (${r.status}).`);
+    return d;
+  }
+
+  function hiddenList() {
+    const all = [];
+    for (const s of [...data.subjects, ...data.earlier]) {
+      s.solved.forEach((p) => all.push({ key: paperKey(p), title: p.title, kind: "Solved paper", subject: s.name }));
+      s.questions.forEach((q) => all.push({ key: questionKey(q), title: q.title, kind: "Question paper", subject: s.name }));
+    }
+    return all.filter((x) => hidden.has(x.key));
+  }
+
+  function renderAdmin() {
+    document.title = "Admin · Exam Paper";
+    if (!admin) {
+      view.innerHTML = `
+        <a class="crumb" href="#/">${icon.back}All subjects</a>
+        <header class="page-head"><h1 tabindex="-1">Admin</h1><p>Only for the person who runs this site.</p></header>
+        <form class="admin-form" id="admin-form" novalidate>
+          <div class="field"><label for="ad-email">Email</label>
+            <input id="ad-email" type="email" autocomplete="username" inputmode="email" required></div>
+          <div class="field"><label for="ad-pass">Password</label>
+            <input id="ad-pass" type="password" autocomplete="current-password" required></div>
+          <p class="sheet__status" id="ad-status" role="status"></p>
+          <button type="submit" class="btn btn--primary btn--wide" id="ad-send">Sign in</button>
+        </form>`;
+      const f = document.getElementById("admin-form");
+      const st = document.getElementById("ad-status");
+      const send = document.getElementById("ad-send");
+      f.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const email = document.getElementById("ad-email").value.trim();
+        const password = document.getElementById("ad-pass").value;
+        if (!email || !password) { st.textContent = "Fill in both the email and the password."; return; }
+        send.disabled = true;
+        st.textContent = "Signing in…";
+        try {
+          const r = await fetch(`${UPLOAD_API}/login`, {
+            method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ email, password }),
+          });
+          const d = await r.json().catch(() => ({}));
+          if (!r.ok) throw new Error(d.error || `Sign-in failed (${r.status}).`);
+          admin = { token: d.token, exp: d.exp };
+          tokenStore.set(admin);
+          drawPill();
+          route();
+          toast("Signed in. Remove and Hide buttons now show on the site.", false);
+        } catch (err) {
+          st.textContent = err.message;
+          send.disabled = false;
+          document.getElementById("ad-pass").select();
+        }
+      });
+      document.getElementById("ad-email").focus();
+      return;
+    }
+    const until = new Date(admin.exp).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" });
+    const off = hiddenList();
+    view.innerHTML = `
+      <a class="crumb" href="#/">${icon.back}All subjects</a>
+      <header class="page-head"><h1 tabindex="-1">Admin</h1><p>Signed in on this device until ${esc(until)}.</p></header>
+      <section class="section" aria-labelledby="h-can">
+        <h2 id="h-can">What you can do</h2>
+        <ul class="admin-help">
+          <li><strong>Just landed</strong> on the home page: each paper has a Remove button. Removing deletes its photos for good.</li>
+          <li>Inside a subject, every solved paper and question paper has <strong>Hide from the site</strong>. Classmates stop seeing it; you still see it, marked as hidden.</li>
+        </ul>
+      </section>
+      <section class="section" aria-labelledby="h-off">
+        <h2 id="h-off">Hidden from the site</h2>
+        ${off.length ? `<div class="qlist">${off.map((x) => `<div class="qrow">
+            <div><h3>${esc(x.title)}</h3><p class="paper__meta"><span>${esc(x.subject)}</span><span>${esc(x.kind)}</span></p></div>
+            <div class="actions"><button type="button" class="btn btn--small" data-admin="show" data-key="${esc(x.key)}">${icon.eye}Show on the site</button></div>
+          </div>`).join("")}</div>` : '<p class="empty">Nothing is hidden. Every paper is visible to classmates.</p>'}
+      </section>
+      <button type="button" class="btn" id="ad-out">Sign out on this device</button>`;
+    document.getElementById("ad-out").addEventListener("click", () => {
+      signOut();
+      route();
+      toast("Signed out.", false);
+    });
+  }
+
+  document.addEventListener("click", async (e) => {
+    const b = e.target.closest("[data-admin]");
+    if (!b || !admin || b.disabled) return;
+    const act = b.dataset.admin;
+    if (act === "remove-upload" && !window.confirm("Remove this paper from Just landed? Its photos are deleted for good.")) return;
+    b.disabled = true;
+    try {
+      await adminCall({ action: act, id: b.dataset.id, key: b.dataset.key, title: b.dataset.title });
+      if (act === "remove-upload") {
+        landed = landed.filter((u) => u.id !== b.dataset.id);
+        renderLanded();
+        toast("Removed from Just landed.", false);
+      } else {
+        if (act === "hide") hidden.add(b.dataset.key); else hidden.delete(b.dataset.key);
+        try { localStorage.setItem("hidden-items", JSON.stringify([...hidden])); } catch { /* private mode */ }
+        redraw();
+        toast(act === "hide" ? "Hidden. Classmates no longer see it." : "Back on the site for everyone.", false);
+      }
+    } catch (err) {
+      b.disabled = false;
+      toast(err.message, false);
+    }
+  });
+
 
   // ---- Upload sheet: camera / gallery -> shrink on the phone -> upload page by page
   const sheet = document.getElementById("upload");
@@ -438,6 +617,7 @@
       document.getElementById("built").textContent = `Last updated ${d.built}`;
       route();
       if (location.hash.replace(/^#\/?/, "")) loadLanded();
+      if (admin) adminCall({ action: "check" }).catch(() => {});
     })
     .catch(() => {
       view.innerHTML = '<p class="notice">The list of papers could not be loaded. Check your connection and refresh. The files are also on <a href="https://github.com/abuzar310/exam-paper/tree/main/papers">GitHub</a>.</p>';
