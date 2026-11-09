@@ -1,0 +1,9 @@
+{
+  "name": "exam-paper-site",
+  "private": true,
+  "type": "module",
+  "description": "Server functions for the exam-paper website (photo uploads of question papers).",
+  "dependencies": {
+    "@vercel/blob": "2.8.2"
+  }
+}

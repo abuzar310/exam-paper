@@ -6,7 +6,9 @@
   const viewerCaption = document.getElementById("viewer-caption");
   const viewerOpen = document.getElementById("viewer-open");
   const viewerDl = document.getElementById("viewer-dl");
+  const UPLOAD_API = "https://exam-paper-upload.vercel.app/api";
   let data = null;
+  let landed = [];
   let gallery = { items: [], index: 0, label: "" };
 
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -54,6 +56,7 @@
         <p>The seven subjects of the third semester. Open a subject to view or download its solved papers (${solved} so far) and its question papers.</p>
         <p class="tip">${icon.print}<span>Printing nine pages to a sheet? Print the <strong>PDF</strong>, not the page images. The PDF stays sharp; the images go blurry when shrunk.</span></p>
       </section>
+      <section class="landed" id="landed" aria-labelledby="h-landed" hidden></section>
       <div class="find">
         <label for="q">Find a subject</label>
         ${icon.search}
@@ -62,6 +65,8 @@
       <ul class="shelf" id="shelf">${data.subjects.map(subjectTile).join("")}</ul>
       <p class="no-match" id="no-match" hidden>No subject matches that. Try a paper code like 54321.</p>
       ${data.earlier.length ? `<section class="earlier"><h2>Earlier semesters</h2><ul class="shelf">${data.earlier.map(subjectTile).join("")}</ul></section>` : ""}`;
+    renderLanded();
+    loadLanded();
     const q = document.getElementById("q");
     q.addEventListener("input", () => {
       const term = q.value.trim().toLowerCase();
@@ -199,6 +204,163 @@
     if (e.key === "ArrowLeft") step(-1);
   });
   viewer.addEventListener("close", () => { viewerImg.removeAttribute("src"); });
+
+  // ---- Just landed: question papers uploaded from the camera button, not solved yet
+  const subjectName = (id) => ([...(data?.subjects || []), ...(data?.earlier || [])].find((s) => s.id === id) || {}).name || "Other";
+  const when = (iso) => new Date(iso).toLocaleString("en-IN", { day: "numeric", month: "short", hour: "numeric", minute: "2-digit", timeZone: "Asia/Kolkata" });
+
+  function renderLanded() {
+    const box = document.getElementById("landed");
+    if (!box) return;
+    box.hidden = !landed.length;
+    if (!landed.length) { box.innerHTML = ""; return; }
+    box.innerHTML = `
+      <div class="landed__head">
+        <h2 id="h-landed">Just landed</h2>
+        <p>${plural(landed.length, "question paper")} uploaded, waiting to be solved.</p>
+      </div>
+      <div class="qlist">${landed.map((u) => {
+        const items = u.photos.map((f) => ({ full: f, thumb: f }));
+        const meta = [subjectName(u.subject), when(u.uploaded), plural(u.photos.length, "photo")];
+        return `<div class="qrow landed__item">
+          <div><h3>${esc(u.note || `${subjectName(u.subject)} question paper`)}</h3>
+          <p class="paper__meta">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</p></div>
+          ${thumbs(items, `${subjectName(u.subject)}, uploaded ${when(u.uploaded)}`, true)}
+        </div>`;
+      }).join("")}</div>`;
+  }
+
+  function loadLanded() {
+    fetch(`${UPLOAD_API}/inbox`, { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : { items: [] }))
+      .then((d) => { landed = d.items || []; renderLanded(); })
+      .catch(() => {});
+  }
+
+  // ---- Upload sheet: camera / gallery -> shrink on the phone -> upload page by page
+  const sheet = document.getElementById("upload");
+  const form = document.getElementById("upload-form");
+  const shotsBox = document.getElementById("shots");
+  const status = document.getElementById("up-status");
+  const send = document.getElementById("up-send");
+  const subjectSel = document.getElementById("up-subject");
+  const noteInput = document.getElementById("up-note");
+  const MAX_PAGES = 8;
+  let shots = []; // { blob, url }
+  let busy = false;
+
+  function drawShots() {
+    shotsBox.innerHTML = shots.length
+      ? shots.map((s, i) => `<figure class="shot">
+          <img src="${s.url}" alt="Page ${i + 1}">
+          <figcaption>Page ${i + 1}</figcaption>
+          <button type="button" class="shot__remove" data-remove="${i}" aria-label="Remove page ${i + 1}">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          </button></figure>`).join("")
+      : '<p class="shots__empty">No pages yet. Take a photo of page 1.</p>';
+    document.getElementById("take-label").textContent = shots.length ? `Take page ${shots.length + 1}` : "Take photo";
+    send.disabled = busy || !shots.length || !subjectSel.value;
+    send.textContent = shots.length ? `Upload ${plural(shots.length, "page")}` : "Upload";
+    form.querySelectorAll('input[type="file"]').forEach((i) => { i.disabled = busy || shots.length >= MAX_PAGES; });
+  }
+
+  // Phone photos are 3-8 MB; a long side of 2400 px keeps printed text sharp at about 0.5-1.5 MB.
+  async function shrink(file) {
+    const bmp = await createImageBitmap(file, { imageOrientation: "from-image" });
+    const k = Math.min(1, 2400 / Math.max(bmp.width, bmp.height));
+    const c = document.createElement("canvas");
+    c.width = Math.round(bmp.width * k);
+    c.height = Math.round(bmp.height * k);
+    c.getContext("2d").drawImage(bmp, 0, 0, c.width, c.height);
+    if (bmp.close) bmp.close();
+    for (const q of [0.86, 0.78, 0.68]) {
+      const blob = await new Promise((res) => c.toBlob(res, "image/jpeg", q));
+      if (blob && blob.size < 3_800_000) return blob;
+    }
+    throw new Error("too large");
+  }
+
+  async function addFiles(files) {
+    status.textContent = "";
+    for (const f of files) {
+      if (shots.length >= MAX_PAGES) { status.textContent = `Up to ${MAX_PAGES} pages per paper.`; break; }
+      if (!f.type.startsWith("image/")) continue;
+      try {
+        const blob = await shrink(f);
+        shots.push({ blob, url: URL.createObjectURL(blob) });
+      } catch { status.textContent = "That photo could not be read. Try taking it again."; }
+    }
+    drawShots();
+  }
+
+  form.querySelectorAll('input[type="file"]').forEach((input) => input.addEventListener("change", () => {
+    addFiles([...input.files]);
+    input.value = "";
+  }));
+  shotsBox.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-remove]");
+    if (!b || busy) return;
+    const [gone] = shots.splice(Number(b.dataset.remove), 1);
+    URL.revokeObjectURL(gone.url);
+    drawShots();
+  });
+  subjectSel.addEventListener("change", drawShots);
+
+  const newId = () => {
+    const ist = new Date(Date.now() + 5.5 * 3600e3).toISOString(); // India time
+    const rand = Math.random().toString(36).slice(2, 6).padEnd(4, "0");
+    return `${ist.slice(0, 10).replace(/-/g, "")}-${ist.slice(11, 19).replace(/:/g, "")}-${rand}`;
+  };
+
+  async function post(url, body, type) {
+    const r = await fetch(url, { method: "POST", headers: { "content-type": type }, body });
+    const d = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(d.error || `Upload failed (${r.status}).`);
+    return d;
+  }
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    if (busy || !shots.length || !subjectSel.value) return;
+    busy = true;
+    drawShots();
+    const id = newId();
+    try {
+      for (let i = 0; i < shots.length; i++) {
+        status.textContent = `Uploading page ${i + 1} of ${shots.length}…`;
+        await post(`${UPLOAD_API}/upload?id=${id}&n=${i + 1}`, shots[i].blob, "image/jpeg");
+      }
+      status.textContent = "Saving…";
+      await post(`${UPLOAD_API}/upload?id=${id}&part=meta`,
+        JSON.stringify({ subject: subjectSel.value, pages: shots.length, note: noteInput.value.trim() }),
+        "application/json");
+      shots.forEach((s) => URL.revokeObjectURL(s.url));
+      shots = [];
+      noteInput.value = "";
+      status.textContent = "Uploaded. It is under “Just landed” on the home page.";
+      loadLanded();
+    } catch (err) {
+      status.textContent = `${err.message} Your photos are still here: check the connection and tap Upload again.`;
+    } finally {
+      busy = false;
+      drawShots();
+    }
+  });
+
+  document.getElementById("fab").addEventListener("click", () => {
+    const current = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
+    subjectSel.innerHTML = '<option value="">Choose a subject</option>' +
+      (data?.subjects || []).map((s) => `<option value="${esc(s.id)}">${esc(s.name)}</option>`).join("") +
+      '<option value="other">Other</option>';
+    if ((data?.subjects || []).some((s) => s.id === current)) subjectSel.value = current;
+    if (!shots.length) status.textContent = "";
+    drawShots();
+    sheet.showModal();
+  });
+  sheet.addEventListener("click", (e) => {
+    if ((e.target === sheet || e.target.closest("[data-close-upload]")) && !busy) sheet.close();
+  });
+  sheet.addEventListener("cancel", (e) => { if (busy) e.preventDefault(); });
 
   window.addEventListener("hashchange", route);
   fetch("site/catalog.json", { cache: "no-cache" })

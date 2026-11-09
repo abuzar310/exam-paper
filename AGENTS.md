@@ -14,6 +14,7 @@ Where a cloud agent works differently:
   asks you to merge, and then merge only what they named. Skip the session-export step.
 - **Two versions:** render every paper twice, the print sheet and `--columns 1 --name <folder>-single`, each with 300 dpi PNGs.
 - **Website:** after rendering, run `python site/build.py` and commit `site/catalog.json` and `site/thumbs/` with the paper. The site at https://bcom3.vercel.app/ deploys from `main`.
+- **Uploaded papers:** "solve the paper that just landed" means: `python site/inbox.py`, then `fetch <id> <folder>`, solve, render both versions, `python site/build.py`, `python site/inbox.py done <id>`, commit, push.
 - **Hand-over in chat:** you can't attach files, so end your final reply with a link to
   the PDF and to every page image on your branch, one per line:
 

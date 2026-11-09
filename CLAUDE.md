@@ -33,6 +33,18 @@ Start every session by reading PROJECT_CONTEXT.md (the standing context) and TAS
    Commit as `Abuzar <abuzaarfirooz@gmail.com>` via GIT_AUTHOR_*/GIT_COMMITTER_* env
    vars, no AI co-author trailer.
 
+## "Solve the paper that just landed"
+
+Question papers photographed with the site's camera button land in the upload service
+(`upload-api/`, project `exam-paper-upload` on the second Vercel account, Blob storage).
+
+1. `python site/inbox.py` lists what is waiting (id, subject, photos, note).
+2. `python site/inbox.py fetch <id> <subject>-<exam>` saves the photos as
+   `papers/<folder>/question-paper-N.jpg` (with `upload.json`). Read every photo; type the
+   paper into `question-paper.md`.
+3. Solve and render as usual: both versions, then `python site/build.py`.
+4. `python site/inbox.py done <id>` hides it from "Just landed". Commit and push everything.
+
 ## Where answers come from (in this order)
 
 1. The user's notes in `notes/<subject>/`. Use their wording and their points.

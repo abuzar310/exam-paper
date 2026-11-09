@@ -37,6 +37,13 @@ Vercel (project `exam-paper-bcom`, old account `abuzaarfirooz-4986`) and GitHub 
 which `python site/build.py` writes from the `papers/` folder (subjects and question papers
 are set in `site/subjects.json`). Run it after rendering a paper, then commit and push.
 
+### Adding a question paper from the phone
+
+The round camera button on the site opens the camera: photograph each page, pick the subject,
+tap Upload. The paper appears under "Just landed" until it is solved. The photos go to a small
+upload service in `upload-api/` (its own Vercel project, `exam-paper-upload`, with Blob storage);
+`python site/inbox.py` lists and downloads them.
+
 ## Folders
 
 | Folder | What goes there |

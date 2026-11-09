@@ -18,7 +18,12 @@ def text_of(content):
     return "\n".join(b.get("text", "") for b in content if b.get("type") == "text")
 
 
+SECRET = re.compile(r"(vc[pkia]_[A-Za-z0-9]{20,}|gh[opsu]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}"
+                    r"|sk-[A-Za-z0-9_-]{20,}|eyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+)")
+
+
 def clean(s):
+    s = SECRET.sub("[token removed]", s)  # the repo is public: never publish a pasted key
     s = re.sub(r"<system-reminder>.*?</system-reminder>", "", s, flags=re.S)
     s = re.sub(r"\[Image: source: [^\]]*\]", "[image]", s)
     return s.strip()
@@ -27,7 +32,7 @@ def clean(s):
 def step(block):
     inp = block.get("input", {})
     what = inp.get("description") or inp.get("file_path") or inp.get("title") or inp.get("query") or ""
-    return f"- `{block['name'].split('__')[-1]}` {what}".rstrip()
+    return SECRET.sub("[token removed]", f"- `{block['name'].split('__')[-1]}` {what}".rstrip())
 
 
 def main(src, dst, title):
