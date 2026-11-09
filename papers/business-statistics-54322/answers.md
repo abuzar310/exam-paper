@@ -8,15 +8,14 @@
 # SECTION A – 2 MARKS
 
 ## Q1. (a)
-**Statistics** is a branch of applied mathematics that deals with the collection, description, analysis and inference of conclusions from quantitative data. According to Croxton and Cowden, "Statistics may be defined as the collection, presentation, analysis and interpretation of numerical data."
+**Statistics** is the science of collecting, presenting, analysing and interpreting numerical data. In the words of Croxton and Cowden, statistics may be defined as "the collection, presentation, analysis and interpretation of numerical data".
 
 ## Q1. (b)
-Data collection is the process of gathering data from surveys or other sources. Data are of two types:
-1. **Primary data:** Data that have not been previously published, i.e. data derived from a new or original research study and collected at the source.
-2. **Secondary data:** Second-hand information which has already been collected and analysed by someone else for some purpose, e.g. the Economic Survey of India.
+1. **Primary data:** Data collected for the first time by the investigator himself, for a specific purpose. They are original in nature.
+2. **Secondary data:** Data already collected by someone else and used by the investigator, such as published reports and records.
 
 ## Q1. (c)
-**Tabulation** is a logical and systematic presentation of statistical data in rows and columns. Rows are horizontal and columns are vertical arrangements of the data. It gives the data an orderly form, highlights their main characteristics and makes comparison easy.
+**Tabulation** is the systematic arrangement of classified data in rows and columns. It presents a large mass of data in a compact and orderly form, so that it is easy to understand and compare.
 
 ## Q1. (d)
 1. The sum of the deviations of the items from the arithmetic mean is always zero: Σ(x − x̄) = 0.
@@ -33,13 +32,13 @@ Coefficient of range = (L − S) / (L + S) = 80 / 120 = **0.67**.
 **Standard deviation** is the square root of the arithmetic mean of the squared deviations of the items from their arithmetic mean. It is denoted by σ: σ = √(Σ(x − x̄)² / N). It is the most widely used measure of dispersion.
 
 ## Q1. (g)
-**Correlation** is a statistical technique used to analyse the strength and direction of the relationship between two variables, e.g. income and expenditure, or height and weight. According to A.M. Tuttle, "Correlation is an analysis of the co-variation between two or more variables."
+**Correlation** is the relationship between two or more variables, such that a change in one variable is accompanied by a change in the other. For example, price and demand, or income and expenditure, are correlated.
 
 ## Q1. (h)
-**Regression** is the statistical technique that expresses a functional relationship between two variables in the form of an equation, to estimate (or predict) the value of one variable from the given value of the other. The word means 'stepping back'; it was first used by Sir Francis Galton.
+**Regression** is the statistical method of estimating the unknown value of one variable from the known value of another variable. It shows the average relationship between two variables in the form of an equation.
 
 ## Q1. (i)
-**Classification** is the process of dividing the data into different groups or classes which are homogeneous within but heterogeneous between themselves, i.e. arranging data into homogeneous groups or classes according to some common characteristics.
+**Classification** is the process of arranging the collected data into groups or classes according to their common characteristics, such as area, time, attribute or size.
 
 ## Q1. (j)
 A **histogram** is a graph of a frequency distribution in which the class intervals are shown on the X-axis and the frequencies on the Y-axis. Each class is shown by a rectangle whose height is its frequency, and the rectangles are drawn next to one another.
@@ -47,25 +46,18 @@ A **histogram** is a graph of a frequency distribution in which the class interv
 # SECTION B – 5 MARKS
 
 ## Q2.
-Classification is the process of dividing data into groups or classes which are homogeneous within but heterogeneous between themselves. There are four bases (modes) of classification:
-
-1. **Qualitative base:** Data are classified according to some quality or attribute, such as sex, religion, literacy or intelligence. It is of two kinds:
-   (i) **Simple classification**, when only one attribute is used, e.g. population into male and female.
-   (ii) **Manifold classification**, when more than one attribute is used, e.g. population into male and female, then each into married and unmarried, then each into literate and illiterate.
-2. **Quantitative base:** Data are classified by characteristics that can be measured, such as heights, weights, ages or income.
-3. **Geographical base:** Data are classified by region or location, such as states, provinces, cities or countries, e.g. sales of a firm in Karnataka, Tamil Nadu, Andhra Pradesh and Kerala.
-4. **Chronological (temporal) base:** Data are classified by their time of occurrence, such as years, months, weeks or days, e.g. sales of a firm in 2012, 2013, 2014 and 2015.
+1. **Geographical classification:** Data are grouped by place or area, such as country, state, district or city, for example the population of each state.
+2. **Chronological classification:** Data are grouped by time, such as years, months or weeks, for example the sales of a company year by year.
+3. **Qualitative classification:** Data are grouped by an attribute that cannot be measured, such as sex, religion, literacy or occupation.
+4. **Simple and manifold classification:** In simple classification data are divided by one attribute into two classes (for example literate and illiterate); in manifold classification they are divided by two or more attributes at a time.
+5. **Quantitative classification:** Data are grouped by a characteristic that can be measured, such as height, weight, income or marks, using class intervals. Such a grouping is a frequency distribution.
 
 ## Q3.
-Primary data are collected by the following methods:
-
-1. **Direct personal investigation:** The information is collected by direct personal interviews, so it is first-hand and original. It is useful when the scope of the enquiry is small. Response is good and the data are accurate, but it is expensive, time-consuming and open to personal bias.
-2. **Indirect oral interviews:** Information is collected not from the source directly but by interviewing persons closely related to the problem, as in cases of theft or murder. It saves time and cost and covers a vast area, but third parties may not co-operate.
-3. **Mailed questionnaire method:** A questionnaire (a set of questions on the enquiry) is mailed to the informants with a request to answer and return it within a specified time. The questions should be short, clear, few in number, simple and impersonal.
-4. **Interview schedule method:** When informants are uneducated or do not respond, enumerators appointed by the investigator meet them with interview schedules, ask the questions and record the answers. Success depends on the sincerity and efficiency of the enumerators.
-5. **From local agents:** Local agents or correspondents, appointed by the sponsoring authorities and familiar with local language and conditions, send the information. It is used by government agencies, newspapers and periodicals.
-
-Primary data are also collected **through telephone**, which is quick and gives accurate information.
+1. **Direct personal investigation:** The investigator collects the information personally from the persons concerned. It suits a small, local enquiry and gives accurate data.
+2. **Indirect oral investigation:** Information is collected from third persons (witnesses) who know the facts, as in enquiries by committees and commissions.
+3. **Information through local correspondents:** Local agents or correspondents are appointed in different areas, and they send the information regularly, as newspapers do.
+4. **Mailed questionnaire:** A list of questions is sent by post to the informants, who fill it in and return it. It covers a wide area at low cost.
+5. **Schedules sent through enumerators:** Trained enumerators take the schedule to the informants, ask the questions and fill in the answers themselves, as in the census.
 
 ## Q4.
 | x | f | cf |
