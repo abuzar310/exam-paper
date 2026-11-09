@@ -11,6 +11,37 @@ const TYPES = new Set(["image/jpeg", "image/png", "image/webp"]);
 const MAX_PHOTO = 4_000_000; // bytes; the page shrinks photos well below this
 const MAX_PAGES = 8;
 
+const NAMES = {
+  hindi: "Hindi", "corporate-accounting": "Corporate Accounting", english: "English",
+  "accounting-standards": "Accounting Standards", "business-statistics": "Business Statistics",
+  hrd: "Human Resource Development", "personality-development": "Personality Development", other: "Other",
+};
+
+// Posts to the Discord channel whose webhook is in DISCORD_WEBHOOK_URL. Never blocks the upload.
+async function tellDiscord(record, firstPhoto) {
+  const hook = process.env.DISCORD_WEBHOOK_URL;
+  if (!hook) return;
+  const clean = (t) => t.replace(/[@*_`~|>#\[\]]/g, "").slice(0, 200);
+  const body = {
+    username: "Exam Paper",
+    allowed_mentions: { parse: [] },
+    embeds: [{
+      title: `New question paper: ${NAMES[record.subject] || "Other"}`,
+      url: "https://bcom3.vercel.app/",
+      description: [
+        `${record.pages} page${record.pages === 1 ? "" : "s"} uploaded from the site.`,
+        record.note ? `Note: ${clean(record.note)}` : "",
+        "Waiting under Just landed. Say \"solve the paper that just landed\".",
+      ].filter(Boolean).join("\n"),
+      color: 0x234fbf,
+      image: firstPhoto ? { url: firstPhoto } : undefined,
+      timestamp: record.uploaded,
+    }],
+  };
+  try {
+    await fetch(hook, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body), signal: AbortSignal.timeout(4000) });
+  } catch { /* the upload already succeeded; a missed alert is not worth failing it */ }
+}
 
 const save = (path, body, contentType) =>
   put(path, body, { access: "public", contentType, addRandomSuffix: false, allowOverwrite: true });
@@ -37,6 +68,10 @@ export async function POST(request) {
       uploaded: new Date().toISOString(),
     };
     await save(`inbox/${id}/meta.json`, JSON.stringify(record), "application/json");
+    // The page sends the URL of page 1 (returned by its upload); only a photo of this upload is shown.
+    const first = typeof meta.first === "string" && /^https:\/\/[a-z0-9]+\.public\.blob\.vercel-storage\.com\/inbox\//.test(meta.first)
+      && meta.first.includes(`/inbox/${id}/`) ? meta.first : null;
+    await tellDiscord(record, first);
     return json({ ok: true, id });
   }
 
