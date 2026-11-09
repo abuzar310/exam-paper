@@ -230,9 +230,9 @@ def build(blocks, st, col_w, image_base=None, max_h=700):
     return out
 
 
-def render(md, paper="a4", dpi=300, out_dir=None, scale=SCALE, columns=COLUMNS):
+def render(md, paper="a4", dpi=300, out_dir=None, scale=SCALE, columns=COLUMNS, name=None):
     md = Path(md)
-    name = md.parent.name if md.stem == "answers" else md.stem
+    name = name or (md.parent.name if md.stem == "answers" else md.stem)
     out_dir = Path(out_dir) if out_dir else md.parent / "output"
     out_dir.mkdir(parents=True, exist_ok=True)
     pdf = out_dir / f"{name}.pdf"
@@ -280,8 +280,9 @@ if __name__ == "__main__":
     ap.add_argument("--scale", type=float, default=SCALE,
                     help=f"size vs the reference pages (default {SCALE}, readable when printed 9-in-1; 1 = original size)")
     ap.add_argument("--columns", type=int, default=COLUMNS, help=f"columns per page (default {COLUMNS})")
+    ap.add_argument("--name", help="output file name (default: the paper folder); e.g. <folder>-single")
     a = ap.parse_args()
-    pdf, pngs = render(a.md, a.paper, a.dpi, a.out, a.scale, a.columns)
+    pdf, pngs = render(a.md, a.paper, a.dpi, a.out, a.scale, a.columns, a.name)
     print(f"{pdf}  ({len(pngs)} page{'s' * (len(pngs) != 1)})")
     for p in pngs:
         print(p)

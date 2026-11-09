@@ -11,7 +11,9 @@ serves index.html from the repo root, and the page reads site/catalog.json.
 - Question papers: listed in site/subjects.json. A page range is cut out of the
   combined PDF into site/question-papers/. Photos of a paper (question-paper-*.jpg)
   inside a solved folder are listed too.
-- Page images get small thumbnails in site/thumbs/ so the site stays light on a phone.
+- Each solved paper has up to two versions: <folder>.pdf (two columns, for printing) and
+  <folder>-single.pdf (single column). Each version's full-quality PNG pages are listed, and
+  get small thumbnails in site/thumbs/ so the site stays light on a phone.
 """
 import json
 import re
@@ -125,14 +127,17 @@ def build():
         if not pdf.exists() or not sid:
             continue
         title, choice = title_of(folder)
-        single = folder / "output" / f"{folder.name}-single.pdf"
+        versions = []
+        for name, label in ((folder.name, "Two columns, for printing"), (f"{folder.name}-single", "Single column, for reading")):
+            vpdf = folder / "output" / f"{name}.pdf"
+            if vpdf.exists():
+                versions.append({"label": label, "pdf": rel(vpdf), "pdf_pages": pdf_pages(vpdf),
+                                 "pdf_size": size_label(vpdf), "images": thumbs_for(folder, name)})
         catalogue[sid]["solved"].append({
             "title": title,
             "answered": choice,
-            "pdf": rel(pdf), "pdf_pages": pdf_pages(pdf), "pdf_size": size_label(pdf),
-            "single": rel(single) if single.exists() else None,
-            "images": thumbs_for(folder, folder.name),
             "updated": updated(pdf),
+            "versions": versions,
         })
         photos = sorted(p for p in folder.iterdir() if re.match(r"question-paper-\d+\.(jpe?g|png|webp)$", p.name, re.I))
         if photos:

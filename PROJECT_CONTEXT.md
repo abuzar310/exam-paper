@@ -13,7 +13,7 @@ Read this first in every new chat, then `CLAUDE.md` for the full rules and `TASK
 
 1. The question paper is saved in `papers/<subject>-<exam>/` with a typed copy, `question-paper.md`.
 2. Answers go in `answers.md` in that folder.
-3. `python render.py papers/<folder>/answers.md` makes the PDF and 300 dpi PNG pages in `output/`.
+3. `python render.py papers/<folder>/answers.md` makes the print PDF and 300 dpi PNG pages in `output/`; the same command with `--columns 1 --name <folder>-single` makes the single-column version. Then `python site/build.py` puts both on the website, https://bcom3.vercel.app/.
 4. Every page is looked at before hand-over: no heading alone at the foot of a column, no table cut so a row sits alone, no missing question.
 5. The work is committed, pushed, and checked on GitHub before any link is given.
 
@@ -28,7 +28,7 @@ Read this first in every new chat, then `CLAUDE.md` for the full rules and `TASK
   - HRM-style theory: exactly 5 points for 5 marks, exactly 10 for 10 marks, as in `CLAUDE.md`.
 - **Style:** British spelling, short exam English, no filler.
 - **Print sheet:** A4, two columns, 10 pt answer text. He prints 9 pages per sheet, so the text ends up about 3.2 pt. Do not change the size or columns without asking.
-- **Reading copy:** when he asks for one, render a copy named `<folder>-single` with `--columns 1`. Use `--scale 1.25` only when he asks for larger type.
+- **Two versions, always:** every paper is rendered twice: the print sheet (`<folder>.pdf`, two columns) and a single-column copy with `python render.py papers/<folder>/answers.md --columns 1 --name <folder>-single`. Both come with 300 dpi PNG pages, and both go on the website. Use `--scale 1.25` only when he asks for larger type.
 - **Printing:** send the PDF, not the PNGs. PNG text is a picture and goes soft when nine pages share a sheet.
 - **Three blank pages:** each time a PDF is ready, ask: "Add 3 blank white pages at the end for printing?" Add them only after he says yes.
 - **Links:** never give a GitHub link until the push is done and the link has been opened without logging in. One link that 404'd has already cost his trust.
