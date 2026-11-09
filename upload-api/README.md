@@ -20,11 +20,11 @@ Signed in, the owner can remove a "Just landed" paper (its photos are deleted) a
 any solved paper or question paper. Hidden items are marker files `hidden/<key>` in Blob;
 `/api/inbox` returns them as `hidden`, and the site leaves them out for everyone else.
 
-- `POST /api/login {email, password}` -> `{token, exp}`; 5 wrong tries lock that address for 15 minutes.
+- `POST /api/login {password}` (password only, no email) -> `{token, exp}`; 5 wrong tries lock that address for 15 minutes.
 - `POST /api/admin {action: check | remove-upload | hide | show}` with `Authorization: Bearer <token>`.
 
 Secrets live only in the project's environment variables, never in this public repo:
-`ADMIN_EMAIL`, `ADMIN_PASS_HASH` (`s1$<salt>$<scrypt hash>`, base64url; the password itself is
+`ADMIN_PASS_HASH` (`s1$<salt>$<scrypt hash>`, base64url; the password itself is
 stored nowhere) and `ADMIN_SECRET` (signs the tokens; replace it to sign out every device).
 To change the password, compute a new hash with Node's `crypto.scryptSync(pw, salt, 32, {N: 16384, r: 8, p: 1})`,
 replace `ADMIN_PASS_HASH` and redeploy.

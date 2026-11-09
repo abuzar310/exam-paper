@@ -1,5 +1,5 @@
 // Admin sign-in for the site's owner. Nothing secret is in this repo (it is public):
-// ADMIN_EMAIL, ADMIN_PASS_HASH ("s1$<salt>$<scrypt hash>", base64url) and ADMIN_SECRET
+// ADMIN_PASS_HASH ("s1$<salt>$<scrypt hash>", base64url) and ADMIN_SECRET
 // (the key that signs sign-in tokens) are environment variables on the Vercel project.
 // Changing ADMIN_SECRET signs out every device.
 import { createHmac, scrypt, timingSafeEqual } from "node:crypto";
@@ -11,13 +11,12 @@ const same = (a, b) => a.length === b.length && timingSafeEqual(a, b);
 const hashOf = (password, salt) =>
   new Promise((ok, fail) => scrypt(password, salt, 32, { N: 16384, r: 8, p: 1 }, (e, k) => (e ? fail(e) : ok(k))));
 
-export async function passwordOk(email, password) {
+// Password only (the owner's call, 2026-11-09): there is a single admin.
+export async function passwordOk(password) {
   const [kind, salt, hash] = String(process.env.ADMIN_PASS_HASH || "").split("$");
-  const wantEmail = String(process.env.ADMIN_EMAIL || "").trim().toLowerCase();
-  if (kind !== "s1" || !salt || !hash || !wantEmail) return false;
+  if (kind !== "s1" || !salt || !hash) return false;
   const got = await hashOf(String(password).slice(0, 200), Buffer.from(salt, "base64url"));
-  const emailOk = String(email).trim().toLowerCase() === wantEmail;
-  return same(got, Buffer.from(hash, "base64url")) && emailOk;
+  return same(got, Buffer.from(hash, "base64url"));
 }
 
 const sign = (exp) => createHmac("sha256", process.env.ADMIN_SECRET || "").update(`admin.${exp}`).digest("base64url");

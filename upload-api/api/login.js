@@ -1,4 +1,4 @@
-// POST /api/login {email, password} -> {token, exp}. Only the site's owner has an account.
+// POST /api/login {password} -> {token, exp}. Only the site's owner has an account.
 import { json as reply, preflight } from "./_cors.js";
 import { cleared, missed, newToken, passwordOk, tooMany } from "./_admin.js";
 
@@ -12,10 +12,10 @@ export async function POST(request) {
   if (tooMany(ip)) return json({ error: "Too many wrong tries. Wait 15 minutes." }, 429);
   let body;
   try { body = await request.json(); } catch { return json({ error: "Bad request." }, 400); }
-  if (!(await passwordOk(body.email || "", body.password || ""))) {
+  if (!(await passwordOk(body.password || ""))) {
     missed(ip);
     await wait(1200);
-    return json({ error: "Wrong email or password." }, 401);
+    return json({ error: "Wrong password." }, 401);
   }
   cleared(ip);
   return json(newToken());
