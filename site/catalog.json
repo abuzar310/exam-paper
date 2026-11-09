@@ -1,5 +1,5 @@
 {
- "built": "09 November 2026, 06:18 PM IST",
+ "built": "09 November 2026, 06:45 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -14,29 +14,73 @@
     {
      "title": "Q.P. 54321, December 2025 / January 2026",
      "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
-     "pdf": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025.pdf",
-     "pdf_pages": 4,
-     "pdf_size": "734 kB",
-     "single": null,
-     "images": [
+     "updated": "4 Nov 2026",
+     "versions": [
       {
-       "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-page-1.png",
-       "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025/1.webp"
+       "label": "Two columns, for printing",
+       "pdf": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025.pdf",
+       "pdf_pages": 4,
+       "pdf_size": "734 kB",
+       "images": [
+        {
+         "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-page-1.png",
+         "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025/1.webp"
+        },
+        {
+         "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-page-2.png",
+         "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025/2.webp"
+        },
+        {
+         "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-page-3.png",
+         "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025/3.webp"
+        },
+        {
+         "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-page-4.png",
+         "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025/4.webp"
+        }
+       ]
       },
       {
-       "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-page-2.png",
-       "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025/2.webp"
-      },
-      {
-       "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-page-3.png",
-       "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025/3.webp"
-      },
-      {
-       "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-page-4.png",
-       "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025/4.webp"
+       "label": "Single column, for reading",
+       "pdf": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-single.pdf",
+       "pdf_pages": 8,
+       "pdf_size": "810 kB",
+       "images": [
+        {
+         "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-single-page-1.png",
+         "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025-single/1.webp"
+        },
+        {
+         "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-single-page-2.png",
+         "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025-single/2.webp"
+        },
+        {
+         "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-single-page-3.png",
+         "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025-single/3.webp"
+        },
+        {
+         "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-single-page-4.png",
+         "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025-single/4.webp"
+        },
+        {
+         "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-single-page-5.png",
+         "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025-single/5.webp"
+        },
+        {
+         "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-single-page-6.png",
+         "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025-single/6.webp"
+        },
+        {
+         "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-single-page-7.png",
+         "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025-single/7.webp"
+        },
+        {
+         "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-single-page-8.png",
+         "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025-single/8.webp"
+        }
+       ]
       }
-     ],
-     "updated": "4 Nov 2026"
+     ]
     }
    ],
    "questions": [
@@ -55,48 +99,108 @@
     {
      "title": "College model exam, 6 November 2026",
      "answered": "Answered: first four short notes, first three long answers, and every writing-skills question.",
-     "pdf": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026.pdf",
-     "pdf_pages": 3,
-     "pdf_size": "12 kB",
-     "single": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-single.pdf",
-     "images": [
+     "updated": "6 Nov 2026",
+     "versions": [
       {
-       "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-page-1.png",
-       "thumb": "site/thumbs/english-model-6-nov-2026/1.webp"
+       "label": "Two columns, for printing",
+       "pdf": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026.pdf",
+       "pdf_pages": 3,
+       "pdf_size": "12 kB",
+       "images": [
+        {
+         "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-page-1.png",
+         "thumb": "site/thumbs/english-model-6-nov-2026/1.webp"
+        },
+        {
+         "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-page-2.png",
+         "thumb": "site/thumbs/english-model-6-nov-2026/2.webp"
+        },
+        {
+         "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-page-3.png",
+         "thumb": "site/thumbs/english-model-6-nov-2026/3.webp"
+        }
+       ]
       },
       {
-       "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-page-2.png",
-       "thumb": "site/thumbs/english-model-6-nov-2026/2.webp"
-      },
-      {
-       "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-page-3.png",
-       "thumb": "site/thumbs/english-model-6-nov-2026/3.webp"
+       "label": "Single column, for reading",
+       "pdf": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-single.pdf",
+       "pdf_pages": 6,
+       "pdf_size": "15 kB",
+       "images": [
+        {
+         "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-single-page-1.png",
+         "thumb": "site/thumbs/english-model-6-nov-2026-single/1.webp"
+        },
+        {
+         "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-single-page-2.png",
+         "thumb": "site/thumbs/english-model-6-nov-2026-single/2.webp"
+        },
+        {
+         "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-single-page-3.png",
+         "thumb": "site/thumbs/english-model-6-nov-2026-single/3.webp"
+        },
+        {
+         "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-single-page-4.png",
+         "thumb": "site/thumbs/english-model-6-nov-2026-single/4.webp"
+        },
+        {
+         "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-single-page-5.png",
+         "thumb": "site/thumbs/english-model-6-nov-2026-single/5.webp"
+        },
+        {
+         "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-single-page-6.png",
+         "thumb": "site/thumbs/english-model-6-nov-2026-single/6.webp"
+        }
+       ]
       }
-     ],
-     "updated": "6 Nov 2026"
+     ]
     },
     {
      "title": "Q.P. 54302, December 2025 / January 2026",
      "answered": "Answered: first four short notes, first three long answers, and every writing-skills question.",
-     "pdf": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025.pdf",
-     "pdf_pages": 3,
-     "pdf_size": "11 kB",
-     "single": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-single.pdf",
-     "images": [
+     "updated": "5 Nov 2026",
+     "versions": [
       {
-       "full": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-page-1.png",
-       "thumb": "site/thumbs/english-sem3-dec-2025/1.webp"
+       "label": "Two columns, for printing",
+       "pdf": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025.pdf",
+       "pdf_pages": 3,
+       "pdf_size": "11 kB",
+       "images": [
+        {
+         "full": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-page-1.png",
+         "thumb": "site/thumbs/english-sem3-dec-2025/1.webp"
+        },
+        {
+         "full": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-page-2.png",
+         "thumb": "site/thumbs/english-sem3-dec-2025/2.webp"
+        },
+        {
+         "full": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-page-3.png",
+         "thumb": "site/thumbs/english-sem3-dec-2025/3.webp"
+        }
+       ]
       },
       {
-       "full": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-page-2.png",
-       "thumb": "site/thumbs/english-sem3-dec-2025/2.webp"
-      },
-      {
-       "full": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-page-3.png",
-       "thumb": "site/thumbs/english-sem3-dec-2025/3.webp"
+       "label": "Single column, for reading",
+       "pdf": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-single.pdf",
+       "pdf_pages": 3,
+       "pdf_size": "12 kB",
+       "images": [
+        {
+         "full": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-single-page-1.png",
+         "thumb": "site/thumbs/english-sem3-dec-2025-single/1.webp"
+        },
+        {
+         "full": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-single-page-2.png",
+         "thumb": "site/thumbs/english-sem3-dec-2025-single/2.webp"
+        },
+        {
+         "full": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-single-page-3.png",
+         "thumb": "site/thumbs/english-sem3-dec-2025-single/3.webp"
+        }
+       ]
       }
-     ],
-     "updated": "5 Nov 2026"
+     ]
     }
    ],
    "questions": [
@@ -122,48 +226,100 @@
     {
      "title": "Q.P. 54323, December 2025 / January 2026",
      "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
-     "pdf": "papers/accounting-standards-54323/output/accounting-standards-54323.pdf",
-     "pdf_pages": 6,
-     "pdf_size": "13 kB",
-     "single": "papers/accounting-standards-54323/output/accounting-standards-54323-single.pdf",
-     "images": [
+     "updated": "6 Nov 2026",
+     "versions": [
       {
-       "full": "papers/accounting-standards-54323/output/accounting-standards-54323-page-1.png",
-       "thumb": "site/thumbs/accounting-standards-54323/1.webp"
+       "label": "Two columns, for printing",
+       "pdf": "papers/accounting-standards-54323/output/accounting-standards-54323.pdf",
+       "pdf_pages": 6,
+       "pdf_size": "13 kB",
+       "images": [
+        {
+         "full": "papers/accounting-standards-54323/output/accounting-standards-54323-page-1.png",
+         "thumb": "site/thumbs/accounting-standards-54323/1.webp"
+        },
+        {
+         "full": "papers/accounting-standards-54323/output/accounting-standards-54323-page-2.png",
+         "thumb": "site/thumbs/accounting-standards-54323/2.webp"
+        },
+        {
+         "full": "papers/accounting-standards-54323/output/accounting-standards-54323-page-3.png",
+         "thumb": "site/thumbs/accounting-standards-54323/3.webp"
+        }
+       ]
       },
       {
-       "full": "papers/accounting-standards-54323/output/accounting-standards-54323-page-2.png",
-       "thumb": "site/thumbs/accounting-standards-54323/2.webp"
-      },
-      {
-       "full": "papers/accounting-standards-54323/output/accounting-standards-54323-page-3.png",
-       "thumb": "site/thumbs/accounting-standards-54323/3.webp"
+       "label": "Single column, for reading",
+       "pdf": "papers/accounting-standards-54323/output/accounting-standards-54323-single.pdf",
+       "pdf_pages": 4,
+       "pdf_size": "13 kB",
+       "images": [
+        {
+         "full": "papers/accounting-standards-54323/output/accounting-standards-54323-single-page-1.png",
+         "thumb": "site/thumbs/accounting-standards-54323-single/1.webp"
+        },
+        {
+         "full": "papers/accounting-standards-54323/output/accounting-standards-54323-single-page-2.png",
+         "thumb": "site/thumbs/accounting-standards-54323-single/2.webp"
+        },
+        {
+         "full": "papers/accounting-standards-54323/output/accounting-standards-54323-single-page-3.png",
+         "thumb": "site/thumbs/accounting-standards-54323-single/3.webp"
+        },
+        {
+         "full": "papers/accounting-standards-54323/output/accounting-standards-54323-single-page-4.png",
+         "thumb": "site/thumbs/accounting-standards-54323-single/4.webp"
+        }
+       ]
       }
-     ],
-     "updated": "6 Nov 2026"
+     ]
     },
     {
      "title": "College model exam, November 2026",
      "answered": "Answered: Section A, all ten. Section B, the first four only (Q1 to Q4). Section C says answer all.",
-     "pdf": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026.pdf",
-     "pdf_pages": 3,
-     "pdf_size": "13 kB",
-     "single": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-single.pdf",
-     "images": [
+     "updated": "7 Nov 2026",
+     "versions": [
       {
-       "full": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-page-1.png",
-       "thumb": "site/thumbs/accounting-standards-model-nov-2026/1.webp"
+       "label": "Two columns, for printing",
+       "pdf": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026.pdf",
+       "pdf_pages": 3,
+       "pdf_size": "13 kB",
+       "images": [
+        {
+         "full": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-page-1.png",
+         "thumb": "site/thumbs/accounting-standards-model-nov-2026/1.webp"
+        },
+        {
+         "full": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-page-2.png",
+         "thumb": "site/thumbs/accounting-standards-model-nov-2026/2.webp"
+        },
+        {
+         "full": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-page-3.png",
+         "thumb": "site/thumbs/accounting-standards-model-nov-2026/3.webp"
+        }
+       ]
       },
       {
-       "full": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-page-2.png",
-       "thumb": "site/thumbs/accounting-standards-model-nov-2026/2.webp"
-      },
-      {
-       "full": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-page-3.png",
-       "thumb": "site/thumbs/accounting-standards-model-nov-2026/3.webp"
+       "label": "Single column, for reading",
+       "pdf": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-single.pdf",
+       "pdf_pages": 3,
+       "pdf_size": "12 kB",
+       "images": [
+        {
+         "full": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-single-page-1.png",
+         "thumb": "site/thumbs/accounting-standards-model-nov-2026-single/1.webp"
+        },
+        {
+         "full": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-single-page-2.png",
+         "thumb": "site/thumbs/accounting-standards-model-nov-2026-single/2.webp"
+        },
+        {
+         "full": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-single-page-3.png",
+         "thumb": "site/thumbs/accounting-standards-model-nov-2026-single/3.webp"
+        }
+       ]
       }
-     ],
-     "updated": "7 Nov 2026"
+     ]
     }
    ],
    "questions": [
@@ -189,21 +345,45 @@
     {
      "title": "Q.P. 54322, December 2025 / January 2026",
      "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
-     "pdf": "papers/business-statistics-54322/output/business-statistics-54322.pdf",
-     "pdf_pages": 2,
-     "pdf_size": "84 kB",
-     "single": null,
-     "images": [
+     "updated": "9 Nov 2026",
+     "versions": [
       {
-       "full": "papers/business-statistics-54322/output/business-statistics-54322-page-1.png",
-       "thumb": "site/thumbs/business-statistics-54322/1.webp"
+       "label": "Two columns, for printing",
+       "pdf": "papers/business-statistics-54322/output/business-statistics-54322.pdf",
+       "pdf_pages": 2,
+       "pdf_size": "84 kB",
+       "images": [
+        {
+         "full": "papers/business-statistics-54322/output/business-statistics-54322-page-1.png",
+         "thumb": "site/thumbs/business-statistics-54322/1.webp"
+        },
+        {
+         "full": "papers/business-statistics-54322/output/business-statistics-54322-page-2.png",
+         "thumb": "site/thumbs/business-statistics-54322/2.webp"
+        }
+       ]
       },
       {
-       "full": "papers/business-statistics-54322/output/business-statistics-54322-page-2.png",
-       "thumb": "site/thumbs/business-statistics-54322/2.webp"
+       "label": "Single column, for reading",
+       "pdf": "papers/business-statistics-54322/output/business-statistics-54322-single.pdf",
+       "pdf_pages": 3,
+       "pdf_size": "85 kB",
+       "images": [
+        {
+         "full": "papers/business-statistics-54322/output/business-statistics-54322-single-page-1.png",
+         "thumb": "site/thumbs/business-statistics-54322-single/1.webp"
+        },
+        {
+         "full": "papers/business-statistics-54322/output/business-statistics-54322-single-page-2.png",
+         "thumb": "site/thumbs/business-statistics-54322-single/2.webp"
+        },
+        {
+         "full": "papers/business-statistics-54322/output/business-statistics-54322-single-page-3.png",
+         "thumb": "site/thumbs/business-statistics-54322-single/3.webp"
+        }
+       ]
       }
-     ],
-     "updated": "9 Nov 2026"
+     ]
     }
    ],
    "questions": [
@@ -275,21 +455,45 @@
     {
      "title": "Q.P. 54224, May / June 2026",
      "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
-     "pdf": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026.pdf",
-     "pdf_pages": 2,
-     "pdf_size": "82 kB",
-     "single": null,
-     "images": [
+     "updated": "2 Nov 2026",
+     "versions": [
       {
-       "full": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026-page-1.png",
-       "thumb": "site/thumbs/corporate-administration-sem2-may-2026/1.webp"
+       "label": "Two columns, for printing",
+       "pdf": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026.pdf",
+       "pdf_pages": 2,
+       "pdf_size": "82 kB",
+       "images": [
+        {
+         "full": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026-page-1.png",
+         "thumb": "site/thumbs/corporate-administration-sem2-may-2026/1.webp"
+        },
+        {
+         "full": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026-page-2.png",
+         "thumb": "site/thumbs/corporate-administration-sem2-may-2026/2.webp"
+        }
+       ]
       },
       {
-       "full": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026-page-2.png",
-       "thumb": "site/thumbs/corporate-administration-sem2-may-2026/2.webp"
+       "label": "Single column, for reading",
+       "pdf": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026-single.pdf",
+       "pdf_pages": 3,
+       "pdf_size": "83 kB",
+       "images": [
+        {
+         "full": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026-single-page-1.png",
+         "thumb": "site/thumbs/corporate-administration-sem2-may-2026-single/1.webp"
+        },
+        {
+         "full": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026-single-page-2.png",
+         "thumb": "site/thumbs/corporate-administration-sem2-may-2026-single/2.webp"
+        },
+        {
+         "full": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026-single-page-3.png",
+         "thumb": "site/thumbs/corporate-administration-sem2-may-2026-single/3.webp"
+        }
+       ]
       }
-     ],
-     "updated": "2 Nov 2026"
+     ]
     }
    ],
    "questions": [

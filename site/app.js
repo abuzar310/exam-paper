@@ -5,6 +5,7 @@
   const viewerImg = document.getElementById("viewer-img");
   const viewerCaption = document.getElementById("viewer-caption");
   const viewerOpen = document.getElementById("viewer-open");
+  const viewerDl = document.getElementById("viewer-dl");
   let data = null;
   let gallery = { items: [], index: 0, label: "" };
 
@@ -74,7 +75,7 @@
     });
   }
 
-  function thumbs(items, label) {
+  function thumbs(items, label, download = false) {
     if (!items.length) return "";
     const key = encodeURIComponent(JSON.stringify(items.map((x) => x.full)));
     return `<div class="pages" role="list">${items.map((x, i) => `
@@ -83,24 +84,34 @@
           <img src="${esc(x.thumb)}" alt="" loading="lazy" decoding="async" width="112" height="158">
         </button>
         <span class="pages__label">Page ${i + 1}</span>
+        ${download ? `<a class="pages__dl" href="${esc(x.full)}" download="${esc(fileName(x.full))}" aria-label="Download page ${i + 1} as PNG">${icon.download}PNG</a>` : ""}
       </div>`).join("")}</div>`;
+  }
+
+  function versionBlock(v, label) {
+    const meta = [plural(v.pdf_pages, "page"), v.pdf_size, v.images.length ? plural(v.images.length, "PNG page") : ""].filter(Boolean);
+    return `<section class="version">
+      <div class="version__head">
+        <h4>${esc(v.label)}</h4>
+        <p class="paper__meta">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn--primary" href="${esc(v.pdf)}" target="_blank" rel="noopener">${icon.open}Open PDF</a>
+        <a class="btn" href="${esc(v.pdf)}" download="${esc(fileName(v.pdf))}">${icon.download}Download PDF</a>
+      </div>
+      ${thumbs(v.images, `${label}, ${v.label.split(",")[0].toLowerCase()}`, true)}
+    </section>`;
   }
 
   function solvedCard(p, subject) {
     const label = `${subject.name}, ${p.title}`;
-    const meta = [plural(p.pdf_pages, "page"), p.pdf_size, `Updated ${p.updated}`];
     return `<article class="paper">
       <div>
         <h3>${esc(p.title)}</h3>
-        <p class="paper__meta">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</p>
+        <p class="paper__meta"><span>Updated ${esc(p.updated)}</span><span>${plural(p.versions.length, "version")}</span></p>
       </div>
       ${p.answered ? `<p class="paper__note">${esc(p.answered)}</p>` : ""}
-      <div class="actions">
-        <a class="btn btn--primary" href="${esc(p.pdf)}" target="_blank" rel="noopener">${icon.open}Open PDF</a>
-        <a class="btn" href="${esc(p.pdf)}" download="${esc(fileName(p.pdf))}">${icon.download}Download PDF</a>
-        ${p.single ? `<a class="btn" href="${esc(p.single)}" target="_blank" rel="noopener">${icon.open}Reading copy</a>` : ""}
-      </div>
-      ${thumbs(p.images, label)}
+      ${p.versions.map((v) => versionBlock(v, label)).join("")}
     </article>`;
   }
 
@@ -159,6 +170,8 @@
     viewerImg.alt = `${gallery.label}, page ${gallery.index + 1}`;
     viewerCaption.textContent = `${gallery.label} · page ${gallery.index + 1} of ${gallery.items.length}`;
     viewerOpen.href = src;
+    viewerDl.href = src;
+    viewerDl.download = fileName(src);
     viewer.querySelectorAll("[data-step]").forEach((b) => {
       const next = gallery.index + Number(b.dataset.step);
       b.disabled = next < 0 || next >= gallery.items.length;

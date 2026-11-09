@@ -30,8 +30,8 @@ answers rebuilt by this project are in
 
 ## Website
 
-All solved papers and question papers, by subject: **https://exam-paper-bcom.vercel.app/**
-(also at https://abuzar310.github.io/exam-paper/)
+All solved papers and question papers, by subject: **https://bcom3.vercel.app/**
+(also at https://exam-paper-bcom.vercel.app/ and https://abuzar310.github.io/exam-paper/)
 
 Vercel (project `exam-paper-bcom`, old account `abuzaarfirooz-4986`) and GitHub Pages both deploy `main` on every push; `vercel.json` ships only `index.html`, `site/` and `papers/`. The page reads `site/catalog.json`,
 which `python site/build.py` writes from the `papers/` folder (subjects and question papers
@@ -56,7 +56,7 @@ python render.py papers/hrm-sem3-2026/answers.md
 
 Options: `--scale 1.6` (draws everything 1.6× bigger, more pages), `--columns 1`
 (default 2), `--paper letter` (default A4), `--dpi 200` (default 300),
-`--out some/folder`.
+`--out some/folder`, `--name <folder>-single` (with `--columns 1`, the single-column version).
 
 ## Answer file format
 
