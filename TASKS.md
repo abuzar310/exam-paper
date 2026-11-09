@@ -38,4 +38,4 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 - 2026-11-07: Accounting Standards model paper of 7 November 2026 solved. Print and single-column PDFs.
 - 2026-11-08: `PROJECT_CONTEXT.md` and `TASKS.md` added and merged into `main`.
 - 2026-11-09: Session record `sessions/2026-11-06-accounting-standards.md` added and merged into `main`.
-- 2026-11-09: Business Statistics Q.P. 54322 solved: 1(a)-(j), Q2-Q7, Q10-Q12. Print PDF, 2 pages. `render.py` now keeps tables up to 300 pt whole, with their heading and a short lead-in.
+- 2026-11-09: Business Statistics Q.P. 54322 solved: 1(a)-(j), Q2-Q7, Q10-Q12. Print PDF, 2 pages, no blank pages (his choice). `render.py` now keeps tables up to 300 pt whole, with their heading and a short lead-in.
