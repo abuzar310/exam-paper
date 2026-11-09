@@ -37,3 +37,4 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 - 2026-11-06: Rule added: ask before adding 3 blank pages to a print PDF.
 - 2026-11-07: Accounting Standards model paper of 7 November 2026 solved. Print and single-column PDFs.
 - 2026-11-08: `PROJECT_CONTEXT.md` and `TASKS.md` added and merged into `main`.
+- 2026-11-09: Session record `sessions/2026-11-06-accounting-standards.md` added and merged into `main`.
