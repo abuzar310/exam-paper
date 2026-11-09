@@ -30,9 +30,10 @@ answers rebuilt by this project are in
 
 ## Website
 
-All solved papers and question papers, by subject: **https://abuzar310.github.io/exam-paper/**
+All solved papers and question papers, by subject: **https://exam-paper-bcom.vercel.app/**
+(also at https://abuzar310.github.io/exam-paper/)
 
-GitHub Pages serves `index.html` from the root of `main`. The page reads `site/catalog.json`,
+Vercel (project `exam-paper-bcom`, old account `abuzaarfirooz-4986`) and GitHub Pages both deploy `main` on every push; `vercel.json` ships only `index.html`, `site/` and `papers/`. The page reads `site/catalog.json`,
 which `python site/build.py` writes from the `papers/` folder (subjects and question papers
 are set in `site/subjects.json`). Run it after rendering a paper, then commit and push.
 
