@@ -21,7 +21,7 @@ Start every session by reading PROJECT_CONTEXT.md (the standing context) and TAS
    and `output/<folder>-page-N.png` (A4, 300 DPI). Look at every PNG before handing
    it over: no heading stranded at a page bottom, no table cut badly, no missing
    question.
-4b. **Website**: run `python site/build.py` so the new paper appears on https://abuzar310.github.io/exam-paper/ once it reaches `main`. A new subject folder must start with one of the prefixes in `site/subjects.json`; a new question paper goes in that file's `question_papers` list.
+4b. **Website**: run `python site/build.py` so the new paper appears on https://exam-paper-bcom.vercel.app/ (and the GitHub Pages copy) once it reaches `main`. A new subject folder must start with one of the prefixes in `site/subjects.json`; a new question paper goes in that file's `question_papers` list.
 5. **Hand over** with SendUserFile: the PDF and the PNGs. Before that, ask whether to add 3 blank pages (the rule below). Do not skip the question.
 6. **Save**: write `sessions/<date>-<topic>.md` (what was asked, what was made).
    For the full step list, export this session (export_transcript "self"),
