@@ -16,6 +16,7 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
   | `cursor/corporate-accounting-54321-cbe8` | Corporate Accounting Q.P. 54321, solved, with a figure for each answer |
   | `cursor/corporate-admin-grok-cbe8` | A test answer of Corporate Administration Q.P. 54224 in `papers/corporate-administration-grok-test/`. `main` already has this paper solved, so this branch may not be needed |
   | `cursor/goregaon-notes-merge-cbe8` | Goregaon lesson summary merged with the exam answers |
+  | `claude/stats-54322-answers` | Business Statistics Q.P. 54322, solved (2 pages); render.py keeps short tables in one piece |
 - [ ] **Old branches already inside `main`:** `as29-notes-md`, `as9-slides-md`, `as-7-notes`, `correlation-regression-md`, `english-54302-answers`, `english-notes-pdf`, `log-tables-md`, `print-blank-ask`, `scan-notes-md`, `sem3-notes`, `spot-check-by-subject`, `stats-papers-md`, `syllabi-photos-md` (all `cursor/…-cbe8`). They hold nothing new and can be deleted when he agrees.
 
 ## To collect
@@ -26,7 +27,6 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## To solve
 
-- [ ] Business Statistics Q.P. 54322.
 - [ ] Human Resource Development Q.P. 50374.
 - [ ] Personality Development Q.P. 54324.
 
@@ -38,3 +38,6 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 - 2026-11-07: Accounting Standards model paper of 7 November 2026 solved. Print and single-column PDFs.
 - 2026-11-08: `PROJECT_CONTEXT.md` and `TASKS.md` added and merged into `main`.
 - 2026-11-09: Session record `sessions/2026-11-06-accounting-standards.md` added and merged into `main`.
+- 2026-11-09: Business Statistics Q.P. 54322 solved: 1(a)-(j), Q2-Q7, Q10-Q12. Print PDF, 2 pages, no blank pages (his choice). `render.py` now keeps tables up to 300 pt whole, with their heading and a short lead-in.
+- 2026-11-09: Statistics 54322 theory answers (1(a)-(c), (g)-(i), Q2, Q3) redone in the words of the teacher's notes; Module 4 and the 39-page Statistics notes added to `notes/business-statistics/`.
+- 2026-11-09: At his request the Statistics 54322 answers went back to the first version (standard textbook wording). The teacher's notes stay in `notes/business-statistics/`.
