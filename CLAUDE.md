@@ -22,7 +22,7 @@ Start every session by reading PROJECT_CONTEXT.md (the standing context) and TAS
    it over: no heading stranded at a page bottom, no table cut badly, no missing
    question.
 4a. **Single-column version, every time**: `python render.py papers/<folder>/answers.md --columns 1 --name <folder>-single` (the user's rule, 2026-11-09: each paper is solved in both layouts, each with high-quality PNGs).
-4b. **Website**: run `python site/build.py` so the new paper appears on https://bcom3.vercel.app/ (and the GitHub Pages copy) once it reaches `main`. A new subject folder must start with one of the prefixes in `site/subjects.json`; a new question paper goes in that file's `question_papers` list.
+4b. **Website**: run `python site/build.py` so the new paper appears on https://bcom3.vercel.app/ (and the GitHub Pages copy). GitHub Pages updates when it reaches `main`; bcom3 needs a deploy after the push (the site moved to the second Vercel account on 2026-11-10 and is not linked to GitHub): from the repo root, load `../token/vercel-new.env` into the environment and run `npx -y vercel deploy --prod --yes --scope abuzar26 --token "$VERCEL_TOKEN"` (README.md, Website). A new subject folder must start with one of the prefixes in `site/subjects.json`; a new question paper goes in that file's `question_papers` list.
 5. **Hand over** with SendUserFile: the PDF and the PNGs. Before that, ask whether to add 3 blank pages (the rule below). Do not skip the question.
 6. **Save**: write `sessions/<date>-<topic>.md` (what was asked, what was made).
    For the full step list, export this session (export_transcript "self"),
