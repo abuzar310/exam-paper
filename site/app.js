@@ -392,8 +392,7 @@
         <a class="crumb" href="#/">${icon.back}All subjects</a>
         <header class="page-head"><h1 tabindex="-1">Admin</h1><p>Only for the person who runs this site.</p></header>
         <form class="admin-form" id="admin-form" novalidate>
-          <div class="field"><label for="ad-email">Email</label>
-            <input id="ad-email" type="email" autocomplete="username" inputmode="email" required></div>
+          <input class="sr-only" type="text" name="username" autocomplete="username" value="Exam Paper admin" tabindex="-1" aria-hidden="true" readonly>
           <div class="field"><label for="ad-pass">Password</label>
             <input id="ad-pass" type="password" autocomplete="current-password" required></div>
           <p class="sheet__status" id="ad-status" role="status"></p>
@@ -404,14 +403,13 @@
       const send = document.getElementById("ad-send");
       f.addEventListener("submit", async (e) => {
         e.preventDefault();
-        const email = document.getElementById("ad-email").value.trim();
         const password = document.getElementById("ad-pass").value;
-        if (!email || !password) { st.textContent = "Fill in both the email and the password."; return; }
+        if (!password) { st.textContent = "Type the password."; return; }
         send.disabled = true;
         st.textContent = "Signing in…";
         try {
           const r = await fetch(`${UPLOAD_API}/login`, {
-            method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ email, password }),
+            method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ password }),
           });
           const d = await r.json().catch(() => ({}));
           if (!r.ok) throw new Error(d.error || `Sign-in failed (${r.status}).`);
@@ -426,7 +424,7 @@
           document.getElementById("ad-pass").select();
         }
       });
-      document.getElementById("ad-email").focus();
+      document.getElementById("ad-pass").focus();
       return;
     }
     const until = new Date(admin.exp).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" });
