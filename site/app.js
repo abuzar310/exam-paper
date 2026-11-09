@@ -230,11 +230,76 @@
       }).join("")}</div>`;
   }
 
+  // ---- Alerts: banner + tab count while the site is open, system notification if allowed
+  const ownUploads = new Set();
+  const store = {
+    get: () => { try { return JSON.parse(localStorage.getItem("seen-landed") || "null"); } catch { return null; } },
+    set: (ids) => { try { localStorage.setItem("seen-landed", JSON.stringify(ids)); } catch { /* private mode */ } },
+  };
+  const baseTitle = () => document.title.replace(/^\(\d+\) /, "");
+  let unseen = 0;
+
+  function toast(text) {
+    const t = document.getElementById("toast");
+    t.innerHTML = `<span>${esc(text)}</span><a href="#/">See it</a><button type="button" aria-label="Dismiss">✕</button>`;
+    t.hidden = false;
+    t.classList.remove("toast--in"); void t.offsetWidth; t.classList.add("toast--in");
+    t.querySelector("a").onclick = () => { t.hidden = true; };
+    t.querySelector("button").onclick = () => { t.hidden = true; };
+    clearTimeout(toast.timer);
+    toast.timer = setTimeout(() => { t.hidden = true; }, 12000);
+  }
+
+  function noticeNew(items) {
+    const seen = store.get();
+    const ids = items.map((u) => u.id);
+    if (seen === null) { store.set(ids); return; } // first visit: nothing is "new" yet
+    const fresh = items.filter((u) => !seen.includes(u.id) && !ownUploads.has(u.id));
+    store.set([...new Set([...seen, ...ids])].slice(-200));
+    if (!fresh.length) return;
+    const u = fresh[0];
+    const text = fresh.length === 1
+      ? `New question paper just landed: ${subjectName(u.subject)}${u.note ? `, ${u.note}` : ""}.`
+      : `${fresh.length} new question papers just landed.`;
+    toast(text);
+    if (document.hidden) {
+      unseen += fresh.length;
+      document.title = `(${unseen}) ${baseTitle()}`;
+    }
+    if ("Notification" in window && Notification.permission === "granted" && document.hidden) {
+      try { new Notification("Exam Paper", { body: text, icon: u.photos[0], tag: u.id }); } catch { /* some phones allow only service-worker notifications */ }
+    }
+  }
+
   function loadLanded() {
     fetch(`${UPLOAD_API}/inbox`, { cache: "no-store" })
       .then((r) => (r.ok ? r.json() : { items: [] }))
-      .then((d) => { landed = d.items || []; renderLanded(); })
+      .then((d) => { landed = d.items || []; renderLanded(); noticeNew(landed); })
       .catch(() => {});
+  }
+
+  setInterval(() => { if (!document.hidden) loadLanded(); }, 60000);
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) return;
+    unseen = 0;
+    document.title = baseTitle();
+    loadLanded();
+  });
+
+  const bell = document.getElementById("bell");
+  function drawBell() {
+    const on = Notification.permission === "granted";
+    bell.setAttribute("aria-pressed", String(on));
+    bell.classList.toggle("bell--on", on);
+    document.getElementById("bell-label").textContent = on ? "Alerts on" : Notification.permission === "denied" ? "Alerts blocked" : "Alert me";
+    bell.disabled = Notification.permission !== "default";
+    bell.title = on ? "You will get a notification when a new paper lands while this site is open."
+      : Notification.permission === "denied" ? "Notifications are blocked for this site in your browser settings." : "";
+  }
+  if ("Notification" in window) {
+    bell.hidden = false;
+    drawBell();
+    bell.addEventListener("click", () => Notification.requestPermission().then(drawBell));
   }
 
   // ---- Upload sheet: camera / gallery -> shrink on the phone -> upload page by page
@@ -326,13 +391,16 @@
     drawShots();
     const id = newId();
     try {
+      let first = null;
       for (let i = 0; i < shots.length; i++) {
         status.textContent = `Uploading page ${i + 1} of ${shots.length}…`;
-        await post(`${UPLOAD_API}/upload?id=${id}&n=${i + 1}`, shots[i].blob, "image/jpeg");
+        const r = await post(`${UPLOAD_API}/upload?id=${id}&n=${i + 1}`, shots[i].blob, "image/jpeg");
+        if (i === 0) first = r.url;
       }
+      ownUploads.add(id);
       status.textContent = "Saving…";
       await post(`${UPLOAD_API}/upload?id=${id}&part=meta`,
-        JSON.stringify({ subject: subjectSel.value, pages: shots.length, note: noteInput.value.trim() }),
+        JSON.stringify({ subject: subjectSel.value, pages: shots.length, note: noteInput.value.trim(), first }),
         "application/json");
       shots.forEach((s) => URL.revokeObjectURL(s.url));
       shots = [];
@@ -369,6 +437,7 @@
       data = d;
       document.getElementById("built").textContent = `Last updated ${d.built}`;
       route();
+      if (location.hash.replace(/^#\/?/, "")) loadLanded();
     })
     .catch(() => {
       view.innerHTML = '<p class="notice">The list of papers could not be loaded. Check your connection and refresh. The files are also on <a href="https://github.com/abuzar310/exam-paper/tree/main/papers">GitHub</a>.</p>';
