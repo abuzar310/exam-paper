@@ -6,17 +6,12 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 - [ ] **Accounting Standards model paper, November 2026:** add 3 blank pages to the print PDF and to the single-column PDF? Asked on 7 November 2026; not answered.
 - [ ] **Accounting Standards model paper, Section B:** Q5 (borrowing cost, Rs. 50,00,000 at 10%) and Q6 (lawsuit, AS 29) were left out under the first-four rule. Answer them too?
-- [ ] **Branches to merge into `main`.** Each one is pushed and checked, but not merged:
+- [ ] **Branches not merged into `main`** (the solved papers were merged on 9 November 2026):
 
   | Branch | What it adds |
   | --- | --- |
-  | `cursor/as-54323-answers-cbe8` | Accounting Standards I, Q.P. 54323, solved; print PDF with 3 blank pages; single-column copy at 12.5 pt |
-  | `cursor/as-model-nov-2026-cbe8` | Accounting Standards model paper, 7 November 2026, solved; print and single-column PDFs |
-  | `cursor/english-model-nov-2026-cbe8` | English model paper, 6 November 2026, solved; single-column copy |
-  | `cursor/corporate-accounting-54321-cbe8` | Corporate Accounting Q.P. 54321, solved, with a figure for each answer |
   | `cursor/corporate-admin-grok-cbe8` | A test answer of Corporate Administration Q.P. 54224 in `papers/corporate-administration-grok-test/`. `main` already has this paper solved, so this branch may not be needed |
   | `cursor/goregaon-notes-merge-cbe8` | Goregaon lesson summary merged with the exam answers |
-  | `claude/stats-54322-answers` | Business Statistics Q.P. 54322, solved (2 pages); render.py keeps short tables in one piece |
 - [ ] **Old branches already inside `main`:** `as29-notes-md`, `as9-slides-md`, `as-7-notes`, `correlation-regression-md`, `english-54302-answers`, `english-notes-pdf`, `log-tables-md`, `print-blank-ask`, `scan-notes-md`, `sem3-notes`, `spot-check-by-subject`, `stats-papers-md`, `syllabi-photos-md` (all `cursor/…-cbe8`). They hold nothing new and can be deleted when he agrees.
 
 ## To collect
@@ -41,3 +36,4 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 - 2026-11-09: Business Statistics Q.P. 54322 solved: 1(a)-(j), Q2-Q7, Q10-Q12. Print PDF, 2 pages, no blank pages (his choice). `render.py` now keeps tables up to 300 pt whole, with their heading and a short lead-in.
 - 2026-11-09: Statistics 54322 theory answers (1(a)-(c), (g)-(i), Q2, Q3) redone in the words of the teacher's notes; Module 4 and the 39-page Statistics notes added to `notes/business-statistics/`.
 - 2026-11-09: At his request the Statistics 54322 answers went back to the first version (standard textbook wording). The teacher's notes stay in `notes/business-statistics/`.
+- 2026-11-09: Merged into `main` at his request: `as-54323-answers`, `as-model-nov-2026`, `english-model-nov-2026`, `corporate-accounting-54321`, `stats-54322-answers`. Website added: `index.html`, `site/` (builder, catalogue, thumbnails), GitHub Pages from `main`.

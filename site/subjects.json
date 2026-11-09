@@ -1,0 +1,26 @@
+{
+  "subjects": [
+    {"id": "hindi", "name": "Hindi", "prefixes": ["hindi"]},
+    {"id": "corporate-accounting", "name": "Corporate Accounting", "prefixes": ["corporate-accounting"]},
+    {"id": "english", "name": "English", "prefixes": ["english"]},
+    {"id": "accounting-standards", "name": "Accounting Standards", "prefixes": ["accounting-standards"]},
+    {"id": "business-statistics", "name": "Business Statistics", "prefixes": ["business-statistics"]},
+    {"id": "hrd", "name": "Human Resource Development", "prefixes": ["hrd", "human-resource-development"]},
+    {"id": "personality-development", "name": "Personality Development", "prefixes": ["personality-development"]}
+  ],
+  "earlier": [
+    {"id": "corporate-administration", "name": "Corporate Administration", "semester": "Second semester", "prefixes": ["corporate-administration"]}
+  ],
+  "question_papers": [
+    {"subject": "english", "title": "Q.P. 54302, December 2025 / January 2026", "source": "papers/sem3-dec-2025-jan-2026/all-question-papers.pdf", "pages": [1, 1]},
+    {"subject": "business-statistics", "title": "Q.P. 54322, December 2025 / January 2026", "source": "papers/sem3-dec-2025-jan-2026/all-question-papers.pdf", "pages": [2, 3]},
+    {"subject": "hrd", "title": "Q.P. 50374, December 2025 / January 2026", "source": "papers/sem3-dec-2025-jan-2026/all-question-papers.pdf", "pages": [4, 5]},
+    {"subject": "personality-development", "title": "Q.P. 54324, December 2025 / January 2026", "source": "papers/sem3-dec-2025-jan-2026/all-question-papers.pdf", "pages": [6, 7]},
+    {"subject": "corporate-accounting", "title": "Q.P. 54321, December 2025 / January 2026", "source": "papers/sem3-dec-2025-jan-2026/all-question-papers.pdf", "pages": [10, 13]},
+    {"subject": "accounting-standards", "title": "Q.P. 54323, December 2025 / January 2026", "source": "papers/sem3-dec-2025-jan-2026/all-question-papers.pdf", "pages": [14, 17]},
+    {"subject": "business-statistics", "title": "Q.P. 24CC72, December 2025 / January 2026 (another set)", "source": "papers/sem3-dec-2025-jan-2026/business-statistics-54322-scan.pdf"},
+    {"subject": "business-statistics", "title": "BBA Q.P. 56421, Statistics for Business Decisions, May / June 2026", "source": "papers/business-statistics/bba-statistics-for-business-decisions.pdf"},
+    {"subject": "business-statistics", "title": "BBA Q.P. 36220, Statistics for Business Decisions, January 2024", "source": "papers/business-statistics/bba-statistics-jan-2024.pdf"},
+    {"subject": "business-statistics", "title": "Fundamentals of Statistics, older papers from 2020", "source": "papers/business-statistics/fundamentals-of-statistics-older-papers.pdf"}
+  ]
+}

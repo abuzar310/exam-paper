@@ -25,8 +25,16 @@ answers rebuilt by this project are in
 
    Each answer is headed by its number only (`Q1.`, `Q2.`), not the question text.
 4. **`render.py` makes the PDF and PNGs** in `papers/<subject>-<exam>/output/`.
-5. Everything is committed and pushed to GitHub (`abuzar310/exam-paper`, private), and
+5. Everything is committed and pushed to GitHub (`abuzar310/exam-paper`), and
    the session is written up in `sessions/`.
+
+## Website
+
+All solved papers and question papers, by subject: **https://abuzar310.github.io/exam-paper/**
+
+GitHub Pages serves `index.html` from the root of `main`. The page reads `site/catalog.json`,
+which `python site/build.py` writes from the `papers/` folder (subjects and question papers
+are set in `site/subjects.json`). Run it after rendering a paper, then commit and push.
 
 ## Folders
 

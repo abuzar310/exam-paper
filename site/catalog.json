@@ -1,0 +1,306 @@
+{
+ "built": "09 November 2026, 06:18 PM IST",
+ "subjects": [
+  {
+   "id": "hindi",
+   "name": "Hindi",
+   "solved": [],
+   "questions": []
+  },
+  {
+   "id": "corporate-accounting",
+   "name": "Corporate Accounting",
+   "solved": [
+    {
+     "title": "Q.P. 54321, December 2025 / January 2026",
+     "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
+     "pdf": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025.pdf",
+     "pdf_pages": 4,
+     "pdf_size": "734 kB",
+     "single": null,
+     "images": [
+      {
+       "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-page-1.png",
+       "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025/1.webp"
+      },
+      {
+       "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-page-2.png",
+       "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025/2.webp"
+      },
+      {
+       "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-page-3.png",
+       "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025/3.webp"
+      },
+      {
+       "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-page-4.png",
+       "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025/4.webp"
+      }
+     ],
+     "updated": "4 Nov 2026"
+    }
+   ],
+   "questions": [
+    {
+     "title": "Q.P. 54321, December 2025 / January 2026",
+     "pdf": "site/question-papers/q-p-54321-december-2025-january-2026.pdf",
+     "pdf_pages": 4,
+     "pdf_size": "2.3 MB"
+    }
+   ]
+  },
+  {
+   "id": "english",
+   "name": "English",
+   "solved": [
+    {
+     "title": "College model exam, 6 November 2026",
+     "answered": "Answered: first four short notes, first three long answers, and every writing-skills question.",
+     "pdf": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026.pdf",
+     "pdf_pages": 3,
+     "pdf_size": "12 kB",
+     "single": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-single.pdf",
+     "images": [
+      {
+       "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-page-1.png",
+       "thumb": "site/thumbs/english-model-6-nov-2026/1.webp"
+      },
+      {
+       "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-page-2.png",
+       "thumb": "site/thumbs/english-model-6-nov-2026/2.webp"
+      },
+      {
+       "full": "papers/english-model-6-nov-2026/output/english-model-6-nov-2026-page-3.png",
+       "thumb": "site/thumbs/english-model-6-nov-2026/3.webp"
+      }
+     ],
+     "updated": "6 Nov 2026"
+    },
+    {
+     "title": "Q.P. 54302, December 2025 / January 2026",
+     "answered": "Answered: first four short notes, first three long answers, and every writing-skills question.",
+     "pdf": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025.pdf",
+     "pdf_pages": 3,
+     "pdf_size": "11 kB",
+     "single": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-single.pdf",
+     "images": [
+      {
+       "full": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-page-1.png",
+       "thumb": "site/thumbs/english-sem3-dec-2025/1.webp"
+      },
+      {
+       "full": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-page-2.png",
+       "thumb": "site/thumbs/english-sem3-dec-2025/2.webp"
+      },
+      {
+       "full": "papers/english-sem3-dec-2025/output/english-sem3-dec-2025-page-3.png",
+       "thumb": "site/thumbs/english-sem3-dec-2025/3.webp"
+      }
+     ],
+     "updated": "5 Nov 2026"
+    }
+   ],
+   "questions": [
+    {
+     "title": "College model exam, 6 November 2026 (photo)",
+     "photos": [
+      "papers/english-model-6-nov-2026/question-paper-1.jpg",
+      "papers/english-model-6-nov-2026/question-paper-2.jpg"
+     ]
+    },
+    {
+     "title": "Q.P. 54302, December 2025 / January 2026",
+     "pdf": "site/question-papers/q-p-54302-december-2025-january-2026.pdf",
+     "pdf_pages": 1,
+     "pdf_size": "151 kB"
+    }
+   ]
+  },
+  {
+   "id": "accounting-standards",
+   "name": "Accounting Standards",
+   "solved": [
+    {
+     "title": "Q.P. 54323, December 2025 / January 2026",
+     "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
+     "pdf": "papers/accounting-standards-54323/output/accounting-standards-54323.pdf",
+     "pdf_pages": 6,
+     "pdf_size": "13 kB",
+     "single": "papers/accounting-standards-54323/output/accounting-standards-54323-single.pdf",
+     "images": [
+      {
+       "full": "papers/accounting-standards-54323/output/accounting-standards-54323-page-1.png",
+       "thumb": "site/thumbs/accounting-standards-54323/1.webp"
+      },
+      {
+       "full": "papers/accounting-standards-54323/output/accounting-standards-54323-page-2.png",
+       "thumb": "site/thumbs/accounting-standards-54323/2.webp"
+      },
+      {
+       "full": "papers/accounting-standards-54323/output/accounting-standards-54323-page-3.png",
+       "thumb": "site/thumbs/accounting-standards-54323/3.webp"
+      }
+     ],
+     "updated": "6 Nov 2026"
+    },
+    {
+     "title": "College model exam, November 2026",
+     "answered": "Answered: Section A, all ten. Section B, the first four only (Q1 to Q4). Section C says answer all.",
+     "pdf": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026.pdf",
+     "pdf_pages": 3,
+     "pdf_size": "13 kB",
+     "single": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-single.pdf",
+     "images": [
+      {
+       "full": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-page-1.png",
+       "thumb": "site/thumbs/accounting-standards-model-nov-2026/1.webp"
+      },
+      {
+       "full": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-page-2.png",
+       "thumb": "site/thumbs/accounting-standards-model-nov-2026/2.webp"
+      },
+      {
+       "full": "papers/accounting-standards-model-nov-2026/output/accounting-standards-model-nov-2026-page-3.png",
+       "thumb": "site/thumbs/accounting-standards-model-nov-2026/3.webp"
+      }
+     ],
+     "updated": "7 Nov 2026"
+    }
+   ],
+   "questions": [
+    {
+     "title": "College model exam, November 2026 (photo)",
+     "photos": [
+      "papers/accounting-standards-model-nov-2026/question-paper-1.jpg",
+      "papers/accounting-standards-model-nov-2026/question-paper-2.jpg"
+     ]
+    },
+    {
+     "title": "Q.P. 54323, December 2025 / January 2026",
+     "pdf": "site/question-papers/q-p-54323-december-2025-january-2026.pdf",
+     "pdf_pages": 4,
+     "pdf_size": "640 kB"
+    }
+   ]
+  },
+  {
+   "id": "business-statistics",
+   "name": "Business Statistics",
+   "solved": [
+    {
+     "title": "Q.P. 54322, December 2025 / January 2026",
+     "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
+     "pdf": "papers/business-statistics-54322/output/business-statistics-54322.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "84 kB",
+     "single": null,
+     "images": [
+      {
+       "full": "papers/business-statistics-54322/output/business-statistics-54322-page-1.png",
+       "thumb": "site/thumbs/business-statistics-54322/1.webp"
+      },
+      {
+       "full": "papers/business-statistics-54322/output/business-statistics-54322-page-2.png",
+       "thumb": "site/thumbs/business-statistics-54322/2.webp"
+      }
+     ],
+     "updated": "9 Nov 2026"
+    }
+   ],
+   "questions": [
+    {
+     "title": "Q.P. 54322, December 2025 / January 2026",
+     "pdf": "site/question-papers/q-p-54322-december-2025-january-2026.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "258 kB"
+    },
+    {
+     "title": "Q.P. 24CC72, December 2025 / January 2026 (another set)",
+     "pdf": "papers/sem3-dec-2025-jan-2026/business-statistics-54322-scan.pdf",
+     "pdf_pages": 4,
+     "pdf_size": "243 kB"
+    },
+    {
+     "title": "BBA Q.P. 56421, Statistics for Business Decisions, May / June 2026",
+     "pdf": "papers/business-statistics/bba-statistics-for-business-decisions.pdf",
+     "pdf_pages": 4,
+     "pdf_size": "594 kB"
+    },
+    {
+     "title": "BBA Q.P. 36220, Statistics for Business Decisions, January 2024",
+     "pdf": "papers/business-statistics/bba-statistics-jan-2024.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "805 kB"
+    },
+    {
+     "title": "Fundamentals of Statistics, older papers from 2020",
+     "pdf": "papers/business-statistics/fundamentals-of-statistics-older-papers.pdf",
+     "pdf_pages": 23,
+     "pdf_size": "1.9 MB"
+    }
+   ]
+  },
+  {
+   "id": "hrd",
+   "name": "Human Resource Development",
+   "solved": [],
+   "questions": [
+    {
+     "title": "Q.P. 50374, December 2025 / January 2026",
+     "pdf": "site/question-papers/q-p-50374-december-2025-january-2026.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "280 kB"
+    }
+   ]
+  },
+  {
+   "id": "personality-development",
+   "name": "Personality Development",
+   "solved": [],
+   "questions": [
+    {
+     "title": "Q.P. 54324, December 2025 / January 2026",
+     "pdf": "site/question-papers/q-p-54324-december-2025-january-2026.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "231 kB"
+    }
+   ]
+  }
+ ],
+ "earlier": [
+  {
+   "id": "corporate-administration",
+   "name": "Corporate Administration",
+   "semester": "Second semester",
+   "solved": [
+    {
+     "title": "Q.P. 54224, May / June 2026",
+     "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
+     "pdf": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "82 kB",
+     "single": null,
+     "images": [
+      {
+       "full": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026-page-1.png",
+       "thumb": "site/thumbs/corporate-administration-sem2-may-2026/1.webp"
+      },
+      {
+       "full": "papers/corporate-administration-sem2-may-2026/output/corporate-administration-sem2-may-2026-page-2.png",
+       "thumb": "site/thumbs/corporate-administration-sem2-may-2026/2.webp"
+      }
+     ],
+     "updated": "2 Nov 2026"
+    }
+   ],
+   "questions": [
+    {
+     "title": "Q.P. 54224, May / June 2026 (photo)",
+     "photos": [
+      "papers/corporate-administration-sem2-may-2026/question-paper-1.webp",
+      "papers/corporate-administration-sem2-may-2026/question-paper-2.webp"
+     ]
+    }
+   ]
+  }
+ ]
+}

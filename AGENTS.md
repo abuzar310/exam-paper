@@ -12,6 +12,7 @@ Where a cloud agent works differently:
   `render.py` falls back to Helvetica (same letter widths). That is fine.
 - **Git:** work on your own branch and open a PR. Merge into `main` only when the user
   asks you to merge, and then merge only what they named. Skip the session-export step.
+- **Website:** after rendering, run `python site/build.py` and commit `site/catalog.json` and `site/thumbs/` with the paper. The site at https://abuzar310.github.io/exam-paper/ is served from `main`.
 - **Hand-over in chat:** you can't attach files, so end your final reply with a link to
   the PDF and to every page image on your branch, one per line:
 
