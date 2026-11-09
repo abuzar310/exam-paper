@@ -33,6 +33,7 @@ MARGIN_X, MARGIN_TOP, MARGIN_BOTTOM, GUTTER = 11, 11, 12, 10.5  # pt
 # all three raised by the same 10/8.5). Everything else keeps its reference size.
 BODY, LEADING, INDENT = 10, 12.05, 12.8                         # pt
 PAPERS = {"a4": A4, "letter": LETTER}
+KEEP_TABLE = 300  # pt; tables up to this tall never split across columns
 
 # Everything above can be drawn this many times bigger (--scale). The user prints 9 pages
 # per A4 sheet; on 2026-11-02 they tried 1.6-2.2x, then chose plain 1x with 10 pt
@@ -149,8 +150,8 @@ def heading(*flowables):
 def first_piece(f, col_w):
     """Height of the smallest part of f that can start at a column bottom."""
     h = f.wrap(col_w, 1e6)[1]
-    if isinstance(f, Table):
-        return sum(f._rowHeights[:2])                       # header row + first row
+    if isinstance(f, Table):                                # a short table is kept whole
+        return h if h <= KEEP_TABLE else sum(f._rowHeights[:2])
     return h if h <= 3 * LEADING + 1 else 2 * LEADING        # 3 lines can't split 2+1
 
 
@@ -177,17 +178,27 @@ def build(blocks, st, col_w):
             mark = "•" if rest[0] in "-*•" else rest[0]
             out.append(Paragraph(f"<b>{mark}</b> {inline(rest[1])}", st["item"]))
         else:
-            out.append(make_table(rest[0], st, col_w))
+            t = make_table(rest[0], st, col_w)
+            h = t.wrap(col_w, 1e6)[1]
+            if h <= KEEP_TABLE and prev not in ("h1", "q", "sub"):
+                # keep a short table in one piece, together with a one- or two-line lead-in
+                lead = out[-1] if prev == "para" and out[-1].wrap(col_w, 1e6)[1] <= 2 * LEADING + 1 else None
+                at = len(out) - 1 if lead else len(out)
+                keep = CondPageBreak(h + (lead.wrap(col_w, 1e6)[1] if lead else 0))
+                keep.whole = True
+                out.insert(at, keep)
+            out.append(t)
         prev = kind
 
     for i, f in enumerate(out):
-        if isinstance(f, CondPageBreak):
+        if isinstance(f, CondPageBreak) and not getattr(f, "whole", False):
             j = i + 1
             while j < len(out) and getattr(out[j], "heading", False):
                 f.height += out[j].wrap(col_w, 1e6)[1] + out[j].getSpaceBefore() + out[j].getSpaceAfter()
                 j += 1
             if j < len(out):
-                f.height += first_piece(out[j], col_w)
+                nxt = out[j]  # a kept-whole table (with its lead-in) travels with its heading
+                f.height += nxt.height if getattr(nxt, "whole", False) else first_piece(nxt, col_w)
     return out
 
 
