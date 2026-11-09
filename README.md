@@ -33,9 +33,16 @@ answers rebuilt by this project are in
 All solved papers and question papers, by subject: **https://bcom3.vercel.app/**
 (also at https://exam-paper-bcom.vercel.app/ and https://abuzar310.github.io/exam-paper/)
 
-Vercel (project `exam-paper-bcom`, old account `abuzaarfirooz-4986`) and GitHub Pages both deploy `main` on every push; `vercel.json` ships only `index.html`, `site/` and `papers/`. The page reads `site/catalog.json`,
+GitHub Pages deploys `main` on every push. Vercel does not: since 2026-11-10 the project
+`exam-paper-bcom` lives on the second Vercel account (`abuzar26`, which has no GitHub
+connection), so after pushing, deploy from the repo root with that account's token
+(`token/vercel-new.env` in the parent folder, never committed):
+
+    npx -y vercel deploy --prod --yes --scope abuzar26 --token "$VERCEL_TOKEN"
+
+`.vercelignore` uploads only `index.html`, `site/`, `papers/` and `vercel.json`. The page reads `site/catalog.json`,
 which `python site/build.py` writes from the `papers/` folder (subjects and question papers
-are set in `site/subjects.json`). Run it after rendering a paper, then commit and push.
+are set in `site/subjects.json`). Run it after rendering a paper, then commit, push and deploy.
 
 ### Adding a question paper from the phone
 
