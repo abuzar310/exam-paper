@@ -2,11 +2,36 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "installCommand": "",
-  "buildCommand": "rm -rf dist && mkdir dist && cp -r index.html site papers dist/ && rm -f dist/site/build.py",
+  "buildCommand": "rm -rf dist && mkdir dist && cp -r index.html site papers dist/ && rm -f dist/site/build.py dist/site/inbox.py",
   "outputDirectory": "dist",
   "cleanUrls": false,
   "headers": [
-    { "source": "/site/catalog.json", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] },
-    { "source": "/(.*)\\.(pdf|png|jpg|jpeg|webp)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }] }
+    {
+      "source": "/site/solved-uploads.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/site/catalog.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.(pdf|png|jpg|jpeg|webp)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
   ]
 }
