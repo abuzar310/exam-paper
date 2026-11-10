@@ -22,11 +22,12 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## To solve
 
-- [ ] Human Resource Development Q.P. 50374.
-- [ ] Personality Development Q.P. 54324.
+- [ ] Kannada Q.P. 54301 (no Kannada notes yet).
+- [ ] Extra Business Statistics papers: Q.P. 24CC72, BBA 56421, BBA 36220, older Fundamentals of Statistics papers.
 
 ## Done
 
+- 2026-11-10: Human Resource Development Q.P. 50374 (2 pages) and Personality Development Q.P. 54324 (1 page) solved from the notes, both versions, on the website. HRD training types and techniques, HRD audit and recent trends came from standard textbook points (no notes for Modules 4-5).
 - 2026-11-10: website moved to the second Vercel account (project `exam-paper-bcom`, scope `abuzar26`); bcom3.vercel.app and exam-paper-bcom.vercel.app point there. Pushes no longer deploy it: run the deploy command in README.md after each push.
 - 2026-11-09: owner-only admin sign-in at bcom3.vercel.app/#/admin (remove Just landed papers, hide/show any paper). Password stored only as a hash on Vercel.
 - 2026-11-06: Accounting Standards I, Q.P. 54323, solved in the notes' shape. Print PDF with 3 blank pages, and a single-column reading copy.

@@ -1,5 +1,5 @@
 {
- "built": "09 November 2026, 06:45 PM IST",
+ "built": "10 November 2026, 01:48 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -422,7 +422,51 @@
   {
    "id": "hrd",
    "name": "Human Resource Development",
-   "solved": [],
+   "solved": [
+    {
+     "title": "Q.P. 50374, December 2025 / January 2026",
+     "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
+     "updated": "10 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/hrd-50374/output/hrd-50374.pdf",
+       "pdf_pages": 2,
+       "pdf_size": "81 kB",
+       "images": [
+        {
+         "full": "papers/hrd-50374/output/hrd-50374-page-1.png",
+         "thumb": "site/thumbs/hrd-50374/1.webp"
+        },
+        {
+         "full": "papers/hrd-50374/output/hrd-50374-page-2.png",
+         "thumb": "site/thumbs/hrd-50374/2.webp"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/hrd-50374/output/hrd-50374-single.pdf",
+       "pdf_pages": 3,
+       "pdf_size": "83 kB",
+       "images": [
+        {
+         "full": "papers/hrd-50374/output/hrd-50374-single-page-1.png",
+         "thumb": "site/thumbs/hrd-50374-single/1.webp"
+        },
+        {
+         "full": "papers/hrd-50374/output/hrd-50374-single-page-2.png",
+         "thumb": "site/thumbs/hrd-50374-single/2.webp"
+        },
+        {
+         "full": "papers/hrd-50374/output/hrd-50374-single-page-3.png",
+         "thumb": "site/thumbs/hrd-50374-single/3.webp"
+        }
+       ]
+      }
+     ]
+    }
+   ],
    "questions": [
     {
      "title": "Q.P. 50374, December 2025 / January 2026",
@@ -435,7 +479,39 @@
   {
    "id": "personality-development",
    "name": "Personality Development",
-   "solved": [],
+   "solved": [
+    {
+     "title": "Q.P. 54324, December 2025 / January 2026",
+     "answered": "Answered: only the first N of each section.",
+     "updated": "10 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/personality-development-54324/output/personality-development-54324.pdf",
+       "pdf_pages": 1,
+       "pdf_size": "77 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-54324/output/personality-development-54324-page-1.png",
+         "thumb": "site/thumbs/personality-development-54324/1.webp"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/personality-development-54324/output/personality-development-54324-single.pdf",
+       "pdf_pages": 1,
+       "pdf_size": "77 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-54324/output/personality-development-54324-single-page-1.png",
+         "thumb": "site/thumbs/personality-development-54324-single/1.webp"
+        }
+       ]
+      }
+     ]
+    }
+   ],
    "questions": [
     {
      "title": "Q.P. 54324, December 2025 / January 2026",
