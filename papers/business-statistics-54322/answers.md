@@ -1,8 +1,9 @@
 <!--
   Third Semester B.Com., December 2025 / January 2026 (SEP 2024-25), Davangere University.
   Business Statistics, Q.P. code 54322. Paper: papers/sem3-dec-2025-jan-2026/all-question-papers.pdf, pages 2-3.
-  Choice rule: only the first N of each section. A: 1(a)-(j). B: Q2-Q7. C: Q10-Q12.
-  Q7: the sums are read as raw sums (N = 20, Σx = 80, Σy = 40), the standard form of this problem.
+  Choice rule: only the first N of each section. A: 1(a)-(j). B: Q2-Q9 (Q8, Q9 added 2026-11-10 from a friend's solved notes). C: Q10-Q12.
+  Q4-Q12 follow the friend's methods (2026-11-10); his slips in Q10 median, Q11 rounding and Q12 x-squared are corrected.
+  Q7: Σx², Σy², Σdxdy are read as deviation sums from the means (bxy = Σdxdy / Σdy²), the friend's method.
 -->
 
 # SECTION A – 2 MARKS
@@ -70,15 +71,15 @@ A **histogram** is a graph of a frequency distribution in which the class interv
 | 140 | 10 | 229 |
 | 160 | 8 | 237 |
 | 200 | 2 | 239 |
-| **Total** | **N = 239** | |
+| | **Σf = N = 239** | |
 
-Q1 = size of (N + 1)/4 th item = 240/4 = 60th item. The 60th item lies in cf 73, so **Q1 = 60**.
+Q1 = size of [(N + 1) / 4]th item = (239 + 1) / 4 = 240 / 4 = 60th item. The 60th item falls in cf 73, so **Q1 = 60**.
 
-Q3 = size of 3(N + 1)/4 th item = 3 × 60 = 180th item. The 180th item lies in cf 190, so **Q3 = 100**.
+Q3 = size of 3[(N + 1) / 4]th item = 3 (240 / 4) = 3 (60) = 180th item. The 180th item falls in cf 190, so **Q3 = 100**.
 
-Quartile deviation = (Q3 − Q1) / 2 = (100 − 60) / 2 = **20**.
+Quartile deviation = (Q3 − Q1) / 2 = (100 − 60) / 2 = 40 / 2 = **20**
 
-Coefficient of QD = (Q3 − Q1) / (Q3 + Q1) = 40 / 160 = **0.25**.
+Coefficient of QD = (Q3 − Q1) / (Q3 + Q1) = (100 − 60) / (100 + 60) = 40 / 160 = **0.25**
 
 ## Q5.
 | x | log x |
@@ -89,137 +90,153 @@ Coefficient of QD = (Q3 − Q1) / (Q3 + Q1) = 40 / 160 = **0.25**.
 | 600 | 2.7782 |
 | 861 | 2.9350 |
 | 958 | 2.9814 |
-| **N = 6** | **Σ log x = 15.1929** |
+| **n = 6** | **Σ log x = 15.1929** |
 
-GM = Antilog (Σ log x / N) = Antilog (15.1929 / 6) = Antilog 2.5322
+GM = Antilog (Σ log x / n) = Antilog (15.1929 / 6) = Antilog 2.5322
 
-**GM = 340.5**
+GM = 10^2.5322 = **340.52**
 
 ## Q6.
-**Title:** Distribution of employees in an office according to sex, salary grade and designation
+**Table showing the distribution of employees according to class, sex and salary grade**
 
-| Designation | Sex | Below 3,000 | 3,000 to 5,000 | 5,000 and above | Total |
-|---|---|---|---|---|---|
-| Supervisor | Male | | | | |
-| | Female | | | | |
-| | Total | | | | |
-| Assistant | Male | | | | |
-| | Female | | | | |
-| | Total | | | | |
-| Clerk | Male | | | | |
-| | Female | | | | |
-| | Total | | | | |
-| Grand total | | | | | |
+| Salary (Rs.) | Sup. M | Sup. F | Asst. M | Asst. F | Clerk M | Clerk F | Total |
+|---|---|---|---|---|---|---|---|
+| Below 3,000 | | | | | | | |
+| 3,000 – 5,000 | | | | | | | |
+| 5,000 and above | | | | | | | |
+| **Total** | | | | | | | |
 
-The column headings show the salary grade (Rs.), the stub shows designation and sex, and each cell will hold the number of employees.
+Sup. = Supervisor, Asst. = Assistant, M = Male, F = Female. Each cell holds the number of employees.
 
 **Source:** ............ **Note:** ............
 
 ## Q7.
-N = 20, x̄ = 4, ȳ = 2, Σx² = 1,680, Σy² = 320, Σxy = 480.
+N = 20, x̄ = 4, ȳ = 2, Σdx² = 1,680, Σdy² = 320, Σdxdy = 480
 
-1. **Variance of x:** σx² = Σx²/N − x̄² = 1,680/20 − 4² = 84 − 16 = 68.
-2. **Variance of y:** σy² = Σy²/N − ȳ² = 320/20 − 2² = 16 − 4 = 12.
-3. **Covariance:** Σxy/N − x̄ȳ = 480/20 − (4 × 2) = 24 − 8 = 16.
-4. **Regression coefficients:** bxy = 16/12 = **1.333**; byx = 16/68 = **0.235**.
+bxy = Σdxdy / Σdy² = 480 / 320 = **1.5**
 
-**Regression equation of x on y:** x − x̄ = bxy (y − ȳ)
+byx = Σdxdy / Σdx² = 480 / 1,680 = 0.2857 ≈ **0.29**
 
-x − 4 = 1.333 (y − 2), so **x = 1.333y + 1.333**
+### x on y
+x − x̄ = bxy (y − ȳ)
 
-**Regression equation of y on x:** y − ȳ = byx (x − x̄)
+x − 4 = 1.5 (y − 2)
 
-y − 2 = 0.235 (x − 4), so **y = 0.235x + 1.06**
+x − 4 = 1.5y − 3
 
-**When y = 7:** x = 1.333 × 7 + 1.333 = **10.67**
+**x = 1.5y + 1**
+
+### y on x
+y − ȳ = byx (x − x̄)
+
+y − 2 = 0.29 (x − 4)
+
+y − 2 = 0.29x − 1.16
+
+**y = 0.29x + 0.84**
+
+### When y = 7
+x = 1.5 (7) + 1 = 10.5 + 1 = **11.5**
+
+## Q8.
+| Item | Family A | Family B |
+|---|---|---|
+| Food | 1,400 | 1,600 |
+| House rent | 1,200 | 1,600 |
+| Cloth | 700 | 800 |
+| Miscellaneous | 1,000 | 1,000 |
+| Savings | 700 | 2,400 |
+| **Total** | **5,000** | **7,400** |
+
+![](q8-bar-diagram.png)
+
+## Q9.
+**Frequency distribution of the given data**
+
+| Class | Tally bars | Frequency |
+|---|---|---|
+| 0 – 10 | IIII | 4 |
+| 10 – 20 | ~~IIII~~ III | 8 |
+| 20 – 30 | ~~IIII~~ ~~IIII~~ | 10 |
+| 30 – 40 | IIII | 4 |
+| 40 – 50 | IIII | 4 |
+| | **Total** | **30** |
 
 # SECTION C – 10 MARKS
 
 ## Q10.
-The classes are inclusive, so they are changed to exclusive classes (9.5 – 19.5 and so on) for the median and the mode.
+A = 14.5, c = 10, d' = (x − A) / c; exclusive classes (9.5 – 19.5 …) for the median.
 
-| Class | Exclusive class | f | Mid-point (x) | fx | cf |
+| CI | f | x | d' | fd' | cf |
 |---|---|---|---|---|---|
-| 10 – 19 | 9.5 – 19.5 | 10 | 14.5 | 145.0 | 10 |
-| 20 – 29 | 19.5 – 29.5 | 18 | 24.5 | 441.0 | 28 |
-| 30 – 39 | 29.5 – 39.5 | 8 | 34.5 | 276.0 | 36 |
-| 40 – 49 | 39.5 – 49.5 | 6 | 44.5 | 267.0 | 42 |
-| 50 – 59 | 49.5 – 59.5 | 4 | 54.5 | 218.0 | 46 |
-| 60 – 69 | 59.5 – 69.5 | 2 | 64.5 | 129.0 | 48 |
-| 70 – 79 | 69.5 – 79.5 | 5 | 74.5 | 372.5 | 53 |
-| 80 – 89 | 79.5 – 89.5 | 7 | 84.5 | 591.5 | 60 |
-| **Total** | | **N = 60** | | **Σfx = 2,440** | |
+| 10 – 19 | 10 | 14.5 | 0 | 0 | 10 |
+| 20 – 29 | 18 | 24.5 | 1 | 18 | 28 |
+| 30 – 39 | 8 | 34.5 | 2 | 16 | 36 |
+| 40 – 49 | 6 | 44.5 | 3 | 18 | 42 |
+| 50 – 59 | 4 | 54.5 | 4 | 16 | 46 |
+| 60 – 69 | 2 | 64.5 | 5 | 10 | 48 |
+| 70 – 79 | 5 | 74.5 | 6 | 30 | 53 |
+| 80 – 89 | 7 | 84.5 | 7 | 49 | 60 |
+| | **N = 60** | | | **Σfd' = 157** | |
 
 ### Mean
-x̄ = Σfx / N = 2,440 / 60 = **40.67**
+x̄ = A + (Σfd' / N) × c = 14.5 + (157 / 60) × 10 = 14.5 + 2.6167 × 10 = 14.5 + 26.17 = **40.67**
 
 ### Median
-N/2 = 60/2 = 30th item, which lies in the class 29.5 – 39.5 (cf 36).
+m = N / 2 = 60 / 2 = 30th item → class 29.5 – 39.5 (cf 36).
 
-L = 29.5, cf = 28, f = 8, i = 10
+L1 = 29.5, L2 = 39.5, f = 8, c (cf of the class before) = 28
 
-Median = L + ((N/2 − cf) / f) × i = 29.5 + ((30 − 28) / 8) × 10 = 29.5 + 2.5 = **32**
+Median = L1 + ((L2 − L1) / f) (m − c) = 29.5 + ((39.5 − 29.5) / 8) (30 − 28) = 29.5 + 1.25 (2) = 29.5 + 2.5 = **32**
 
 ### Mode
-The highest frequency is 18, so the modal class is 19.5 – 29.5.
+Z = 3M − 2x̄ = 3 (32) − 2 (40.67) = 96 − 81.33 = **14.67**
 
-L = 19.5, f1 = 18, f0 = 10, f2 = 8, i = 10
-
-Mode = L + ((f1 − f0) / (2f1 − f0 − f2)) × i = 19.5 + (8 / (36 − 10 − 8)) × 10 = 19.5 + (8/18) × 10 = 19.5 + 4.44 = **23.94**
-
-**Mean = 40.67, Median = 32, Mode = 23.94**
+**Mean = 40.67, Median = 32, Mode = 14.67**
 
 ## Q11.
-Assumed mean A = 35, class interval i = 10, d = (m − 35) / 10.
+A = 15, c = 10, d' = (x − A) / c
 
-| Class | f | Mid-point (m) | d | fd | fd² |
-|---|---|---|---|---|---|
-| 10 – 20 | 10 | 15 | −2 | −20 | 40 |
-| 20 – 30 | 18 | 25 | −1 | −18 | 18 |
-| 30 – 40 | 20 | 35 | 0 | 0 | 0 |
-| 40 – 50 | 6 | 45 | 1 | 6 | 6 |
-| 50 – 60 | 4 | 55 | 2 | 8 | 16 |
-| 60 – 70 | 2 | 65 | 3 | 6 | 18 |
-| **Total** | **N = 60** | | | **Σfd = −18** | **Σfd² = 98** |
-
-### Mean
-x̄ = A + (Σfd / N) × i = 35 + (−18 / 60) × 10 = 35 − 3 = **32**
+| CI | f | x | d' | fd' | d'² | fd'² | fx |
+|---|---|---|---|---|---|---|---|
+| 10 – 20 | 10 | 15 | 0 | 0 | 0 | 0 | 150 |
+| 20 – 30 | 18 | 25 | 1 | 18 | 1 | 18 | 450 |
+| 30 – 40 | 20 | 35 | 2 | 40 | 4 | 80 | 700 |
+| 40 – 50 | 6 | 45 | 3 | 18 | 9 | 54 | 270 |
+| 50 – 60 | 4 | 55 | 4 | 16 | 16 | 64 | 220 |
+| 60 – 70 | 2 | 65 | 5 | 10 | 25 | 50 | 130 |
+| | **N = 60** | | | **Σfd' = 102** | | **Σfd'² = 266** | **Σfx = 1,920** |
 
 ### Standard deviation
-σ = √(Σfd²/N − (Σfd/N)²) × i = √(98/60 − (−18/60)²) × 10
+σ = √(Σfd'² / N − (Σfd' / N)²) × c = √(266 / 60 − (102 / 60)²) × 10
 
-σ = √(1.6333 − 0.09) × 10 = √1.5433 × 10 = 1.2423 × 10 = **12.42**
+σ = √(4.4333 − (1.7)²) × 10 = √(4.4333 − 2.89) × 10 = √1.5433 × 10 = 1.2423 × 10 = **12.42**
+
+### Mean
+x̄ = Σfx / N = 1,920 / 60 = **32**
 
 ### Coefficient of variation
-CV = (σ / x̄) × 100 = (12.42 / 32) × 100 = **38.82%**
+CV = (σ / x̄) × 100 = (12.42 / 32) × 100 = 0.3882 × 100 = **38.82%**
 
 ## Q12.
-| x | y | x² | y² | xy |
-|---|---|---|---|---|
-| 8 | 25 | 64 | 625 | 200 |
-| 10 | 30 | 100 | 900 | 300 |
-| 15 | 32 | 225 | 1,024 | 480 |
-| 17 | 35 | 289 | 1,225 | 595 |
-| 20 | 37 | 400 | 1,369 | 740 |
-| 22 | 40 | 484 | 1,600 | 880 |
-| 24 | 42 | 576 | 1,764 | 1,008 |
-| 25 | 45 | 625 | 2,025 | 1,125 |
-| **Σx = 141** | **Σy = 286** | **Σx² = 2,763** | **Σy² = 10,532** | **Σxy = 5,328** |
+x̄ = 141 / 8 = 17.6, ȳ = 286 / 8 = 35.7, x = X − x̄, y = Y − ȳ
 
-N = 8
+| X | Y | x | y | xy | x² | y² |
+|---|---|---|---|---|---|---|
+| 8 | 25 | −9.6 | −10.7 | 102.72 | 92.16 | 114.49 |
+| 10 | 30 | −7.6 | −5.7 | 43.32 | 57.76 | 32.49 |
+| 15 | 32 | −2.6 | −3.7 | 9.62 | 6.76 | 13.69 |
+| 17 | 35 | −0.6 | −0.7 | 0.42 | 0.36 | 0.49 |
+| 20 | 37 | 2.4 | 1.3 | 3.12 | 5.76 | 1.69 |
+| 22 | 40 | 4.4 | 4.3 | 18.92 | 19.36 | 18.49 |
+| 24 | 42 | 6.4 | 6.3 | 40.32 | 40.96 | 39.69 |
+| 25 | 45 | 7.4 | 9.3 | 68.82 | 54.76 | 86.49 |
+| **141** | **286** | | | **Σxy = 287.26** | **Σx² = 277.88** | **Σy² = 307.52** |
 
 ### Coefficient of correlation
-r = (NΣxy − ΣxΣy) / √[(NΣx² − (Σx)²)(NΣy² − (Σy)²)]
-
-NΣxy − ΣxΣy = 8 × 5,328 − 141 × 286 = 42,624 − 40,326 = 2,298
-
-NΣx² − (Σx)² = 8 × 2,763 − 141² = 22,104 − 19,881 = 2,223
-
-NΣy² − (Σy)² = 8 × 10,532 − 286² = 84,256 − 81,796 = 2,460
-
-r = 2,298 / √(2,223 × 2,460) = 2,298 / √54,68,580 = 2,298 / 2,338.5 = **0.983**
+r = Σxy / √(Σx² × Σy²) = 287.26 / √(277.88 × 307.52) = 287.26 / √85,453.66 = 287.26 / 292.32 = **0.983**
 
 ### Probable error
-PE = 0.6745 × (1 − r²) / √N = 0.6745 × (1 − 0.9657) / √8 = 0.6745 × 0.0343 / 2.828 = **0.0082**
+PE = 0.6745 × (1 − r²) / √n = 0.6745 × (1 − 0.9657) / √8 = 0.6745 × 0.0343 / 2.828 = 0.6745 × 0.0121 = **0.0082**
 
-**r = 0.983, PE = 0.0082.** There is a very high positive correlation between x and y. Since r is more than 6 times the PE (6 × 0.0082 = 0.049), the correlation is significant.
+**r = 0.983, PE = 0.0082.** Very high positive correlation; r > 6 PE, so it is significant.

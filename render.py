@@ -77,6 +77,7 @@ def inline(s):
     """Escape for ReportLab and turn **bold** / *italic* into tags."""
     s = s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
+    s = re.sub(r"~~(.+?)~~", r"<strike>\1</strike>", s)
     return re.sub(r"(?<![*\w])\*(?!\s)(.+?)(?<!\s)\*(?![*\w])", r"<i>\1</i>", s)
 
 
