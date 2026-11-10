@@ -1,5 +1,5 @@
 {
- "built": "10 November 2026, 01:48 PM IST",
+ "built": "10 November 2026, 09:58 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -344,14 +344,14 @@
    "solved": [
     {
      "title": "Q.P. 54322, December 2025 / January 2026",
-     "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
+     "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q9 (Q8, Q9 added 2026-11-10 from a friend's solved notes), Section C Q10-Q12.",
      "updated": "9 Nov 2026",
      "versions": [
       {
        "label": "Two columns, for printing",
        "pdf": "papers/business-statistics-54322/output/business-statistics-54322.pdf",
        "pdf_pages": 2,
-       "pdf_size": "84 kB",
+       "pdf_size": "156 kB",
        "images": [
         {
          "full": "papers/business-statistics-54322/output/business-statistics-54322-page-1.png",
@@ -366,8 +366,8 @@
       {
        "label": "Single column, for reading",
        "pdf": "papers/business-statistics-54322/output/business-statistics-54322-single.pdf",
-       "pdf_pages": 3,
-       "pdf_size": "85 kB",
+       "pdf_pages": 4,
+       "pdf_size": "158 kB",
        "images": [
         {
          "full": "papers/business-statistics-54322/output/business-statistics-54322-single-page-1.png",
@@ -380,6 +380,10 @@
         {
          "full": "papers/business-statistics-54322/output/business-statistics-54322-single-page-3.png",
          "thumb": "site/thumbs/business-statistics-54322-single/3.webp"
+        },
+        {
+         "full": "papers/business-statistics-54322/output/business-statistics-54322-single-page-4.png",
+         "thumb": "site/thumbs/business-statistics-54322-single/4.webp"
         }
        ]
       }
