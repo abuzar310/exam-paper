@@ -13,7 +13,7 @@
 
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
   const plural = (n, one, many = one + "s") => `${n} ${n === 1 ? one : many}`;
-  const fileName = (path) => path.split("/").pop();
+  const fileName = (path) => path.split("?")[0].split("/").pop();
 
   const icon = {
     arrow: '<svg class="arrow" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',

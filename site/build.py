@@ -15,6 +15,7 @@ serves index.html from the repo root, and the page reads site/catalog.json.
   <folder>-single.pdf (single column). Each version's full-quality PNG pages are listed, and
   get small thumbnails in site/thumbs/ so the site stays light on a phone.
 """
+import hashlib
 import json
 import re
 import subprocess
@@ -32,6 +33,11 @@ MONTHS = "January|February|March|April|May|June|July|August|September|October|No
 
 def rel(p):
     return p.relative_to(ROOT).as_posix()
+
+
+def ver(p):
+    """Link with a content hash, so phones never show a cached old copy after a paper changes."""
+    return f"{rel(p)}?v={hashlib.md5(p.read_bytes()).hexdigest()[:8]}"
 
 
 def size_label(p):
@@ -103,7 +109,7 @@ def thumbs_for(folder, name):
                 im = im.convert("RGB")
                 im.thumbnail((THUMB_W, THUMB_W * 2))
                 im.save(t, "WEBP", quality=72)
-        items.append({"full": rel(png), "thumb": rel(t)})
+        items.append({"full": ver(png), "thumb": ver(t)})
     return items
 
 
@@ -131,7 +137,7 @@ def build():
         for name, label in ((folder.name, "Two columns, for printing"), (f"{folder.name}-single", "Single column, for reading")):
             vpdf = folder / "output" / f"{name}.pdf"
             if vpdf.exists():
-                versions.append({"label": label, "pdf": rel(vpdf), "pdf_pages": pdf_pages(vpdf),
+                versions.append({"label": label, "pdf": ver(vpdf), "pdf_pages": pdf_pages(vpdf),
                                  "pdf_size": size_label(vpdf), "images": thumbs_for(folder, name)})
         catalogue[sid]["solved"].append({
             "title": title,
