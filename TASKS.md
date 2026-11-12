@@ -26,6 +26,7 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-12: HRD notes added: full Module 3 notes (`module-3.pdf/.md`) and Modules 4-5 (`module-4-5.pdf/.md`). Both HRD papers now follow the notes' wording where textbook points were used: model exam A8-A10, B5, B6, C3 point 9, C4; Q.P. 50374 1(h), 1(j), Q6, Q7. 50374 still 2 print pages, model exam 3.
 - 2026-11-12: Real exam dates checked against Davangere University's final UG timetable (Nov/Dec 2026, SEP): HRD 50374 25 Nov 2-5 pm; PD 54324 28 Nov 9:30-11:30; Kannada 54301 1 Dec 9:30-12:30; Hindi 54303 3 Dec; English 54302 5 Dec; Corporate Accounting 54321 8 Dec; Statistics 54322 10 Dec; Accounting Standards 54323 12 Dec (all 9:30-12:30 unless noted).
 - 2026-11-12: HRD model exam of 12 November 2026 (Don Bosco, photo sent in chat; the site upload never arrived) solved: A Q1-Q10, B Q1-Q6, C Q1-Q4 (the paper's "any five / any four" do not match 6 x 5 and 3 x 10, so the larger number). Print 3 pages, single column 3. Training need analysis, outbound/attitudinal training and balanced scorecard from standard textbook points.
 - 2026-11-10: Business Statistics 54322 Q4-Q12 redone in a friend's solved methods (photos in `notes/business-statistics/friend-54322/`); Q8 (subdivided bar diagram, drawn as `q8-bar-diagram.png`) and Q9 (tally table) added. His slips fixed: Q10 median 32 (not 30.61) so mode 14.67, Q11 σ 12.42 / CV 38.82%, Q12 r 0.983 / PE 0.0082. Print copy still 2 pages, single column 4. `render.py` now prints `~~text~~` struck through (tally gates).

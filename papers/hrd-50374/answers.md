@@ -30,13 +30,13 @@
 **Leadership development** is the planned process of building the leadership qualities of employees, such as decision-making, communication, team handling and strategic thinking, so that they are ready for managerial roles. It uses training, coaching, mentoring, job rotation and leadership projects.
 
 ## Q1. (h)
-**Outbound training (OBT)** is training conducted outside the workplace, usually outdoors, through adventure activities, games and group tasks such as trekking, rafting and rope courses. It develops teamwork, leadership, trust, confidence and problem-solving.
+**Outbound training** is learning through structured activities outside the usual workplace, often outdoors, such as team challenges and problem-solving tasks. It develops teamwork, leadership, communication, trust and problem-solving.
 
 ## Q1. (i)
 **HRD audit** is a systematic review of an organisation's HRD strategies, systems, practices and competencies to find out how well they support business goals. It shows the strengths, gaps and areas where HRD must improve.
 
 ## Q1. (j)
-**Mentoring** is a long-term relationship in which an experienced senior employee (the mentor) guides, advises and supports a junior employee (the mentee) in his career and personal growth. It helps the mentee learn the culture, gain confidence and develop faster.
+**Mentoring** is a developmental relationship in which a more experienced person (the mentor) gives guidance, advice, support and knowledge to a less experienced person (the mentee) for wider professional and career development.
 
 # SECTION B – 5 MARKS
 
@@ -69,18 +69,18 @@
 5. **Meaningfulness and transfer:** Learning should be linked to real work, and what is learned must be applied on the job; only then does performance improve.
 
 ## Q6.
-1. **Vision and clear goals:** A good leader knows where the group must go and gives it a clear direction.
-2. **Communication skills:** He explains ideas clearly, listens to others and keeps the team informed.
-3. **Decision-making and problem-solving:** He takes timely and sound decisions and handles problems calmly.
-4. **Integrity and honesty:** He is fair, keeps his word and sets an example, so followers trust him.
-5. **Empathy and team building:** He understands people's feelings, motivates them and builds cooperation in the team.
+1. **Communication and vision:** A good leader explains ideas and instructions clearly and gives the team a clear direction.
+2. **Decision-making and problem-solving:** Makes suitable decisions at the right time, identifies problems and finds solutions.
+3. **Confidence and responsibility:** Is confident yet open to advice, and accepts accountability for results.
+4. **Honesty:** Acts truthfully and ethically, so followers trust the leader.
+5. **Motivation and emotional intelligence:** Encourages employees to perform well, and understands and manages emotions.
 
 ## Q7.
-1. **Meaning:** HRD audit is a systematic and comprehensive review of the HRD strategies, structure, systems, practices and competencies of an organisation.
-2. **Objectives:** It checks whether HRD supports business goals, finds gaps in HR systems and suggests improvements.
-3. **Areas covered:** Recruitment and selection, training and development, performance appraisal, compensation, career and succession planning and employee relations.
-4. **Methods:** Interviews, questionnaires, observation, study of records and reports, workshops, and benchmarking against the best organisations.
-5. **Benefits:** It shows strengths and weaknesses, improves HR systems, ensures legal compliance and links HRD to business results; for example, an audit may find weak promotion criteria or no training evaluation.
+1. **Meaning:** An HR audit is a systematic examination and evaluation of an organisation's HR policies, procedures, practices and systems.
+2. **Purpose:** It checks whether HR activities are managed properly and whether the applicable rules and laws are followed.
+3. **Areas covered:** Recruitment and selection, training, compensation, performance appraisal, employee welfare, HR records and legal compliance.
+4. **Steps:** Planning, collecting information, examination, identifying problems, preparing the report and corrective action.
+5. **Importance:** It improves HR efficiency, finds weaknesses, supports compliance and reduces unnecessary costs.
 
 # SECTION C – 10 MARKS
 

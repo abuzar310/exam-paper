@@ -2,7 +2,7 @@
   Human Resource Development, model examination of 12 November 2026, Don Bosco College, Chitradurga (II B.Com.). Paper: question-paper.jpg / question-paper.md.
   Choice rule: only the first N of each section. A: Q1-Q10. B: Q1-Q6. C: Q1-Q4.
   The paper says "any FIVE (6 x 5)" and "any FOUR (3 x 10)", so B and C are answered to the larger number.
-  Training need analysis, outbound and attitudinal training, and the balanced scorecard are standard textbook points (Module 4-5 notes not sent).
+  All answers follow the notes in notes/human-resource-development/ (Modules 1-5, Module 3 notes and the Aarav Retail case).
 -->
 
 # SECTION A – 2 MARKS
@@ -30,16 +30,16 @@ A **learning style** is a person's preferred way of taking in and processing inf
 **Human resource accounting (HRA)** is the process of identifying, measuring and reporting the cost and value of an organisation's human resources. It treats spending on recruitment, selection, induction, training and development as an investment in people (for example Rs. 40,000 per employee).
 
 ## Q8.
-An **HR audit** is a systematic review of an organisation's HR policies, systems and practices, such as recruitment, training, appraisal, compensation, employee relations and succession planning. It finds strengths, weaknesses and gaps and suggests improvements.
+An **HR audit** is a systematic examination and evaluation of an organisation's HR policies, procedures, practices and systems. It checks whether HR activities such as recruitment, training, pay, appraisal and records are managed properly and whether the applicable rules and laws are followed.
 
 ## Q9.
 | Basis | Training | Development |
 |---|---|---|
-| Focus | Present job; specific skills | Future roles; broader capabilities |
-| Duration | Usually short-term | Usually long-term |
+| Focus | Present job | Future roles and overall growth |
+| Time period | Usually short or medium term | Usually long term and continuous |
 
 ## Q10.
-A **balanced scorecard** is a performance management tool developed by Kaplan and Norton that measures an organisation's performance from four perspectives: financial, customer, internal business process, and learning and growth. In HRD it links people development to business results.
+A **balanced scorecard** is a strategic performance management framework that turns an organisation's strategy into objectives and measures from four perspectives: financial, customer, internal process, and learning and growth. In HRD it links employee learning with processes, customers and financial results.
 
 # SECTION B – 5 MARKS
 
@@ -72,20 +72,20 @@ A **balanced scorecard** is a performance management tool developed by Kaplan an
 5. **Maximising learning:** Set clear objectives, keep content relevant and difficulty right, give practice and repetition, a supportive environment, follow-up after training and evaluation of results.
 
 ## Q5.
-1. **Organisational analysis:** Study the organisation's goals, strategy, resources and climate to find where training is needed.
-2. **Task (job) analysis:** Study each job to find the knowledge, skills and attitudes required to do it well.
-3. **Person analysis:** Study each employee's present performance through appraisal, tests, interviews and observation.
-4. **Identify the gap:** Compare the required standard with actual performance; the gap that is due to lack of skill is the training need.
-5. **Prioritise and set objectives:** Rank the needs, decide who is to be trained, set clear training objectives and choose suitable programmes.
+1. **Identify the problem:** Training need analysis is the systematic process of finding the gap between the skills employees have and the skills their jobs need; it starts with the organisational problem or performance objective.
+2. **Collect information:** Through observation, interviews, questionnaires, performance appraisal reports, customer complaints and skill tests.
+3. **Study three levels:** Organisational analysis (goals, strategy, resources), task or job analysis (duties and skills required) and individual analysis (each employee's present performance).
+4. **Compare and find the cause:** Compare existing skills with required skills and confirm that training can solve the gap; lack of equipment or unrealistic targets need a different solution.
+5. **Set priorities and recommend:** Set training priorities and objectives, and recommend the content, method, participants and schedule.
 
 ## Q6.
 ### (a) Outbound training
-1. **Meaning:** Outbound training (OBT) is training conducted outside the workplace, usually outdoors, through adventure activities, games and group tasks.
-2. **Activities:** Trekking, rafting, rock climbing, rope courses, treasure hunts and camping, followed by a discussion of the lessons learnt.
-3. **Benefits:** It develops teamwork, leadership, trust, confidence, communication and problem-solving.
+1. **Meaning:** Outbound training is learning through structured activities outside the usual workplace, often in an outdoor or unfamiliar setting.
+2. **Activities:** Team-building games, group challenges, obstacle courses with proper safety, treasure hunts and outdoor projects, followed by reflection and discussion.
+3. **Objectives:** It develops teamwork, leadership, trust, communication, planning, problem-solving and confidence; it is not just an outing, and needs planned objectives and supervision.
 ### (b) Attitudinal training
-4. **Meaning:** Attitudinal training aims to change the attitudes, beliefs and behaviour of employees towards work, colleagues, customers and change.
-5. **Methods and benefits:** It uses role plays, sensitivity training, motivational talks and counselling, and builds a positive attitude, commitment, cooperation and customer orientation.
+4. **Meaning:** Attitudinal training develops positive work-related attitudes, values and behaviour towards work, customers, colleagues and change. Example: employees who are rude to customers learn empathy, patience and service attitude.
+5. **Methods and importance:** Role play, case studies, group discussion, behavioural modelling, self-assessment with feedback, and counselling; it improves discipline, customer service, morale and cooperation.
 
 # SECTION C – 10 MARKS
 
@@ -128,19 +128,19 @@ A **balanced scorecard** is a performance management tool developed by Kaplan an
 ### Leadership development
 7. **Meaning:** The planned process of building leadership qualities such as decision-making, communication, team handling and strategic thinking, to prepare employees for managerial roles.
 8. **Need:** Without it, few employees are ready to be promoted and managers must be hired from outside.
-9. **Methods:** Leadership training, coaching, mentoring, job rotation, challenging assignments and leadership projects.
+9. **Methods:** Leadership training, mentoring, coaching, job rotation, delegation of responsibility with authority, action learning on real problems and the case study method.
 10. **Benefits:** A pipeline of future leaders, more internal promotions, higher motivation and better retention. Example: internal promotions rose from 18% to 31% at a retail company after an HRD programme.
 
 ## Q4.
 ### Tools for evaluating HRD
-1. **Human resource accounting (HRA):** Measures the investment in people. Example: recruitment Rs. 8,000 + selection Rs. 4,000 + induction Rs. 5,000 + training Rs. 15,000 + development Rs. 8,000 = Rs. 40,000 per employee.
-2. **Uses of HRA:** It shows the value of human assets, the return on training and the cost of losing trained staff.
-3. **HR audit:** A systematic review of recruitment and selection, training, appraisal, compensation, employee relations, succession planning and HR records.
-4. **Findings of an audit:** It shows weak areas such as poor recruitment, no training evaluation, unclear promotion criteria and no grievance tracking.
-5. **Benchmarking:** Comparing HR results with past figures or with the best organisations. Example: turnover 24% → 17%, complaint resolution 72 → 38 hours, training hours 6 → 18 per employee.
-6. **Impact assessment:** Evaluation at four levels: learning (knowledge scores 58% → 86%), behaviour, performance and business results.
+1. **Human resource accounting (HRA):** Identifying, measuring and reporting the costs and value of an organisation's human resources. Example (historical cost): recruitment Rs. 10,000 + selection Rs. 5,000 + training Rs. 15,000 + development Rs. 10,000 = Rs. 40,000.
+2. **Methods and use of HRA:** Historical cost, replacement cost and opportunity cost methods; HRA shows the investment in people and supports manpower decisions, though human value is hard to measure in money.
+3. **HR audit:** A systematic examination of HR policies, procedures, practices and systems, covering recruitment, training, compensation, appraisal, welfare, HR records and legal compliance.
+4. **Steps in an HR audit:** Planning, collecting information, examination, identifying problems, preparing the report and corrective action; it improves efficiency and finds weaknesses.
+5. **Benchmarking:** Comparing practices and performance with other organisations or recognised standards. Example: if one company takes 30 days to recruit and another takes 15, the first studies the second's process.
+6. **Types and steps of benchmarking:** Internal, competitive, functional and generic; identify the area, select a partner, collect data, compare, find gaps, implement and monitor.
 ### Impact of HRD on the bottom line
-7. **Higher productivity and quality:** Skilled employees produce more and make fewer mistakes, which raises output and cuts cost.
-8. **Lower turnover and absenteeism:** Development, recognition and career growth keep employees, which saves hiring and training costs.
-9. **Better customer satisfaction and sales:** Satisfaction rose from 76% to 84%, which improves revenue, customer retention and profit.
-10. **Return on investment:** ROI = (Benefit − Cost) ÷ Cost × 100 = (18 lakh − 12 lakh) ÷ 12 lakh × 100 = **50%**, besides non-financial gains like teamwork, leadership and culture.
+7. **Meaning:** Impact assessment measures the results of HRD activities; the bottom line is the organisation's final financial result, mainly net profit.
+8. **Productivity, cost and quality:** Trained employees produce more, make fewer errors and less wastage, and give better products and service.
+9. **Retention, customers and sales:** Career development lowers turnover and replacement cost; better service builds customer loyalty; product knowledge and selling skills raise revenue.
+10. **Measuring the impact:** ROI = (Benefit − Cost) ÷ Cost × 100. Example: benefit Rs. 18 lakh on a cost of Rs. 12 lakh gives ROI = **50%**.
