@@ -27,6 +27,7 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-12: HRD model exam of 12 November 2026 (Don Bosco, photo sent in chat; the site upload never arrived) solved: A Q1-Q10, B Q1-Q6, C Q1-Q4 (the paper's "any five / any four" do not match 6 x 5 and 3 x 10, so the larger number). Print 3 pages, single column 3. Training need analysis, outbound/attitudinal training and balanced scorecard from standard textbook points.
 - 2026-11-10: Business Statistics 54322 Q4-Q12 redone in a friend's solved methods (photos in `notes/business-statistics/friend-54322/`); Q8 (subdivided bar diagram, drawn as `q8-bar-diagram.png`) and Q9 (tally table) added. His slips fixed: Q10 median 32 (not 30.61) so mode 14.67, Q11 σ 12.42 / CV 38.82%, Q12 r 0.983 / PE 0.0082. Print copy still 2 pages, single column 4. `render.py` now prints `~~text~~` struck through (tally gates).
 - 2026-11-10: Human Resource Development Q.P. 50374 (2 pages) and Personality Development Q.P. 54324 (1 page) solved from the notes, both versions, on the website. HRD training types and techniques, HRD audit and recent trends came from standard textbook points (no notes for Modules 4-5).
 - 2026-11-10: website moved to the second Vercel account (project `exam-paper-bcom`, scope `abuzar26`); bcom3.vercel.app and exam-paper-bcom.vercel.app point there. Pushes no longer deploy it: run the deploy command in README.md after each push.

@@ -1,5 +1,5 @@
 {
- "built": "10 November 2026, 10:12 PM IST",
+ "built": "12 November 2026, 02:44 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -465,6 +465,53 @@
         {
          "full": "papers/hrd-50374/output/hrd-50374-single-page-3.png?v=7d5f3b73",
          "thumb": "site/thumbs/hrd-50374-single/3.webp?v=63327cca"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "College model exam, 12 November 2026",
+     "answered": "Answered: Section A Q1-Q10, Section B Q1-Q6, Section C Q1-Q4.",
+     "updated": "12 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/hrd-model-nov-2026/output/hrd-model-nov-2026.pdf?v=5e252e63",
+       "pdf_pages": 3,
+       "pdf_size": "84 kB",
+       "images": [
+        {
+         "full": "papers/hrd-model-nov-2026/output/hrd-model-nov-2026-page-1.png?v=d78d4220",
+         "thumb": "site/thumbs/hrd-model-nov-2026/1.webp?v=3add81e7"
+        },
+        {
+         "full": "papers/hrd-model-nov-2026/output/hrd-model-nov-2026-page-2.png?v=ca1fa7e2",
+         "thumb": "site/thumbs/hrd-model-nov-2026/2.webp?v=edafe468"
+        },
+        {
+         "full": "papers/hrd-model-nov-2026/output/hrd-model-nov-2026-page-3.png?v=5d97127d",
+         "thumb": "site/thumbs/hrd-model-nov-2026/3.webp?v=f1871e75"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/hrd-model-nov-2026/output/hrd-model-nov-2026-single.pdf?v=535d22e1",
+       "pdf_pages": 3,
+       "pdf_size": "84 kB",
+       "images": [
+        {
+         "full": "papers/hrd-model-nov-2026/output/hrd-model-nov-2026-single-page-1.png?v=ac6527e8",
+         "thumb": "site/thumbs/hrd-model-nov-2026-single/1.webp?v=4f13b6f8"
+        },
+        {
+         "full": "papers/hrd-model-nov-2026/output/hrd-model-nov-2026-single-page-2.png?v=77470211",
+         "thumb": "site/thumbs/hrd-model-nov-2026-single/2.webp?v=f390dcab"
+        },
+        {
+         "full": "papers/hrd-model-nov-2026/output/hrd-model-nov-2026-single-page-3.png?v=d790dee2",
+         "thumb": "site/thumbs/hrd-model-nov-2026-single/3.webp?v=a2e5cd8c"
         }
        ]
       }
