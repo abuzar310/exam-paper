@@ -1,5 +1,5 @@
 {
- "built": "12 November 2026, 07:39 PM IST",
+ "built": "12 November 2026, 10:32 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -430,7 +430,7 @@
     {
      "title": "Q.P. 50374, December 2025 / January 2026",
      "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
-     "updated": "10 Nov 2026",
+     "updated": "12 Nov 2026",
      "versions": [
       {
        "label": "Two columns, for printing",
@@ -561,9 +561,68 @@
        ]
       }
      ]
+    },
+    {
+     "title": "Personality Development Question Bank",
+     "answered": "",
+     "updated": "12 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/personality-development-question-bank/output/personality-development-question-bank.pdf?v=dfe06e1d",
+       "pdf_pages": 3,
+       "pdf_size": "87 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-question-bank/output/personality-development-question-bank-page-1.png?v=fd616f2d",
+         "thumb": "site/thumbs/personality-development-question-bank/1.webp?v=610e4545"
+        },
+        {
+         "full": "papers/personality-development-question-bank/output/personality-development-question-bank-page-2.png?v=83f6c77e",
+         "thumb": "site/thumbs/personality-development-question-bank/2.webp?v=6f6dc63a"
+        },
+        {
+         "full": "papers/personality-development-question-bank/output/personality-development-question-bank-page-3.png?v=875c4df9",
+         "thumb": "site/thumbs/personality-development-question-bank/3.webp?v=73f69c6d"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/personality-development-question-bank/output/personality-development-question-bank-single.pdf?v=7fe2e2c7",
+       "pdf_pages": 4,
+       "pdf_size": "88 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-question-bank/output/personality-development-question-bank-single-page-1.png?v=fddd67e5",
+         "thumb": "site/thumbs/personality-development-question-bank-single/1.webp?v=510a1075"
+        },
+        {
+         "full": "papers/personality-development-question-bank/output/personality-development-question-bank-single-page-2.png?v=a51ecf83",
+         "thumb": "site/thumbs/personality-development-question-bank-single/2.webp?v=5e1c3171"
+        },
+        {
+         "full": "papers/personality-development-question-bank/output/personality-development-question-bank-single-page-3.png?v=ad108c77",
+         "thumb": "site/thumbs/personality-development-question-bank-single/3.webp?v=5b6ac91a"
+        },
+        {
+         "full": "papers/personality-development-question-bank/output/personality-development-question-bank-single-page-4.png?v=37061b1d",
+         "thumb": "site/thumbs/personality-development-question-bank-single/4.webp?v=1ff64a22"
+        }
+       ]
+      }
+     ]
     }
    ],
    "questions": [
+    {
+     "title": "Personality Development Question Bank (photo)",
+     "photos": [
+      "papers/personality-development-question-bank/question-paper-1.jpg",
+      "papers/personality-development-question-bank/question-paper-2.jpg",
+      "papers/personality-development-question-bank/question-paper-3.jpg"
+     ]
+    },
     {
      "title": "Q.P. 54324, December 2025 / January 2026",
      "pdf": "site/question-papers/q-p-54324-december-2025-january-2026.pdf",
