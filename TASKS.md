@@ -18,7 +18,6 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 - [ ] Notes for AS 2, AS 10, AS 13, the standard-setting process, and the non-company Levels I to IV.
 - [ ] Notes for Kannada / Hindi. None sent yet.
-- [ ] The real exam dates. The timetable photo lists the subjects in order but no dates.
 
 ## To solve
 
