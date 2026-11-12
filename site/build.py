@@ -129,6 +129,8 @@ def build():
 
     for folder in sorted(p for p in (ROOT / "papers").iterdir() if p.is_dir()):
         pdf = folder / "output" / f"{folder.name}.pdf"
+        if not pdf.exists():  # some papers keep only the single-column copy (his choice)
+            pdf = folder / "output" / f"{folder.name}-single.pdf"
         sid = subject_of(folder.name, groups)
         if not pdf.exists() or not sid:
             continue
