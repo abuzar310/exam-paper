@@ -26,6 +26,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-13: Personality Development model exam of 13 November 2026 (Don Bosco, photo sent in chat; same as Model Question Paper 1 in the notes) solved: A 1(a)-(e), B Q2-Q7 (first five / first six). Print 1 page, single column 2. Q7 negotiation uses a fest sound-system example.
+
 - 2026-11-12: Personality Development question bank (Daneial D, B.Com. 3.5; photos sent in chat) solved in full: Section A 1-22, Section B 1-18, from the short notes. Single column only (4 pages; the two-column copy deleted at his request, 2026-11-12). On the site as "Personality Development Question Bank", with the photos under question papers. No blank pages (his choice).
 
 - 2026-11-12: HRD notes added: full Module 3 notes (`module-3.pdf/.md`) and Modules 4-5 (`module-4-5.pdf/.md`). Both HRD papers now follow the notes' wording where textbook points were used: model exam A8-A10, B5, B6, C3 point 9, C4; Q.P. 50374 1(h), 1(j), Q6, Q7. 50374 still 2 print pages, model exam 3.
