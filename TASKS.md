@@ -26,7 +26,7 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
-- 2026-11-13: Personality Development model exam of 13 November 2026 (Don Bosco, photo sent in chat; same as Model Question Paper 1 in the notes) solved: A 1(a)-(e), B Q2-Q7 (first five / first six). Print 1 page, single column 2. Q7 negotiation uses a fest sound-system example.
+- 2026-11-13: Personality Development model exam of 13 November 2026 (Don Bosco, photo sent in chat; same as Model Question Paper 1 in the notes) solved: A 1(a)-(e), B Q2-Q7 (first five / first six). Print 1 page, single column 2. Q7 negotiation uses a fest sound-system example. No blank pages (his choice).
 
 - 2026-11-12: Personality Development question bank (Daneial D, B.Com. 3.5; photos sent in chat) solved in full: Section A 1-22, Section B 1-18, from the short notes. Single column only (4 pages; the two-column copy deleted at his request, 2026-11-12). On the site as "Personality Development Question Bank", with the photos under question papers. No blank pages (his choice).
 
