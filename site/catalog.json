@@ -1,5 +1,5 @@
 {
- "built": "12 November 2026, 11:22 PM IST",
+ "built": "13 November 2026, 11:06 AM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -557,6 +557,41 @@
         {
          "full": "papers/personality-development-54324/output/personality-development-54324-single-page-1.png?v=935a78c6",
          "thumb": "site/thumbs/personality-development-54324-single/1.webp?v=49d4f1b2"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "College model exam, 13 November 2026",
+     "answered": "Answered: Section A 1(a)-(e) and Section B Q2-Q7 (the first five and the first six).",
+     "updated": "13 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/personality-development-model-nov-2026/output/personality-development-model-nov-2026.pdf?v=9639d723",
+       "pdf_pages": 1,
+       "pdf_size": "77 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-model-nov-2026/output/personality-development-model-nov-2026-page-1.png?v=ea7747b3",
+         "thumb": "site/thumbs/personality-development-model-nov-2026/1.webp?v=2660f7fb"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/personality-development-model-nov-2026/output/personality-development-model-nov-2026-single.pdf?v=7f29d2d6",
+       "pdf_pages": 2,
+       "pdf_size": "78 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-model-nov-2026/output/personality-development-model-nov-2026-single-page-1.png?v=a33ddb9e",
+         "thumb": "site/thumbs/personality-development-model-nov-2026-single/1.webp?v=f08e6091"
+        },
+        {
+         "full": "papers/personality-development-model-nov-2026/output/personality-development-model-nov-2026-single-page-2.png?v=60d9f7f9",
+         "thumb": "site/thumbs/personality-development-model-nov-2026-single/2.webp?v=5ec2faa4"
         }
        ]
       }
