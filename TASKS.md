@@ -26,6 +26,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-18: Hindi Q.P. 54303 (Dec 2025) solved provisionally, both versions (3 pages each): Section I all 10, Section II passages 1, 3, 4 (passage 2 "मैं अपने प्रस्ताव की स्वीकृति चाहता हूँ" not traced without the textbook), III Q1-Q2 (सूखी डाली, शिवाजी), IV Q1-Q2, V Q1-Q2 (बीमा from the teacher's textbook PDF, कर from her essay), VI both. **Redo from the textbook photos he will send on 19 Nov**, then also fix the Hindi bank (Do Kalakar and Rajrani Sita stories, माँ author, Bank essay). No blank pages asked yet.
+
 - 2026-11-18: Hindi 3rd-semester sources taken from the class WhatsApp group (13 Aug – 6 Nov 2026) into `notes/hindi/` with text copies: the teacher's one-mark Q&A and annotations PDF, notebook photos, summary format, internal test pattern, teacher's essays (कर, नई शिक्षा नीति), and the Dec 2025 university paper Q.P. 54303 (`papers/hindi-sem3-dec-2025/`, on the site as a question paper). The teacher's 10-page essay PDF could not be downloaded (no longer on his phone). Hindi question bank `papers/hindi-theory-bank/` (106 questions, 10 pages, single column; every 2025 question tagged). Open: author of माँ not confirmed; 2025 passage "मैं अपने प्रस्ताव की स्वीकृति चाहता हूँ" not matched to an ekanki; four essays (बीमा, कुटीर, बैंक, विदेशी विनिमय) and all व्याख्याएँ written in exam style, not the teacher's.
 - 2026-11-18: Website subject page redesigned: one closed row per paper (question paper and answers joined by title), tap it, then choose Question paper or Answers. Look only; files, links and admin buttons unchanged.
 
