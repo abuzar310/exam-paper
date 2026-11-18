@@ -26,6 +26,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-18: Theory question banks (questions and answers, single column only, his choice) for HRD (`human-resource-development-theory-bank`, 179 questions, 16 pages; Q.P. 50374 and the 12 Nov college exam tagged), Accounting Standards (`accounting-standards-theory-bank`, 183 questions, 24 pages; Q.P. 54323 and the 7 Nov college exam tagged; AS 2 and AS 13 from textbook points, no notes) and Personality Development (`personality-development-theory-bank`, 145 questions, 13 pages; Q.P. 54324, the 13 Nov college exam, Model paper 2 and Daneial D's question bank tagged). No blank pages (he was asleep; none asked).
+
 - 2026-11-18: Corporate Accounting theory question bank (`papers/corporate-accounting-theory-bank/`): 79 theory questions over all 5 modules (2, 5 and 10 marks), every theory question of Q.P. 54321 tagged "(Dec 2025)". Questions and answers both printed, single column only (8 pages), his choice for this file. Module 2 from the teacher's slides; Modules 1, 3, 4, 5 from standard textbook points (no notes). No teacher's important-questions list was found; ask him for it.
 
 - 2026-11-13: Personality Development model exam of 13 November 2026 (Don Bosco, photo sent in chat; same as Model Question Paper 1 in the notes) solved: A 1(a)-(e), B Q2-Q7 (first five / first six). Print 1 page, single column 2. Q7 negotiation uses a fest sound-system example. No blank pages (his choice).
