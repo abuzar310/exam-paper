@@ -1,5 +1,5 @@
 {
- "built": "13 November 2026, 11:06 AM IST",
+ "built": "18 November 2026, 09:05 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -77,6 +77,53 @@
         {
          "full": "papers/corporate-accounting-sem3-dec-2025/output/corporate-accounting-sem3-dec-2025-single-page-8.png?v=209b0c92",
          "thumb": "site/thumbs/corporate-accounting-sem3-dec-2025-single/8.webp?v=b0650bfe"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Corporate Accounting Theory Bank",
+     "answered": "",
+     "updated": "18 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/corporate-accounting-theory-bank/output/corporate-accounting-theory-bank-single.pdf?v=2d116ff0",
+       "pdf_pages": 8,
+       "pdf_size": "101 kB",
+       "images": [
+        {
+         "full": "papers/corporate-accounting-theory-bank/output/corporate-accounting-theory-bank-single-page-1.png?v=486aca10",
+         "thumb": "site/thumbs/corporate-accounting-theory-bank-single/1.webp?v=1eda7c0e"
+        },
+        {
+         "full": "papers/corporate-accounting-theory-bank/output/corporate-accounting-theory-bank-single-page-2.png?v=10d152ae",
+         "thumb": "site/thumbs/corporate-accounting-theory-bank-single/2.webp?v=c7999df0"
+        },
+        {
+         "full": "papers/corporate-accounting-theory-bank/output/corporate-accounting-theory-bank-single-page-3.png?v=3c7182c6",
+         "thumb": "site/thumbs/corporate-accounting-theory-bank-single/3.webp?v=f20f54b7"
+        },
+        {
+         "full": "papers/corporate-accounting-theory-bank/output/corporate-accounting-theory-bank-single-page-4.png?v=91b66f62",
+         "thumb": "site/thumbs/corporate-accounting-theory-bank-single/4.webp?v=89eb9a54"
+        },
+        {
+         "full": "papers/corporate-accounting-theory-bank/output/corporate-accounting-theory-bank-single-page-5.png?v=4e4f90ee",
+         "thumb": "site/thumbs/corporate-accounting-theory-bank-single/5.webp?v=db95f7ca"
+        },
+        {
+         "full": "papers/corporate-accounting-theory-bank/output/corporate-accounting-theory-bank-single-page-6.png?v=54325f0e",
+         "thumb": "site/thumbs/corporate-accounting-theory-bank-single/6.webp?v=b8482326"
+        },
+        {
+         "full": "papers/corporate-accounting-theory-bank/output/corporate-accounting-theory-bank-single-page-7.png?v=35465c56",
+         "thumb": "site/thumbs/corporate-accounting-theory-bank-single/7.webp?v=efa9d0c6"
+        },
+        {
+         "full": "papers/corporate-accounting-theory-bank/output/corporate-accounting-theory-bank-single-page-8.png?v=a05743cc",
+         "thumb": "site/thumbs/corporate-accounting-theory-bank-single/8.webp?v=7428643d"
         }
        ]
       }

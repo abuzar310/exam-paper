@@ -26,6 +26,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-18: Corporate Accounting theory question bank (`papers/corporate-accounting-theory-bank/`): 79 theory questions over all 5 modules (2, 5 and 10 marks), every theory question of Q.P. 54321 tagged "(Dec 2025)". Questions and answers both printed, single column only (8 pages), his choice for this file. Module 2 from the teacher's slides; Modules 1, 3, 4, 5 from standard textbook points (no notes). No teacher's important-questions list was found; ask him for it.
+
 - 2026-11-13: Personality Development model exam of 13 November 2026 (Don Bosco, photo sent in chat; same as Model Question Paper 1 in the notes) solved: A 1(a)-(e), B Q2-Q7 (first five / first six). Print 1 page, single column 2. Q7 negotiation uses a fest sound-system example. No blank pages (his choice).
 
 - 2026-11-12: Personality Development question bank (Daneial D, B.Com. 3.5; photos sent in chat) solved in full: Section A 1-22, Section B 1-18, from the short notes. Single column only (4 pages; the two-column copy deleted at his request, 2026-11-12). On the site as "Personality Development Question Bank", with the photos under question papers. No blank pages (his choice).
