@@ -57,3 +57,14 @@ from the sources.
 2025: VI अ — an English passage (with the same passage in Kannada) on "the age of science",
 to be put into Hindi; VI आ — a Hindi passage on Indian civilisation, to be put into Kannada or
 English.
+
+## Official syllabus (Davangere University, SEP 2024-25, `davangere-university-hindi-syllabus-2024-25.pdf`, page 12)
+
+Semester III, U.G. Commerce Group, AECC-3, Language Hindi: "Hindi Eakanki, Vanijya Nibhand Tatha Anuvad".
+
+- Unit I and II: Hindi Ekanki (**Ekanki Kunj**), editor **Dr. Umeshchandra Mishra**, **Jayabharathi Prakashan, Allahabad** (2007 edition, 184 pages). One play is deleted from the text: "Shershah Ghosole" (as printed).
+- Unit III, Vanijya Nibandh: **Bank, Kar (Tax), Kutir tatha Laghu Udyog, Beema, Nai Shiksha Neeti**. Foreign trade is not on this list.
+- Unit IV, Anuvad: Hindi to Kannada or English; Kannada or English to Hindi.
+- Division of marks: one word 10×1, annotations 3 of 5 (4×3), main questions 2 of 4 (10×2), short answers 2 of 4 (4×2), essays 2 of 4 (10×2), translation 2 of 4 (5×2) = 80; internal 20 (two tests of 5, assignment 10).
+
+The textbook itself is not online. Library catalogues list it, but no scan exists. Free notes found for three plays are in `web/`.
