@@ -1,5 +1,5 @@
 {
- "built": "18 November 2026, 09:05 PM IST",
+ "built": "18 November 2026, 10:24 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -367,6 +367,117 @@
        ]
       }
      ]
+    },
+    {
+     "title": "Accounting Standards Theory Bank",
+     "answered": "",
+     "updated": "18 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single.pdf?v=b53687a9",
+       "pdf_pages": 24,
+       "pdf_size": "165 kB",
+       "images": [
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-1.png?v=d49dba97",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/1.webp?v=3288cb02"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-2.png?v=68565a03",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/2.webp?v=af465c20"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-3.png?v=0334cbac",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/3.webp?v=bcfccc0b"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-4.png?v=acf60929",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/4.webp?v=ac86c3c6"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-5.png?v=6d8fb263",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/5.webp?v=493e34c1"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-6.png?v=6ae1841c",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/6.webp?v=d55a46be"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-7.png?v=cc4e5e92",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/7.webp?v=2bc0da81"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-8.png?v=21db90f9",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/8.webp?v=6b826ca3"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-9.png?v=da3f0a2a",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/9.webp?v=787be473"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-10.png?v=1442aeca",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/10.webp?v=5a5ad2b7"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-11.png?v=f4d86b72",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/11.webp?v=6a647c1e"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-12.png?v=a8708c87",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/12.webp?v=d299742c"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-13.png?v=abb7161a",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/13.webp?v=773d7965"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-14.png?v=3ab97e3c",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/14.webp?v=9b812f52"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-15.png?v=63880894",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/15.webp?v=8528a1f6"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-16.png?v=8d6fb6d6",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/16.webp?v=b0fbaaf6"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-17.png?v=6a4be965",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/17.webp?v=73056f0a"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-18.png?v=20a27e75",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/18.webp?v=d3c2a5ac"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-19.png?v=c8b751e3",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/19.webp?v=0207467c"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-20.png?v=dcac5e86",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/20.webp?v=74020353"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-21.png?v=808ad7ca",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/21.webp?v=032c096d"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-22.png?v=34f012fb",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/22.webp?v=6494b1f1"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-23.png?v=744927e5",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/23.webp?v=897b5f5c"
+        },
+        {
+         "full": "papers/accounting-standards-theory-bank/output/accounting-standards-theory-bank-single-page-24.png?v=e36ba304",
+         "thumb": "site/thumbs/accounting-standards-theory-bank-single/24.webp?v=8d4eb57d"
+        }
+       ]
+      }
+     ]
     }
    ],
    "questions": [
@@ -563,6 +674,85 @@
        ]
       }
      ]
+    },
+    {
+     "title": "Human Resource Development Theory Bank",
+     "answered": "",
+     "updated": "18 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single.pdf?v=f212813b",
+       "pdf_pages": 16,
+       "pdf_size": "135 kB",
+       "images": [
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-1.png?v=3ef12fb6",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/1.webp?v=1ca3a559"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-2.png?v=d44ee830",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/2.webp?v=f153a456"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-3.png?v=1b95acde",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/3.webp?v=31c1022e"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-4.png?v=bd5d20f2",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/4.webp?v=ec2a2c9b"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-5.png?v=54b4febf",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/5.webp?v=2c134184"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-6.png?v=e8200395",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/6.webp?v=f885e580"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-7.png?v=117a35b1",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/7.webp?v=50b894f8"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-8.png?v=f17e0ef2",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/8.webp?v=d953d188"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-9.png?v=91099548",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/9.webp?v=2667a8ac"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-10.png?v=d14353fc",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/10.webp?v=d8de1a38"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-11.png?v=88d72db9",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/11.webp?v=c8f67d49"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-12.png?v=977c86a3",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/12.webp?v=612feddc"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-13.png?v=d34c7f3e",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/13.webp?v=76216645"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-14.png?v=21153137",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/14.webp?v=ae860fbb"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-15.png?v=c8a75ec7",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/15.webp?v=97a908b5"
+        },
+        {
+         "full": "papers/human-resource-development-theory-bank/output/human-resource-development-theory-bank-single-page-16.png?v=3ebab498",
+         "thumb": "site/thumbs/human-resource-development-theory-bank-single/16.webp?v=9024273f"
+        }
+       ]
+      }
+     ]
     }
    ],
    "questions": [
@@ -670,6 +860,73 @@
         {
          "full": "papers/personality-development-question-bank/output/personality-development-question-bank-single-page-4.png?v=37061b1d",
          "thumb": "site/thumbs/personality-development-question-bank-single/4.webp?v=1ff64a22"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Personality Development Theory Bank",
+     "answered": "",
+     "updated": "18 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single.pdf?v=110a9aac",
+       "pdf_pages": 13,
+       "pdf_size": "123 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-1.png?v=50f95d56",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/1.webp?v=1ceb0398"
+        },
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-2.png?v=876a9de7",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/2.webp?v=e2bb2a6f"
+        },
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-3.png?v=cc16761a",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/3.webp?v=265b4f31"
+        },
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-4.png?v=d21d9192",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/4.webp?v=1534c503"
+        },
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-5.png?v=9e0cc1f1",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/5.webp?v=89da10f2"
+        },
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-6.png?v=2a3e253d",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/6.webp?v=afc1eb78"
+        },
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-7.png?v=adbe1356",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/7.webp?v=a6abbc11"
+        },
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-8.png?v=bd3a88d3",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/8.webp?v=f4c30e2f"
+        },
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-9.png?v=532a847b",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/9.webp?v=7ca18848"
+        },
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-10.png?v=deb2f2de",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/10.webp?v=39ca6515"
+        },
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-11.png?v=c45bde18",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/11.webp?v=8f46f42e"
+        },
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-12.png?v=966778c3",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/12.webp?v=72a354c2"
+        },
+        {
+         "full": "papers/personality-development-theory-bank/output/personality-development-theory-bank-single-page-13.png?v=f01e0876",
+         "thumb": "site/thumbs/personality-development-theory-bank-single/13.webp?v=6ca856df"
         }
        ]
       }
