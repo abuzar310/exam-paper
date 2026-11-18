@@ -24,6 +24,8 @@
     trash: '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M5 7h14M10 7V4.5h4V7M7 7l1 13h8l1-13M10.5 11v5.5M13.5 11v5.5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     eyeOff: '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M3 3l18 18M10.6 6.1A9.7 9.7 0 0 1 12 6c5 0 8.5 4.4 9.5 6-.4.7-1.3 1.9-2.5 3.1M6.6 7.6C4.6 8.9 3.2 10.8 2.5 12c1 1.6 4.5 6 9.5 6 1.6 0 3-.4 4.3-1.1M9.9 10a3 3 0 0 0 4.2 4.2" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     eye: '<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M2.5 12c1-1.6 4.5-6 9.5-6s8.5 4.4 9.5 6c-1 1.6-4.5 6-9.5 6s-8.5-4.4-9.5-6z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.9"/></svg>',
+    paper: '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M14 3H7a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V7zM14 3v4h4M9 12h6M9 16h6" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    check: '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M14 3H7a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V7zM14 3v4h4M9 14l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     print: '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M7 9V4h10v5M7 17H5a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2M7 14h10v6H7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>',
   };
 
@@ -111,57 +113,111 @@
     </section>`;
   }
 
-  function solvedCard(p, subject) {
+  // The answers half of a paper: the note on which questions were answered, then each version.
+  function answersPanel(p, subject) {
     const label = `${subject.name}, ${p.title}`;
-    const key = paperKey(p);
-    return `<article class="paper${hidden.has(key) ? " is-hidden" : ""}">
-      <div>
-        <h3>${esc(p.title)}</h3>
-        <p class="paper__meta"><span>Updated ${esc(p.updated)}</span><span>${plural(p.versions.length, "version")}</span></p>
-        ${adminBar(key, label)}
-      </div>
+    return `${adminBar(paperKey(p), `${label} (answers)`)}
+      <p class="paper__meta"><span>Updated ${esc(p.updated)}</span><span>${plural(p.versions.length, "version")}</span></p>
       ${p.answered ? `<p class="paper__note">${esc(p.answered)}</p>` : ""}
-      ${p.versions.map((v) => versionBlock(v, label)).join("")}
-    </article>`;
+      ${p.versions.map((v) => versionBlock(v, label)).join("")}`;
   }
 
-  function questionRow(q, subject) {
-    const key = questionKey(q);
-    const cls = `qrow${hidden.has(key) ? " is-hidden" : ""}`;
-    const bar = adminBar(key, `${subject.name}, ${q.title}`);
+  // The question-paper half: photos, or a PDF to open or download.
+  function questionPanel(q, subject) {
+    const label = `${subject.name}, ${q.title}`;
+    const bar = adminBar(questionKey(q), label);
     if (q.photos) {
-      const items = q.photos.map((f) => ({ full: f, thumb: f }));
-      return `<div class="${cls}"><div><h3>${esc(q.title)}</h3><p class="paper__meta"><span>${plural(q.photos.length, "photo")}</span></p>${bar}</div>${thumbs(items, `${subject.name}, ${q.title}`)}</div>`;
+      return `${bar}<p class="paper__meta"><span>${plural(q.photos.length, "photo")}</span></p>
+        ${thumbs(q.photos.map((f) => ({ full: f, thumb: f })), label)}`;
     }
-    return `<div class="${cls}">
-      <div><h3>${esc(q.title)}</h3><p class="paper__meta"><span>${plural(q.pdf_pages, "page")}</span><span>${esc(q.pdf_size)}</span></p>${bar}</div>
+    return `${bar}<p class="paper__meta"><span>${plural(q.pdf_pages, "page")}</span><span>${esc(q.pdf_size)}</span></p>
       <div class="actions">
-        <a class="btn" href="${esc(q.pdf)}" target="_blank" rel="noopener">${icon.open}Open</a>
-        <a class="btn" href="${esc(q.pdf)}" download="${esc(fileName(q.pdf))}" aria-label="Download ${esc(q.title)}">${icon.download}Download</a>
+        <a class="btn btn--primary" href="${esc(q.pdf)}" target="_blank" rel="noopener">${icon.open}Open PDF</a>
+        <a class="btn" href="${esc(q.pdf)}" download="${esc(fileName(q.pdf))}" aria-label="Download ${esc(q.title)}">${icon.download}Download PDF</a>
+      </div>`;
+  }
+
+  // One entry per paper: a solved paper and its question paper are joined when their titles match
+  // ("Q.P. 54323, ..." and "Q.P. 54323, ..." or "... (photo)"). Leftover question papers stand alone.
+  function papersOf(s) {
+    const bare = (t) => t.replace(/ \(photo\)$/, "");
+    const left = [...s.questions];
+    const items = s.solved.map((p) => {
+      const i = left.findIndex((q) => bare(q.title) === p.title);
+      return { title: p.title, answers: p, question: i < 0 ? null : left.splice(i, 1)[0] };
+    });
+    left.forEach((q) => items.push({ title: bare(q.title), answers: null, question: q }));
+    const rank = (t) => /^Q\.P\./.test(t) ? 0 : /^College model/.test(t) ? 1 : /Bank$/.test(t) ? 2 : 3;
+    return items.map((x, n) => ({ ...x, n })).sort((a, b) => rank(a.title) - rank(b.title) || a.n - b.n);
+  }
+
+  const itemId = (x) => x.answers ? paperKey(x.answers) : questionKey(x.question);
+  const opened = new Map(); // item id -> "question" | "answers" | "", kept across redraws
+
+  function paperItem(x, subject) {
+    const id = itemId(x);
+    const off = (x.answers && hidden.has(paperKey(x.answers))) || (x.question && hidden.has(questionKey(x.question)));
+    const pick = opened.get(id) || "";
+    const tags = [
+      x.question ? '<span class="tag">Question paper</span>' : "",
+      x.answers ? '<span class="tag tag--answers">Answers</span>' : "",
+    ].join("");
+    const choice = (kind, text, have, none) => have
+      ? `<button type="button" class="choice${pick === kind ? " is-on" : ""}" data-pick="${kind}" aria-pressed="${pick === kind}">
+          <span class="choice__icon" aria-hidden="true">${kind === "question" ? icon.paper : icon.check}</span>
+          <span class="choice__text">${text}</span></button>`
+      : `<span class="choice is-none"><span class="choice__icon" aria-hidden="true">${kind === "question" ? icon.paper : icon.check}</span><span class="choice__text">${none}</span></span>`;
+    return `<details class="item${off ? " is-hidden" : ""}" data-item="${esc(id)}"${opened.has(id) ? " open" : ""}>
+      <summary>
+        <span class="item__title">${esc(x.title)}</span>
+        <span class="item__tags">${tags}</span>
+        <svg class="item__chev" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </summary>
+      <div class="item__body">
+        <p class="item__ask">What do you want to see?</p>
+        <div class="choices">
+          ${choice("question", "Question paper", x.question, "No question paper")}
+          ${choice("answers", "Answers", x.answers, "Not solved yet")}
+        </div>
+        ${x.question ? `<div class="panel" data-panel="question"${pick === "question" ? "" : " hidden"}>${questionPanel(x.question, subject)}</div>` : ""}
+        ${x.answers ? `<div class="panel" data-panel="answers"${pick === "answers" ? "" : " hidden"}>${answersPanel(x.answers, subject)}</div>` : ""}
       </div>
-    </div>`;
+    </details>`;
   }
 
   function renderSubject(s) {
     s = seen(s);
     document.title = `${s.name} · Exam Paper`;
-    const counts = [plural(s.solved.length, "solved paper"), plural(s.questions.length, "question paper")].join(" · ");
+    const items = papersOf(s);
+    const counts = [plural(items.length, "paper"), `${s.solved.length} solved`].join(" · ");
     view.innerHTML = `
       <a class="crumb" href="#/">${icon.back}All subjects</a>
       <header class="page-head">
         <h1 tabindex="-1">${esc(s.name)}</h1>
         <p>${esc(s.semester ? `${s.semester} · ${counts}` : counts)}</p>
       </header>
-      <section class="section" aria-labelledby="h-solved">
-        <h2 id="h-solved">Solved papers</h2>
-        ${s.solved.length ? s.solved.map((p) => solvedCard(p, s)).join("") : `<p class="empty">No solved papers for ${esc(s.name)} yet.</p>`}
-      </section>
-      <section class="section" aria-labelledby="h-questions">
-        <h2 id="h-questions">Question papers</h2>
-        ${s.questions.length ? `<div class="qlist">${s.questions.map((q) => questionRow(q, s)).join("")}</div>` : `<p class="empty">No question papers for ${esc(s.name)} yet.</p>`}
+      <section class="section" aria-labelledby="h-papers">
+        <h2 id="h-papers">Papers</h2>
+        <p class="section__hint">Tap a paper, then choose the question paper or the answers.</p>
+        ${items.length ? `<div class="items">${items.map((x) => paperItem(x, s)).join("")}</div>` : `<p class="empty">Nothing for ${esc(s.name)} yet.</p>`}
       </section>`;
+    view.querySelectorAll("details.item").forEach((d) => d.addEventListener("toggle", () => {
+      if (d.open) { if (!opened.has(d.dataset.item)) opened.set(d.dataset.item, ""); } else opened.delete(d.dataset.item);
+    }));
     view.querySelector("h1").focus({ preventScroll: true });
   }
+
+  // Question paper / Answers buttons inside an opened paper.
+  view.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-pick]");
+    if (!b) return;
+    const item = b.closest("details.item");
+    const kind = b.dataset.pick;
+    const now = opened.get(item.dataset.item) === kind ? "" : kind; // tap again to close
+    opened.set(item.dataset.item, now);
+    item.querySelectorAll("[data-pick]").forEach((x) => { x.classList.toggle("is-on", x.dataset.pick === now); x.setAttribute("aria-pressed", x.dataset.pick === now); });
+    item.querySelectorAll("[data-panel]").forEach((p) => { p.hidden = p.dataset.panel !== now; });
+  });
 
   function route() {
     if (!data) return;
