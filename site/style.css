@@ -185,6 +185,57 @@ p { margin: 0; text-wrap: pretty; }
 .qrow .pages { grid-column: 1 / -1; }
 @media (max-width: 560px) { .qrow { grid-template-columns: 1fr; } }
 
+/* Subject page: one closed row per paper; open it, then pick question paper or answers */
+.section__hint { color: var(--ink-2); font-size: 0.9375rem; margin-top: -6px; }
+.items { display: grid; gap: 10px; }
+.item {
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg);
+  transition: border-color 180ms var(--ease), box-shadow 180ms var(--ease);
+}
+.item[open] { border-color: var(--brand-line); box-shadow: 0 10px 28px -22px oklch(0.4 0.12 254 / 0.6); }
+.item > summary {
+  display: grid; grid-template-columns: 1fr auto; grid-template-areas: "title chev" "tags chev";
+  align-items: center; gap: 6px 12px; padding: 14px 16px; min-height: 56px;
+  cursor: pointer; list-style: none; border-radius: var(--radius);
+}
+.item > summary::-webkit-details-marker { display: none; }
+.item > summary:hover { background: var(--surface); }
+.item[open] > summary { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.item__title { grid-area: title; font-weight: 700; font-size: 1.0625rem; line-height: 1.35; text-wrap: balance; }
+.item__tags { grid-area: tags; display: flex; flex-wrap: wrap; gap: 6px; }
+.tag {
+  display: inline-flex; align-items: center; min-height: 24px; padding: 1px 9px; border-radius: 999px;
+  font-size: 0.8125rem; font-weight: 700; background: var(--surface-2); color: var(--ink-2);
+}
+.tag--answers { background: var(--brand-soft); color: var(--brand-hover); }
+.item__chev { grid-area: chev; color: var(--brand); transition: transform 200ms var(--ease); }
+.item[open] .item__chev { transform: rotate(180deg); }
+.item__body { display: grid; gap: 12px; padding: 4px 16px 16px; border-top: 1px solid var(--line); }
+.item__ask { margin-top: 12px; color: var(--ink-2); font-size: 0.9375rem; font-weight: 700; }
+.choices { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.choice {
+  display: flex; align-items: center; gap: 10px; min-height: 60px; padding: 12px 14px;
+  font: inherit; font-weight: 700; font-size: 1rem; text-align: left; color: var(--ink);
+  background: var(--bg); border: 1.5px solid var(--line); border-radius: var(--radius-sm); cursor: pointer;
+  transition: background-color 160ms var(--ease), border-color 160ms var(--ease), color 160ms var(--ease), transform 120ms var(--ease);
+}
+.choice:hover { border-color: var(--brand-line); background: var(--surface); }
+.choice:active { transform: translateY(1px); }
+.choice__icon { display: inline-grid; place-items: center; flex: none; width: 36px; height: 36px; border-radius: 10px; background: var(--brand-soft); color: var(--brand); }
+.choice.is-on { background: var(--brand); border-color: var(--brand); color: #fff; }
+.choice.is-on .choice__icon { background: oklch(1 0 0 / 0.18); color: #fff; }
+.choice.is-none { cursor: default; color: var(--ink-2); background: var(--surface); border-style: dashed; font-weight: 500; font-size: 0.9375rem; }
+.choice.is-none .choice__icon { background: transparent; color: var(--ink-2); opacity: 0.6; }
+.panel { display: grid; gap: 12px; padding-top: 4px; animation: panel-in 220ms var(--ease); }
+.panel[hidden] { display: none; }
+.panel > .admin-row { margin-top: 0; }
+@keyframes panel-in { from { opacity: 0; transform: translateY(-4px); } }
+.item.is-hidden > summary .item__title { color: var(--ink-2); }
+.item.is-hidden > summary .item__tags::after { content: "Hidden"; display: inline-flex; align-items: center; min-height: 24px; padding: 1px 9px; border-radius: 999px; font-size: 0.8125rem; font-weight: 700; background: oklch(0.95 0.035 75); color: oklch(0.42 0.09 65); }
+.item.is-hidden > .item__body { opacity: 1; }
+@media (max-width: 340px) { .choices { grid-template-columns: 1fr; } }
+@media (max-width: 420px) { .choice { flex-direction: column; align-items: flex-start; gap: 8px; min-height: 0; } }
+
 .empty {
   padding: 18px; border: 1.5px dashed var(--line); border-radius: var(--radius);
   color: var(--ink-2); background: var(--surface);
