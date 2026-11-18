@@ -1,11 +1,74 @@
 {
- "built": "18 November 2026, 10:24 PM IST",
+ "built": "18 November 2026, 11:01 PM IST",
  "subjects": [
   {
    "id": "hindi",
    "name": "Hindi",
-   "solved": [],
-   "questions": []
+   "solved": [
+    {
+     "title": "Hindi Theory Bank",
+     "answered": "",
+     "updated": "18 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/hindi-theory-bank/output/hindi-theory-bank-single.pdf?v=ab5d98bd",
+       "pdf_pages": 10,
+       "pdf_size": "145 kB",
+       "images": [
+        {
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-1.png?v=3c76ba0c",
+         "thumb": "site/thumbs/hindi-theory-bank-single/1.webp?v=76f44618"
+        },
+        {
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-2.png?v=2850432b",
+         "thumb": "site/thumbs/hindi-theory-bank-single/2.webp?v=7aa30d73"
+        },
+        {
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-3.png?v=b12326a4",
+         "thumb": "site/thumbs/hindi-theory-bank-single/3.webp?v=f0fb2f86"
+        },
+        {
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-4.png?v=ae4ec29c",
+         "thumb": "site/thumbs/hindi-theory-bank-single/4.webp?v=13a58b94"
+        },
+        {
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-5.png?v=a4e1cc0f",
+         "thumb": "site/thumbs/hindi-theory-bank-single/5.webp?v=5245ecc8"
+        },
+        {
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-6.png?v=76c26f45",
+         "thumb": "site/thumbs/hindi-theory-bank-single/6.webp?v=6fd58d53"
+        },
+        {
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-7.png?v=4bed532a",
+         "thumb": "site/thumbs/hindi-theory-bank-single/7.webp?v=1fe77363"
+        },
+        {
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-8.png?v=39befc25",
+         "thumb": "site/thumbs/hindi-theory-bank-single/8.webp?v=0d099792"
+        },
+        {
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-9.png?v=5e743a50",
+         "thumb": "site/thumbs/hindi-theory-bank-single/9.webp?v=484b7113"
+        },
+        {
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-10.png?v=507c0c50",
+         "thumb": "site/thumbs/hindi-theory-bank-single/10.webp?v=141be1d7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "questions": [
+    {
+     "title": "Q.P. 54303, December 2025 / January 2026",
+     "pdf": "papers/hindi-sem3-dec-2025/question-paper.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "264 kB"
+    }
+   ]
   },
   {
    "id": "corporate-accounting",
