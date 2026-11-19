@@ -104,6 +104,7 @@ Notes:
 - [ ] `notes/business-statistics/regression-theory.md` — `regression-theory.pdf`
 - [ ] `notes/business-statistics/log-and-antilog.md` — `log-and-antilog.pdf`
 - [ ] `notes/business-statistics/log-and-antilog-2.md` — `log-and-antilog-2.pdf` (same tables as the file above)
+- [ ] `notes/business-statistics/formula-notebook/formula-notebook.md` — `page-01.jpg` to `page-06.jpg`
 
 Question papers:
 
