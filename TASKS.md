@@ -17,7 +17,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 ## To collect
 
 - [ ] Notes for AS 2, AS 10, AS 13, the standard-setting process, and the non-company Levels I to IV.
-- [ ] Notes for Kannada / Hindi. None sent yet.
+- [ ] Notes for Kannada. None sent yet.
+- [ ] Hindi textbook photos (Do Kalakar, Rajrani Sita, माँ, Bank essay). Asked 18 Nov 2026.
 
 ## To solve
 
@@ -25,6 +26,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 - [ ] Extra Business Statistics papers: Q.P. 24CC72, BBA 56421, BBA 36220, older Fundamentals of Statistics papers.
 
 ## Done
+
+- 2026-11-19: Business Statistics formula notebook (6 pages, sent in chat) saved in `notes/business-statistics/formula-notebook/`: exam pointers for theory and problems, then formulas for mean, median, mode, quartiles, range, QD, SD, CV, GM, HM, correlation and regression. Typed copy beside the photos.
 
 - 2026-11-18: Hindi Q.P. 54303 (Dec 2025) solved provisionally, both versions (3 pages each): Section I all 10, Section II passages 1, 3, 4 (passage 2 "मैं अपने प्रस्ताव की स्वीकृति चाहता हूँ" not traced without the textbook), III Q1-Q2 (सूखी डाली, शिवाजी), IV Q1-Q2, V Q1-Q2 (बीमा from the teacher's textbook PDF, कर from her essay), VI both. **Redo from the textbook photos he will send on 19 Nov**, then also fix the Hindi bank (Do Kalakar and Rajrani Sita stories, माँ author, Bank essay). No blank pages asked yet.
 
