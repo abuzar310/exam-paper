@@ -1,5 +1,7 @@
 # घोंसले
 
+> **STATUS: PARTIAL.** Only the introduction (p.111) is transcribed. Book pp.112–125 (p-047 … p-053) are NOT transcribed yet (work stopped on instruction).
+
 - **लेखक:** श्री जगदीशचन्द्र माथुर
 - **पुस्तक:** एकांकी कुंज, पृष्ठ 111–125
 - **स्रोत चित्र (ekanki-kunj.pdf, rotated):** p-046 (right half = p.111), p-047 (112–113), p-048 (114–115), p-049 (116–117), p-050 (118–119), p-051 (120–121), p-052 (122–123), p-053 (124–125)

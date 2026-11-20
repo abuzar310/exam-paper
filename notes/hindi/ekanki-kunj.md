@@ -5,7 +5,13 @@ Original: `ekanki-kunj.pdf` (84 photographed pages, about 7 MB). This is the cor
 
 Pages 1–3 are upright; from page 4 on the photos are sideways, mostly two book pages per
 photo, and low resolution (about 450–790 px wide). Turned upright and enlarged 3×, the text
-is readable. The scan covers the whole book, book pages 7–184.
+is readable. The scan runs from the contents page to book p.184, but it does **not** include the
+introduction essay (pp.7–18), p.20, or **pp.102–103 of माँ**. Photo p-N shows book pages (2N+16, 2N+17)
+up to p-043 and (2N+18, 2N+19) from p-044 on.
+
+Transcribed line by line in `ekanki-kunj/` (20 Nov 2026): दो कलाकार, राजरानी सीता, शिवाजी का सच्चा
+स्वरूप, एक दिन, माँ, सूखी डाली (complete); ताँबे के कीड़े and घोंसले partial; शेरशाह and द्रुतपाठ not
+done (stopped to save tokens, his call). Each file ends with reading notes listing uncertain words.
 
 ## Contents (विषय-सूची)
 
