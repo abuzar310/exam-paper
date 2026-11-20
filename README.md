@@ -40,6 +40,11 @@ connection), so after pushing, deploy from the repo root with that account's tok
 
     npx -y vercel deploy --prod --yes --scope abuzar26 --token "$VERCEL_TOKEN"
 
+From a Claude cloud session (no token file; the proxy adds the credential for api.vercel.com),
+deploy with the project ids and any dummy token without hyphens:
+
+    VERCEL_ORG_ID=team_UXTI8zLTRWuXk7Q8ZNUQ2b0R VERCEL_PROJECT_ID=prj_90AxcrKYSDJmZuUjAEVIqbsEegEg npx -y vercel deploy --prod --yes --token dummytoken0123456789
+
 `.vercelignore` uploads only `index.html`, `site/`, `papers/` and `vercel.json`. The page reads `site/catalog.json`,
 which `python site/build.py` writes from the `papers/` folder (subjects and question papers
 are set in `site/subjects.json`). Run it after rendering a paper, then commit, push and deploy.

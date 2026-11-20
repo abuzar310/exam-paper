@@ -23,9 +23,11 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 ## To solve
 
 - Hindi Q.P. 54303 and the Hindi bank: redo from एकांकी कुंज once the play transcription in `notes/hindi/ekanki-kunj/` is finished (running since 20 Nov 2026).
-- Predicted-question lists, HRD first (exam [exam date removed]), then PD ([exam date removed]), then the rest in exam order. Waiting for his go-ahead.
+- Predicted-question lists for the other subjects in exam order: PD ([exam date removed]) next, then Hindi ([exam date removed], after the textbook redo), English, Corporate Accounting, Statistics, Accounting Standards. Same method as HRD.
 
 ## Done
+
+- 2026-11-20: HRD predicted questions: `papers/human-resource-development-predicted-questions/` (10 ten-mark, two per module; 19 five-mark; 30 two-mark), ranked by topic overlap between Q.P. 50374 and the 12 Nov college exam, then gap topics; answers copied from the HRD theory bank. Print 7 pages, single column 9. On the site (deployed from the cloud session). No blank pages (his standing choice).
 
 - 2026-11-20: Hindi textbook एकांकी कुंज (84 photographed pages) saved as `notes/hindi/ekanki-kunj.pdf` with its contents; माँ is by विष्णु प्रभाकर; the बैंक essay is not in it. Commit email changed to the GitHub no-reply address (GitHub refuses the Gmail). Research: SEP began 2024-25, so Dec 2025 is the only SEP 3rd-semester paper; the Dec 2025 Statistics paper copied two problems word for word from BBA Q.P. 36220 (Jan 2024, NEP); college model exams share only 1–2 questions with the university papers (`research/pyq-repeat-check.md`).
 
