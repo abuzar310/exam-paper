@@ -18,11 +18,16 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 - [ ] Notes for AS 2, AS 10, AS 13, the standard-setting process, and the non-company Levels I to IV.
 - [ ] Hindi textbook: contents page, Do Kalakar, Rajrani Sita, माँ, and the Bank essay. Send as photos in chat (batches of about 6–10 pages), not one giant file. Asked 18 Nov 2026.
 
+- [ ] Old Davangere papers for prediction: NEP 3rd-semester B.Com and BBA papers (2023–2025), any May/June 2026 supplementary 3rd-semester papers, and BBA HRM papers. Ask seniors or the college library; none are online. Asked 20 Nov 2026. See `research/pyq-repeat-check.md`.
+
 ## To solve
 
-- Hindi Q.P. 54303 and the Hindi bank: redo when the textbook photos arrive.
+- Hindi Q.P. 54303 and the Hindi bank: redo from एकांकी कुंज once the play transcription in `notes/hindi/ekanki-kunj/` is finished (running since 20 Nov 2026).
+- Predicted-question lists, HRD first (exam [exam date removed]), then PD ([exam date removed]), then the rest in exam order. Waiting for his go-ahead.
 
 ## Done
+
+- 2026-11-20: Hindi textbook एकांकी कुंज (84 photographed pages) saved as `notes/hindi/ekanki-kunj.pdf` with its contents; माँ is by विष्णु प्रभाकर; the बैंक essay is not in it. Commit email changed to the GitHub no-reply address (GitHub refuses the Gmail). Research: SEP began 2024-25, so Dec 2025 is the only SEP 3rd-semester paper; the Dec 2025 Statistics paper copied two problems word for word from BBA Q.P. 36220 (Jan 2024, NEP); college model exams share only 1–2 questions with the university papers (`research/pyq-repeat-check.md`).
 
 - 2026-11-20: Formula notebook merged into `main`. Kannada dropped (subject not taken). Extra Statistics papers not to be solved. No blank pages on any PDF (including the AS model paper).
 

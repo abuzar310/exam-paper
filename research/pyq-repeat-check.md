@@ -12,8 +12,9 @@ Business Statistics (3.2), Cost Accounting (3.3), Artificial Intelligence (SEC),
 Entrepreneurial Skills (OEC). Each paper 60 marks SEE + 40 CIE. So only Corporate Accounting and
 Business Statistics carry over to SEP; HRD, Accounting Standards and Personality Development are new.
 
-No Davangere B.Com 3rd-semester NEP papers were found online (karnatakastudy.com has only 1st and
-2nd semester 2022 papers; other hits were other universities).
+No Davangere B.Com or BBA 3rd-semester NEP papers were found online (karnatakastudy.com has only
+five Davangere 1st/2nd-semester papers from 2022, and no BBA HRM papers; other hits were not
+Davangere sources).
 
 ## Business Statistics Q.P. 54322 (Dec 2025) against the old papers in this repo
 
@@ -31,10 +32,15 @@ and six old B.Com 5th-semester Fundamentals of Statistics papers (2014-2020).
 | Q10 mean, median, mode, classes 10-19 to 80-89 | 12 CE-71 May/June 2017 | Same classes, different frequencies |
 | 1(a) define statistics, 1(c) tabulation, 1(h) regression, 1(i) classification, 1(l) probable error formula | Several old papers | Same short questions |
 
-**Result:** 2 of the 13 long questions were copied exactly (same wording and same numbers) from a
-2024 NEP paper, and most of the rest repeat old question types with new figures. The setter reused
-older papers. The 2024 paper is a BBA paper, so B.Com and BBA papers of the same subject should both
-be collected.
+**Result:** 2 of the 13 long questions were copied exactly (same wording and same numbers) from the
+Jan/Feb 2024 NEP BBA paper, and most of the rest repeat old question types with new figures.
+
+**Caveat:** BBA Q.P. 36220 does not print a university name (neither does the Dec 2025 paper); its
+layout (Q.P. Code top right, NEP Scheme, 60 marks, 2 hours) matches Davangere's NEP papers, and
+Abuzar collected it with his own papers, but it is not proven to be Davangere's. If it is, the
+setter reused an older paper of the same university; if not, the setter copied from another
+university's paper. Either way, exact repeats from older papers happen, and BBA papers of the same
+subject are worth collecting alongside B.Com ones.
 
 ## College model exams against the Dec 2025 paper
 
