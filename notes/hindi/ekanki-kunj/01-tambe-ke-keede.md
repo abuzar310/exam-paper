@@ -1,5 +1,7 @@
 # ताँबे के कीड़े
 
+> **STATUS: PARTIAL.** Transcribed: introduction (p.19) and play text pp.21–23 only. Book pp.24–32 (p-004 … p-008 left half) are NOT transcribed yet (work stopped on instruction). p.20 was not found in the scan.
+
 - **लेखक:** श्री भुवनेश्वर प्रसाद
 - **पुस्तक:** एकांकी कुंज, पृष्ठ 19–32
 - **स्रोत चित्र (ekanki-kunj.pdf):** p-001 (p.19, upright), p-002 (pp.20–21, upright), p-003 … p-008 (left half = p.32); see the page markers below
@@ -122,3 +124,10 @@
 (अनाउन्सर हँसती है...झुनझुना बजाती है)
 
 (स्त्री की आवाज)
+
+*[Transcription stops here: p.24 onward not done.]*
+
+## Reading notes
+
+- p.19 (p-001) and p.21 (p-002) are clear. p.22–23 (p-003) are badly blurred: uncertain words marked `[?]` ("मिनिस्ट्री [?]", "गांग [?]", "पैरेटिक [?] डिजीज [?]", "मखमली [?]", "सूटर [?]", "थका अफसर [?]" label, "छिपकली [?]"). p.21: "मकेले [?]" (printed so; = अकेले), "टेते [?]" (printed so; = देते).
+- Characters seen so far: अनाउन्सर (स्त्री), स्क्रीन के पीछे की आवाजें, स्त्री, आया, रिक्शेवाला, थका हुआ अफसर; p.24 (glimpsed, not transcribed) has speakers "मस्त० पति" and "स्त्री" — a possible place for the "मम्मीजी" question; not checked.
