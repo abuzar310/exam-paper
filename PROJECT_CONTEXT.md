@@ -7,7 +7,7 @@ Read this first in every new chat, then `CLAUDE.md` for the full rules and `TASK
 - **Student:** Abuzar, III B.Com (third semester), Don Bosco College, Chitradurga, affiliated to Davangere University.
 - **Repo:** `abuzar310/exam-paper`. Default branch `main`.
 - **Purpose:** keep the semester notes in one place and turn question papers into solved answer PDFs that he prints.
-- **Third-semester subjects:** Kannada/Hindi, Corporate Accounting, English, Accounting Standards I, Business Statistics, Human Resource Development, Personality Development.
+- **Third-semester subjects:** Hindi, Corporate Accounting, English, Accounting Standards I, Business Statistics, Human Resource Development, Personality Development. Kannada was not taken (his call, 20 November 2026).
 
 ## How a paper is solved
 
@@ -42,7 +42,7 @@ Read this first in every new chat, then `CLAUDE.md` for the full rules and `TASK
 | Path | What |
 | --- | --- |
 | `notes/accounting-standards/` | AS 7 (full chapter), AS 9 (slides and study material), AS 16 with AS 19 lease pages, AS 26, AS 28, AS 29, employee benefits, construction-contracts extract |
-| `notes/business-statistics/` | Correlation, regression, log and antilog tables; teacher's Module 4 (collection of data, classification) and 39-page Introduction to Statistics (definitions, primary data, tabulation), scanned PDFs with typed `.md` copies |
+| `notes/business-statistics/` | Correlation, regression, log and antilog tables; teacher's Module 4 (collection of data, classification) and 39-page Introduction to Statistics; formula notebook (exam pointers and working formulas, 19 Nov 2026); friend's solved 54322 methods |
 | `notes/corporate-accounting/` | Profit prior to incorporation, two syllabus scans |
 | `notes/english/` | The Overcoat, Kirubunkal, On the Way to Goregaon, Harvest II, semester notes, model letters, combined notes PDF |
 | `notes/human-resource-development/` | Modules 1 and 2, Aarav Retail case, syllabus |
