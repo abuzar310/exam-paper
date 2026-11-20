@@ -45,8 +45,12 @@ subject are worth collecting alongside B.Com ones.
 ## College model exams against the Dec 2025 paper
 
 Exact questions in both (from the theory-bank tags): HRD 1 of about 48, Personality Development 1
-of about 29, Accounting Standards 2 of about 27. The college teachers did not copy the university
-paper; they set other topics.
+of about 29, Accounting Standards 2 of about 27. So the wording is new, **but the topics mostly
+repeat**. In HRD, the model exam asked again about subsystems of HRD, learning principles, HRD
+mechanisms and climate, factors in employee behaviour, outbound training, HR/HRD audit, aptitude,
+developing human capacity, training techniques, recent trends and competency mapping, and the
+definition of HRD: same topics, new wording. Topic overlap is the strongest prediction signal; it is
+what `papers/human-resource-development-predicted-questions/` ranks on.
 
 ## What would make prediction stronger
 
