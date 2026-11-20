@@ -45,7 +45,8 @@ Read this first in every new chat, then `CLAUDE.md` for the full rules and `TASK
 | `notes/business-statistics/` | Correlation, regression, log and antilog tables; teacher's Module 4 (collection of data, classification) and 39-page Introduction to Statistics; formula notebook (exam pointers and working formulas, 19 Nov 2026); friend's solved 54322 methods |
 | `notes/corporate-accounting/` | Profit prior to incorporation, two syllabus scans |
 | `notes/english/` | The Overcoat, Kirubunkal, On the Way to Goregaon, Harvest II, semester notes, model letters, combined notes PDF |
-| `notes/human-resource-development/` | Modules 1 and 2, Aarav Retail case, syllabus |
+| `notes/hindi/` | Teacher one-mark notes, class-group photos, essays PDF, syllabus; *प्रतिनिधि कहानियाँ* scan (wrong book for 54303). एकांकी कुंज still missing |
+| `notes/human-resource-development/` | Modules 1–5, Aarav Retail case, syllabus |
 | `notes/personality-development/` | Short notes and the question bank |
 | `papers/sem3-dec-2025-jan-2026/` | December 2025 / January 2026 papers, combined, plus the timetable |
 | `papers/english-sem3-dec-2025/` | English Q.P. 54302, solved |

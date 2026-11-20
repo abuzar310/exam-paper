@@ -16,13 +16,15 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 ## To collect
 
 - [ ] Notes for AS 2, AS 10, AS 13, the standard-setting process, and the non-company Levels I to IV.
-- [ ] Hindi textbook: contents page, Do Kalakar, Rajrani Sita, माँ, and the Bank essay. Send as photos in chat (batches of about 6–10 pages), not one giant file. Asked 18 Nov 2026.
+- [ ] Hindi **एकांकी कुंज** (not the short-story book): contents, Do Kalakar, Rajrani Sita, माँ, Bank essay. The 20 Nov WeTransfer file was *प्रतिनिधि कहानियाँ* (65 pages, saved). Send photos of एकांकी कुंज in chat, 6–10 at a time.
 
 ## To solve
 
 - Hindi Q.P. 54303 and the Hindi bank: redo when the textbook photos arrive.
 
 ## Done
+
+- 2026-11-20: WeTransfer Hindi file saved as `notes/hindi/pratinidhi-kahaniyan.pdf`. It is the short-story book *प्रतिनिधि कहानियाँ* (गुलेरी, प्रेमचंद, जैनेंद्र, निर्मल वर्मा, कमलेश्वर, राजेंद्र यादव, उषा प्रियंवदा), not एकांकी कुंज. 54303 not redone from it.
 
 - 2026-11-20: Formula notebook merged into `main`. Kannada dropped (subject not taken). Extra Statistics papers not to be solved. No blank pages on any PDF (including the AS model paper).
 
