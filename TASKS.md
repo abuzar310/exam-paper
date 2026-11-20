@@ -4,7 +4,6 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Waiting for Abuzar
 
-- [ ] **Accounting Standards model paper, November 2026:** add 3 blank pages to the print PDF and to the single-column PDF? Asked on 7 November 2026; not answered.
 - [ ] **Accounting Standards model paper, Section B:** Q5 (borrowing cost, Rs. 50,00,000 at 10%) and Q6 (lawsuit, AS 29) were left out under the first-four rule. Answer them too?
 - [ ] **Branches not merged into `main`** (the solved papers were merged on 9 November 2026):
 
@@ -17,15 +16,15 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 ## To collect
 
 - [ ] Notes for AS 2, AS 10, AS 13, the standard-setting process, and the non-company Levels I to IV.
-- [ ] Notes for Kannada. None sent yet.
-- [ ] Hindi textbook photos (Do Kalakar, Rajrani Sita, माँ, Bank essay). Asked 18 Nov 2026.
+- [ ] Hindi textbook: contents page, Do Kalakar, Rajrani Sita, माँ, and the Bank essay. Send as photos in chat (batches of about 6–10 pages), not one giant file. Asked 18 Nov 2026.
 
 ## To solve
 
-- [ ] Kannada Q.P. 54301 (no Kannada notes yet).
-- [ ] Extra Business Statistics papers: Q.P. 24CC72, BBA 56421, BBA 36220, older Fundamentals of Statistics papers.
+- Hindi Q.P. 54303 and the Hindi bank: redo when the textbook photos arrive.
 
 ## Done
+
+- 2026-11-20: Formula notebook merged into `main`. Kannada dropped (subject not taken). Extra Statistics papers not to be solved. No blank pages on any PDF (including the AS model paper).
 
 - 2026-11-19: Business Statistics formula notebook (6 pages, sent in chat) saved in `notes/business-statistics/formula-notebook/`: exam pointers for theory and problems, then formulas for mean, median, mode, quartiles, range, QD, SD, CV, GM, HM, correlation and regression. Typed copy beside the photos.
 
