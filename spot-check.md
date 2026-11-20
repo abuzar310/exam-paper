@@ -120,6 +120,12 @@ Question paper:
 
 - [ ] `papers/sem3-dec-2025-jan-2026/all-question-papers.md` — Kannada, Q.P. 54301, inside `all-question-papers.pdf`
 
+## Hindi
+
+Notes:
+
+- [ ] `notes/hindi/pratinidhi-kahaniyan.md` — `pratinidhi-kahaniyan.pdf` (short stories, not the exam textbook)
+
 ## December 2025 / January 2026 papers
 
 - [ ] `papers/sem3-dec-2025-jan-2026/all-question-papers.md` — `all-question-papers.pdf` (English, Statistics, HRD, Personality Development, Kannada, Corporate Accounting, Accounting Standards)
