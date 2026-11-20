@@ -41,6 +41,27 @@ KEEP_TABLE = 300  # pt; tables up to this tall never split across columns
 SCALE, COLUMNS = 1, 2
 
 
+def linux_hindi_fonts():
+    """Without Windows' Nirmala UI: Noto Sans Devanagari merged with Noto Sans (it has no Latin
+    letters of its own), built once into ~/.cache/exam-paper-fonts. Needs fonts-noto-core and
+    fonttools; returns the regular font's path, or None."""
+    noto, cache = Path("/usr/share/fonts/truetype/noto"), Path.home() / ".cache" / "exam-paper-fonts"
+    for weight in ("Regular", "Bold"):
+        out = cache / f"HindiLatin-{weight}.ttf"
+        if out.exists():
+            continue
+        srcs = [noto / f"NotoSansDevanagari-{weight}.ttf", noto / f"NotoSans-{weight}.ttf"]
+        if not all(s.exists() for s in srcs):
+            return None
+        try:
+            from fontTools.merge import Merger
+        except ImportError:
+            return None
+        cache.mkdir(parents=True, exist_ok=True)
+        Merger().merge([str(s) for s in srcs]).save(str(out))
+    return cache / "HindiLatin-Regular.ttf"
+
+
 def register_fonts(hindi=False):
     """Arial from Windows, or Nirmala UI when the paper has Hindi (Arial has no Devanagari);
     without Windows fonts, the built-in Helvetica (same widths as Arial)."""
@@ -48,6 +69,11 @@ def register_fonts(hindi=False):
     files = (("Nirmala.ttf", "NirmalaB.ttf", "Nirmala.ttf", "NirmalaB.ttf") if hindi
              else ("arial.ttf", "arialbd.ttf", "ariali.ttf", "arialbi.ttf"))
     faces = dict(zip(("Body", "Body-Bold", "Body-Italic", "Body-BoldItalic"), files))
+    if hindi and not all((win / f).exists() for f in faces.values()):
+        linux = linux_hindi_fonts()  # Linux (cloud) machines have no Nirmala UI
+        if linux:
+            win = linux.parent
+            faces = dict(zip(faces, ("HindiLatin-Regular.ttf", "HindiLatin-Bold.ttf") * 2))
     if not all((win / f).exists() for f in faces.values()):
         return "Helvetica", "Helvetica-Bold"
     for name, f in faces.items():
