@@ -1,5 +1,5 @@
 {
- "built": "21 November 2026, 02:44 AM IST",
+ "built": "21 November 2026, 03:02 AM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -8,11 +8,11 @@
     {
      "title": "Q.P. 54303, December 2025 / January 2026",
      "answered": "Answered: Section I all 10. Section II passages 1, 2 and 3. Section III Q1-Q2. Section IV Q1-Q2. Section V Q1-Q2. Section VI both.",
-     "updated": "18 Nov 2026",
+     "updated": "20 Nov 2026",
      "versions": [
       {
        "label": "Two columns, for printing",
-       "pdf": "papers/hindi-sem3-dec-2025/output/hindi-sem3-dec-2025.pdf?v=f12c389e",
+       "pdf": "papers/hindi-sem3-dec-2025/output/hindi-sem3-dec-2025.pdf?v=2e8f152c",
        "pdf_pages": 3,
        "pdf_size": "66 kB",
        "images": [
@@ -21,8 +21,8 @@
          "thumb": "site/thumbs/hindi-sem3-dec-2025/1.webp?v=826b3f9d"
         },
         {
-         "full": "papers/hindi-sem3-dec-2025/output/hindi-sem3-dec-2025-page-2.png?v=5eeff0e3",
-         "thumb": "site/thumbs/hindi-sem3-dec-2025/2.webp?v=2d54acfe"
+         "full": "papers/hindi-sem3-dec-2025/output/hindi-sem3-dec-2025-page-2.png?v=35884bac",
+         "thumb": "site/thumbs/hindi-sem3-dec-2025/2.webp?v=3e01e4ae"
         },
         {
          "full": "papers/hindi-sem3-dec-2025/output/hindi-sem3-dec-2025-page-3.png?v=52045884",
@@ -32,7 +32,7 @@
       },
       {
        "label": "Single column, for reading",
-       "pdf": "papers/hindi-sem3-dec-2025/output/hindi-sem3-dec-2025-single.pdf?v=07e42aaf",
+       "pdf": "papers/hindi-sem3-dec-2025/output/hindi-sem3-dec-2025-single.pdf?v=25b57356",
        "pdf_pages": 3,
        "pdf_size": "65 kB",
        "images": [
@@ -41,8 +41,8 @@
          "thumb": "site/thumbs/hindi-sem3-dec-2025-single/1.webp?v=42ebfb53"
         },
         {
-         "full": "papers/hindi-sem3-dec-2025/output/hindi-sem3-dec-2025-single-page-2.png?v=e235eac2",
-         "thumb": "site/thumbs/hindi-sem3-dec-2025-single/2.webp?v=695ed8ef"
+         "full": "papers/hindi-sem3-dec-2025/output/hindi-sem3-dec-2025-single-page-2.png?v=bd5091b2",
+         "thumb": "site/thumbs/hindi-sem3-dec-2025-single/2.webp?v=c25a651b"
         },
         {
          "full": "papers/hindi-sem3-dec-2025/output/hindi-sem3-dec-2025-single-page-3.png?v=273e8018",
@@ -59,49 +59,53 @@
      "versions": [
       {
        "label": "Single column, for reading",
-       "pdf": "papers/hindi-theory-bank/output/hindi-theory-bank-single.pdf?v=ab5d98bd",
-       "pdf_pages": 10,
-       "pdf_size": "145 kB",
+       "pdf": "papers/hindi-theory-bank/output/hindi-theory-bank-single.pdf?v=27d75f47",
+       "pdf_pages": 11,
+       "pdf_size": "119 kB",
        "images": [
         {
-         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-1.png?v=3c76ba0c",
-         "thumb": "site/thumbs/hindi-theory-bank-single/1.webp?v=76f44618"
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-1.png?v=fbcb13e6",
+         "thumb": "site/thumbs/hindi-theory-bank-single/1.webp?v=d00920dc"
         },
         {
-         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-2.png?v=2850432b",
-         "thumb": "site/thumbs/hindi-theory-bank-single/2.webp?v=7aa30d73"
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-2.png?v=0b43ddee",
+         "thumb": "site/thumbs/hindi-theory-bank-single/2.webp?v=c393df98"
         },
         {
-         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-3.png?v=b12326a4",
-         "thumb": "site/thumbs/hindi-theory-bank-single/3.webp?v=f0fb2f86"
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-3.png?v=e7aa9c2a",
+         "thumb": "site/thumbs/hindi-theory-bank-single/3.webp?v=32794ec1"
         },
         {
-         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-4.png?v=ae4ec29c",
-         "thumb": "site/thumbs/hindi-theory-bank-single/4.webp?v=13a58b94"
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-4.png?v=229f4763",
+         "thumb": "site/thumbs/hindi-theory-bank-single/4.webp?v=132c26a1"
         },
         {
-         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-5.png?v=a4e1cc0f",
-         "thumb": "site/thumbs/hindi-theory-bank-single/5.webp?v=5245ecc8"
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-5.png?v=275fdef5",
+         "thumb": "site/thumbs/hindi-theory-bank-single/5.webp?v=c02e361b"
         },
         {
-         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-6.png?v=76c26f45",
-         "thumb": "site/thumbs/hindi-theory-bank-single/6.webp?v=6fd58d53"
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-6.png?v=96589b77",
+         "thumb": "site/thumbs/hindi-theory-bank-single/6.webp?v=299b3618"
         },
         {
-         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-7.png?v=4bed532a",
-         "thumb": "site/thumbs/hindi-theory-bank-single/7.webp?v=1fe77363"
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-7.png?v=21ea7139",
+         "thumb": "site/thumbs/hindi-theory-bank-single/7.webp?v=f3196657"
         },
         {
-         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-8.png?v=39befc25",
-         "thumb": "site/thumbs/hindi-theory-bank-single/8.webp?v=0d099792"
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-8.png?v=28fdfaa3",
+         "thumb": "site/thumbs/hindi-theory-bank-single/8.webp?v=f8642f4c"
         },
         {
-         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-9.png?v=5e743a50",
-         "thumb": "site/thumbs/hindi-theory-bank-single/9.webp?v=484b7113"
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-9.png?v=0ebb2f7c",
+         "thumb": "site/thumbs/hindi-theory-bank-single/9.webp?v=daf70fb4"
         },
         {
-         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-10.png?v=507c0c50",
-         "thumb": "site/thumbs/hindi-theory-bank-single/10.webp?v=141be1d7"
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-10.png?v=5162e515",
+         "thumb": "site/thumbs/hindi-theory-bank-single/10.webp?v=4399fc00"
+        },
+        {
+         "full": "papers/hindi-theory-bank/output/hindi-theory-bank-single-page-11.png?v=79797b94",
+         "thumb": "site/thumbs/hindi-theory-bank-single/11.webp?v=c1c82abb"
         }
        ]
       }
