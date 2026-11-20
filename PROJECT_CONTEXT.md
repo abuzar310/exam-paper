@@ -7,6 +7,7 @@ Read this first in every new chat, then `CLAUDE.md` for the full rules and `TASK
 - **Student:** Abuzar, III B.Com (third semester), Don Bosco College, Chitradurga, affiliated to Davangere University.
 - **Repo:** `abuzar310/exam-paper`. Default branch `main`.
 - **Purpose:** keep the semester notes in one place and turn question papers into solved answer PDFs that he prints.
+- **Hindi textbook:** एकांकी कुंज, in `notes/hindi/ekanki-kunj.pdf`; plays transcribed in `notes/hindi/ekanki-kunj/`.
 - **Third-semester subjects:** Hindi, Corporate Accounting, English, Accounting Standards I, Business Statistics, Human Resource Development, Personality Development. Kannada was not taken (his call, 20 November 2026).
 
 ## How a paper is solved
@@ -51,6 +52,7 @@ Read this first in every new chat, then `CLAUDE.md` for the full rules and `TASK
 | `papers/english-sem3-dec-2025/` | English Q.P. 54302, solved |
 | `papers/corporate-administration-sem2-may-2026/` | Corporate Administration, second semester, solved |
 | `papers/business-statistics/` | Older statistics papers |
+| `research/` | Findings on how the university papers repeat older questions (`pyq-repeat-check.md`) |
 | `spot-check.md` | Every markdown copy beside its original, to check by eye |
 | `sessions/` | Records of earlier sessions |
 
