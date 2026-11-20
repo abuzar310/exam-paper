@@ -22,10 +22,13 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## To solve
 
-- Hindi Q.P. 54303 and the Hindi bank: redo from एकांकी कुंज once the play transcription in `notes/hindi/ekanki-kunj/` is finished (running since 20 Nov 2026).
+- Hindi bank (`papers/hindi-theory-bank/`): correct it from the transcribed plays the same way as Q.P. 54303 (₹50 not ₹7, राजनाथ not रामनाथ, शीला not इतिहास-निपुण, मन्दोदरी compares रावण with शंकर, मोरोपंत = पेशवा, माँ by विष्णु प्रभाकर).
+- Friend's retaken photos: माँ pp.102–103 (missing) and सूखी डाली left-hand pages 130–150 (spine curl). Read only those pages when they arrive.
 - Predicted-question lists for the other subjects in exam order: PD (28 Nov) next, then Hindi (3 Dec, after the textbook redo), English, Corporate Accounting, Statistics, Accounting Standards. Same method as HRD.
 
 ## Done
+
+- 2026-11-20: Hindi Q.P. 54303 redone from the textbook एकांकी कुंज: I.1 पचास रुपये (not सात), I.2 "चुप रह दुष्ट!…", I.3 अशोक वाटिका, I.10 माता के समान; II now passages 1, 2, 3 (passage 2 traced: राजरानी सीता p.49, रावण to सीता); II.1 context fixed; III.2 मोरोपंत पेशवा, मेणा; IV.1 मन्दोदरी and IV.2 शीला rewritten from the play (राजनाथ). Both versions 3 pages, rendered in the cloud with Noto Sans Devanagari + Noto Sans (render.py falls back to it when Nirmala UI is missing). Transcription of the plays cost about 385k tokens; stopped after एक दिन (his call).
 
 - 2026-11-20: HRD predicted questions for the 25 Nov exam: `papers/human-resource-development-predicted-questions/` (10 ten-mark, two per module; 19 five-mark; 30 two-mark), ranked by topic overlap between Q.P. 50374 and the 12 Nov college exam, then gap topics; answers copied from the HRD theory bank. Print 7 pages, single column 9. On the site (deployed from the cloud session). No blank pages (his standing choice).
 

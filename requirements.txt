@@ -1,3 +1,4 @@
 reportlab>=4
 pymupdf>=1.24
 uharfbuzz>=0.40  # Hindi: puts vowel signs and joined letters in place
+fonttools>=4  # Linux only: builds a Hindi+Latin font from Noto when Windows' Nirmala UI is missing (needs fonts-noto-core)
