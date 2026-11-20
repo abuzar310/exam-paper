@@ -32,7 +32,7 @@ Read this first in every new chat, then `CLAUDE.md` for the full rules and `TASK
 - **Printing:** send the PDF, not the PNGs. PNG text is a picture and goes soft when nine pages share a sheet.
 - **Three blank pages:** each time a PDF is ready, ask: "Add 3 blank white pages at the end for printing?" Add them only after he says yes.
 - **Links:** never give a GitHub link until the push is done and the link has been opened without logging in. One link that 404'd has already cost his trust.
-- **Commits:** as `Abuzar <abuzaarfirooz@gmail.com>`, with no AI co-author line. Never leave a token in `.git/config`.
+- **Commits:** as `Abuzar <238496494+abuzar310@users.noreply.github.com>` (his GitHub no-reply address; pushes that show his Gmail are refused, his call 20 Nov 2026), with no AI co-author line. Never leave a token in `.git/config`.
 - **Merging:** work on a branch. Merge into `main` only when he asks, and only what he names.
 - **Scope:** these files record exam-paper work only. Other projects and general chat stay out.
 - **Times:** report them in India time (IST, UTC+5:30).
