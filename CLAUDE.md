@@ -30,7 +30,7 @@ Start every session by reading PROJECT_CONTEXT.md (the standing context) and TAS
    `python sessions/to_md.py <unzipped>/transcript.jsonl sessions/<date>-<topic>-transcript.md "<title>"`.
    Never commit the raw export (it holds images and private system text).
    Then commit and push to `origin main` (`abuzar310/exam-paper`, private).
-   Commit as `Abuzar <abuzaarfirooz@gmail.com>` via GIT_AUTHOR_*/GIT_COMMITTER_* env
+   Commit as `Abuzar <238496494+abuzar310@users.noreply.github.com>` (GitHub no-reply; GitHub has refused pushes that show the Gmail since mid-November 2026) via GIT_AUTHOR_*/GIT_COMMITTER_* env
    vars, no AI co-author trailer.
 
 ## "Solve the paper that just landed"
