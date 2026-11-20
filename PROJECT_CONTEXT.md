@@ -7,7 +7,7 @@ Read this first in every new chat, then `CLAUDE.md` for the full rules and `TASK
 - **Student:** Abuzar, III B.Com (third semester), Don Bosco College, Chitradurga, affiliated to Davangere University.
 - **Repo:** `abuzar310/exam-paper`. Default branch `main`.
 - **Purpose:** keep the semester notes in one place and turn question papers into solved answer PDFs that he prints.
-- **Third-semester subjects:** Kannada/Hindi, Corporate Accounting, English, Accounting Standards I, Business Statistics, Human Resource Development, Personality Development.
+- **Third-semester subjects:** Hindi, Corporate Accounting, English, Accounting Standards I, Business Statistics, Human Resource Development, Personality Development. Kannada was not taken (his call, 20 November 2026).
 
 ## How a paper is solved
 

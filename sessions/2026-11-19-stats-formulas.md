@@ -7,4 +7,4 @@ Made:
 - `notes/business-statistics/formula-notebook/page-01.jpg` … `page-06.jpg` (originals)
 - Typed copy `formula-notebook.md` and a short `README.md`
 
-Hindi textbook photos still not sent. Inbox empty.
+20 November: merged into `main`. Kannada dropped (subject not taken). Extra Statistics papers not to be solved. No blank pages. Hindi textbook still to come as photos in chat, not one giant file.
