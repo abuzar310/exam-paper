@@ -408,3 +408,36 @@
 **डाक्टर** : इस समय मेरे घर पर है।
 
 **बादल** : तो आप उन्हें अपने घर ले गये !
+
+<!-- p.110 -->
+**डाक्टर** : मैं उसे क्यों ले जाता ? घर उसी का है ।
+
+**मनीषी** : क्या, क्या कहा। घर उसी का है !
+
+**डाक्टर** : हाँ, बेटी। जो मेरे घर की मालकिन है, वही तुम्हारी माँ है।
+
+**मनीषी** : क्या, आ आ...।
+
+**बादल** : हाँ, मनी ! जिसे अब तक मौसी कहती आयी हो, वही तुम्हारी माँ है। उनसे नफरत कर सको तो...
+
+[ मनीषी बीच में 'नहीं-नहीं' करती है ]
+
+**मनीषी** : (पागल-सी) नहीं, नहीं, यह सब गलत है। यह नहीं हो सकता। (भागती है)
+
+**बादल** : (पुकारता हुआ) मनी ...मनी ... तुम जा कहाँ रही हो ?
+
+**डाक्टर** : वह माँ के पास जा रही है (हँसता है) कबीर साहब कहते हैं कि हमको भी चलना चाहिए। चलने में ही सुख है। आओ [?] बादल, आओ मंजु...
+
+[ डाक्टर और बादल तेजी से बाहर जाते हैं। आँसों [?] से भरे मंजु भी पीछे-पीछे जाती है ]
+
+## Reading notes
+
+- **Missing pages:** book **pp.102–103 are not in the scan** (p-042 = pp.100–101, p-043 = pp.104–105). What happens there (end of the मनीषी–मंजु talk, and how कमला comes back for p.104) is unknown.
+- Overall this play is legible; the photos are slightly soft and the right-hand line-ends of the left pages (pp.98, 100, 104, 106, 110) curve into the binding. Completions there are marked `[?]` where they are not fully visible: "लेटे रहने [?]", "वैसे [?]", "बिना [?]" (p.98); "पाप [?]", "भी [?]", "मेरा [?]", "सुनो [?]" (p.100); "आओ [?]", "आँसों [?]" (p.110, probably "आँसुओं से भरे").
+- p.94: "क्या वह दोषीला [?] है" — the title of the second एकांकी-संग्रह; the word looks like "दोषीला"/"दोषी"; not certain.
+- p.96: "जैसे किसी के [?] नानी की कहानी का" — printed so; "(एकादम [?] बोल उठते हैं)" — printed "एकादम" (= एकदम).
+- p.97: two consecutive speeches are both labelled बादल ("(चकित) तराजू ?" and "(अनबूझ) तराजू ! कैसी तराजू ?"); the second may be मनीषी's in the original. Transcribed as printed.
+- p.99: "अभी तक छमासड़ा [?] बना हुआ है" — word not fully certain.
+- p.108: the first line "(एकदम) आपको मंजु बहुत अच्छी लगती है ?" is labelled बादल in the photo, followed by another बादल line; by sense the first is मनीषी's. Transcribed as printed.
+- p.108: "मैं उससे [?] नहीं मिल सकती ... मैं उसे देख ही [?] नहीं सकती" — two words partly blotted.
+- **Plot facts for the exam:** मनीषी (newly married to बादल कुमार) hates her mother, who left her at four years old after her father's death; she fears her mother's arrival will cost her her husband. The twist (p.110): **कमला, whom she calls मौसी (wife of the डाक्टर "मौसा"), is her own mother.** The line "**काश कि हम भी अनाथ होते**" (p.107) is spoken by **बादल**, joking, after मंजु calls मनीषी "अपनी अनाथ बहन".
