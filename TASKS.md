@@ -22,10 +22,12 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## To solve
 
-- Friend's retaken photos: माँ pp.102–103 (missing) and सूखी डाली left-hand pages 130–150 (spine curl). Read only those pages when they arrive.
+- सूखी डाली: the retaken photos (`notes/hindi/ekanki-kunj-retake.pdf`) are sharper; re-reading its left-hand pages 130–150 would clear most `[?]` marks. Optional: every exam line was already read clearly.
 - Predicted-question lists for the other subjects in exam order: PD ([exam date removed]) next, then Hindi ([exam date removed], after the textbook redo), English, Corporate Accounting, Statistics, Accounting Standards. Same method as HRD.
 
 ## Done
+
+- 2026-11-21: Retaken textbook photos saved (`notes/hindi/ekanki-kunj-retake.pdf`, 84 upright photos, about 1080 px). माँ pp.102–103 transcribed: no मम्मीजी or बलदेव there either, so the teacher's माँ one-markers about them are not from this play. Bank II Q14 ("सच्ची बात…बक-बक") rewritten: मंजु to मनीषी, p.103.
 
 - 2026-11-21: HRD predicted questions now have a questions-only PDF (`question-paper.pdf`, 2 pages), shown as that entry's "Question paper" on the site. A friend's HRD practice paper (not official) was checked: every question is covered by the HRD bank; not solved (his call).
 
