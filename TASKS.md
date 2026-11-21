@@ -27,6 +27,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-21: HRD predicted questions now have a questions-only PDF (`question-paper.pdf`, 2 pages), shown as that entry's "Question paper" on the site. A friend's HRD practice paper (not official) was checked: every question is covered by the HRD bank; not solved (his call).
+
 - 2026-11-20: Hindi question bank checked against the textbook and corrected (₹50; राजनाथ; शीला taught रामायण-महाभारत at home; निरंजन an M.A. student, not a lawyer; राजरानी सीता: no gifts, मन्दोदरी gives the तृण and compares रावण with शंकर, "चुप रह दुष्ट"; मोरोपंत पेशवा; माता के समान; माँ by विष्णु प्रभाकर, summary rewritten; बुलाकीदास, चूड़ामणि, मार्तण्ड, निरंजन notes fixed). 11 pages, single column. Not confirmable from the scan and left as the teacher wrote: माँ one-markers about मम्मीजी, बलदेव, मंजु's age (the book's cast list has none of them; pp.102–103 missing). Also fixed in Q.P. 54303: III.2 माता के समान and the last stage direction.
 
 - 2026-11-20: Hindi Q.P. 54303 redone from the textbook एकांकी कुंज: I.1 पचास रुपये (not सात), I.2 "चुप रह दुष्ट!…", I.3 अशोक वाटिका, I.10 माता के समान; II now passages 1, 2, 3 (passage 2 traced: राजरानी सीता p.49, रावण to सीता); II.1 context fixed; III.2 मोरोपंत पेशवा, मेणा; IV.1 मन्दोदरी and IV.2 शीला rewritten from the play (राजनाथ). Both versions 3 pages, rendered in the cloud with Noto Sans Devanagari + Noto Sans (render.py falls back to it when Nirmala UI is missing). Transcription of the plays cost about 385k tokens; stopped after एक दिन (his call).
