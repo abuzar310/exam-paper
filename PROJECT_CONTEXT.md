@@ -44,7 +44,7 @@ Read this first in every new chat, then `CLAUDE.md` for the full rules and `TASK
 | --- | --- |
 | `notes/accounting-standards/` | AS 7 (full chapter), AS 9 (slides and study material), AS 16 with AS 19 lease pages, AS 26, AS 28, AS 29, employee benefits, construction-contracts extract |
 | `notes/business-statistics/` | Correlation, regression, log and antilog tables; teacher's Module 4 (collection of data, classification) and 39-page Introduction to Statistics; formula notebook (exam pointers and working formulas, 19 Nov 2026); friend's solved 54322 methods |
-| `notes/corporate-accounting/` | Profit prior to incorporation, two syllabus scans |
+| `notes/corporate-accounting/` | Teacher's typed notes (22 Nov 2026): profit prior to incorporation, underwriting of shares, liquidation of companies, valuation of shares and goodwill; profit-prior slides; two syllabus scans |
 | `notes/english/` | The Overcoat, Kirubunkal, On the Way to Goregaon, Harvest II, semester notes, model letters, combined notes PDF |
 | `notes/human-resource-development/` | Modules 1 and 2, Aarav Retail case, syllabus |
 | `notes/personality-development/` | Short notes and the question bank |

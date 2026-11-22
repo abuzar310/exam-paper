@@ -27,6 +27,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-22: Corporate Accounting teacher's notes saved in `notes/corporate-accounting/` (PDF + text copy each): underwriting-of-shares, liquidation-of-companies, valuation-of-shares-and-goodwill, profit-prior-to-incorporation-teacher. Clean typed notes (meaning, features, methods, formulas, problems). These cover the main Corporate Accounting problem chapters the repo previously had only from textbooks. Use them when solving Q.P. 54321 topics and the Corporate Accounting prediction.
+
 - 2026-11-21: Retaken textbook photos saved (`notes/hindi/ekanki-kunj-retake.pdf`, 84 upright photos, about 1080 px). माँ pp.102–103 transcribed: no मम्मीजी or बलदेव there either, so the teacher's माँ one-markers about them are not from this play. Bank II Q14 ("सच्ची बात…बक-बक") rewritten: मंजु to मनीषी, p.103.
 
 - 2026-11-21: HRD predicted questions now have a questions-only PDF (`question-paper.pdf`, 2 pages), shown as that entry's "Question paper" on the site. A friend's HRD practice paper (not official) was checked: every question is covered by the HRD bank; not solved (his call).
