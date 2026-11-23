@@ -1,5 +1,5 @@
 {
- "built": "21 November 2026, 11:56 PM IST",
+ "built": "23 November 2026, 12:44 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -55,7 +55,7 @@
     {
      "title": "Hindi Theory Bank",
      "answered": "",
-     "updated": "20 Nov 2026",
+     "updated": "21 Nov 2026",
      "versions": [
       {
        "label": "Single column, for reading",
@@ -126,6 +126,57 @@
    "id": "corporate-accounting",
    "name": "Corporate Accounting",
    "solved": [
+    {
+     "title": "Corporate Accounting Predicted Questions",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions.pdf?v=2527eccb",
+       "pdf_pages": 3,
+       "pdf_size": "13 kB",
+       "images": [
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-1.png?v=67bc4fc6",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/1.webp?v=e3abacf6"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-2.png?v=4c81f598",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/2.webp?v=2c3cd467"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-3.png?v=d620ff11",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/3.webp?v=787b633e"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single.pdf?v=156837a9",
+       "pdf_pages": 4,
+       "pdf_size": "14 kB",
+       "images": [
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-1.png?v=5f503733",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/1.webp?v=001dc150"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-2.png?v=4d4bbeda",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/2.webp?v=9987b356"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-3.png?v=72dc11eb",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/3.webp?v=e3a223e5"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-4.png?v=b2303894",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/4.webp?v=4b06ddee"
+        }
+       ]
+      }
+     ]
+    },
     {
      "title": "Q.P. 54321, December 2025 / January 2026",
      "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
@@ -251,6 +302,12 @@
      "pdf": "site/question-papers/q-p-54321-december-2025-january-2026.pdf",
      "pdf_pages": 4,
      "pdf_size": "2.3 MB"
+    },
+    {
+     "title": "Corporate Accounting Predicted Questions",
+     "pdf": "papers/corporate-accounting-predicted-questions/question-paper.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "6 kB"
     }
    ]
   },

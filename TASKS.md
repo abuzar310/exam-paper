@@ -23,9 +23,11 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 ## To solve
 
 - सूखी डाली: the retaken photos (`notes/hindi/ekanki-kunj-retake.pdf`) are sharper; re-reading its left-hand pages 130–150 would clear most `[?]` marks. Optional: every exam line was already read clearly.
-- Predicted-question lists for the other subjects in exam order: PD ([exam date removed]) next, then Hindi ([exam date removed], after the textbook redo), English, Corporate Accounting, Statistics, Accounting Standards. Same method as HRD.
+- Predicted-question lists for the remaining subjects in exam order: PD ([exam date removed]), then English, Statistics, Accounting Standards. (HRD and Corporate Accounting done.)
 
 ## Done
+
+- 2026-11-23: Corporate Accounting predicted questions (`papers/corporate-accounting-predicted-questions/`): full mock paper in the Q.P. 54321 blueprint — Section A 12 two-markers (answer 10), Section B Q2-Q9 (answer 6), Section C Q10-Q14 (answer 3) — one problem per module at 5 and 10 marks, gap topics flagged (goodwill average-profit method, liquidator's final statement). Every figure computed and asserted in a script; conventions match the solved 54321 (notional call, yield formula, firm underwriting, x/(100+x) remuneration). Questions-only PDF plus answers; both versions on the site. No blank pages (his standing choice).
 
 - 2026-11-22: Corporate Accounting teacher's notes saved in `notes/corporate-accounting/` (PDF + text copy each): underwriting-of-shares, liquidation-of-companies, valuation-of-shares-and-goodwill, profit-prior-to-incorporation-teacher. Clean typed notes (meaning, features, methods, formulas, problems). These cover the main Corporate Accounting problem chapters the repo previously had only from textbooks. Use them when solving Q.P. 54321 topics and the Corporate Accounting prediction.
 
