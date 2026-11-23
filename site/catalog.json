@@ -1,10 +1,49 @@
 {
- "built": "23 November 2026, 02:02 PM IST",
+ "built": "23 November 2026, 02:19 PM IST",
  "subjects": [
   {
    "id": "hindi",
    "name": "Hindi",
    "solved": [
+    {
+     "title": "Hindi Important Questions",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/hindi-important-questions/output/hindi-important-questions-single.pdf?v=4c1d82f3",
+       "pdf_pages": 6,
+       "pdf_size": "93 kB",
+       "images": [
+        {
+         "full": "papers/hindi-important-questions/output/hindi-important-questions-single-page-1.png?v=40076a64",
+         "thumb": "site/thumbs/hindi-important-questions-single/1.webp?v=de7d9929"
+        },
+        {
+         "full": "papers/hindi-important-questions/output/hindi-important-questions-single-page-2.png?v=9af2b773",
+         "thumb": "site/thumbs/hindi-important-questions-single/2.webp?v=adf7f7db"
+        },
+        {
+         "full": "papers/hindi-important-questions/output/hindi-important-questions-single-page-3.png?v=635c0722",
+         "thumb": "site/thumbs/hindi-important-questions-single/3.webp?v=769bb94e"
+        },
+        {
+         "full": "papers/hindi-important-questions/output/hindi-important-questions-single-page-4.png?v=502a3db6",
+         "thumb": "site/thumbs/hindi-important-questions-single/4.webp?v=7135d1b9"
+        },
+        {
+         "full": "papers/hindi-important-questions/output/hindi-important-questions-single-page-5.png?v=839d86f1",
+         "thumb": "site/thumbs/hindi-important-questions-single/5.webp?v=b9fd6b73"
+        },
+        {
+         "full": "papers/hindi-important-questions/output/hindi-important-questions-single-page-6.png?v=082f4da9",
+         "thumb": "site/thumbs/hindi-important-questions-single/6.webp?v=723760b7"
+        }
+       ]
+      }
+     ]
+    },
     {
      "title": "Hindi Predicted Paper",
      "answered": "",
@@ -179,6 +218,37 @@
    "id": "corporate-accounting",
    "name": "Corporate Accounting",
    "solved": [
+    {
+     "title": "Corporate Accounting Important Questions",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/corporate-accounting-important-questions/output/corporate-accounting-important-questions-single.pdf?v=62c922f3",
+       "pdf_pages": 4,
+       "pdf_size": "53 kB",
+       "images": [
+        {
+         "full": "papers/corporate-accounting-important-questions/output/corporate-accounting-important-questions-single-page-1.png?v=bcccdb2b",
+         "thumb": "site/thumbs/corporate-accounting-important-questions-single/1.webp?v=41e502a2"
+        },
+        {
+         "full": "papers/corporate-accounting-important-questions/output/corporate-accounting-important-questions-single-page-2.png?v=7ad24479",
+         "thumb": "site/thumbs/corporate-accounting-important-questions-single/2.webp?v=21a8420b"
+        },
+        {
+         "full": "papers/corporate-accounting-important-questions/output/corporate-accounting-important-questions-single-page-3.png?v=f88d1653",
+         "thumb": "site/thumbs/corporate-accounting-important-questions-single/3.webp?v=abe2f066"
+        },
+        {
+         "full": "papers/corporate-accounting-important-questions/output/corporate-accounting-important-questions-single-page-4.png?v=d9ad7d9d",
+         "thumb": "site/thumbs/corporate-accounting-important-questions-single/4.webp?v=e7e62232"
+        }
+       ]
+      }
+     ]
+    },
     {
      "title": "Corporate Accounting Predicted Questions",
      "answered": "",
@@ -368,6 +438,41 @@
    "id": "english",
    "name": "English",
    "solved": [
+    {
+     "title": "English Important Questions",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/english-important-questions/output/english-important-questions-single.pdf?v=01ad0daf",
+       "pdf_pages": 5,
+       "pdf_size": "75 kB",
+       "images": [
+        {
+         "full": "papers/english-important-questions/output/english-important-questions-single-page-1.png?v=6a699e82",
+         "thumb": "site/thumbs/english-important-questions-single/1.webp?v=734c9548"
+        },
+        {
+         "full": "papers/english-important-questions/output/english-important-questions-single-page-2.png?v=a23e427a",
+         "thumb": "site/thumbs/english-important-questions-single/2.webp?v=5ec1ba99"
+        },
+        {
+         "full": "papers/english-important-questions/output/english-important-questions-single-page-3.png?v=5b158881",
+         "thumb": "site/thumbs/english-important-questions-single/3.webp?v=48d4cdd5"
+        },
+        {
+         "full": "papers/english-important-questions/output/english-important-questions-single-page-4.png?v=c29c15f1",
+         "thumb": "site/thumbs/english-important-questions-single/4.webp?v=54071777"
+        },
+        {
+         "full": "papers/english-important-questions/output/english-important-questions-single-page-5.png?v=4d160935",
+         "thumb": "site/thumbs/english-important-questions-single/5.webp?v=69897a98"
+        }
+       ]
+      }
+     ]
+    },
     {
      "title": "College model exam, 6 November 2026",
      "answered": "Answered: first four short notes, first three long answers, and every writing-skills question.",
@@ -598,6 +703,33 @@
         {
          "full": "papers/accounting-standards-54323/output/accounting-standards-54323-single-page-4.png?v=e669342b",
          "thumb": "site/thumbs/accounting-standards-54323-single/4.webp?v=b9d8dd43"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Accounting Standards Important Questions",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/accounting-standards-important-questions/output/accounting-standards-important-questions-single.pdf?v=a36dd604",
+       "pdf_pages": 3,
+       "pdf_size": "51 kB",
+       "images": [
+        {
+         "full": "papers/accounting-standards-important-questions/output/accounting-standards-important-questions-single-page-1.png?v=5c0fd40e",
+         "thumb": "site/thumbs/accounting-standards-important-questions-single/1.webp?v=cccf813f"
+        },
+        {
+         "full": "papers/accounting-standards-important-questions/output/accounting-standards-important-questions-single-page-2.png?v=66080f28",
+         "thumb": "site/thumbs/accounting-standards-important-questions-single/2.webp?v=3f1b42dc"
+        },
+        {
+         "full": "papers/accounting-standards-important-questions/output/accounting-standards-important-questions-single-page-3.png?v=884b621d",
+         "thumb": "site/thumbs/accounting-standards-important-questions-single/3.webp?v=2b9b3918"
         }
        ]
       }
@@ -883,6 +1015,37 @@
      ]
     },
     {
+     "title": "Business Statistics Important Questions",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/business-statistics-important-questions/output/business-statistics-important-questions-single.pdf?v=a7c7f95f",
+       "pdf_pages": 4,
+       "pdf_size": "55 kB",
+       "images": [
+        {
+         "full": "papers/business-statistics-important-questions/output/business-statistics-important-questions-single-page-1.png?v=7e5a085f",
+         "thumb": "site/thumbs/business-statistics-important-questions-single/1.webp?v=ec62522f"
+        },
+        {
+         "full": "papers/business-statistics-important-questions/output/business-statistics-important-questions-single-page-2.png?v=f71ad34c",
+         "thumb": "site/thumbs/business-statistics-important-questions-single/2.webp?v=ef7b9c95"
+        },
+        {
+         "full": "papers/business-statistics-important-questions/output/business-statistics-important-questions-single-page-3.png?v=2fdb5afd",
+         "thumb": "site/thumbs/business-statistics-important-questions-single/3.webp?v=8bcb9ae5"
+        },
+        {
+         "full": "papers/business-statistics-important-questions/output/business-statistics-important-questions-single-page-4.png?v=d7fe4784",
+         "thumb": "site/thumbs/business-statistics-important-questions-single/4.webp?v=9b6124bd"
+        }
+       ]
+      }
+     ]
+    },
+    {
      "title": "Business Statistics Predicted Paper",
      "answered": "",
      "updated": "23 Nov 2026",
@@ -1054,6 +1217,53 @@
         {
          "full": "papers/hrd-model-nov-2026/output/hrd-model-nov-2026-single-page-3.png?v=99e6bc98",
          "thumb": "site/thumbs/hrd-model-nov-2026-single/3.webp?v=9bb576ff"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Human Resource Development Important Questions",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/human-resource-development-important-questions/output/human-resource-development-important-questions-single.pdf?v=4d7bba59",
+       "pdf_pages": 8,
+       "pdf_size": "70 kB",
+       "images": [
+        {
+         "full": "papers/human-resource-development-important-questions/output/human-resource-development-important-questions-single-page-1.png?v=0c68e059",
+         "thumb": "site/thumbs/human-resource-development-important-questions-single/1.webp?v=3fa76a3d"
+        },
+        {
+         "full": "papers/human-resource-development-important-questions/output/human-resource-development-important-questions-single-page-2.png?v=2b0b790c",
+         "thumb": "site/thumbs/human-resource-development-important-questions-single/2.webp?v=2e7458b2"
+        },
+        {
+         "full": "papers/human-resource-development-important-questions/output/human-resource-development-important-questions-single-page-3.png?v=b039be58",
+         "thumb": "site/thumbs/human-resource-development-important-questions-single/3.webp?v=f51198ed"
+        },
+        {
+         "full": "papers/human-resource-development-important-questions/output/human-resource-development-important-questions-single-page-4.png?v=13d0c79f",
+         "thumb": "site/thumbs/human-resource-development-important-questions-single/4.webp?v=5f044dcf"
+        },
+        {
+         "full": "papers/human-resource-development-important-questions/output/human-resource-development-important-questions-single-page-5.png?v=651808ba",
+         "thumb": "site/thumbs/human-resource-development-important-questions-single/5.webp?v=2d7f5e75"
+        },
+        {
+         "full": "papers/human-resource-development-important-questions/output/human-resource-development-important-questions-single-page-6.png?v=6b29c5fe",
+         "thumb": "site/thumbs/human-resource-development-important-questions-single/6.webp?v=77395d7c"
+        },
+        {
+         "full": "papers/human-resource-development-important-questions/output/human-resource-development-important-questions-single-page-7.png?v=ab7a2cc0",
+         "thumb": "site/thumbs/human-resource-development-important-questions-single/7.webp?v=06d7d0f4"
+        },
+        {
+         "full": "papers/human-resource-development-important-questions/output/human-resource-development-important-questions-single-page-8.png?v=668ad590",
+         "thumb": "site/thumbs/human-resource-development-important-questions-single/8.webp?v=8d66541a"
         }
        ]
       }
@@ -1328,6 +1538,41 @@
         {
          "full": "papers/personality-development-54324/output/personality-development-54324-single-page-1.png?v=935a78c6",
          "thumb": "site/thumbs/personality-development-54324-single/1.webp?v=49d4f1b2"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Personality Development Important Questions",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/personality-development-important-questions/output/personality-development-important-questions-single.pdf?v=78cf9efd",
+       "pdf_pages": 5,
+       "pdf_size": "59 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-important-questions/output/personality-development-important-questions-single-page-1.png?v=37f3ce87",
+         "thumb": "site/thumbs/personality-development-important-questions-single/1.webp?v=bba448b1"
+        },
+        {
+         "full": "papers/personality-development-important-questions/output/personality-development-important-questions-single-page-2.png?v=06ff00de",
+         "thumb": "site/thumbs/personality-development-important-questions-single/2.webp?v=19dd1a18"
+        },
+        {
+         "full": "papers/personality-development-important-questions/output/personality-development-important-questions-single-page-3.png?v=52421e56",
+         "thumb": "site/thumbs/personality-development-important-questions-single/3.webp?v=a7053fed"
+        },
+        {
+         "full": "papers/personality-development-important-questions/output/personality-development-important-questions-single-page-4.png?v=82e6d736",
+         "thumb": "site/thumbs/personality-development-important-questions-single/4.webp?v=a3774615"
+        },
+        {
+         "full": "papers/personality-development-important-questions/output/personality-development-important-questions-single-page-5.png?v=d0e992f2",
+         "thumb": "site/thumbs/personality-development-important-questions-single/5.webp?v=c0b4eb75"
         }
        ]
       }

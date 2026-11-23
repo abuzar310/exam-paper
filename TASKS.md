@@ -27,6 +27,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-23: "Important Questions & PYQ" revision doc for every subject (`papers/<subject>-important-questions/`): the actual Davangere Dec 2025 paper at the top, then the important questions ranked by where they actually appeared ([PYQ] = university paper, [College] = college exam) with answers, all from Davangere-grounded sources (the real paper + Don Bosco college exams + the textbook-checked banks). On the site, single column. His stated priority: PYQ + important questions from Davangere.
+
 - 2026-11-23: Predicted papers for the remaining subjects, each a full mock in its own blueprint, both versions, on the site: Personality Development (54324, 40 marks), English (54302, three texts + writing skills), Business Statistics (54322, computed problems checked in a script), Accounting Standards (54323, all standards + computed problems), Hindi (54303, most-likely items from the bank). render.py now uses Liberation Sans on Linux so x̄/Σ/√ render in cloud PDFs. No blank pages.
 
 - 2026-11-23: HRD predicted **paper** (`papers/human-resource-development-predicted-paper/`): a full exam-style mock in the Q.P. 50374 blueprint (Section A 12 two-markers answer 10, Section B 8 five-markers answer 6, Section C 5 ten-markers answer 3), one per module in C, tiered Very likely/Likely. Answers from the HRD theory bank. Questions-only PDF + answers, both versions, on the site. Companion to the earlier ranked list (kept). No blank pages.
