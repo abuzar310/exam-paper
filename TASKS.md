@@ -27,6 +27,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-23: Business Statistics expected paper (`papers/business-statistics-expected-paper/`), set "in the shoes of" last year's setter after comparing all nine statistics papers: question paper first, then the answer sheet; problems reused from older papers with their own numbers (as the setter did in 2025); gap topics he skipped (CV consistency, histogram mode, median, functions and limitations, GM/HM). Single column only (his choice), 6 pages. Every figure checked a second way in a script.
+
 - 2026-11-23: मम्मीजी puzzle settled from the retaken photos: she is in no play of एकांकी कुंज (all nine cast lists checked). The teacher's माँ one-liners come from another version; the 2025 paper used that source, so keep her answer विदेश. Recorded in `notes/hindi/ekanki-kunj.md`. Not answered by him and left as is: his choices on per-subject docs only, no further PYQ search (23 Nov).
 
 - 2026-11-23: "Important Questions & PYQ" revision doc for every subject (`papers/<subject>-important-questions/`): the actual Davangere Dec 2025 paper at the top, then the important questions ranked by where they actually appeared ([PYQ] = university paper, [College] = college exam) with answers, all from Davangere-grounded sources (the real paper + Don Bosco college exams + the textbook-checked banks). On the site, single column. His stated priority: PYQ + important questions from Davangere.

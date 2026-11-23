@@ -1,5 +1,5 @@
 {
- "built": "23 November 2026, 02:19 PM IST",
+ "built": "23 November 2026, 07:40 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -1009,6 +1009,45 @@
         {
          "full": "papers/business-statistics-54322/output/business-statistics-54322-single-page-4.png?v=c684ea82",
          "thumb": "site/thumbs/business-statistics-54322-single/4.webp?v=b48f5611"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Business Statistics Expected Paper",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/business-statistics-expected-paper/output/business-statistics-expected-paper-single.pdf?v=020e6d1e",
+       "pdf_pages": 6,
+       "pdf_size": "146 kB",
+       "images": [
+        {
+         "full": "papers/business-statistics-expected-paper/output/business-statistics-expected-paper-single-page-1.png?v=4b230f44",
+         "thumb": "site/thumbs/business-statistics-expected-paper-single/1.webp?v=7788c16e"
+        },
+        {
+         "full": "papers/business-statistics-expected-paper/output/business-statistics-expected-paper-single-page-2.png?v=4e97e89f",
+         "thumb": "site/thumbs/business-statistics-expected-paper-single/2.webp?v=61ec0f5f"
+        },
+        {
+         "full": "papers/business-statistics-expected-paper/output/business-statistics-expected-paper-single-page-3.png?v=ac22e6cc",
+         "thumb": "site/thumbs/business-statistics-expected-paper-single/3.webp?v=fdb7c9c3"
+        },
+        {
+         "full": "papers/business-statistics-expected-paper/output/business-statistics-expected-paper-single-page-4.png?v=08e11d5c",
+         "thumb": "site/thumbs/business-statistics-expected-paper-single/4.webp?v=99ca522a"
+        },
+        {
+         "full": "papers/business-statistics-expected-paper/output/business-statistics-expected-paper-single-page-5.png?v=f1a745de",
+         "thumb": "site/thumbs/business-statistics-expected-paper-single/5.webp?v=65a9967d"
+        },
+        {
+         "full": "papers/business-statistics-expected-paper/output/business-statistics-expected-paper-single-page-6.png?v=57323b86",
+         "thumb": "site/thumbs/business-statistics-expected-paper-single/6.webp?v=0d1abc97"
         }
        ]
       }
