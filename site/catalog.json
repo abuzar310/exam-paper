@@ -1,5 +1,5 @@
 {
- "built": "23 November 2026, 01:56 PM IST",
+ "built": "23 November 2026, 01:59 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -598,6 +598,53 @@
      ]
     },
     {
+     "title": "Accounting Standards Predicted Paper",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/accounting-standards-predicted-paper/output/accounting-standards-predicted-paper.pdf?v=17137b9f",
+       "pdf_pages": 3,
+       "pdf_size": "51 kB",
+       "images": [
+        {
+         "full": "papers/accounting-standards-predicted-paper/output/accounting-standards-predicted-paper-page-1.png?v=7c269748",
+         "thumb": "site/thumbs/accounting-standards-predicted-paper/1.webp?v=1426ae85"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-paper/output/accounting-standards-predicted-paper-page-2.png?v=9f92e158",
+         "thumb": "site/thumbs/accounting-standards-predicted-paper/2.webp?v=8afb9e04"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-paper/output/accounting-standards-predicted-paper-page-3.png?v=26bd6f8c",
+         "thumb": "site/thumbs/accounting-standards-predicted-paper/3.webp?v=442337ff"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/accounting-standards-predicted-paper/output/accounting-standards-predicted-paper-single.pdf?v=241a236b",
+       "pdf_pages": 3,
+       "pdf_size": "51 kB",
+       "images": [
+        {
+         "full": "papers/accounting-standards-predicted-paper/output/accounting-standards-predicted-paper-single-page-1.png?v=61a24aeb",
+         "thumb": "site/thumbs/accounting-standards-predicted-paper-single/1.webp?v=ff6bb7f6"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-paper/output/accounting-standards-predicted-paper-single-page-2.png?v=c348bdf6",
+         "thumb": "site/thumbs/accounting-standards-predicted-paper-single/2.webp?v=411a4961"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-paper/output/accounting-standards-predicted-paper-single-page-3.png?v=b759be7d",
+         "thumb": "site/thumbs/accounting-standards-predicted-paper-single/3.webp?v=b98c2722"
+        }
+       ]
+      }
+     ]
+    },
+    {
      "title": "Accounting Standards Theory Bank",
      "answered": "",
      "updated": "18 Nov 2026",
@@ -722,6 +769,12 @@
      "pdf": "site/question-papers/q-p-54323-december-2025-january-2026.pdf",
      "pdf_pages": 4,
      "pdf_size": "640 kB"
+    },
+    {
+     "title": "Accounting Standards Predicted Paper",
+     "pdf": "papers/accounting-standards-predicted-paper/question-paper.pdf",
+     "pdf_pages": 1,
+     "pdf_size": "61 kB"
     }
    ]
   },
