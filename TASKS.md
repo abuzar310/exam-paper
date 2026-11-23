@@ -23,9 +23,11 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 ## To solve
 
 - सूखी डाली: the retaken photos (`notes/hindi/ekanki-kunj-retake.pdf`) are sharper; re-reading its left-hand pages 130–150 would clear most `[?]` marks. Optional: every exam line was already read clearly.
-- Predicted-question lists for the remaining subjects in exam order: PD ([exam date removed]), then English, Statistics, Accounting Standards. (HRD and Corporate Accounting done.)
+- Predicted papers made for all subjects (HRD, Corporate Accounting, Personality Development, English, Business Statistics, Accounting Standards, Hindi).
 
 ## Done
+
+- 2026-11-23: Predicted papers for the remaining subjects, each a full mock in its own blueprint, both versions, on the site: Personality Development (54324, 40 marks), English (54302, three texts + writing skills), Business Statistics (54322, computed problems checked in a script), Accounting Standards (54323, all standards + computed problems), Hindi (54303, most-likely items from the bank). render.py now uses Liberation Sans on Linux so x̄/Σ/√ render in cloud PDFs. No blank pages.
 
 - 2026-11-23: HRD predicted **paper** (`papers/human-resource-development-predicted-paper/`): a full exam-style mock in the Q.P. 50374 blueprint (Section A 12 two-markers answer 10, Section B 8 five-markers answer 6, Section C 5 ten-markers answer 3), one per module in C, tiered Very likely/Likely. Answers from the HRD theory bank. Questions-only PDF + answers, both versions, on the site. Companion to the earlier ranked list (kept). No blank pages.
 

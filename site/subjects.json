@@ -28,6 +28,7 @@
     {"subject": "personality-development", "title": "Personality Development Predicted Paper", "source": "papers/personality-development-predicted-paper/question-paper.pdf"},
     {"subject": "english", "title": "English Predicted Paper", "source": "papers/english-predicted-paper/question-paper.pdf"},
     {"subject": "business-statistics", "title": "Business Statistics Predicted Paper", "source": "papers/business-statistics-predicted-paper/question-paper.pdf"},
-    {"subject": "accounting-standards", "title": "Accounting Standards Predicted Paper", "source": "papers/accounting-standards-predicted-paper/question-paper.pdf"}
+    {"subject": "accounting-standards", "title": "Accounting Standards Predicted Paper", "source": "papers/accounting-standards-predicted-paper/question-paper.pdf"},
+    {"subject": "hindi", "title": "Hindi Predicted Paper", "source": "papers/hindi-predicted-paper/question-paper.pdf"}
   ]
 }

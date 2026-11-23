@@ -1,10 +1,57 @@
 {
- "built": "23 November 2026, 01:59 PM IST",
+ "built": "23 November 2026, 02:02 PM IST",
  "subjects": [
   {
    "id": "hindi",
    "name": "Hindi",
    "solved": [
+    {
+     "title": "Hindi Predicted Paper",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/hindi-predicted-paper/output/hindi-predicted-paper.pdf?v=0261fe74",
+       "pdf_pages": 3,
+       "pdf_size": "65 kB",
+       "images": [
+        {
+         "full": "papers/hindi-predicted-paper/output/hindi-predicted-paper-page-1.png?v=42daeb73",
+         "thumb": "site/thumbs/hindi-predicted-paper/1.webp?v=bc43e101"
+        },
+        {
+         "full": "papers/hindi-predicted-paper/output/hindi-predicted-paper-page-2.png?v=3dd30894",
+         "thumb": "site/thumbs/hindi-predicted-paper/2.webp?v=917669f0"
+        },
+        {
+         "full": "papers/hindi-predicted-paper/output/hindi-predicted-paper-page-3.png?v=14e35652",
+         "thumb": "site/thumbs/hindi-predicted-paper/3.webp?v=80c5d562"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/hindi-predicted-paper/output/hindi-predicted-paper-single.pdf?v=34f6e441",
+       "pdf_pages": 3,
+       "pdf_size": "65 kB",
+       "images": [
+        {
+         "full": "papers/hindi-predicted-paper/output/hindi-predicted-paper-single-page-1.png?v=08a4ecb0",
+         "thumb": "site/thumbs/hindi-predicted-paper-single/1.webp?v=ea02905c"
+        },
+        {
+         "full": "papers/hindi-predicted-paper/output/hindi-predicted-paper-single-page-2.png?v=6215d7b7",
+         "thumb": "site/thumbs/hindi-predicted-paper-single/2.webp?v=9a79de0b"
+        },
+        {
+         "full": "papers/hindi-predicted-paper/output/hindi-predicted-paper-single-page-3.png?v=ab31510f",
+         "thumb": "site/thumbs/hindi-predicted-paper-single/3.webp?v=f6a8d90b"
+        }
+       ]
+      }
+     ]
+    },
     {
      "title": "Q.P. 54303, December 2025 / January 2026",
      "answered": "Answered: Section I all 10. Section II passages 1, 2 and 3. Section III Q1-Q2. Section IV Q1-Q2. Section V Q1-Q2. Section VI both.",
@@ -119,6 +166,12 @@
       "papers/hindi-sem3-dec-2025/question-paper-1.jpg",
       "papers/hindi-sem3-dec-2025/question-paper-2.jpg"
      ]
+    },
+    {
+     "title": "Hindi Predicted Paper",
+     "pdf": "papers/hindi-predicted-paper/question-paper.pdf",
+     "pdf_pages": 1,
+     "pdf_size": "45 kB"
     }
    ]
   },
