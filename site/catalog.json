@@ -1,5 +1,5 @@
 {
- "built": "23 November 2026, 01:46 PM IST",
+ "built": "23 November 2026, 01:49 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -375,6 +375,57 @@
      ]
     },
     {
+     "title": "English Predicted Paper",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/english-predicted-paper/output/english-predicted-paper.pdf?v=11fa88d9",
+       "pdf_pages": 3,
+       "pdf_size": "14 kB",
+       "images": [
+        {
+         "full": "papers/english-predicted-paper/output/english-predicted-paper-page-1.png?v=8f18cc80",
+         "thumb": "site/thumbs/english-predicted-paper/1.webp?v=7cc82cb9"
+        },
+        {
+         "full": "papers/english-predicted-paper/output/english-predicted-paper-page-2.png?v=5ffec934",
+         "thumb": "site/thumbs/english-predicted-paper/2.webp?v=37ab2f71"
+        },
+        {
+         "full": "papers/english-predicted-paper/output/english-predicted-paper-page-3.png?v=9a14414b",
+         "thumb": "site/thumbs/english-predicted-paper/3.webp?v=a51b7bfa"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/english-predicted-paper/output/english-predicted-paper-single.pdf?v=9f153b8e",
+       "pdf_pages": 4,
+       "pdf_size": "15 kB",
+       "images": [
+        {
+         "full": "papers/english-predicted-paper/output/english-predicted-paper-single-page-1.png?v=87eb1281",
+         "thumb": "site/thumbs/english-predicted-paper-single/1.webp?v=5db12ecf"
+        },
+        {
+         "full": "papers/english-predicted-paper/output/english-predicted-paper-single-page-2.png?v=370e3d54",
+         "thumb": "site/thumbs/english-predicted-paper-single/2.webp?v=893ef458"
+        },
+        {
+         "full": "papers/english-predicted-paper/output/english-predicted-paper-single-page-3.png?v=892dfc57",
+         "thumb": "site/thumbs/english-predicted-paper-single/3.webp?v=c62b0077"
+        },
+        {
+         "full": "papers/english-predicted-paper/output/english-predicted-paper-single-page-4.png?v=62fe958d",
+         "thumb": "site/thumbs/english-predicted-paper-single/4.webp?v=7c2037ab"
+        }
+       ]
+      }
+     ]
+    },
+    {
      "title": "Q.P. 54302, December 2025 / January 2026",
      "answered": "Answered: first four short notes, first three long answers, and every writing-skills question.",
      "updated": "5 Nov 2026",
@@ -435,6 +486,12 @@
      "pdf": "site/question-papers/q-p-54302-december-2025-january-2026.pdf",
      "pdf_pages": 1,
      "pdf_size": "151 kB"
+    },
+    {
+     "title": "English Predicted Paper",
+     "pdf": "papers/english-predicted-paper/question-paper.pdf",
+     "pdf_pages": 1,
+     "pdf_size": "3 kB"
     }
    ]
   },

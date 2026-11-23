@@ -25,6 +25,7 @@
     {"subject": "hrd", "title": "Human Resource Development Predicted Questions", "source": "papers/human-resource-development-predicted-questions/question-paper.pdf"},
     {"subject": "corporate-accounting", "title": "Corporate Accounting Predicted Questions", "source": "papers/corporate-accounting-predicted-questions/question-paper.pdf"},
     {"subject": "hrd", "title": "Human Resource Development Predicted Paper", "source": "papers/human-resource-development-predicted-paper/question-paper.pdf"},
-    {"subject": "personality-development", "title": "Personality Development Predicted Paper", "source": "papers/personality-development-predicted-paper/question-paper.pdf"}
+    {"subject": "personality-development", "title": "Personality Development Predicted Paper", "source": "papers/personality-development-predicted-paper/question-paper.pdf"},
+    {"subject": "english", "title": "English Predicted Paper", "source": "papers/english-predicted-paper/question-paper.pdf"}
   ]
 }
