@@ -1,5 +1,5 @@
 {
- "built": "23 November 2026, 01:49 PM IST",
+ "built": "23 November 2026, 01:56 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -775,6 +775,49 @@
        ]
       }
      ]
+    },
+    {
+     "title": "Business Statistics Predicted Paper",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/business-statistics-predicted-paper/output/business-statistics-predicted-paper.pdf?v=74088660",
+       "pdf_pages": 2,
+       "pdf_size": "49 kB",
+       "images": [
+        {
+         "full": "papers/business-statistics-predicted-paper/output/business-statistics-predicted-paper-page-1.png?v=e0d9b0c1",
+         "thumb": "site/thumbs/business-statistics-predicted-paper/1.webp?v=69667735"
+        },
+        {
+         "full": "papers/business-statistics-predicted-paper/output/business-statistics-predicted-paper-page-2.png?v=da3c1cbf",
+         "thumb": "site/thumbs/business-statistics-predicted-paper/2.webp?v=57f3fd33"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/business-statistics-predicted-paper/output/business-statistics-predicted-paper-single.pdf?v=363ff9ce",
+       "pdf_pages": 3,
+       "pdf_size": "50 kB",
+       "images": [
+        {
+         "full": "papers/business-statistics-predicted-paper/output/business-statistics-predicted-paper-single-page-1.png?v=0ac2b440",
+         "thumb": "site/thumbs/business-statistics-predicted-paper-single/1.webp?v=6908919c"
+        },
+        {
+         "full": "papers/business-statistics-predicted-paper/output/business-statistics-predicted-paper-single-page-2.png?v=2fdb5afd",
+         "thumb": "site/thumbs/business-statistics-predicted-paper-single/2.webp?v=8bcb9ae5"
+        },
+        {
+         "full": "papers/business-statistics-predicted-paper/output/business-statistics-predicted-paper-single-page-3.png?v=d7fe4784",
+         "thumb": "site/thumbs/business-statistics-predicted-paper-single/3.webp?v=9b6124bd"
+        }
+       ]
+      }
+     ]
     }
    ],
    "questions": [
@@ -807,6 +850,12 @@
      "pdf": "papers/business-statistics/fundamentals-of-statistics-older-papers.pdf",
      "pdf_pages": 23,
      "pdf_size": "1.9 MB"
+    },
+    {
+     "title": "Business Statistics Predicted Paper",
+     "pdf": "papers/business-statistics-predicted-paper/question-paper.pdf",
+     "pdf_pages": 1,
+     "pdf_size": "61 kB"
     }
    ]
   },

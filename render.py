@@ -74,6 +74,15 @@ def register_fonts(hindi=False):
         if linux:
             win = linux.parent
             faces = dict(zip(faces, ("HindiLatin-Regular.ttf", "HindiLatin-Bold.ttf") * 2))
+    if not hindi and not all((win / f).exists() for f in faces.values()):
+        # Linux (cloud) has no Arial; Liberation Sans is metric-compatible with Arial and,
+        # unlike the built-in Helvetica, covers Σ, √, the combining macron (x̄, ȳ) etc.
+        lib = Path("/usr/share/fonts/truetype/liberation")
+        libfaces = ("LiberationSans-Regular.ttf", "LiberationSans-Bold.ttf",
+                    "LiberationSans-Italic.ttf", "LiberationSans-BoldItalic.ttf")
+        if all((lib / f).exists() for f in libfaces):
+            win = lib
+            faces = dict(zip(faces, libfaces))
     if not all((win / f).exists() for f in faces.values()):
         return "Helvetica", "Helvetica-Bold"
     for name, f in faces.items():
