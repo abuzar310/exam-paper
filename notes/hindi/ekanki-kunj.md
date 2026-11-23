@@ -36,3 +36,13 @@ circled on the contents page (marked as the ones to study).
 
 **Answer from this book:** the author of माँ is **विष्णु प्रभाकर**. The बैंक essay is not in
 this book (it holds only ekankis).
+
+## मम्मीजी (checked 23 Nov 2026)
+
+The teacher's one-mark notes for माँ (मम्मीजी, her husband gone विदेश, बलदेव, मंजु aged 35) match **no play in
+this book**. Every cast list was checked: ताँबे के कीड़े (महिला अनाउंसर, रिक्शेवाला, थका अफसर, परेशान रमणी,
+मसरूप पति, लड़के, पागल आया), दो कलाकार, राजरानी सीता, शिवाजी का सच्चा स्वरूप, एक दिन, माँ (मनीषी, बादल,
+डाक्टर, कमला, मंजु), घोंसले (जगमोहन, विजय, नर्स), सूखी डाली, शेरशाह. The 2025 university paper still asked
+"मम्मीजी के पति कहाँ गए हैं?", so the setter used the same source as the teacher: give her answer, **विदेश**.
+(In this book's माँ, the tears at the end are मंजु's, p.110.)
+
