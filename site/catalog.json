@@ -1,5 +1,5 @@
 {
- "built": "23 November 2026, 07:40 PM IST",
+ "built": "23 November 2026, 07:45 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -1164,6 +1164,12 @@
      "pdf": "papers/business-statistics-predicted-paper/question-paper.pdf",
      "pdf_pages": 1,
      "pdf_size": "61 kB"
+    },
+    {
+     "title": "Business Statistics Expected Paper",
+     "pdf": "papers/business-statistics-expected-paper/question-paper.pdf",
+     "pdf_pages": 1,
+     "pdf_size": "43 kB"
     }
    ]
   },
