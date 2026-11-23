@@ -1,5 +1,5 @@
 {
- "built": "23 November 2026, 01:01 PM IST",
+ "built": "23 November 2026, 01:46 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -1157,6 +1157,45 @@
      ]
     },
     {
+     "title": "Personality Development Predicted Paper",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/personality-development-predicted-paper/output/personality-development-predicted-paper.pdf?v=51e523d0",
+       "pdf_pages": 2,
+       "pdf_size": "7 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-predicted-paper/output/personality-development-predicted-paper-page-1.png?v=05636e73",
+         "thumb": "site/thumbs/personality-development-predicted-paper/1.webp?v=37b5f0a7"
+        },
+        {
+         "full": "papers/personality-development-predicted-paper/output/personality-development-predicted-paper-page-2.png?v=0f95d820",
+         "thumb": "site/thumbs/personality-development-predicted-paper/2.webp?v=f857e059"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/personality-development-predicted-paper/output/personality-development-predicted-paper-single.pdf?v=f119cbb7",
+       "pdf_pages": 2,
+       "pdf_size": "7 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-predicted-paper/output/personality-development-predicted-paper-single-page-1.png?v=6d903df4",
+         "thumb": "site/thumbs/personality-development-predicted-paper-single/1.webp?v=f1c88cbd"
+        },
+        {
+         "full": "papers/personality-development-predicted-paper/output/personality-development-predicted-paper-single-page-2.png?v=9d87d238",
+         "thumb": "site/thumbs/personality-development-predicted-paper-single/2.webp?v=312460a8"
+        }
+       ]
+      }
+     ]
+    },
+    {
      "title": "Personality Development Question Bank",
      "answered": "",
      "updated": "12 Nov 2026",
@@ -1269,6 +1308,12 @@
      "pdf": "site/question-papers/q-p-54324-december-2025-january-2026.pdf",
      "pdf_pages": 2,
      "pdf_size": "231 kB"
+    },
+    {
+     "title": "Personality Development Predicted Paper",
+     "pdf": "papers/personality-development-predicted-paper/question-paper.pdf",
+     "pdf_pages": 1,
+     "pdf_size": "3 kB"
     }
    ]
   }
