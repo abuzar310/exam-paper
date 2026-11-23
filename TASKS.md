@@ -27,6 +27,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-23: HRD predicted **paper** (`papers/human-resource-development-predicted-paper/`): a full exam-style mock in the Q.P. 50374 blueprint (Section A 12 two-markers answer 10, Section B 8 five-markers answer 6, Section C 5 ten-markers answer 3), one per module in C, tiered Very likely/Likely. Answers from the HRD theory bank. Questions-only PDF + answers, both versions, on the site. Companion to the earlier ranked list (kept). No blank pages.
+
 - 2026-11-23: Corporate Accounting predicted questions (`papers/corporate-accounting-predicted-questions/`): full mock paper in the Q.P. 54321 blueprint — Section A 12 two-markers (answer 10), Section B Q2-Q9 (answer 6), Section C Q10-Q14 (answer 3) — one problem per module at 5 and 10 marks, gap topics flagged (goodwill average-profit method, liquidator's final statement). Every figure computed and asserted in a script; conventions match the solved 54321 (notional call, yield formula, firm underwriting, x/(100+x) remuneration). Questions-only PDF plus answers; both versions on the site. No blank pages (his standing choice).
 
 - 2026-11-22: Corporate Accounting teacher's notes saved in `notes/corporate-accounting/` (PDF + text copy each): underwriting-of-shares, liquidation-of-companies, valuation-of-shares-and-goodwill, profit-prior-to-incorporation-teacher. Clean typed notes (meaning, features, methods, formulas, problems). These cover the main Corporate Accounting problem chapters the repo previously had only from textbooks. Use them when solving Q.P. 54321 topics and the Corporate Accounting prediction.

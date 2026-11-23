@@ -1,5 +1,5 @@
 {
- "built": "23 November 2026, 12:44 PM IST",
+ "built": "23 November 2026, 01:01 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -848,6 +848,57 @@
      ]
     },
     {
+     "title": "Human Resource Development Predicted Paper",
+     "answered": "",
+     "updated": "23 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/human-resource-development-predicted-paper/output/human-resource-development-predicted-paper.pdf?v=2ad5012e",
+       "pdf_pages": 3,
+       "pdf_size": "15 kB",
+       "images": [
+        {
+         "full": "papers/human-resource-development-predicted-paper/output/human-resource-development-predicted-paper-page-1.png?v=fb1c13a7",
+         "thumb": "site/thumbs/human-resource-development-predicted-paper/1.webp?v=bea82376"
+        },
+        {
+         "full": "papers/human-resource-development-predicted-paper/output/human-resource-development-predicted-paper-page-2.png?v=7b8299ac",
+         "thumb": "site/thumbs/human-resource-development-predicted-paper/2.webp?v=e0e02b84"
+        },
+        {
+         "full": "papers/human-resource-development-predicted-paper/output/human-resource-development-predicted-paper-page-3.png?v=8e6061bb",
+         "thumb": "site/thumbs/human-resource-development-predicted-paper/3.webp?v=f850a03f"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/human-resource-development-predicted-paper/output/human-resource-development-predicted-paper-single.pdf?v=4e420eb3",
+       "pdf_pages": 4,
+       "pdf_size": "16 kB",
+       "images": [
+        {
+         "full": "papers/human-resource-development-predicted-paper/output/human-resource-development-predicted-paper-single-page-1.png?v=c7ea0baf",
+         "thumb": "site/thumbs/human-resource-development-predicted-paper-single/1.webp?v=a4ed12e1"
+        },
+        {
+         "full": "papers/human-resource-development-predicted-paper/output/human-resource-development-predicted-paper-single-page-2.png?v=12e4bf71",
+         "thumb": "site/thumbs/human-resource-development-predicted-paper-single/2.webp?v=1ee0ba10"
+        },
+        {
+         "full": "papers/human-resource-development-predicted-paper/output/human-resource-development-predicted-paper-single-page-3.png?v=a976064f",
+         "thumb": "site/thumbs/human-resource-development-predicted-paper-single/3.webp?v=e4dcbfed"
+        },
+        {
+         "full": "papers/human-resource-development-predicted-paper/output/human-resource-development-predicted-paper-single-page-4.png?v=498220e3",
+         "thumb": "site/thumbs/human-resource-development-predicted-paper-single/4.webp?v=7f93f840"
+        }
+       ]
+      }
+     ]
+    },
+    {
      "title": "Human Resource Development Predicted Questions",
      "answered": "",
      "updated": "20 Nov 2026",
@@ -1026,6 +1077,12 @@
      "pdf": "papers/human-resource-development-predicted-questions/question-paper.pdf",
      "pdf_pages": 2,
      "pdf_size": "5 kB"
+    },
+    {
+     "title": "Human Resource Development Predicted Paper",
+     "pdf": "papers/human-resource-development-predicted-paper/question-paper.pdf",
+     "pdf_pages": 1,
+     "pdf_size": "3 kB"
     }
    ]
   },
