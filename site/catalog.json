@@ -1,5 +1,5 @@
 {
- "built": "24 November 2026, 12:05 PM IST",
+ "built": "24 November 2026, 12:11 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -505,41 +505,6 @@
    "name": "English",
    "solved": [
     {
-     "title": "English Important Questions",
-     "answered": "",
-     "updated": "23 Nov 2026",
-     "versions": [
-      {
-       "label": "Single column, for reading",
-       "pdf": "papers/english-important-questions/output/english-important-questions-single.pdf?v=01ad0daf",
-       "pdf_pages": 5,
-       "pdf_size": "75 kB",
-       "images": [
-        {
-         "full": "papers/english-important-questions/output/english-important-questions-single-page-1.png?v=6a699e82",
-         "thumb": "site/thumbs/english-important-questions-single/1.webp?v=734c9548"
-        },
-        {
-         "full": "papers/english-important-questions/output/english-important-questions-single-page-2.png?v=a23e427a",
-         "thumb": "site/thumbs/english-important-questions-single/2.webp?v=5ec1ba99"
-        },
-        {
-         "full": "papers/english-important-questions/output/english-important-questions-single-page-3.png?v=5b158881",
-         "thumb": "site/thumbs/english-important-questions-single/3.webp?v=48d4cdd5"
-        },
-        {
-         "full": "papers/english-important-questions/output/english-important-questions-single-page-4.png?v=c29c15f1",
-         "thumb": "site/thumbs/english-important-questions-single/4.webp?v=54071777"
-        },
-        {
-         "full": "papers/english-important-questions/output/english-important-questions-single-page-5.png?v=4d160935",
-         "thumb": "site/thumbs/english-important-questions-single/5.webp?v=69897a98"
-        }
-       ]
-      }
-     ]
-    },
-    {
      "title": "College model exam, 6 November 2026",
      "answered": "Answered: first four short notes, first three long answers, and every writing-skills question.",
      "updated": "6 Nov 2026",
@@ -650,6 +615,97 @@
      ]
     },
     {
+     "title": "English Predicted Questions",
+     "answered": "",
+     "updated": "24 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/english-predicted-questions/output/english-predicted-questions.pdf?v=b82d11c1",
+       "pdf_pages": 7,
+       "pdf_size": "72 kB",
+       "images": [
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-1.png?v=fa164def",
+         "thumb": "site/thumbs/english-predicted-questions/1.webp?v=f8dba7a5"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-2.png?v=39b29b39",
+         "thumb": "site/thumbs/english-predicted-questions/2.webp?v=95a6f8ee"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-3.png?v=0a297c2f",
+         "thumb": "site/thumbs/english-predicted-questions/3.webp?v=35e3e951"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-4.png?v=9628b847",
+         "thumb": "site/thumbs/english-predicted-questions/4.webp?v=b3b3c4e7"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-5.png?v=825221ea",
+         "thumb": "site/thumbs/english-predicted-questions/5.webp?v=b54f42ad"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-6.png?v=685bfb39",
+         "thumb": "site/thumbs/english-predicted-questions/6.webp?v=9e6ccbac"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-7.png?v=e1a5d974",
+         "thumb": "site/thumbs/english-predicted-questions/7.webp?v=6ece342e"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/english-predicted-questions/output/english-predicted-questions-single.pdf?v=7fd08f6a",
+       "pdf_pages": 10,
+       "pdf_size": "74 kB",
+       "images": [
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-1.png?v=d26d9b8f",
+         "thumb": "site/thumbs/english-predicted-questions-single/1.webp?v=0c37fbc9"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-2.png?v=358502ec",
+         "thumb": "site/thumbs/english-predicted-questions-single/2.webp?v=7a91d648"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-3.png?v=56cc4b7b",
+         "thumb": "site/thumbs/english-predicted-questions-single/3.webp?v=9bd65ddb"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-4.png?v=f6044b0b",
+         "thumb": "site/thumbs/english-predicted-questions-single/4.webp?v=c997a406"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-5.png?v=7b0abe93",
+         "thumb": "site/thumbs/english-predicted-questions-single/5.webp?v=9c94adee"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-6.png?v=22335c79",
+         "thumb": "site/thumbs/english-predicted-questions-single/6.webp?v=da3d6768"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-7.png?v=6ea92b50",
+         "thumb": "site/thumbs/english-predicted-questions-single/7.webp?v=47df7c52"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-8.png?v=d205074c",
+         "thumb": "site/thumbs/english-predicted-questions-single/8.webp?v=5ca00a58"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-9.png?v=539298c5",
+         "thumb": "site/thumbs/english-predicted-questions-single/9.webp?v=b8b93b05"
+        },
+        {
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-10.png?v=9396c3a6",
+         "thumb": "site/thumbs/english-predicted-questions-single/10.webp?v=92f161f3"
+        }
+       ]
+      }
+     ]
+    },
+    {
      "title": "Q.P. 54302, December 2025 / January 2026",
      "answered": "Answered: first four short notes, first three long answers, and every writing-skills question.",
      "updated": "5 Nov 2026",
@@ -724,6 +780,12 @@
      "pdf": "papers/english-predicted-paper/question-paper.pdf",
      "pdf_pages": 1,
      "pdf_size": "3 kB"
+    },
+    {
+     "title": "English Predicted Questions",
+     "pdf": "papers/english-predicted-questions/question-paper.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "63 kB"
     }
    ]
   },
