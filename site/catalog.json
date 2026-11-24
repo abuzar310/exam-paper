@@ -1,5 +1,5 @@
 {
- "built": "24 November 2026, 12:14 PM IST",
+ "built": "24 November 2026, 12:16 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -338,7 +338,7 @@
     {
      "title": "Corporate Accounting Predicted Questions",
      "answered": "",
-     "updated": "23 Nov 2026",
+     "updated": "24 Nov 2026",
      "versions": [
       {
        "label": "Two columns, for printing",
@@ -1276,37 +1276,6 @@
      ]
     },
     {
-     "title": "Business Statistics Important Questions",
-     "answered": "",
-     "updated": "23 Nov 2026",
-     "versions": [
-      {
-       "label": "Single column, for reading",
-       "pdf": "papers/business-statistics-important-questions/output/business-statistics-important-questions-single.pdf?v=a7c7f95f",
-       "pdf_pages": 4,
-       "pdf_size": "55 kB",
-       "images": [
-        {
-         "full": "papers/business-statistics-important-questions/output/business-statistics-important-questions-single-page-1.png?v=7e5a085f",
-         "thumb": "site/thumbs/business-statistics-important-questions-single/1.webp?v=ec62522f"
-        },
-        {
-         "full": "papers/business-statistics-important-questions/output/business-statistics-important-questions-single-page-2.png?v=f71ad34c",
-         "thumb": "site/thumbs/business-statistics-important-questions-single/2.webp?v=ef7b9c95"
-        },
-        {
-         "full": "papers/business-statistics-important-questions/output/business-statistics-important-questions-single-page-3.png?v=2fdb5afd",
-         "thumb": "site/thumbs/business-statistics-important-questions-single/3.webp?v=8bcb9ae5"
-        },
-        {
-         "full": "papers/business-statistics-important-questions/output/business-statistics-important-questions-single-page-4.png?v=d7fe4784",
-         "thumb": "site/thumbs/business-statistics-important-questions-single/4.webp?v=9b6124bd"
-        }
-       ]
-      }
-     ]
-    },
-    {
      "title": "Business Statistics Predicted Paper",
      "answered": "",
      "updated": "23 Nov 2026",
@@ -1344,6 +1313,85 @@
         {
          "full": "papers/business-statistics-predicted-paper/output/business-statistics-predicted-paper-single-page-3.png?v=d7fe4784",
          "thumb": "site/thumbs/business-statistics-predicted-paper-single/3.webp?v=9b6124bd"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Business Statistics Predicted Questions",
+     "answered": "",
+     "updated": "24 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions.pdf?v=5776f5a5",
+       "pdf_pages": 5,
+       "pdf_size": "223 kB",
+       "images": [
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-1.png?v=ee2b6935",
+         "thumb": "site/thumbs/business-statistics-predicted-questions/1.webp?v=07635fb2"
+        },
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-2.png?v=11ecdc9d",
+         "thumb": "site/thumbs/business-statistics-predicted-questions/2.webp?v=ca4b5eec"
+        },
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-3.png?v=cc0aa593",
+         "thumb": "site/thumbs/business-statistics-predicted-questions/3.webp?v=65e7f7d7"
+        },
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-4.png?v=96f85dd9",
+         "thumb": "site/thumbs/business-statistics-predicted-questions/4.webp?v=a59db4fe"
+        },
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-5.png?v=543d13d9",
+         "thumb": "site/thumbs/business-statistics-predicted-questions/5.webp?v=df31f5ff"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single.pdf?v=bd9d98f7",
+       "pdf_pages": 9,
+       "pdf_size": "227 kB",
+       "images": [
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-1.png?v=b82233aa",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/1.webp?v=d4c4acc0"
+        },
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-2.png?v=3becdc83",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/2.webp?v=e56e3571"
+        },
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-3.png?v=9bf8d4c7",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/3.webp?v=9e9a4c75"
+        },
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-4.png?v=f231fc3c",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/4.webp?v=1f28ffb3"
+        },
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-5.png?v=beb9949c",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/5.webp?v=eb04557e"
+        },
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-6.png?v=2cb853ae",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/6.webp?v=67429399"
+        },
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-7.png?v=0ca759fa",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/7.webp?v=fd3fd2f8"
+        },
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-8.png?v=2124451e",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/8.webp?v=a1f578e0"
+        },
+        {
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-9.png?v=d5e6fbf3",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/9.webp?v=b650bb99"
         }
        ]
       }
@@ -1392,6 +1440,12 @@
      "pdf": "papers/business-statistics-expected-paper/question-paper.pdf",
      "pdf_pages": 1,
      "pdf_size": "43 kB"
+    },
+    {
+     "title": "Business Statistics Predicted Questions",
+     "pdf": "papers/business-statistics-predicted-questions/question-paper.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "65 kB"
     }
    ]
   },
