@@ -472,6 +472,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 10. **Use in HRD:** Teaching should not be tied to one fixed style.
 
 ## Q70.
+**Training Need Analysis** is the systematic process of identifying the gap between the knowledge or skills employees have and those they need to do their jobs effectively.
 ### Objectives and levels
 1. **Objectives:** Find the actual training gaps, decide who needs training, select content and methods, use the budget well and give a basis for evaluating training.
 2. **Organisational analysis:** Studies the organisation's goals, strategy, resources and problems.

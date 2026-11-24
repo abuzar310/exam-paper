@@ -1,5 +1,5 @@
 {
- "built": "24 November 2026, 12:01 PM IST",
+ "built": "24 November 2026, 12:03 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -1341,11 +1341,11 @@
     {
      "title": "Human Resource Development Predicted Questions",
      "answered": "",
-     "updated": "20 Nov 2026",
+     "updated": "24 Nov 2026",
      "versions": [
       {
        "label": "Two columns, for printing",
-       "pdf": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions.pdf?v=1b35c724",
+       "pdf": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions.pdf?v=c0bab2de",
        "pdf_pages": 8,
        "pdf_size": "73 kB",
        "images": [
@@ -1378,14 +1378,14 @@
          "thumb": "site/thumbs/human-resource-development-predicted-questions/7.webp?v=3b5c762e"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-8.png?v=4658bcfe",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions/8.webp?v=02bcfd12"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-8.png?v=622fb763",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions/8.webp?v=ba0dc48e"
         }
        ]
       },
       {
        "label": "Single column, for reading",
-       "pdf": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single.pdf?v=5c9b4ed7",
+       "pdf": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single.pdf?v=2e6f3176",
        "pdf_pages": 9,
        "pdf_size": "74 kB",
        "images": [
@@ -1422,8 +1422,8 @@
          "thumb": "site/thumbs/human-resource-development-predicted-questions-single/8.webp?v=08badd95"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-9.png?v=d61f9fe7",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/9.webp?v=b32db772"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-9.png?v=b3ee3d37",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/9.webp?v=3374a42d"
         }
        ]
       }
@@ -1566,41 +1566,6 @@
      ]
     },
     {
-     "title": "Personality Development Important Questions",
-     "answered": "",
-     "updated": "23 Nov 2026",
-     "versions": [
-      {
-       "label": "Single column, for reading",
-       "pdf": "papers/personality-development-important-questions/output/personality-development-important-questions-single.pdf?v=78cf9efd",
-       "pdf_pages": 5,
-       "pdf_size": "59 kB",
-       "images": [
-        {
-         "full": "papers/personality-development-important-questions/output/personality-development-important-questions-single-page-1.png?v=37f3ce87",
-         "thumb": "site/thumbs/personality-development-important-questions-single/1.webp?v=bba448b1"
-        },
-        {
-         "full": "papers/personality-development-important-questions/output/personality-development-important-questions-single-page-2.png?v=06ff00de",
-         "thumb": "site/thumbs/personality-development-important-questions-single/2.webp?v=19dd1a18"
-        },
-        {
-         "full": "papers/personality-development-important-questions/output/personality-development-important-questions-single-page-3.png?v=52421e56",
-         "thumb": "site/thumbs/personality-development-important-questions-single/3.webp?v=a7053fed"
-        },
-        {
-         "full": "papers/personality-development-important-questions/output/personality-development-important-questions-single-page-4.png?v=82e6d736",
-         "thumb": "site/thumbs/personality-development-important-questions-single/4.webp?v=a3774615"
-        },
-        {
-         "full": "papers/personality-development-important-questions/output/personality-development-important-questions-single-page-5.png?v=d0e992f2",
-         "thumb": "site/thumbs/personality-development-important-questions-single/5.webp?v=c0b4eb75"
-        }
-       ]
-      }
-     ]
-    },
-    {
      "title": "College model exam, 13 November 2026",
      "answered": "Answered: Section A 1(a)-(e) and Section B Q2-Q7 (the first five and the first six).",
      "updated": "13 Nov 2026",
@@ -1669,6 +1634,65 @@
         {
          "full": "papers/personality-development-predicted-paper/output/personality-development-predicted-paper-single-page-2.png?v=9d87d238",
          "thumb": "site/thumbs/personality-development-predicted-paper-single/2.webp?v=312460a8"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Personality Development Predicted Questions",
+     "answered": "",
+     "updated": "24 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions.pdf?v=b054d70c",
+       "pdf_pages": 4,
+       "pdf_size": "58 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-page-1.png?v=caaee81b",
+         "thumb": "site/thumbs/personality-development-predicted-questions/1.webp?v=eef3f031"
+        },
+        {
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-page-2.png?v=0d807ce7",
+         "thumb": "site/thumbs/personality-development-predicted-questions/2.webp?v=91044861"
+        },
+        {
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-page-3.png?v=7bf29796",
+         "thumb": "site/thumbs/personality-development-predicted-questions/3.webp?v=8561402c"
+        },
+        {
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-page-4.png?v=d8ae901d",
+         "thumb": "site/thumbs/personality-development-predicted-questions/4.webp?v=e15a9a5d"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single.pdf?v=04274ab8",
+       "pdf_pages": 5,
+       "pdf_size": "59 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-1.png?v=d2bacec4",
+         "thumb": "site/thumbs/personality-development-predicted-questions-single/1.webp?v=94aba82f"
+        },
+        {
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-2.png?v=0aef022d",
+         "thumb": "site/thumbs/personality-development-predicted-questions-single/2.webp?v=7b7ad83a"
+        },
+        {
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-3.png?v=d3db4f57",
+         "thumb": "site/thumbs/personality-development-predicted-questions-single/3.webp?v=137a7ab5"
+        },
+        {
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-4.png?v=e3999025",
+         "thumb": "site/thumbs/personality-development-predicted-questions-single/4.webp?v=1477360f"
+        },
+        {
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-5.png?v=c5b20f0d",
+         "thumb": "site/thumbs/personality-development-predicted-questions-single/5.webp?v=bf7d28c2"
         }
        ]
       }
@@ -1805,6 +1829,12 @@
      "pdf": "papers/personality-development-predicted-paper/question-paper.pdf",
      "pdf_pages": 1,
      "pdf_size": "3 kB"
+    },
+    {
+     "title": "Personality Development Predicted Questions",
+     "pdf": "papers/personality-development-predicted-questions/question-paper.pdf",
+     "pdf_pages": 1,
+     "pdf_size": "61 kB"
     }
    ]
   }
