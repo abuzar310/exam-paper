@@ -1,5 +1,5 @@
 {
- "built": "24 November 2026, 12:16 PM IST",
+ "built": "24 November 2026, 12:20 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -927,33 +927,6 @@
      ]
     },
     {
-     "title": "Accounting Standards Important Questions",
-     "answered": "",
-     "updated": "23 Nov 2026",
-     "versions": [
-      {
-       "label": "Single column, for reading",
-       "pdf": "papers/accounting-standards-important-questions/output/accounting-standards-important-questions-single.pdf?v=a36dd604",
-       "pdf_pages": 3,
-       "pdf_size": "51 kB",
-       "images": [
-        {
-         "full": "papers/accounting-standards-important-questions/output/accounting-standards-important-questions-single-page-1.png?v=5c0fd40e",
-         "thumb": "site/thumbs/accounting-standards-important-questions-single/1.webp?v=cccf813f"
-        },
-        {
-         "full": "papers/accounting-standards-important-questions/output/accounting-standards-important-questions-single-page-2.png?v=66080f28",
-         "thumb": "site/thumbs/accounting-standards-important-questions-single/2.webp?v=3f1b42dc"
-        },
-        {
-         "full": "papers/accounting-standards-important-questions/output/accounting-standards-important-questions-single-page-3.png?v=884b621d",
-         "thumb": "site/thumbs/accounting-standards-important-questions-single/3.webp?v=2b9b3918"
-        }
-       ]
-      }
-     ]
-    },
-    {
      "title": "College model exam, November 2026",
      "answered": "Answered: Section A, all ten. Section B, the first four only (Q1 to Q4). Section C says answer all.",
      "updated": "7 Nov 2026",
@@ -1042,6 +1015,89 @@
         {
          "full": "papers/accounting-standards-predicted-paper/output/accounting-standards-predicted-paper-single-page-3.png?v=b759be7d",
          "thumb": "site/thumbs/accounting-standards-predicted-paper-single/3.webp?v=b98c2722"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Accounting Standards Predicted Questions",
+     "answered": "",
+     "updated": "24 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions.pdf?v=58327495",
+       "pdf_pages": 6,
+       "pdf_size": "69 kB",
+       "images": [
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-1.png?v=83f98559",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions/1.webp?v=63224944"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-2.png?v=5fe103d2",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions/2.webp?v=2ceb8974"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-3.png?v=62e79858",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions/3.webp?v=d4509a10"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-4.png?v=ff0b3f81",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions/4.webp?v=e88e5b0a"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-5.png?v=ad97335f",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions/5.webp?v=5b2d40be"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-6.png?v=78d9d04b",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions/6.webp?v=12b21554"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single.pdf?v=543a604e",
+       "pdf_pages": 9,
+       "pdf_size": "71 kB",
+       "images": [
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-1.png?v=da858d36",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/1.webp?v=47509ecb"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-2.png?v=a4880383",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/2.webp?v=7f95df24"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-3.png?v=357332a0",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/3.webp?v=b0a503a4"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-4.png?v=bfa081d5",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/4.webp?v=8f2c3021"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-5.png?v=c702bc27",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/5.webp?v=ccd54170"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-6.png?v=3f72bb01",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/6.webp?v=ce0287df"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-7.png?v=cee24c71",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/7.webp?v=00a32d70"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-8.png?v=eb736ed2",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/8.webp?v=3e917264"
+        },
+        {
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-9.png?v=81092c71",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/9.webp?v=201c32fe"
         }
        ]
       }
@@ -1186,6 +1242,12 @@
      "pdf": "papers/accounting-standards-predicted-paper/question-paper.pdf",
      "pdf_pages": 1,
      "pdf_size": "61 kB"
+    },
+    {
+     "title": "Accounting Standards Predicted Questions",
+     "pdf": "papers/accounting-standards-predicted-questions/question-paper.pdf",
+     "pdf_pages": 3,
+     "pdf_size": "69 kB"
     }
    ]
   },
