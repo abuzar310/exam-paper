@@ -12,4 +12,10 @@ Asked and made (cloud session):
 - `render.py`: Liberation Sans on Linux (x̄, Σ, √ render) and a Noto Devanagari+Latin font for Hindi when Nirmala UI is missing.
 - Site deployed from the cloud with the proxy credential (README, Website).
 
-Left open: AS model paper Q5/Q6; old branches; merge into `main` when he asks (GitHub Pages copy lags until then). The transcript export (`export_transcript`) is not available in the cloud session, so only this record is saved.
+Left open: AS model paper Q5/Q6; old branches; merge into `main` when he asks (GitHub Pages copy lags until then). The full log is in `sessions/2026-11-20-to-11-24-session-transcript.md`.
+
+## 23–24 November: Business Statistics papers compared, expected paper
+
+- Read all nine Statistics papers (six old B.Com Fundamentals of Statistics 2014–2020, BBA 36220 Jan 2024, BBA 56421 May/June 2026, the second Dec 2025 set 24CC72) against last year's 54322. Most question types that repeat in the old papers also came in 54322; two 54322 problems were copied from BBA 36220 with the same numbers. Repeated but missing from 54322: "which is more consistent" (CV), median, functions and limitations, mode, diagrams, histogram mode.
+- **Expected paper** set "in the shoes of" last year's setter (`papers/business-statistics-expected-paper/`): old problems reused with their own numbers, skipped topics brought back. Question paper and answer sheet are separate PDFs (his choice: the answer sheet keeps only the answers, under the question numbers). Single column, no blank pages, on the site.
+- Full step-by-step log: `sessions/2026-11-20-to-11-24-session-transcript.md` (converted from this cloud session's own log with `sessions/to_md.py`; his Gmail blanked).
