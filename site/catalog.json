@@ -1,5 +1,5 @@
 {
- "built": "23 November 2026, 07:48 PM IST",
+ "built": "24 November 2026, 11:52 AM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -202,8 +202,16 @@
     {
      "title": "Q.P. 54303, December 2025 / January 2026 (photo)",
      "photos": [
-      "papers/hindi-sem3-dec-2025/question-paper-1.jpg",
-      "papers/hindi-sem3-dec-2025/question-paper-2.jpg"
+      {
+       "full": "papers/hindi-sem3-dec-2025/question-paper-1.jpg?v=203c7ea2",
+       "thumb": "site/thumbs/hindi-sem3-dec-2025-photos/1.webp?v=c8b0b6af",
+       "view": "site/thumbs/hindi-sem3-dec-2025-photos/1-view.webp?v=5ce5eef7"
+      },
+      {
+       "full": "papers/hindi-sem3-dec-2025/question-paper-2.jpg?v=8cf10962",
+       "thumb": "site/thumbs/hindi-sem3-dec-2025-photos/2.webp?v=20347caa",
+       "view": "site/thumbs/hindi-sem3-dec-2025-photos/2-view.webp?v=77fd7e84"
+      }
      ]
     },
     {
@@ -635,8 +643,16 @@
     {
      "title": "College model exam, 6 November 2026 (photo)",
      "photos": [
-      "papers/english-model-6-nov-2026/question-paper-1.jpg",
-      "papers/english-model-6-nov-2026/question-paper-2.jpg"
+      {
+       "full": "papers/english-model-6-nov-2026/question-paper-1.jpg?v=c3e01265",
+       "thumb": "site/thumbs/english-model-6-nov-2026-photos/1.webp?v=6452622c",
+       "view": "site/thumbs/english-model-6-nov-2026-photos/1-view.webp?v=999114dc"
+      },
+      {
+       "full": "papers/english-model-6-nov-2026/question-paper-2.jpg?v=980ffef3",
+       "thumb": "site/thumbs/english-model-6-nov-2026-photos/2.webp?v=7280b6a6",
+       "view": "site/thumbs/english-model-6-nov-2026-photos/2-view.webp?v=83c18a26"
+      }
      ]
     },
     {
@@ -945,8 +961,16 @@
     {
      "title": "College model exam, November 2026 (photo)",
      "photos": [
-      "papers/accounting-standards-model-nov-2026/question-paper-1.jpg",
-      "papers/accounting-standards-model-nov-2026/question-paper-2.jpg"
+      {
+       "full": "papers/accounting-standards-model-nov-2026/question-paper-1.jpg?v=4c8a3ca4",
+       "thumb": "site/thumbs/accounting-standards-model-nov-2026-photos/1.webp?v=d59b14a4",
+       "view": "site/thumbs/accounting-standards-model-nov-2026-photos/1-view.webp?v=2648a530"
+      },
+      {
+       "full": "papers/accounting-standards-model-nov-2026/question-paper-2.jpg?v=78c66dd8",
+       "thumb": "site/thumbs/accounting-standards-model-nov-2026-photos/2.webp?v=da84468c",
+       "view": "site/thumbs/accounting-standards-model-nov-2026-photos/2-view.webp?v=5b7ac397"
+      }
      ]
     },
     {
@@ -1796,9 +1820,21 @@
     {
      "title": "Personality Development Question Bank (photo)",
      "photos": [
-      "papers/personality-development-question-bank/question-paper-1.jpg",
-      "papers/personality-development-question-bank/question-paper-2.jpg",
-      "papers/personality-development-question-bank/question-paper-3.jpg"
+      {
+       "full": "papers/personality-development-question-bank/question-paper-1.jpg?v=fba1608d",
+       "thumb": "site/thumbs/personality-development-question-bank-photos/1.webp?v=abb3393d",
+       "view": "site/thumbs/personality-development-question-bank-photos/1-view.webp?v=eba85534"
+      },
+      {
+       "full": "papers/personality-development-question-bank/question-paper-2.jpg?v=ad1c945e",
+       "thumb": "site/thumbs/personality-development-question-bank-photos/2.webp?v=9516700b",
+       "view": "site/thumbs/personality-development-question-bank-photos/2-view.webp?v=12de4ac0"
+      },
+      {
+       "full": "papers/personality-development-question-bank/question-paper-3.jpg?v=d916a213",
+       "thumb": "site/thumbs/personality-development-question-bank-photos/3.webp?v=006faa4f",
+       "view": "site/thumbs/personality-development-question-bank-photos/3-view.webp?v=a34d2d8a"
+      }
      ]
     },
     {
@@ -1870,8 +1906,16 @@
     {
      "title": "Q.P. 54224, May / June 2026 (photo)",
      "photos": [
-      "papers/corporate-administration-sem2-may-2026/question-paper-1.webp",
-      "papers/corporate-administration-sem2-may-2026/question-paper-2.webp"
+      {
+       "full": "papers/corporate-administration-sem2-may-2026/question-paper-1.webp?v=a4a568fa",
+       "thumb": "site/thumbs/corporate-administration-sem2-may-2026-photos/1.webp?v=7114ff07",
+       "view": "site/thumbs/corporate-administration-sem2-may-2026-photos/1-view.webp?v=2489fa94"
+      },
+      {
+       "full": "papers/corporate-administration-sem2-may-2026/question-paper-2.webp?v=fb42bf8a",
+       "thumb": "site/thumbs/corporate-administration-sem2-may-2026-photos/2.webp?v=065b95d8",
+       "view": "site/thumbs/corporate-administration-sem2-may-2026-photos/2-view.webp?v=4fcdd4b4"
+      }
      ]
     }
    ]

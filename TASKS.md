@@ -27,6 +27,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-24: Website lighter and offline (his request; choices: both phones, keep only what is opened, current font self-hosted). Font served from the site (34 kB, no Google). Photo question papers: small previews (Accounting Standards model exam ~10 MB → 177 kB to open) and ~0.3 MB screen copies in the viewer; Download still gives the original. Installable app with offline support (`sw.js`, manifest, icons): opened papers are saved on the phone and marked "Saved on this phone"; offline the site shows a note and hides upload/alerts. Tested in Chromium (Pixel/iPhone emulation): first load 189 kB, saved PDF opens offline.
+
 - 2026-11-24: Branch `claude/blissful-archimedes-xb1i1j` merged into `main` at his request (fast-forward, 34 commits: Hindi textbook and corrections, predicted papers, important-questions docs, Statistics expected paper, session history). GitHub Pages now matches bcom3.
 
 - 2026-11-24: Session history saved: `sessions/2026-11-23-predictions-and-important-questions.md` (summary) and `sessions/2026-11-20-to-11-24-session-transcript.md` (full log, Gmail blanked).

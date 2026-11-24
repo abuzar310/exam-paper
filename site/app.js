@@ -87,7 +87,7 @@
 
   function thumbs(items, label, download = false) {
     if (!items.length) return "";
-    const key = encodeURIComponent(JSON.stringify(items.map((x) => x.full)));
+    const key = encodeURIComponent(JSON.stringify(items.map((x) => ({ f: x.full, v: x.view || x.full }))));
     return `<div class="pages" role="list">${items.map((x, i) => `
       <div class="pages__item" role="listitem">
         <button type="button" class="thumb" data-gallery="${key}" data-index="${i}" data-label="${esc(label)}" aria-label="${esc(label)}, page ${i + 1}: view image">
@@ -128,7 +128,7 @@
     const bar = adminBar(questionKey(q), label);
     if (q.photos) {
       return `${bar}<p class="paper__meta"><span>${plural(q.photos.length, "photo")}</span></p>
-        ${thumbs(q.photos.map((f) => ({ full: f, thumb: f })), label)}`;
+        ${thumbs(q.photos.map((f) => (typeof f === "string" ? { full: f, thumb: f } : f)), label)}`;
     }
     return `${bar}<p class="paper__meta"><span>${plural(q.pdf_pages, "page")}</span><span>${esc(q.pdf_size)}</span></p>
       <div class="actions">
@@ -205,6 +205,28 @@
       if (d.open) { if (!opened.has(d.dataset.item)) opened.set(d.dataset.item, ""); } else opened.delete(d.dataset.item);
     }));
     view.querySelector("h1").focus({ preventScroll: true });
+    markSaved();
+  }
+
+  // ---- Offline: which PDFs are saved on this phone (opened at least once)
+  function markSaved() {
+    if (!("caches" in window)) return;
+    if (!navigator.onLine) {
+      // Previews that were never seen are not on the phone: hide them rather than show broken images.
+      view.querySelectorAll(".thumb img").forEach(async (img) => {
+        if (!(await caches.match(img.getAttribute("src")).catch(() => null))) img.closest(".pages__item").hidden = true;
+      });
+    }
+    view.querySelectorAll(".version, [data-panel='question']").forEach(async (box) => {
+      const open = box.querySelector(":scope > .actions a.btn--primary, .actions a.btn--primary");
+      if (!open || box.querySelector(".saved-tag")) return;
+      const hit = await caches.match(open.href).catch(() => null);
+      const tag = document.createElement("span");
+      if (hit) { tag.className = "saved-tag"; tag.textContent = "Saved on this phone"; }
+      else if (!navigator.onLine) { tag.className = "saved-tag saved-tag--net"; tag.textContent = "Needs internet"; box.querySelector(".actions").classList.add("needs-net"); }
+      else return;
+      box.querySelector(".actions").before(tag);
+    });
   }
 
   // Question paper / Answers buttons inside an opened paper.
@@ -235,8 +257,9 @@
 
   // Page viewer
   function showPage() {
-    const src = gallery.items[gallery.index];
-    viewerImg.src = src;
+    const item = gallery.items[gallery.index];
+    const src = typeof item === "string" ? item : item.f;  // original, for Open / Download
+    viewerImg.src = typeof item === "string" ? item : item.v;  // lighter screen copy where there is one
     viewerImg.alt = `${gallery.label}, page ${gallery.index + 1}`;
     viewerCaption.textContent = `${gallery.label} · page ${gallery.index + 1} of ${gallery.items.length}`;
     viewerOpen.href = src;
@@ -378,7 +401,9 @@
   let hidden = new Set((() => { try { return JSON.parse(localStorage.getItem("hidden-items") || "[]"); } catch { return []; } })());
 
   const paperKey = (p) => `p:${(p.versions[0]?.pdf || "").split("/")[1] || ""}`;
-  const questionKey = (q) => `q:${q.pdf || (q.photos || [])[0] || ""}`;
+  const photoPath = (f) => (typeof f === "string" ? f : f ? f.full.split("?")[0] : "");
+  // Keys must stay the same as before photos had small previews: hidden papers are stored by them.
+  const questionKey = (q) => `q:${q.pdf || photoPath((q.photos || [])[0])}`;
   // What a visitor sees of a subject: everything for the admin, hidden papers left out for everyone else.
   const seen = (s) => admin ? s : {
     ...s,
@@ -663,12 +688,58 @@
   });
   sheet.addEventListener("cancel", (e) => { if (busy) e.preventDefault(); });
 
+  // ---- Offline support: service worker, offline note, install button
+  const offlineNote = document.getElementById("offline");
+  function drawOnline() {
+    offlineNote.hidden = navigator.onLine;
+    document.body.classList.toggle("is-offline", !navigator.onLine);
+    view.querySelectorAll(".saved-tag").forEach((x) => x.remove());
+    view.querySelectorAll(".needs-net").forEach((x) => x.classList.remove("needs-net"));
+    markSaved();
+  }
+  // Offline, previews of pages never opened cannot load: hide them instead of showing broken images.
+  document.addEventListener("error", (e) => {
+    const img = e.target;
+    if (img.tagName === "IMG" && img.closest(".thumb") && !navigator.onLine) img.closest(".pages__item").hidden = true;
+  }, true);
+  window.addEventListener("online", () => { route(); drawOnline(); loadLanded(); });
+  window.addEventListener("offline", drawOnline);
+  drawOnline();
+
+  function keepList(d) {
+    // Every file link in the current list; the service worker deletes saved copies of older versions.
+    const urls = [];
+    [...d.subjects, ...d.earlier].forEach((s) => {
+      s.solved.forEach((p) => p.versions.forEach((v) => { urls.push(v.pdf); v.images.forEach((i) => urls.push(i.full, i.thumb)); }));
+      s.questions.forEach((q) => { if (q.pdf) urls.push(q.pdf); (q.photos || []).forEach((f) => { if (typeof f === "string") urls.push(f); else urls.push(f.full, f.thumb, f.view); }); });
+    });
+    return urls.filter(Boolean);
+  }
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  }
+
+  const installBtn = document.getElementById("install");
+  const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+  const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  let installEvent = null;
+  window.addEventListener("beforeinstallprompt", (e) => { e.preventDefault(); installEvent = e; installBtn.hidden = false; });
+  window.addEventListener("appinstalled", () => { installBtn.hidden = true; installEvent = null; });
+  if (iOS && !standalone) installBtn.hidden = false;
+  installBtn.addEventListener("click", () => {
+    if (installEvent) { installEvent.prompt(); installEvent.userChoice.finally(() => { installEvent = null; installBtn.hidden = true; }); return; }
+    toast("On iPhone: tap the Share button in Safari, then \u201cAdd to Home Screen\u201d. The site then opens like an app, also without internet.", false);
+  });
+
   window.addEventListener("hashchange", route);
   fetch("site/catalog.json", { cache: "no-cache" })
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then((d) => {
       data = d;
       document.getElementById("built").textContent = `Last updated ${d.built}`;
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.ready.then((reg) => reg.active && reg.active.postMessage({ type: "keep", urls: keepList(d) })).catch(() => {});
+      }
       route();
       if (location.hash.replace(/^#\/?/, "")) loadLanded();
       if (admin) adminCall({ action: "check" }).catch(() => {});

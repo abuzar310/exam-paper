@@ -45,7 +45,15 @@ deploy with the project ids and any dummy token without hyphens:
 
     VERCEL_ORG_ID=team_UXTI8zLTRWuXk7Q8ZNUQ2b0R VERCEL_PROJECT_ID=prj_90AxcrKYSDJmZuUjAEVIqbsEegEg npx -y vercel deploy --prod --yes --token dummytoken0123456789
 
-`.vercelignore` uploads only `index.html`, `site/`, `papers/` and `vercel.json`. The page reads `site/catalog.json`,
+**Light and offline (24 Nov 2026).** The font is stored in `site/fonts/` (no Google Fonts call).
+Photographed question papers get small previews and a screen copy in `site/thumbs/<folder>-photos/`
+(the originals are up to 5 MB). `sw.js` (root) plus `site/manifest.webmanifest` make the site
+installable ("Install app" / iPhone: Share → Add to Home Screen) and let it open offline: the site
+itself is kept, and every paper file a reader opens is saved on the phone (nothing is downloaded in
+advance, his choice). Changed papers get new `?v=` links, and old saved copies are removed. When
+changing `sw.js`, bump its cache names (`shell-v1`, `files-v1`).
+
+`.vercelignore` uploads only `index.html`, `sw.js`, `site/`, `papers/` and `vercel.json`. The page reads `site/catalog.json`,
 which `python site/build.py` writes from the `papers/` folder (subjects and question papers
 are set in `site/subjects.json`). Run it after rendering a paper, then commit, push and deploy.
 

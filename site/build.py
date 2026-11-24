@@ -28,6 +28,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
 THUMB_W = 360
+VIEW_W = 1600
 MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December"
 
 
@@ -113,6 +114,29 @@ def thumbs_for(folder, name):
     return items
 
 
+def photo_thumbs(folder, photos):
+    """Small previews of a photographed question paper: the photos themselves are up to 5 MB each,
+    too heavy to load just to show the little pictures on a phone."""
+    items = []
+    for ph in photos:
+        t = SITE / "thumbs" / f"{folder.name}-photos" / (ph.stem.rsplit("-", 1)[1] + ".webp")
+        if not t.exists() or t.stat().st_mtime < ph.stat().st_mtime:
+            t.parent.mkdir(parents=True, exist_ok=True)
+            with Image.open(ph) as im:
+                im = im.convert("RGB")
+                im.thumbnail((THUMB_W, THUMB_W * 2))
+                im.save(t, "WEBP", quality=72)
+        # Screen copy for the image viewer (about 0.3 MB); Download still gives the original photo.
+        v = t.with_name(t.stem + "-view.webp")
+        if not v.exists() or v.stat().st_mtime < ph.stat().st_mtime:
+            with Image.open(ph) as im:
+                im = im.convert("RGB")
+                im.thumbnail((VIEW_W, VIEW_W * 2))
+                im.save(v, "WEBP", quality=80)
+        items.append({"full": ver(ph), "thumb": ver(t), "view": ver(v)})
+    return items
+
+
 def cut_pages(src, first, last, dest):
     if dest.exists() and dest.stat().st_mtime >= src.stat().st_mtime:
         return
@@ -149,7 +173,7 @@ def build():
         })
         photos = sorted(p for p in folder.iterdir() if re.match(r"question-paper-\d+\.(jpe?g|png|webp)$", p.name, re.I))
         if photos:
-            catalogue[sid]["questions"].append({"title": f"{title} (photo)", "photos": [rel(p) for p in photos]})
+            catalogue[sid]["questions"].append({"title": f"{title} (photo)", "photos": photo_thumbs(folder, photos)})
 
     for q in cfg["question_papers"]:
         src = ROOT / q["source"]

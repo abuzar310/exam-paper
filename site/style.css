@@ -1,4 +1,15 @@
 /* Exam Paper: calm daylight theme. One cobalt accent on pure white; neutrals tinted toward it. */
+/* Atkinson Hyperlegible Next (SIL Open Font License), stored on this site so it loads fast and works offline. */
+@font-face {
+  font-family: "Atkinson Hyperlegible Next"; font-style: normal; font-weight: 400 800; font-display: swap;
+  src: url("fonts/atkinson-next-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible Next"; font-style: normal; font-weight: 400 800; font-display: swap;
+  src: url("fonts/atkinson-next-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
 :root {
   --bg: oklch(1 0 0);
   --surface: oklch(0.976 0.007 252);
@@ -156,6 +167,7 @@ p { margin: 0; text-wrap: pretty; }
 
 .pages { display: flex; gap: 10px; overflow-x: auto; padding: 2px 2px 8px; margin: 0 -2px; scroll-snap-type: x proximity; overscroll-behavior-x: contain; }
 .pages__item { flex: none; scroll-snap-align: start; display: grid; gap: 6px; justify-items: center; }
+.pages__item[hidden] { display: none; }
 .thumb {
   padding: 0; border: 1px solid var(--line); border-radius: 8px; background: var(--surface);
   width: 112px; aspect-ratio: 210 / 297; overflow: hidden; cursor: zoom-in;
@@ -441,3 +453,17 @@ p { margin: 0; text-wrap: pretty; }
   .bell { padding: 6px 10px; }
   .bell #bell-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 }
+
+/* Offline: a slim note under the header, and a tag on each paper saved on the phone. */
+.offline {
+  margin: 0; padding: 10px 16px; text-align: center; font-weight: 700; font-size: 0.95rem;
+  background: var(--surface-2); color: var(--ink); border-bottom: 1px solid var(--line);
+}
+.saved-tag {
+  display: inline-flex; align-items: center; gap: 4px; padding: 2px 10px; border-radius: 999px; justify-self: start; width: fit-content;
+  font-size: 0.8rem; font-weight: 700; background: var(--brand-soft); color: var(--brand); border: 1px solid var(--brand-line);
+}
+.saved-tag--net { background: var(--surface); color: var(--ink-2); border-color: var(--line); }
+.is-offline .fab, .is-offline #bell { display: none; }
+.needs-net { opacity: 0.55; }
+

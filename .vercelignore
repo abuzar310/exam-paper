@@ -1,6 +1,7 @@
 # CLI deploys (new Vercel account) upload only what the site serves.
 /*
 !/index.html
+!/sw.js
 !/site
 !/papers
 !/vercel.json
