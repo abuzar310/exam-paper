@@ -1,5 +1,5 @@
 {
- "built": "24 November 2026, 12:20 PM IST",
+ "built": "24 November 2026, 12:24 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -59,85 +59,85 @@
      "versions": [
       {
        "label": "Two columns, for printing",
-       "pdf": "papers/hindi-predicted-questions/output/hindi-predicted-questions.pdf?v=422c9335",
+       "pdf": "papers/hindi-predicted-questions/output/hindi-predicted-questions.pdf?v=1157387a",
        "pdf_pages": 7,
-       "pdf_size": "102 kB",
+       "pdf_size": "107 kB",
        "images": [
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-1.png?v=e4aade59",
-         "thumb": "site/thumbs/hindi-predicted-questions/1.webp?v=fe1f7b63"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-1.png?v=0d942f16",
+         "thumb": "site/thumbs/hindi-predicted-questions/1.webp?v=b0b6e7c2"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-2.png?v=627e4441",
-         "thumb": "site/thumbs/hindi-predicted-questions/2.webp?v=c5f81d4a"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-2.png?v=efca816e",
+         "thumb": "site/thumbs/hindi-predicted-questions/2.webp?v=cc669d3d"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-3.png?v=95221a97",
-         "thumb": "site/thumbs/hindi-predicted-questions/3.webp?v=8fcc2a25"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-3.png?v=f664edee",
+         "thumb": "site/thumbs/hindi-predicted-questions/3.webp?v=af7f0331"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-4.png?v=7ce41a50",
-         "thumb": "site/thumbs/hindi-predicted-questions/4.webp?v=8dd52473"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-4.png?v=b2142703",
+         "thumb": "site/thumbs/hindi-predicted-questions/4.webp?v=bba6b979"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-5.png?v=e6cbc877",
-         "thumb": "site/thumbs/hindi-predicted-questions/5.webp?v=d5d033a5"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-5.png?v=000785e8",
+         "thumb": "site/thumbs/hindi-predicted-questions/5.webp?v=c097412f"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-6.png?v=245701c4",
-         "thumb": "site/thumbs/hindi-predicted-questions/6.webp?v=9d43a4d4"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-6.png?v=6b9a8c81",
+         "thumb": "site/thumbs/hindi-predicted-questions/6.webp?v=e8f10e60"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-7.png?v=e3475905",
-         "thumb": "site/thumbs/hindi-predicted-questions/7.webp?v=fa0f2659"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-7.png?v=86efbe4e",
+         "thumb": "site/thumbs/hindi-predicted-questions/7.webp?v=332dd330"
         }
        ]
       },
       {
        "label": "Single column, for reading",
-       "pdf": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single.pdf?v=59cec315",
+       "pdf": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single.pdf?v=c8d4959b",
        "pdf_pages": 10,
-       "pdf_size": "104 kB",
+       "pdf_size": "110 kB",
        "images": [
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-1.png?v=f8d7675c",
-         "thumb": "site/thumbs/hindi-predicted-questions-single/1.webp?v=71549fc0"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-1.png?v=d4b52939",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/1.webp?v=a3077500"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-2.png?v=67d34144",
-         "thumb": "site/thumbs/hindi-predicted-questions-single/2.webp?v=8908f17c"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-2.png?v=1404e0c3",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/2.webp?v=54dde4f6"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-3.png?v=773a9445",
-         "thumb": "site/thumbs/hindi-predicted-questions-single/3.webp?v=7de800a9"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-3.png?v=50df63fb",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/3.webp?v=7a171d6c"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-4.png?v=1c720143",
-         "thumb": "site/thumbs/hindi-predicted-questions-single/4.webp?v=5c64af84"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-4.png?v=e7735412",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/4.webp?v=9ce69ef5"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-5.png?v=d7f1e115",
-         "thumb": "site/thumbs/hindi-predicted-questions-single/5.webp?v=d6ac29c8"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-5.png?v=e6099a75",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/5.webp?v=aa1f2b73"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-6.png?v=12158a29",
-         "thumb": "site/thumbs/hindi-predicted-questions-single/6.webp?v=14a1a9b4"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-6.png?v=eeb2a942",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/6.webp?v=f59ca300"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-7.png?v=ab6b23db",
-         "thumb": "site/thumbs/hindi-predicted-questions-single/7.webp?v=82780ee4"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-7.png?v=a1bd19de",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/7.webp?v=15659d46"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-8.png?v=2c2fa182",
-         "thumb": "site/thumbs/hindi-predicted-questions-single/8.webp?v=754e9929"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-8.png?v=b22e2852",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/8.webp?v=1d321fbb"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-9.png?v=ca0a9cc8",
-         "thumb": "site/thumbs/hindi-predicted-questions-single/9.webp?v=5ef62203"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-9.png?v=8df3362d",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/9.webp?v=9b2fcb2a"
         },
         {
-         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-10.png?v=33a2f858",
-         "thumb": "site/thumbs/hindi-predicted-questions-single/10.webp?v=a7ce5495"
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-10.png?v=ce46ffcb",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/10.webp?v=6aded093"
         }
        ]
       }
@@ -342,101 +342,101 @@
      "versions": [
       {
        "label": "Two columns, for printing",
-       "pdf": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions.pdf?v=fd5076ea",
+       "pdf": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions.pdf?v=902e412f",
        "pdf_pages": 9,
-       "pdf_size": "82 kB",
+       "pdf_size": "84 kB",
        "images": [
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-1.png?v=83f51bbd",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions/1.webp?v=9629d368"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-1.png?v=861d068d",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/1.webp?v=49890575"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-2.png?v=ecd43341",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions/2.webp?v=17254253"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-2.png?v=7b00c39b",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/2.webp?v=b79bb239"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-3.png?v=dedbe95f",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions/3.webp?v=dde273e8"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-3.png?v=fdcf2d43",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/3.webp?v=c6399fa4"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-4.png?v=bdac84a8",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions/4.webp?v=55601a30"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-4.png?v=3f0cddbc",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/4.webp?v=00c46441"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-5.png?v=31a2f5d5",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions/5.webp?v=ce4ee628"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-5.png?v=02c57955",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/5.webp?v=699e46a3"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-6.png?v=addb6c0a",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions/6.webp?v=2d35b3c6"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-6.png?v=205b3eb3",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/6.webp?v=ae94abb0"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-7.png?v=6b5d44cc",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions/7.webp?v=06b94514"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-7.png?v=a237a439",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/7.webp?v=12b7a52d"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-8.png?v=2c38d595",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions/8.webp?v=bbcb8978"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-8.png?v=12cffb44",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/8.webp?v=a88a1984"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-9.png?v=a92b5102",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions/9.webp?v=94a257cb"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-9.png?v=ac11ba71",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/9.webp?v=76486501"
         }
        ]
       },
       {
        "label": "Single column, for reading",
-       "pdf": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single.pdf?v=1915cdfe",
+       "pdf": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single.pdf?v=9a6aff1c",
        "pdf_pages": 12,
-       "pdf_size": "84 kB",
+       "pdf_size": "85 kB",
        "images": [
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-1.png?v=1fe50002",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/1.webp?v=9e99a6a8"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-1.png?v=7b3151b2",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/1.webp?v=6a540ed8"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-2.png?v=2b35e080",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/2.webp?v=96d34d54"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-2.png?v=0539c552",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/2.webp?v=bc6ef311"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-3.png?v=a670e578",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/3.webp?v=d89938bd"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-3.png?v=cbc112a8",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/3.webp?v=c2931826"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-4.png?v=2c84c461",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/4.webp?v=c30e1772"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-4.png?v=8cc3b8ed",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/4.webp?v=24b293cd"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-5.png?v=43212c56",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/5.webp?v=45935330"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-5.png?v=76eda171",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/5.webp?v=2e661030"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-6.png?v=e00c3ba2",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/6.webp?v=89f3c3f2"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-6.png?v=cff559df",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/6.webp?v=5f36549a"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-7.png?v=e664b781",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/7.webp?v=4da9c56e"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-7.png?v=df06349c",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/7.webp?v=8f142e4f"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-8.png?v=c1c51c81",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/8.webp?v=33e84507"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-8.png?v=42a5a3f1",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/8.webp?v=22d656ba"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-9.png?v=b7a0ec78",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/9.webp?v=06ea433d"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-9.png?v=12ec83fc",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/9.webp?v=d4f04461"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-10.png?v=d6ec9799",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/10.webp?v=829d19df"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-10.png?v=3542ce72",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/10.webp?v=ea9a990b"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-11.png?v=1644be46",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/11.webp?v=54f91fd4"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-11.png?v=099b62a2",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/11.webp?v=a3e3c076"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-12.png?v=d13f802e",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/12.webp?v=6f79467a"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-12.png?v=78d2c87e",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/12.webp?v=80d998dc"
         }
        ]
       }
@@ -703,85 +703,85 @@
      "versions": [
       {
        "label": "Two columns, for printing",
-       "pdf": "papers/english-predicted-questions/output/english-predicted-questions.pdf?v=b82d11c1",
+       "pdf": "papers/english-predicted-questions/output/english-predicted-questions.pdf?v=a30da640",
        "pdf_pages": 7,
        "pdf_size": "72 kB",
        "images": [
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-1.png?v=fa164def",
-         "thumb": "site/thumbs/english-predicted-questions/1.webp?v=f8dba7a5"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-1.png?v=31cedf11",
+         "thumb": "site/thumbs/english-predicted-questions/1.webp?v=1a1bedf9"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-2.png?v=39b29b39",
-         "thumb": "site/thumbs/english-predicted-questions/2.webp?v=95a6f8ee"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-2.png?v=4502259b",
+         "thumb": "site/thumbs/english-predicted-questions/2.webp?v=eac83ec4"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-3.png?v=0a297c2f",
-         "thumb": "site/thumbs/english-predicted-questions/3.webp?v=35e3e951"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-3.png?v=168e969f",
+         "thumb": "site/thumbs/english-predicted-questions/3.webp?v=e50d12a5"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-4.png?v=9628b847",
-         "thumb": "site/thumbs/english-predicted-questions/4.webp?v=b3b3c4e7"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-4.png?v=9a67567b",
+         "thumb": "site/thumbs/english-predicted-questions/4.webp?v=8e268cef"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-5.png?v=825221ea",
-         "thumb": "site/thumbs/english-predicted-questions/5.webp?v=b54f42ad"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-5.png?v=27131eb0",
+         "thumb": "site/thumbs/english-predicted-questions/5.webp?v=cd0f6535"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-6.png?v=685bfb39",
-         "thumb": "site/thumbs/english-predicted-questions/6.webp?v=9e6ccbac"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-6.png?v=d59e56cb",
+         "thumb": "site/thumbs/english-predicted-questions/6.webp?v=123cb479"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-7.png?v=e1a5d974",
-         "thumb": "site/thumbs/english-predicted-questions/7.webp?v=6ece342e"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-page-7.png?v=24570fa0",
+         "thumb": "site/thumbs/english-predicted-questions/7.webp?v=1b8e1099"
         }
        ]
       },
       {
        "label": "Single column, for reading",
-       "pdf": "papers/english-predicted-questions/output/english-predicted-questions-single.pdf?v=7fd08f6a",
+       "pdf": "papers/english-predicted-questions/output/english-predicted-questions-single.pdf?v=779a39a7",
        "pdf_pages": 10,
-       "pdf_size": "74 kB",
+       "pdf_size": "75 kB",
        "images": [
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-1.png?v=d26d9b8f",
-         "thumb": "site/thumbs/english-predicted-questions-single/1.webp?v=0c37fbc9"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-1.png?v=e9de2c78",
+         "thumb": "site/thumbs/english-predicted-questions-single/1.webp?v=afdbd15e"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-2.png?v=358502ec",
-         "thumb": "site/thumbs/english-predicted-questions-single/2.webp?v=7a91d648"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-2.png?v=87d32921",
+         "thumb": "site/thumbs/english-predicted-questions-single/2.webp?v=4757696d"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-3.png?v=56cc4b7b",
-         "thumb": "site/thumbs/english-predicted-questions-single/3.webp?v=9bd65ddb"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-3.png?v=f9968f4b",
+         "thumb": "site/thumbs/english-predicted-questions-single/3.webp?v=ed7ded28"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-4.png?v=f6044b0b",
-         "thumb": "site/thumbs/english-predicted-questions-single/4.webp?v=c997a406"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-4.png?v=755d5862",
+         "thumb": "site/thumbs/english-predicted-questions-single/4.webp?v=58770299"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-5.png?v=7b0abe93",
-         "thumb": "site/thumbs/english-predicted-questions-single/5.webp?v=9c94adee"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-5.png?v=86d82e45",
+         "thumb": "site/thumbs/english-predicted-questions-single/5.webp?v=57b92aa9"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-6.png?v=22335c79",
-         "thumb": "site/thumbs/english-predicted-questions-single/6.webp?v=da3d6768"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-6.png?v=6c95f49e",
+         "thumb": "site/thumbs/english-predicted-questions-single/6.webp?v=bebb662a"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-7.png?v=6ea92b50",
-         "thumb": "site/thumbs/english-predicted-questions-single/7.webp?v=47df7c52"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-7.png?v=848d00f0",
+         "thumb": "site/thumbs/english-predicted-questions-single/7.webp?v=dd7c6271"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-8.png?v=d205074c",
-         "thumb": "site/thumbs/english-predicted-questions-single/8.webp?v=5ca00a58"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-8.png?v=5608a6a5",
+         "thumb": "site/thumbs/english-predicted-questions-single/8.webp?v=54477892"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-9.png?v=539298c5",
-         "thumb": "site/thumbs/english-predicted-questions-single/9.webp?v=b8b93b05"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-9.png?v=44ed5b94",
+         "thumb": "site/thumbs/english-predicted-questions-single/9.webp?v=221d9681"
         },
         {
-         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-10.png?v=9396c3a6",
-         "thumb": "site/thumbs/english-predicted-questions-single/10.webp?v=92f161f3"
+         "full": "papers/english-predicted-questions/output/english-predicted-questions-single-page-10.png?v=feef56d0",
+         "thumb": "site/thumbs/english-predicted-questions-single/10.webp?v=9d8436ce"
         }
        ]
       }
@@ -1027,73 +1027,73 @@
      "versions": [
       {
        "label": "Two columns, for printing",
-       "pdf": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions.pdf?v=58327495",
+       "pdf": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions.pdf?v=9de06803",
        "pdf_pages": 6,
-       "pdf_size": "69 kB",
+       "pdf_size": "70 kB",
        "images": [
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-1.png?v=83f98559",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions/1.webp?v=63224944"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-1.png?v=794023df",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions/1.webp?v=5ca1f84e"
         },
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-2.png?v=5fe103d2",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions/2.webp?v=2ceb8974"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-2.png?v=7599a547",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions/2.webp?v=9f8ce738"
         },
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-3.png?v=62e79858",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions/3.webp?v=d4509a10"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-3.png?v=ad0d5d41",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions/3.webp?v=4788ab5f"
         },
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-4.png?v=ff0b3f81",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions/4.webp?v=e88e5b0a"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-4.png?v=1bb68355",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions/4.webp?v=fb55e74d"
         },
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-5.png?v=ad97335f",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions/5.webp?v=5b2d40be"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-5.png?v=5d06c46c",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions/5.webp?v=6980149f"
         },
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-6.png?v=78d9d04b",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions/6.webp?v=12b21554"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-page-6.png?v=8530b3c5",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions/6.webp?v=2bbff25f"
         }
        ]
       },
       {
        "label": "Single column, for reading",
-       "pdf": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single.pdf?v=543a604e",
+       "pdf": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single.pdf?v=eb7c6e7b",
        "pdf_pages": 9,
-       "pdf_size": "71 kB",
+       "pdf_size": "73 kB",
        "images": [
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-1.png?v=da858d36",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/1.webp?v=47509ecb"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-1.png?v=2ed46d04",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/1.webp?v=ee5cb77b"
         },
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-2.png?v=a4880383",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/2.webp?v=7f95df24"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-2.png?v=16a0e56b",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/2.webp?v=ee486de0"
         },
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-3.png?v=357332a0",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/3.webp?v=b0a503a4"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-3.png?v=0749c9f7",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/3.webp?v=c88f3329"
         },
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-4.png?v=bfa081d5",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/4.webp?v=8f2c3021"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-4.png?v=3c39a83b",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/4.webp?v=3a7f4ff2"
         },
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-5.png?v=c702bc27",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/5.webp?v=ccd54170"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-5.png?v=6c2f33a2",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/5.webp?v=5e2d35f9"
         },
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-6.png?v=3f72bb01",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/6.webp?v=ce0287df"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-6.png?v=47c570e2",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/6.webp?v=e39272d3"
         },
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-7.png?v=cee24c71",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/7.webp?v=00a32d70"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-7.png?v=a218ed77",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/7.webp?v=59a783d6"
         },
         {
-         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-8.png?v=eb736ed2",
-         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/8.webp?v=3e917264"
+         "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-8.png?v=1e9cb4a2",
+         "thumb": "site/thumbs/accounting-standards-predicted-questions-single/8.webp?v=5380f079"
         },
         {
          "full": "papers/accounting-standards-predicted-questions/output/accounting-standards-predicted-questions-single-page-9.png?v=81092c71",
@@ -1387,73 +1387,73 @@
      "versions": [
       {
        "label": "Two columns, for printing",
-       "pdf": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions.pdf?v=5776f5a5",
+       "pdf": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions.pdf?v=4d3d2997",
        "pdf_pages": 5,
-       "pdf_size": "223 kB",
+       "pdf_size": "224 kB",
        "images": [
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-1.png?v=ee2b6935",
-         "thumb": "site/thumbs/business-statistics-predicted-questions/1.webp?v=07635fb2"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-1.png?v=050483d7",
+         "thumb": "site/thumbs/business-statistics-predicted-questions/1.webp?v=3a07f14e"
         },
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-2.png?v=11ecdc9d",
-         "thumb": "site/thumbs/business-statistics-predicted-questions/2.webp?v=ca4b5eec"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-2.png?v=858d1123",
+         "thumb": "site/thumbs/business-statistics-predicted-questions/2.webp?v=0139d67a"
         },
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-3.png?v=cc0aa593",
-         "thumb": "site/thumbs/business-statistics-predicted-questions/3.webp?v=65e7f7d7"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-3.png?v=05a53b7d",
+         "thumb": "site/thumbs/business-statistics-predicted-questions/3.webp?v=a2fafb89"
         },
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-4.png?v=96f85dd9",
-         "thumb": "site/thumbs/business-statistics-predicted-questions/4.webp?v=a59db4fe"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-4.png?v=e2ec016d",
+         "thumb": "site/thumbs/business-statistics-predicted-questions/4.webp?v=250c60ee"
         },
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-5.png?v=543d13d9",
-         "thumb": "site/thumbs/business-statistics-predicted-questions/5.webp?v=df31f5ff"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-page-5.png?v=26a205e9",
+         "thumb": "site/thumbs/business-statistics-predicted-questions/5.webp?v=2f7904ac"
         }
        ]
       },
       {
        "label": "Single column, for reading",
-       "pdf": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single.pdf?v=bd9d98f7",
+       "pdf": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single.pdf?v=059438a5",
        "pdf_pages": 9,
-       "pdf_size": "227 kB",
+       "pdf_size": "228 kB",
        "images": [
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-1.png?v=b82233aa",
-         "thumb": "site/thumbs/business-statistics-predicted-questions-single/1.webp?v=d4c4acc0"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-1.png?v=75afa861",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/1.webp?v=948fc2f6"
         },
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-2.png?v=3becdc83",
-         "thumb": "site/thumbs/business-statistics-predicted-questions-single/2.webp?v=e56e3571"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-2.png?v=83e11a53",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/2.webp?v=740288f1"
         },
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-3.png?v=9bf8d4c7",
-         "thumb": "site/thumbs/business-statistics-predicted-questions-single/3.webp?v=9e9a4c75"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-3.png?v=d47e02b3",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/3.webp?v=4ecb909f"
         },
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-4.png?v=f231fc3c",
-         "thumb": "site/thumbs/business-statistics-predicted-questions-single/4.webp?v=1f28ffb3"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-4.png?v=3ddb13fe",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/4.webp?v=b3429313"
         },
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-5.png?v=beb9949c",
-         "thumb": "site/thumbs/business-statistics-predicted-questions-single/5.webp?v=eb04557e"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-5.png?v=f36e95b6",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/5.webp?v=46b364e7"
         },
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-6.png?v=2cb853ae",
-         "thumb": "site/thumbs/business-statistics-predicted-questions-single/6.webp?v=67429399"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-6.png?v=b5c86eaf",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/6.webp?v=4cfb968b"
         },
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-7.png?v=0ca759fa",
-         "thumb": "site/thumbs/business-statistics-predicted-questions-single/7.webp?v=fd3fd2f8"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-7.png?v=03f46292",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/7.webp?v=f59adae5"
         },
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-8.png?v=2124451e",
-         "thumb": "site/thumbs/business-statistics-predicted-questions-single/8.webp?v=a1f578e0"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-8.png?v=f2371a91",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/8.webp?v=7958b17a"
         },
         {
-         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-9.png?v=d5e6fbf3",
-         "thumb": "site/thumbs/business-statistics-predicted-questions-single/9.webp?v=b650bb99"
+         "full": "papers/business-statistics-predicted-questions/output/business-statistics-predicted-questions-single-page-9.png?v=c695b0b3",
+         "thumb": "site/thumbs/business-statistics-predicted-questions-single/9.webp?v=a457c3b0"
         }
        ]
       }
@@ -1663,85 +1663,85 @@
      "versions": [
       {
        "label": "Two columns, for printing",
-       "pdf": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions.pdf?v=c0bab2de",
+       "pdf": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions.pdf?v=3d5d173a",
        "pdf_pages": 8,
-       "pdf_size": "73 kB",
+       "pdf_size": "74 kB",
        "images": [
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-1.png?v=74494019",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions/1.webp?v=20fda8cd"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-1.png?v=9b4f1aff",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions/1.webp?v=6bb10672"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-2.png?v=90a6721c",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions/2.webp?v=f00a27e5"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-2.png?v=440e5471",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions/2.webp?v=7e7b799b"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-3.png?v=e060b1ea",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions/3.webp?v=1544a4dc"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-3.png?v=19d5b67a",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions/3.webp?v=fb5c2153"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-4.png?v=f327ae65",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions/4.webp?v=0589144b"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-4.png?v=158eeeb6",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions/4.webp?v=c05d2320"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-5.png?v=48ea5fd9",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions/5.webp?v=ec3b3eb4"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-5.png?v=69668a7f",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions/5.webp?v=22965780"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-6.png?v=a8c74654",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions/6.webp?v=d76585a7"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-6.png?v=bf31949f",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions/6.webp?v=c04036e4"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-7.png?v=e6e976a3",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions/7.webp?v=3b5c762e"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-7.png?v=26866987",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions/7.webp?v=5343df0c"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-8.png?v=622fb763",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions/8.webp?v=ba0dc48e"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-page-8.png?v=4febd866",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions/8.webp?v=3b99f0a2"
         }
        ]
       },
       {
        "label": "Single column, for reading",
-       "pdf": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single.pdf?v=2e6f3176",
+       "pdf": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single.pdf?v=24a063ac",
        "pdf_pages": 9,
-       "pdf_size": "74 kB",
+       "pdf_size": "75 kB",
        "images": [
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-1.png?v=d9cdc631",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/1.webp?v=080c10c0"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-1.png?v=9db033df",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/1.webp?v=524bdbf2"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-2.png?v=359ce83c",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/2.webp?v=e2f8b301"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-2.png?v=1d1b1e76",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/2.webp?v=a2aed53c"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-3.png?v=c4b08a73",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/3.webp?v=270b997d"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-3.png?v=a2ae0939",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/3.webp?v=61021b92"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-4.png?v=d0e26991",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/4.webp?v=9d06007d"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-4.png?v=59506ae9",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/4.webp?v=092469c0"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-5.png?v=52bf6c83",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/5.webp?v=0b2e01c1"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-5.png?v=25a771d3",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/5.webp?v=fe96d425"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-6.png?v=3e1713df",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/6.webp?v=6e40ff0c"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-6.png?v=a115ef6e",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/6.webp?v=4c2c3d8f"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-7.png?v=2ccd29de",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/7.webp?v=c9e39609"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-7.png?v=f51bcdd5",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/7.webp?v=0b7b6893"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-8.png?v=221f41b0",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/8.webp?v=08badd95"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-8.png?v=ddcede14",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/8.webp?v=7745ec63"
         },
         {
-         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-9.png?v=b3ee3d37",
-         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/9.webp?v=3374a42d"
+         "full": "papers/human-resource-development-predicted-questions/output/human-resource-development-predicted-questions-single-page-9.png?v=f2fecc63",
+         "thumb": "site/thumbs/human-resource-development-predicted-questions-single/9.webp?v=a9e55837"
         }
        ]
       }
@@ -1964,53 +1964,53 @@
      "versions": [
       {
        "label": "Two columns, for printing",
-       "pdf": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions.pdf?v=b054d70c",
+       "pdf": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions.pdf?v=2923967a",
        "pdf_pages": 4,
-       "pdf_size": "58 kB",
+       "pdf_size": "59 kB",
        "images": [
         {
-         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-page-1.png?v=caaee81b",
-         "thumb": "site/thumbs/personality-development-predicted-questions/1.webp?v=eef3f031"
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-page-1.png?v=f522b1bb",
+         "thumb": "site/thumbs/personality-development-predicted-questions/1.webp?v=3835096d"
         },
         {
-         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-page-2.png?v=0d807ce7",
-         "thumb": "site/thumbs/personality-development-predicted-questions/2.webp?v=91044861"
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-page-2.png?v=2a87663b",
+         "thumb": "site/thumbs/personality-development-predicted-questions/2.webp?v=49e520b1"
         },
         {
-         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-page-3.png?v=7bf29796",
-         "thumb": "site/thumbs/personality-development-predicted-questions/3.webp?v=8561402c"
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-page-3.png?v=0d30a527",
+         "thumb": "site/thumbs/personality-development-predicted-questions/3.webp?v=bedadff4"
         },
         {
-         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-page-4.png?v=d8ae901d",
-         "thumb": "site/thumbs/personality-development-predicted-questions/4.webp?v=e15a9a5d"
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-page-4.png?v=05421e12",
+         "thumb": "site/thumbs/personality-development-predicted-questions/4.webp?v=1d7df947"
         }
        ]
       },
       {
        "label": "Single column, for reading",
-       "pdf": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single.pdf?v=04274ab8",
+       "pdf": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single.pdf?v=69a06cd3",
        "pdf_pages": 5,
-       "pdf_size": "59 kB",
+       "pdf_size": "60 kB",
        "images": [
         {
-         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-1.png?v=d2bacec4",
-         "thumb": "site/thumbs/personality-development-predicted-questions-single/1.webp?v=94aba82f"
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-1.png?v=0b997d48",
+         "thumb": "site/thumbs/personality-development-predicted-questions-single/1.webp?v=b749df94"
         },
         {
-         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-2.png?v=0aef022d",
-         "thumb": "site/thumbs/personality-development-predicted-questions-single/2.webp?v=7b7ad83a"
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-2.png?v=4c4434b2",
+         "thumb": "site/thumbs/personality-development-predicted-questions-single/2.webp?v=97ec6392"
         },
         {
-         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-3.png?v=d3db4f57",
-         "thumb": "site/thumbs/personality-development-predicted-questions-single/3.webp?v=137a7ab5"
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-3.png?v=f1530c6b",
+         "thumb": "site/thumbs/personality-development-predicted-questions-single/3.webp?v=4734242a"
         },
         {
-         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-4.png?v=e3999025",
-         "thumb": "site/thumbs/personality-development-predicted-questions-single/4.webp?v=1477360f"
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-4.png?v=0f3bccc5",
+         "thumb": "site/thumbs/personality-development-predicted-questions-single/4.webp?v=b2d51786"
         },
         {
-         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-5.png?v=c5b20f0d",
-         "thumb": "site/thumbs/personality-development-predicted-questions-single/5.webp?v=bf7d28c2"
+         "full": "papers/personality-development-predicted-questions/output/personality-development-predicted-questions-single-page-5.png?v=37813b12",
+         "thumb": "site/thumbs/personality-development-predicted-questions-single/5.webp?v=f9170cc2"
         }
        ]
       }

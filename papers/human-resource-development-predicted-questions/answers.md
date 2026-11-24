@@ -6,205 +6,205 @@
 
 # 2 MARKS
 
-## Q1.
+## Q1. Define Human Resource Development (HRD).
 **Human Resource Development (HRD)** is a planned and continuous process of developing employees' knowledge, skills, abilities, attitudes and values so that they contribute effectively to organisational objectives and achieve personal growth. In simple words, HRD means improving the abilities and potential of employees for better performance.
 
-## Q2.
+## Q2. What are the outcomes of HRD?
 **Outcomes of HRD** are the results that the development of people brings. Nationally they are a skilled workforce, employment and economic development; in the organisation they are competent employees, better quality, leaders, satisfaction, lower turnover and effectiveness.
 
-## Q3.
+## Q3. Mention any two qualities of an HRD professional.
 1. **Communication and interpersonal skills:** An HRD professional must explain, listen and build good relations with employees at every level.
 2. **Coaching and training ability:** He must be able to train, coach and guide employees to learn new skills and grow.
 
-## Q4.
+## Q4. What is meant by HRD climate?
 **HRD climate** is the employees' perception of whether their organisation provides an environment that supports learning, development, openness, trust and growth. It is shaped by the general climate, the OCTAPAC culture and the HRD mechanisms of the organisation.
 
-## Q5.
+## Q5. State any two external factors influencing employee behaviour.
 1. **Leadership:** The style of the manager or leader strongly influences how employees think and act.
 2. **Reward systems:** Employees behave according to the rewards and recognition the organisation gives.
 
-## Q6.
+## Q6. What is aptitude?
 **Aptitude** is a person's natural ability or potential to learn and perform a particular kind of work, such as customer handling, teamwork or problem-solving. It shows how well a person can perform after training, not only what he already knows.
 
-## Q7.
+## Q7. Give the meaning of leadership development.
 **Leadership development** is the planned process of building the leadership qualities of employees, such as decision-making, communication, team handling and strategic thinking, so that they are ready for managerial roles. It uses training, coaching, mentoring, job rotation and leadership projects.
 
-## Q8.
+## Q8. What is an HRD audit?
 **HRD audit** is a systematic review of an organisation's HRD strategies, systems, practices and competencies to find out how well they support business goals. It shows the strengths, gaps and areas where HRD must improve.
 
-## Q9.
+## Q9. What is meant by outbound training?
 **Outbound training** is learning through structured activities outside the usual workplace, often outdoors, such as team challenges and problem-solving tasks. It develops teamwork, leadership, communication, trust and problem-solving.
 
-## Q10.
+## Q10. Mention any two recent trends in HRD.
 1. **Continuous learning and reskilling:** Employees keep learning new skills through digital learning platforms and technology-supported training.
 2. **Competency-based HRD:** Organisations use competency frameworks and competency mapping to plan training, careers and promotions.
 
-## Q11.
+## Q11. What is mentoring?
 **Mentoring** is a developmental relationship in which a more experienced person (the mentor) gives guidance, advice, support and knowledge to a less experienced person (the mentee) for wider professional and career development.
 
-## Q12.
+## Q12. What is competency mapping?
 **Competency mapping** is the process of identifying the competencies required for a particular job and comparing them with the competencies an employee currently has. It shows the gap between required and existing capabilities, for example a job needing advanced Excel when the employee has only basic Excel.
 
-## Q13.
+## Q13. What is Human Resource Planning?
 **Human Resource Planning (HRP)** is the process of estimating future human resource requirements and ensuring that the right people are available at the right place and time. In short, it means the right person, in the right job, at the right time and in the right number.
 
-## Q14.
+## Q14. What is potential appraisal?
 **Potential appraisal** is a systematic process of evaluating an employee's future capability, leadership qualities and competencies to take up higher-level responsibilities. It asks "what can the employee achieve?" and supports promotion, succession planning and career development.
 
-## Q15.
+## Q15. What is an assessment centre?
 An **assessment centre** is a systematic method of evaluating employees' competencies through simulated job situations such as group discussion, role play, case study, presentation, psychometric tests and in-basket exercises. It is used for selection, promotion, potential appraisal and leadership development.
 
-## Q16.
+## Q16. Mention any two HRD mechanisms.
 1. **Performance appraisal:** The systematic assessment of an employee's performance against set standards, which also identifies training needs.
 2. **Training and development:** Training improves skills for the present job.
 
-## Q17.
+## Q17. What is organisational climate?
 **Organisational climate** is the employees' shared perception of the present work environment, such as openness, trust, support, fairness and freedom. It is "how the organisation feels" to its members, and it can change faster than culture.
 
-## Q18.
+## Q18. What is meant by a learning style?
 A **learning style** is a person's preferred way of taking in and processing information while learning, such as visual, auditory, reading/writing or kinesthetic (learning by doing). Trainers should use a mix of methods rather than label employees by one style.
 
-## Q19.
+## Q19. What is Aptitude, Knowledge and Values?
 **Aptitude** is a person's natural ability or potential to learn a particular skill or do a specific type of work. **Knowledge** is the information, facts and understanding gained through education, training, reading and experience.
 
-## Q20.
+## Q20. What is human resource accounting?
 **Human resource accounting (HRA)** is the process of identifying, measuring and reporting the cost and value of an organisation's human resources. It treats spending on recruitment, selection, induction, training and development as an investment in people (for example Rs. 40,000 per employee).
 
-## Q21.
+## Q21. What is an HR audit?
 An **HR audit** is a systematic examination and evaluation of an organisation's HR policies, procedures, practices and systems. It checks whether HR activities such as recruitment, training, pay, appraisal and records are managed properly and whether the applicable rules and laws are followed.
 
-## Q22.
+## Q22. State any two differences between training and development.
 | Basis | Training | Development |
 |---|---|---|
 | Focus | Present job | Future roles and overall growth |
 | Time period | Usually short or medium term | Usually long term and continuous |
 
-## Q23.
+## Q23. What is a balanced scorecard?
 A **balanced scorecard** is a strategic performance management framework that turns an organisation's strategy into objectives and measures from four perspectives: financial, customer, internal process, and learning and growth. In HRD it links employee learning with processes, customers and financial results.
 
-## Q24.
+## Q24. What is coaching?
 **Coaching** is a structured process in which a coach helps an employee improve specific skills, solve work problems or reach defined performance goals through questions, guidance, practice and feedback. Example: a sales manager coaches a sales executive on handling customer objections.
 
-## Q25.
+## Q25. What is macro-level and micro-level HRD?
 1. **Macro-level HRD:** The development of human resources at the national or societal level, through education, skill development, vocational training and digital literacy.
 2. **Micro-level HRD:** The development of employees within an organisation, through training, performance appraisal, career planning, leadership development and counselling.
 
-## Q26.
+## Q26. State any two internal factors influencing employee behaviour.
 1. **Personality:** It decides how an employee responds to situations.
 2. **Motivation:** It decides the direction, intensity and persistence of behaviour.
 
-## Q27.
+## Q27. What is benchmarking?
 **Benchmarking** is the process of comparing an organisation's practices, processes or performance with those of other organisations or recognised standards to identify opportunities for improvement. Example: a company that takes 30 days to recruit studies another that does it in 15 days.
 
-## Q28.
+## Q28. What is Training Need Analysis?
 **Training Need Analysis (TNA)** is the systematic process of identifying the gap between the knowledge or skills employees have and the knowledge or skills they need to do their jobs effectively. It decides who needs training, what training is required and why.
 
-## Q29.
+## Q29. What is attitudinal training?
 **Attitudinal training** develops positive work-related attitudes, values and behaviour towards work, customers, colleagues and change. Example: employees who are rude to customers learn empathy, patience and service attitude.
 
-## Q30.
+## Q30. Expand OCTAPAC.
 **OCTAPAC** stands for Openness, Confrontation, Trust, Autonomy, Proactivity, Authenticity and Collaboration. These seven values create a developmental organisational culture.
 
-## Q31.
+## Q31. What is Appreciative Inquiry?
 **Appreciative Inquiry** is an approach to organisational development that identifies and builds on an organisation's strengths, successful experiences and positive possibilities. Instead of asking only what is wrong, it asks what works well and how to expand it.
 
-## Q32.
+## Q32. What is transparency?
 **Transparency** means openness, honesty and clarity in an organisation's decisions, policies, activities and communication. It means sharing relevant information clearly, for example explaining the criteria used for appraisal, rewards and promotion.
 
 # 5 MARKS
 
-## Q33.
+## Q33. Explain the developmental perspective of HRD.
 1. **Employees as assets with potential:** The developmental perspective views employees as people whose knowledge, skills and potential can be continuously developed.
 2. **Continuous learning:** Learning is a lifelong process.
 3. **Skill, competency and career growth:** It builds the competencies needed for the present job and plans a career path for future growth.
 4. **Leadership development:** It identifies and prepares employees for future managerial and leadership roles.
 5. **Organisational learning and long-term growth:** Individual learning spreads across the organisation, so both the employee and the organisation grow in the long run.
 
-## Q34.
+## Q34. Briefly explain the importance of HRD in the present context.
 1. **Improves employee performance:** Training raises the skills, productivity and quality of work.
 2. **Adapts employees to technological change:** HRD helps employees learn new technology and digital tools.
 3. **Develops leadership capabilities:** It builds a pipeline of future leaders from within the organisation.
 4. **Increases motivation, engagement and retention:** Employees who see growth and career development feel valued and are less likely to leave.
 5. **Encourages innovation and competitive advantage:** Skilled and learning employees bring new ideas, which keep the organisation ahead of competitors.
 
-## Q35.
+## Q35. Write a short note on HRD mechanisms.
 1. **Performance appraisal:** The systematic assessment of an employee's performance against set standards.
 2. **Potential appraisal:** It evaluates an employee's capacity to take up higher-level or future responsibilities, and supports promotion and succession.
 3. **Training and development:** Training improves skills for the present job.
 4. **Feedback and counselling:** Feedback tells employees how their performance compares with standards.
 5. **Career planning and job rotation:** Career planning maps the employee's career path, and job rotation moves him through different jobs to broaden his experience.
 
-## Q36.
+## Q36. Explain the learning principles in HRD.
 1. **Motivation:** People learn better when they have a reason to learn, for example to get promoted.
 2. **Readiness:** The learner must be mentally and physically ready.
 3. **Practice and active participation:** Repeated practice and taking part through cases, discussions and role plays make learning stronger than a lecture alone.
 4. **Feedback and reinforcement:** Learners need to know what they did right and wrong, and behaviour that is praised or rewarded is repeated.
 5. **Meaningfulness and transfer:** Learning should be linked to real work, and what is learned must be applied on the job.
 
-## Q37.
+## Q37. What are the qualities of a good leader?
 1. **Communication and vision:** A good leader explains ideas and instructions clearly and gives the team a clear direction.
 2. **Decision-making and problem-solving:** Makes suitable decisions at the right time, identifies problems and finds solutions.
 3. **Confidence and responsibility:** Is confident yet open to advice, and accepts accountability for results.
 4. **Honesty:** Acts truthfully and ethically, so followers trust the leader.
 5. **Motivation and emotional intelligence:** Encourages employees to perform well, and understands and manages emotions.
 
-## Q38.
+## Q38. Explain the concept of an HRD audit.
 1. **Meaning:** An HR audit is a systematic examination and evaluation of an organisation's HR policies, procedures, practices and systems.
 2. **Purpose:** It checks whether HR activities are managed properly and whether the applicable rules and laws are followed.
 3. **Areas covered:** Recruitment and selection, training, compensation, performance appraisal, employee welfare, HR records and legal compliance.
 4. **Steps:** Planning, collecting information, examination, identifying problems, preparing the report and corrective action.
 5. **Importance:** It improves HR efficiency, finds weaknesses, supports compliance and reduces unnecessary costs.
 
-## Q39.
+## Q39. What are the techniques of training?
 1. **On-the-job training and demonstration:** Workers learn while doing the actual job under guidance, and the trainer shows the correct way to operate equipment or do a task.
 2. **Job instruction, apprenticeship and simulation:** Work is explained, shown, practised and reviewed step by step.
 3. **Role play, case study and group discussion:** Supervisors practise giving feedback and resolving disputes, analyse employee and production problems, and learn to coordinate people.
 4. **Coaching and job rotation:** Employees receive guidance from experienced people and gain experience by working in different areas.
 5. **Management development techniques:** Managers learn through management development programmes, business games, case analysis, management by projects, executive coaching and mentoring, and conferences and seminars.
 
-## Q40.
+## Q40. Explain the role of coaching and mentoring in HRD.
 1. **Coaching:** A structured process in which a coach helps an employee improve specific skills or reach defined performance goals through questions, guidance, practice and feedback.
 2. **Role of coaching:** It encourages self-reflection and practical action, tracks progress, and improves confidence, performance and problem-solving.
 3. **Mentoring:** A developmental relationship in which an experienced mentor gives guidance, advice and support to a less experienced mentee for long-term career development.
 4. **Role of mentoring:** It supports confidence, career planning and understanding of the organisation, and shares knowledge between experienced and new employees.
 5. **Role in HRD:** Both are methods of leadership development.
 
-## Q41.
+## Q41. Trace the evolution of HRD from personnel management.
 1. **Personnel management (first stage):** The traditional, administrative stage.
 2. **Human resource management (second stage):** The managerial stage.
 3. **Human resource development (third stage):** The developmental stage.
 4. **Change in focus:** Administration (PM) → managing people (HRM) → developing people (HRD).
 5. **Change in orientation:** Short-term maintenance (PM) → present performance (HRM) → long-term growth of the employee and the organisation (HRD).
 
-## Q42.
+## Q42. Explain the subsystems of HRD.
 1. **Training and development:** Improves knowledge and skills for the present job and prepares employees for future roles.
 2. **Performance and potential appraisal:** Performance appraisal evaluates present performance.
 3. **Career planning and succession planning:** Maps the employee's career path and prepares employees to fill key positions in future.
 4. **Employee counselling and feedback:** Helps employees with work-related and personal concerns and tells them how to improve.
 5. **Rewards, recognition and organisation development:** Rewards encourage the desired performance, and OD builds a culture of openness, trust and teamwork.
 
-## Q43.
+## Q43. Explain the external and internal factors influencing employee behaviour.
 1. **Internal – personality and perception:** Personality decides how a person reacts to situations, and perception decides how they interpret events.
 2. **Internal – attitude, motivation and values:** A positive attitude, strong motivation and values such as honesty and fairness lead to better behaviour.
 3. **Internal – ability and learning:** The capacity to do the task and past experience shape how an employee behaves.
 4. **External – leadership, culture and climate:** The leader's style and the organisation's culture and climate strongly influence how employees act.
 5. **External – rewards, job design, group, policies and technology:** Rewards, the nature of the job, co-workers, fair policies, technology and the economic environment also shape behaviour.
 
-## Q44.
+## Q44. Explain the principles of learning and how learning can be maximised.
 1. **Motivation and readiness:** People learn better when they have a reason to learn and are mentally and physically ready.
 2. **Practice and active participation:** Repeated practice and taking part through cases, discussions and role plays make learning stronger than a lecture alone.
 3. **Feedback and reinforcement:** Learners need to know what they did right and wrong, and behaviour that is rewarded is repeated.
 4. **Meaningfulness and transfer:** Learning must be linked to real work and applied on the job.
 5. **Maximising learning:** Set clear objectives, keep content relevant and difficulty right, give practice and repetition, a supportive environment, follow-up after training and evaluation of results.
 
-## Q45.
+## Q45. Explain the process of training need analysis.
 1. **Identify the problem:** Training need analysis is the systematic process of finding the gap between the skills employees have and the skills their jobs need.
 2. **Collect information:** Through observation, interviews, questionnaires, performance appraisal reports, customer complaints and skill tests.
 3. **Study three levels:** Organisational analysis (goals, strategy, resources), task or job analysis (duties and skills required) and individual analysis (each employee's present performance).
 4. **Compare and find the cause:** Compare existing skills with required skills and confirm that training can solve the gap.
 5. **Set priorities and recommend:** Set training priorities and objectives, and recommend the content, method, participants and schedule.
 
-## Q46.
+## Q46. Write short notes on (a) outbound training and (b) attitudinal training.
 ### (a) Outbound training
 1. **Meaning:** Outbound training is learning through structured activities outside the usual workplace, often in an outdoor or unfamiliar setting.
 2. **Activities:** Team-building games, group challenges, obstacle courses with proper safety, treasure hunts and outdoor projects, followed by reflection and discussion.
@@ -213,70 +213,70 @@ A **balanced scorecard** is a strategic performance management framework that tu
 4. **Meaning:** Attitudinal training develops positive work-related attitudes, values and behaviour towards work, customers, colleagues and change.
 5. **Methods and importance:** Role play, case studies, group discussion, behavioural modelling, self-assessment with feedback, and counselling.
 
-## Q47.
+## Q47. Discuss the recent trends in HRD, with special reference to competency mapping.
 1. **Continuous and digital learning:** Reskilling, upskilling and digital learning platforms keep employees up to date.
 2. **Coaching, mentoring and data:** Individual guidance, research and analytics are used to plan HRD, and training is measured by business impact.
 3. **Competency mapping:** The process of identifying the competencies a job requires and comparing them with the competencies the employee currently has.
 4. **Steps in competency mapping:** Study the role, identify the knowledge, skills, abilities and behaviours needed, define proficiency levels, assess the employee and compare to find gaps.
 5. **Use of competency mapping:** The gaps lead to an individual development plan of training, coaching, mentoring or work experience.
 
-## Q48.
+## Q48. Explain the OCTAPAC culture.
 1. **Openness:** Employees can communicate ideas, concerns and information freely.
 2. **Confrontation:** Problems are faced directly rather than ignored.
 3. **Trust:** Employees believe that others will act fairly and responsibly.
 4. **Autonomy and proactivity:** Employees have reasonable freedom to decide within their responsibilities, and take initiative instead of waiting for instructions.
 5. **Authenticity and collaboration:** What people say matches what they do, and employees work together rather than in unhealthy competition.
 
-## Q49.
+## Q49. Explain the objectives and methods of potential appraisal.
 1. **Meaning and objectives:** Potential appraisal evaluates an employee's future abilities and growth potential, to identify future leaders, support promotion and succession planning, and find training needs.
 2. **Performance review:** The employee's past performance record is studied to judge readiness for a higher job.
 3. **Psychological tests and interviews:** Tests measure aptitude and personality, and interviews explore the employee's abilities and ambitions.
 4. **Assessment centres:** The employee is observed in simulated job situations such as group discussion, role play and in-basket exercises.
 5. **360-degree feedback:** Views on the employee are collected from superiors, peers, subordinates and others who work with him.
 
-## Q50.
+## Q50. Explain the assessment centre and its techniques.
 1. **Meaning:** An assessment centre evaluates employees' competencies through simulated job situations.
 2. **Group discussion and role play:** Group discussion tests communication and teamwork.
 3. **Case study and presentation:** A case study tests problem-solving and analytical ability.
 4. **Psychometric tests and in-basket exercise:** Psychometric tests measure personality and aptitude.
 5. **Advantages and limitations:** It gives a systematic evaluation of many competencies and identifies future leaders, but it is expensive, time-consuming and needs trained assessors.
 
-## Q51.
+## Q51. Explain human resource accounting and its methods.
 1. **Meaning:** HRA identifies, measures and reports the costs and value of an organisation's human resources, showing the investment made in employees.
 2. **Historical cost method:** Records the actual costs of recruiting, selecting, training and developing an employee.
 3. **Replacement cost method:** Estimates the cost of replacing an employee with someone of similar skills and experience, including recruitment and training costs.
 4. **Opportunity cost method:** Considers the value of an employee's services when choosing between alternative uses or departments.
 5. **Limitations:** Human value is hard to measure in money, employees are not like physical assets, methods give different values and future contribution is uncertain.
 
-## Q52.
+## Q52. Explain the four perspectives of the Balanced Scorecard.
 1. **Financial:** How do our activities affect financial performance?
 2. **Customer:** How do customers view the organisation?
 3. **Internal process:** Which internal processes must work well?
 4. **Learning and growth:** How can the organisation keep improving?
 5. **Importance in HRD:** It links employee learning with strategy and shows how skills improve processes and customer results.
 
-## Q53.
+## Q53. Discuss the 4-D cycle of Appreciative Inquiry.
 1. **Discover:** Identify what works well and the organisation's strengths.
 2. **Dream:** Imagine what the organisation could achieve by building on its strengths.
 3. **Design:** Plan the systems, practices and actions that support the desired future.
 4. **Destiny (Deliver):** Implement the actions, learn and keep improving.
 5. **Use in HRD:** It finds successful practices, encourages participation and positive communication, and builds shared ownership of change.
 
-## Q54.
+## Q54. Explain the need for training trainers and HRD professionals.
 1. **Knowledge and training skills:** Trainers must improve their subject knowledge and their skill in delivering training.
 2. **Adult learning and participation:** They learn how adults learn and how to involve participants through discussion and questions.
 3. **Methods and group handling:** They learn to use suitable methods, activities and materials, and to manage groups and questions.
 4. **Assessment and technology:** They learn to check whether participants have learned, and to use digital tools and blended learning.
 5. **HRD professionals' needs:** HRD staff need training in TNA, learning design and evaluation, competency mapping, employee relations and ethics, and HR analytics and learning management systems.
 
-## Q55.
+## Q55. State the qualities and competencies of an HRD professional.
 1. **Communication and interpersonal skills:** Explains clearly, listens and builds good relations at every level.
 2. **Leadership, decision-making and problem-solving:** Guides people, takes sound decisions and handles problems calmly.
 3. **Ethics, integrity and emotional intelligence:** Is fair and honest and understands people's feelings.
 4. **Strategic thinking and change management:** Links HRD to business goals and helps the organisation accept change.
 5. **Coaching, training and performance management:** Acts as trainer, coach, mentor, facilitator, counsellor, performance evaluator and change agent.
 
-## Q56.
+## Q56. Explain the methods of leadership development.
 1. **Leadership training:** Training in communication, decision-making and team management.
 2. **Mentoring and coaching:** An experienced leader guides a less experienced employee, and a coach helps improve a specific performance area.
 3. **Job rotation:** The employee works in different departments to gain wider experience.
@@ -285,7 +285,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 
 # 10 MARKS
 
-## Q57.
+## Q57. Explain the subsystems of HRD with examples.
 ### Planning and appraisal subsystems
 1. **Human resource planning:** Forecasting the number and kind of employees needed and making them available at the right time.
 2. **Performance appraisal:** Assessing an employee's present performance against standards.
@@ -299,7 +299,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Rewards and recognition:** Rewarding desired behaviour and good performance.
 10. **Employee welfare, counselling and HR information system:** Looking after the well-being of employees and keeping HR records that support decisions.
 
-## Q58.
+## Q58. Discuss the influence of employee behaviour on organisational effectiveness.
 ### How employee behaviour affects effectiveness
 1. **Work performance and productivity:** Committed and skilled behaviour gives more output and better quality, which directly raises organisational effectiveness.
 2. **Attendance and punctuality:** Regular attendance keeps work on time.
@@ -313,7 +313,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Behaviour depends on internal and external factors:** Internal factors are personality, perception, attitude, motivation, ability and values.
 10. **HRD improves behaviour and results:** Training, feedback, a good HRD climate and fair rewards change behaviour, which leads to better performance and organisational effectiveness.
 
-## Q59.
+## Q59. Explain the methods and practices for developing human capacity.
 ### Developing human capacity
 1. **Aptitude-based recruitment:** Selecting people not only for qualifications but also for aptitude, such as customer handling, teamwork, adaptability and problem-solving.
 2. **Knowledge development:** Product, process and system training (for example CRM training) so that employees know their work fully and can apply it.
@@ -327,7 +327,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Coaching, mentoring and feedback:** Regular guidance from seniors and managers helps employees correct mistakes and grow faster.
 10. **Evaluating HRD:** HR accounting, HR audit, benchmarking, impact assessment and ROI show whether HRD improves business results.
 
-## Q60.
+## Q60. Explain the types of training.
 ### Internal and external training
 1. **Internal training:** Organised within the organisation by its own managers, supervisors or trainers.
 2. **Merits and limits of internal training:** It fits the organisation's actual work, costs less and has flexible schedules.
@@ -342,7 +342,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Job, technical and safety training:** Teaches the skills for a particular job, and safe work practices and emergency procedures.
 10. **Soft-skills, managerial, digital and compliance training:** Builds communication and teamwork, supervisory and leadership ability, the use of new software, and knowledge of rules and professional conduct.
 
-## Q61.
+## Q61. Critically examine the recent trends in HRD.
 ### Recent trends
 1. **Continuous learning and reskilling:** Employees keep learning.
 2. **Technology-enabled learning:** Learning management systems, e-learning, mobile learning, simulations and blended learning.
@@ -356,7 +356,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Poor utilisation:** Training is wasted when employees lack tools, time, support or a chance to practise, or when the content is not relevant to the job.
 10. **Careful adaptation:** A practice from another country or company may not suit local culture, language, laws and conditions.
 
-## Q62.
+## Q62. Define HRD.
 ### Meaning and levels of HRD
 1. **Definition:** HRD is a planned and continuous process of developing employees' knowledge, skills, abilities, attitudes and values for organisational objectives and personal growth.
 2. **Macro-level HRD:** The development of human resources at the national or societal level, through government and social initiatives.
@@ -370,7 +370,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Strategic thinking and change management:** Links HRD to business goals and helps the organisation accept change.
 10. **Coaching, training and performance management:** Acts as trainer, coach, mentor, facilitator, counsellor, performance evaluator and change agent.
 
-## Q63.
+## Q63. Explain the HRD mechanisms.
 ### HRD mechanisms
 1. **Performance appraisal:** Assesses performance against standards and identifies strengths, gaps and training needs.
 2. **Potential appraisal:** Assesses the capacity for future, higher roles.
@@ -384,7 +384,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Positive climate:** Encourages learning, innovation, initiative, cooperation, motivation, communication and commitment.
 10. **Negative climate:** Causes fear, resistance to change, low motivation, poor communication and turnover, so HRD efforts fail.
 
-## Q64.
+## Q64. Developing human capacity: aptitude, knowledge, values and skills.
 ### Developing human capacity
 1. **Meaning:** Developing human capacity means building the aptitude, knowledge, values and human relations skills of employees so that they can perform and grow.
 2. **Aptitude:** A person's natural ability to learn and do a kind of work.
@@ -398,7 +398,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Methods:** Leadership training, mentoring, coaching, job rotation, delegation of responsibility with authority, action learning on real problems and the case study method.
 10. **Benefits:** A pipeline of future leaders, more internal promotions, higher motivation and better retention.
 
-## Q65.
+## Q65. HR accounting, HR audit and benchmarking as HRD evaluation tools.
 ### Tools for evaluating HRD
 1. **Human resource accounting (HRA):** Identifying, measuring and reporting the costs and value of an organisation's human resources.
 2. **Methods and use of HRA:** Historical cost, replacement cost and opportunity cost methods.
@@ -412,7 +412,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Retention, customers and sales:** Career development lowers turnover and replacement cost.
 10. **Measuring the impact:** ROI = (Benefit − Cost) ÷ Cost × 100.
 
-## Q66.
+## Q66. Selecting a training method: principles and techniques.
 ### Principles of selecting a training method
 1. **Objectives and nature of the job:** The method must achieve the learning outcome.
 2. **Participants and group size:** Consider the trainees' age, education, experience and knowledge.
@@ -427,7 +427,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Methods:** Feedback forms, pre- and post-training tests, skill assessments, supervisor observation, performance and productivity records, and customer feedback.
 10. **Steps:** Set objectives, decide the evidence, take a baseline before training, measure reaction and learning, observe application at work, review results and recommend improvements.
 
-## Q67.
+## Q67. Competency framework and steps in competency mapping.
 ### Competency framework
 1. **Competency:** A combination of knowledge, skills, abilities and behaviours that enables a person to perform a role effectively.
 2. **Competency framework:** An organised structure of the competencies required for different jobs, roles or levels, used for recruitment, training, appraisal, promotion and career development.
@@ -441,7 +441,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Gap analysis:** Compare the current level with the required level and prioritise the gaps.
 10. **Development planning and review:** Prepare an individual development plan of training, coaching, mentoring or job experience, and update the map when job needs change.
 
-## Q68.
+## Q68. Explain Human Resource Planning, potential appraisal and the assessment centre.
 ### Human Resource Planning
 1. **Meaning:** HRP is the process of estimating future human resource requirements and ensuring that the right people are available at the right place and time.
 2. **Objectives:** Forecast manpower needs, avoid shortage and surplus, improve employee utilisation, and support recruitment, training and career planning.
@@ -456,7 +456,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Techniques:** Group discussion, role play, case study, presentation, psychometric tests and in-basket exercise.
 10. **Advantages and limitations:** Systematic evaluation of many competencies, identifies future leaders and supports better promotion decisions.
 
-## Q69.
+## Q69. Individual differences in learning; learning strategies and styles.
 ### Individual differences in learning
 1. **Meaning:** Not everyone learns in the same way or at the same speed, so HRD must consider each learner's starting level.
 2. **Differences in background:** Employees differ in intelligence, prior knowledge, experience, motivation and personality.
@@ -471,7 +471,7 @@ A **balanced scorecard** is a strategic performance management framework that tu
 9. **Meaning and types:** Learning styles classify learners by their preferred way of learning: visual, auditory, reading/writing and kinesthetic.
 10. **Use in HRD:** Teaching should not be tied to one fixed style.
 
-## Q70.
+## Q70. Define Training Need Analysis and explain its levels, methods and steps.
 **Training Need Analysis** is the systematic process of identifying the gap between the knowledge or skills employees have and those they need to do their jobs effectively.
 ### Objectives and levels
 1. **Objectives:** Find the actual training gaps, decide who needs training, select content and methods, use the budget well and give a basis for evaluating training.

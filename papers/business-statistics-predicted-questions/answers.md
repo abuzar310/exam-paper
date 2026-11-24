@@ -6,103 +6,103 @@
 
 # 2 MARKS
 
-## Q1.
+## Q1. Define statistics.
 **Statistics** is the science of collecting, presenting, analysing and interpreting numerical data. In the words of Croxton and Cowden, statistics may be defined as "the collection, presentation, analysis and interpretation of numerical data".
 
-## Q2.
+## Q2. Mention the types of collection of data.
 1. **Primary data:** Data collected for the first time by the investigator himself, for a specific purpose. They are original in nature.
 2. **Secondary data:** Data already collected by someone else and used by the investigator, such as published reports and records.
 
-## Q3.
+## Q3. What is tabulation?
 **Tabulation** is the systematic arrangement of classified data in rows and columns. It presents a large mass of data in a compact and orderly form, so that it is easy to understand and compare.
 
-## Q4.
+## Q4. Mention two properties of the arithmetic mean.
 1. The sum of the deviations of the items from the arithmetic mean is always zero: Σ(x − x̄) = 0.
 2. The sum of the squares of the deviations from the arithmetic mean is the least: Σ(x − x̄)² is a minimum.
 
-## Q5.
+## Q5. Find the range and its coefficient: 20, 25, 80, 44, 96, 100.
 Largest value L = 100, smallest value S = 20.
 
 Range = L − S = 100 − 20 = **80**.
 
 Coefficient of range = (L − S) / (L + S) = 80 / 120 = **0.67**.
 
-## Q6.
+## Q6. Define standard deviation.
 **Standard deviation** is the square root of the arithmetic mean of the squared deviations of the items from their arithmetic mean. It is denoted by σ: σ = √(Σ(x − x̄)² / N). It is the most widely used measure of dispersion.
 
-## Q7.
+## Q7. Define correlation.
 **Correlation** is the relationship between two or more variables, such that a change in one variable is accompanied by a change in the other. For example, price and demand, or income and expenditure, are correlated.
 
-## Q8.
+## Q8. What is regression?
 **Regression** is the statistical method of estimating the unknown value of one variable from the known value of another variable. It shows the average relationship between two variables in the form of an equation.
 
-## Q9.
+## Q9. What is classification?
 **Classification** is the process of arranging the collected data into groups or classes according to their common characteristics, such as area, time, attribute or size.
 
-## Q10.
+## Q10. Give the meaning of a histogram.
 A **histogram** is a graph of a frequency distribution in which the class intervals are shown on the X-axis and the frequencies on the Y-axis. Each class is shown by a rectangle whose height is its frequency, and the rectangles are drawn next to one another.
 
-## Q11.
+## Q11. State any two differences between correlation and regression.
 | Basis | Correlation | Regression |
 |---|---|---|
 | Meaning | Measures the degree and direction of relationship between two variables. | Estimates the value of one variable from the other. |
 | Variables | No dependent or independent variable. | One variable is dependent, the other independent. |
 
-## Q12.
+## Q12. Write the formula of probable error.
 **Probable error** of the coefficient of correlation: **P.E. = 0.6745 × (1 − r²) ÷ √N**, where r is the coefficient of correlation and N the number of pairs.
 
-## Q13.
+## Q13. What is primary data?
 **Primary data** are data originally collected by the investigator or agency for the first time, for a particular statistical enquiry. They are original in nature and are collected at the source, for example through surveys and interviews.
 
-## Q14.
+## Q14. What is secondary data?
 **Secondary data** are data already collected by someone else for some other purpose and only used by the investigator, for example the Economic Survey of India, published reports and records.
 
-## Q15.
+## Q15. Define median.
 The **median** is the middle value of a series arranged in ascending or descending order. It divides the series into two equal parts, so half the items lie below it and half above it.
 
-## Q16.
+## Q16. What is mode?
 The **mode** is the value that occurs most frequently in a series, that is, the value around which the items are most heavily concentrated.
 
-## Q17.
+## Q17. Find the range and its coefficient: 65, 70, 82, 59, 81, 76, 57, 60, 55, 50.
 Largest value L = 82, smallest value S = 50.
 
 Range = L − S = 82 − 50 = **32**.
 
 Coefficient of range = (L − S) / (L + S) = 32 / 132 = **0.24**.
 
-## Q18.
+## Q18. What is quartile deviation?
 **Quartile deviation** is half the difference between the upper quartile and the lower quartile. QD = (Q3 − Q1) / 2. It is also called the semi-interquartile range; its coefficient is (Q3 − Q1) / (Q3 + Q1).
 
-## Q19.
+## Q19. Define coefficient of variation.
 The **coefficient of variation** is the standard deviation expressed as a percentage of the mean: CV = (σ / x̄) × 100. It is used to compare the consistency of two series; the series with the lower CV is more consistent.
 
-## Q20.
+## Q20. What is an ogive?
 An **ogive** is a cumulative frequency curve. Cumulative frequencies are plotted against the class limits and joined by a smooth curve. There are two types, the less-than ogive and the more-than ogive, and the median can be located from them graphically.
 
-## Q21.
+## Q21. Mention the types of correlation.
 1. **Positive and negative correlation:** both variables move in the same direction (positive) or in opposite directions (negative).
 2. **Simple, partial and multiple correlation; linear and non-linear correlation:** by the number of variables studied and by the constancy of the ratio of change.
 
-## Q22.
+## Q22. What is probable error? Write its formula.
 The **probable error** tests the reliability of the coefficient of correlation. PE = 0.6745 × (1 − r²) / √N. If r is more than 6 times PE, the correlation is significant.
 
 # 5 MARKS
 
-## Q23.
+## Q23. Briefly explain the types of classification.
 1. **Geographical classification:** Data are grouped by place or area, such as country, state, district or city, for example the population of each state.
 2. **Chronological classification:** Data are grouped by time, such as years, months or weeks, for example the sales of a company year by year.
 3. **Qualitative classification:** Data are grouped by an attribute that cannot be measured, such as sex, religion, literacy or occupation.
 4. **Simple and manifold classification:** In simple classification data are divided by one attribute into two classes (for example literate and illiterate).
 5. **Quantitative classification:** Data are grouped by a characteristic that can be measured, such as height, weight, income or marks, using class intervals.
 
-## Q24.
+## Q24. Briefly explain the different methods of collecting primary data.
 1. **Direct personal investigation:** The investigator collects the information personally from the persons concerned.
 2. **Indirect oral investigation:** Information is collected from third persons (witnesses) who know the facts, as in enquiries by committees and commissions.
 3. **Information through local correspondents:** Local agents or correspondents are appointed in different areas, and they send the information regularly, as newspapers do.
 4. **Mailed questionnaire:** A list of questions is sent by post to the informants, who fill it in and return it.
 5. **Schedules sent through enumerators:** Trained enumerators take the schedule to the informants, ask the questions and fill in the answers themselves, as in the census.
 
-## Q25.
+## Q25. Calculate the quartile deviation and its coefficient.
 | x | f | cf |
 |---|---|---|
 | 20 | 25 | 25 |
@@ -123,7 +123,7 @@ Quartile deviation = (Q3 − Q1) / 2 = (100 − 60) / 2 = 40 / 2 = **20**
 
 Coefficient of QD = (Q3 − Q1) / (Q3 + Q1) = (100 − 60) / (100 + 60) = 40 / 160 = **0.25**
 
-## Q26.
+## Q26. Find the geometric mean. x: 20, 350, 450, 600, 861, 958.
 | x | log x |
 |---|---|
 | 20 | 1.3010 |
@@ -138,7 +138,7 @@ GM = Antilog (Σ log x / n) = Antilog (15.1929 / 6) = Antilog 2.5322
 
 GM = 10^2.5322 = **340.52**
 
-## Q27.
+## Q27. Blank table: employees by sex, salary grade and designation.
 **Table showing the distribution of employees according to class, sex and salary grade**
 
 | Salary (Rs.) | Sup. M | Sup. F | Asst. M | Asst. F | Clerk M | Clerk F | Total |
@@ -152,7 +152,7 @@ Sup. = Supervisor, Asst. = Assistant, M = Male, F = Female. Each cell holds the 
 
 **Source:** ............ **Note:** ............
 
-## Q28.
+## Q28. Two regression equations; predict x when y = 7 (N = 20).
 N = 20, x̄ = 4, ȳ = 2, Σdx² = 1,680, Σdy² = 320, Σdxdy = 480
 
 bxy = Σdxdy / Σdy² = 480 / 320 = **1.5**
@@ -180,7 +180,7 @@ y − 2 = 0.29x − 1.16
 ### When y = 7
 x = 1.5 (7) + 1 = 10.5 + 1 = **11.5**
 
-## Q29.
+## Q29. Prepare a subdivided bar diagram.
 | Item | Family A | Family B |
 |---|---|---|
 | Food | 1,400 | 1,600 |
@@ -192,7 +192,7 @@ x = 1.5 (7) + 1 = 10.5 + 1 = **11.5**
 
 ![](q8-bar-diagram.png)
 
-## Q30.
+## Q30. Construct a frequency distribution with class intervals 0–10, 10–20, and so on.
 **Frequency distribution of the given data**
 
 | Class | Tally bars | Frequency |
@@ -204,7 +204,7 @@ x = 1.5 (7) + 1 = 10.5 + 1 = **11.5**
 | 40 – 50 | IIII | 4 |
 | | **Total** | **30** |
 
-## Q31.
+## Q31. Explain the functions and limitations of statistics.
 ### Functions
 1. **To present facts in numerical figures and in a simplified form:** a large mass of complex data is condensed into totals, averages and percentages that are easy to understand.
 2. **To provide comparison and study relationships:** facts are compared through averages, ratios and coefficients, and relationships such as demand and price are measured by correlation.
@@ -213,7 +213,7 @@ x = 1.5 (7) + 1 = 10.5 + 1 = **11.5**
 4. **Statistics deals only with numerical facts and with groups, not individuals:** qualities such as honesty cannot be studied directly, and the results apply to a group, not to a single person.
 5. **Results are only approximately true and can be misused:** statistical laws are true only on average, and in unskilled or dishonest hands figures can be twisted to mislead.
 
-## Q32.
+## Q32. Distinguish between primary data and secondary data.
 | Basis | Primary data | Secondary data |
 |---|---|---|
 | Meaning | Collected for the first time by the investigator | Already collected by someone else |
@@ -222,7 +222,7 @@ x = 1.5 (7) + 1 = 10.5 + 1 = **11.5**
 | Accuracy | More accurate and reliable for the purpose | May not suit the purpose; must be used with care |
 | Source | Surveys, interviews, questionnaires | Published reports, records, government publications |
 
-## Q33.
+## Q33. Blank table: students by gender, faculty and class.
 **Table showing the number of students in a college according to gender, faculty and class**
 
 | Faculty | PUC Boys | PUC Girls | PUC Total | Degree Boys | Degree Girls | Degree Total | Total |
@@ -234,7 +234,7 @@ x = 1.5 (7) + 1 = 10.5 + 1 = **11.5**
 
 **Source:** ............ **Note:** ............
 
-## Q34.
+## Q34. Geometric mean and harmonic mean of price relatives.
 | x | log x | 1/x |
 |---|---|---|
 | 207 | 2.3160 | 0.00483 |
@@ -249,7 +249,7 @@ x = 1.5 (7) + 1 = 10.5 + 1 = **11.5**
 
 **HM** = n / Σ(1/x) = 6 / 0.03880 = **154.64**
 
-## Q35.
+## Q35. Calculate the median from the following data.
 | Marks (x) | f | cf |
 |---|---|---|
 | 10 | 3 | 3 |
@@ -267,7 +267,7 @@ Median = size of (N + 1) / 2 th item = 51 / 2 = 25.5th item.
 
 The 25.5th item falls in cf 30 (the 25th item ends at cf 25), so **Median = 70 marks**.
 
-## Q36.
+## Q36. Draw a histogram and locate the mode graphically. Verify the result by formula.
 ![](q7-histogram.png)
 
 **Graphically:** the modal class is 20–30 (highest bar). Join the top-right corner of the modal bar to the top-right corner of the bar before it, and the top-left corner of the modal bar to the top-left corner of the bar after it. From the point where the two lines cross, drop a perpendicular to the X-axis; it meets the axis at the mode.
@@ -276,7 +276,7 @@ The 25.5th item falls in cf 30 (the 25th item ends at cf 25), so **Median = 70 m
 
 Mode = L1 + (f1 − f0) / (2f1 − f0 − f2) × i = 20 + (22 − 12) / (44 − 12 − 10) × 10 = 20 + 10/22 × 10 = **24.55 marks**.
 
-## Q37.
+## Q37. Two regression equations; estimate Y when X = 90.
 byx = r × σy / σx = 0.7 × 5 / 4 = **0.875**;  bxy = r × σx / σy = 0.7 × 4 / 5 = **0.56**
 
 ### Y on X
@@ -288,7 +288,7 @@ X − X̄ = bxy (Y − Ȳ) → X − 80 = 0.56 (Y − 110) → **X = 0.56Y + 18.
 ### When X = 90
 Y = 0.875 (90) + 40 = **118.75**
 
-## Q38.
+## Q38. Represent the following data by a percentage sub-divided bar diagram.
 | Items | Family A (Rs.) | % | Cum. % | Family B (Rs.) | % | Cum. % |
 |---|---|---|---|---|---|---|
 | Food | 1,500 | 30 | 30 | 2,100 | 35 | 35 |
@@ -305,7 +305,7 @@ Each family's total is taken as 100 and each item is shown as its percentage (Fo
 
 # 10 MARKS
 
-## Q39.
+## Q39. Calculate mean, median and mode.
 A = 14.5, c = 10, d' = (x − A) / c; exclusive classes (9.5 – 19.5 …) for the median.
 
 | CI | f | x | d' | fd' | cf |
@@ -335,7 +335,7 @@ Z = 3M − 2x̄ = 3 (32) − 2 (40.67) = 96 − 81.33 = **14.67**
 
 **Mean = 40.67, Median = 32, Mode = 14.67**
 
-## Q40.
+## Q40. Calculate standard deviation and the coefficient of variation.
 A = 15, c = 10, d' = (x − A) / c
 
 | CI | f | x | d' | fd' | d'² | fd'² | fx |
@@ -359,7 +359,7 @@ x̄ = Σfx / N = 1,920 / 60 = **32**
 ### Coefficient of variation
 CV = (σ / x̄) × 100 = (12.42 / 32) × 100 = 0.3882 × 100 = **38.82%**
 
-## Q41.
+## Q41. Calculate Karl Pearson's coefficient of correlation and its probable error.
 x̄ = 141 / 8 = 17.6, ȳ = 286 / 8 = 35.7, x = X − x̄, y = Y − ȳ
 
 | X | Y | x | y | xy | x² | y² |
@@ -382,7 +382,7 @@ PE = 0.6745 × (1 − r²) / √n = 0.6745 × (1 − 0.9657) / √8 = 0.6745 × 
 
 **r = 0.983, PE = 0.0082.** Very high positive correlation; r > 6 PE, so it is significant.
 
-## Q42.
+## Q42. Obtain two regression equations.
 x̄ = Σx/N = 320/10 = **32**; ȳ = Σy/N = 370/10 = **37**
 
 | x | y | dx = x − 32 | dy = y − 37 | dx² | dy² | dxdy |
@@ -413,7 +413,7 @@ x − 32 = -0.1987 (y − 37)
 
 **x = -0.20y + 39.35**
 
-## Q43.
+## Q43. Methods of collecting primary data, merits and demerits.
 ### Methods
 1. **Direct personal investigation:** The investigator collects the data personally from the persons concerned.
 2. **Indirect oral investigation:** Data are collected from third persons (witnesses) who know the facts.
@@ -427,7 +427,7 @@ x − 32 = -0.1987 (y − 37)
 9. **Mailed questionnaire:** Cheap for a wide area, but useful only with educated informants, and many do not reply.
 10. **Schedules through enumerators:** Reliable and wide in coverage, but costly and needs trained enumerators.
 
-## Q44.
+## Q44. Compute the mean, median and mode from the following data.
 A = 55, c = 10, d' = (x − A) / c
 
 | Marks | f | x | d' | fd' | cf |
@@ -461,7 +461,7 @@ Mode = L1 + (f1 − f0) / (2f1 − f0 − f2) × c = 50 + (75 − 54) / (150 −
 
 **Mean = 52.70, Median = 53.47, Mode = 54.67**
 
-## Q45.
+## Q45. Which section is more consistent in scoring?
 A = 25, c = 10, d' = (x − A) / c. The section with the lower coefficient of variation is more consistent.
 
 | Marks | x | d' | Boys f | fd' | fd'² | Girls f | fd' | fd'² |
@@ -489,7 +489,7 @@ CV = (10.93 / 25.67) × 100 = **42.60%**
 
 The CV of the girls section (42.60%) is lower than that of the boys section (50.84%). **The girls section is more consistent in scoring.**
 
-## Q46.
+## Q46. Correlation (assumed means 105 and 60) and probable error.
 dx = X − 105, dy = Y − 60 (assumed means).
 
 | X | Y | dx | dy | dx² | dy² | dxdy |
@@ -518,7 +518,7 @@ PE = 0.6745 × (1 − r²) / √N = 0.6745 × (1 − 0.7524) / √10 = 0.6745 ×
 
 **r = 0.867, PE = 0.0528.** High positive correlation; r (0.867) is more than 6 PE (0.3169), so it is significant.
 
-## Q47.
+## Q47. Obtain the regression of Y on X and of X on Y. Estimate Y when X = 30.
 X̄ = ΣX / N = 321 / 10 = 32.1, Ȳ = ΣY / N = 381 / 10 = 38.1; x = X − X̄, y = Y − Ȳ
 
 | X | Y | x | y | xy | x² | y² |
@@ -546,7 +546,7 @@ X − 32.1 = -0.2028 (Y − 38.1) → **X = -0.2028Y + 39.83**
 ### When X = 30
 Y = -0.5911 (30) + 57.07 = **39.34**
 
-## Q48.
+## Q48. What is classification? Explain the objectives and types of classification.
 ### Meaning and objectives
 1. **Meaning:** Classification is the process of dividing the data into groups or classes which are homogeneous within but different between themselves, according to some common characteristic.
 2. **To condense the data:** a large mass of raw data is reduced to a few groups, so it is easy to understand.
