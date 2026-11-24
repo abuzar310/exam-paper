@@ -27,6 +27,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-24: Branch `claude/blissful-archimedes-xb1i1j` merged into `main` at his request (fast-forward, 34 commits: Hindi textbook and corrections, predicted papers, important-questions docs, Statistics expected paper, session history). GitHub Pages now matches bcom3.
+
 - 2026-11-24: Session history saved: `sessions/2026-11-23-predictions-and-important-questions.md` (summary) and `sessions/2026-11-20-to-11-24-session-transcript.md` (full log, Gmail blanked).
 
 - 2026-11-23: Business Statistics expected paper (`papers/business-statistics-expected-paper/`), set "in the shoes of" last year's setter after comparing all nine statistics papers: question paper first, then the answer sheet; problems reused from older papers with their own numbers (as the setter did in 2025); gap topics he skipped (CV consistency, histogram mode, median, functions and limitations, GM/HM). Single column only (his choice), 6 pages. Every figure checked a second way in a script.
