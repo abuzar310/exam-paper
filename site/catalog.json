@@ -1,5 +1,5 @@
 {
- "built": "24 November 2026, 12:11 PM IST",
+ "built": "24 November 2026, 12:14 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -285,31 +285,51 @@
    "name": "Corporate Accounting",
    "solved": [
     {
-     "title": "Corporate Accounting Important Questions",
+     "title": "Corporate Accounting Predicted Paper",
      "answered": "",
-     "updated": "23 Nov 2026",
+     "updated": "24 Nov 2026",
      "versions": [
       {
+       "label": "Two columns, for printing",
+       "pdf": "papers/corporate-accounting-predicted-paper/output/corporate-accounting-predicted-paper.pdf?v=42ef2dee",
+       "pdf_pages": 3,
+       "pdf_size": "52 kB",
+       "images": [
+        {
+         "full": "papers/corporate-accounting-predicted-paper/output/corporate-accounting-predicted-paper-page-1.png?v=f3766fc2",
+         "thumb": "site/thumbs/corporate-accounting-predicted-paper/1.webp?v=a6f7b148"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-paper/output/corporate-accounting-predicted-paper-page-2.png?v=0a7176ac",
+         "thumb": "site/thumbs/corporate-accounting-predicted-paper/2.webp?v=f37cae28"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-paper/output/corporate-accounting-predicted-paper-page-3.png?v=b16f9051",
+         "thumb": "site/thumbs/corporate-accounting-predicted-paper/3.webp?v=6fd5aeb3"
+        }
+       ]
+      },
+      {
        "label": "Single column, for reading",
-       "pdf": "papers/corporate-accounting-important-questions/output/corporate-accounting-important-questions-single.pdf?v=62c922f3",
+       "pdf": "papers/corporate-accounting-predicted-paper/output/corporate-accounting-predicted-paper-single.pdf?v=c50e3584",
        "pdf_pages": 4,
        "pdf_size": "53 kB",
        "images": [
         {
-         "full": "papers/corporate-accounting-important-questions/output/corporate-accounting-important-questions-single-page-1.png?v=bcccdb2b",
-         "thumb": "site/thumbs/corporate-accounting-important-questions-single/1.webp?v=41e502a2"
+         "full": "papers/corporate-accounting-predicted-paper/output/corporate-accounting-predicted-paper-single-page-1.png?v=0c2de674",
+         "thumb": "site/thumbs/corporate-accounting-predicted-paper-single/1.webp?v=ba16bf79"
         },
         {
-         "full": "papers/corporate-accounting-important-questions/output/corporate-accounting-important-questions-single-page-2.png?v=7ad24479",
-         "thumb": "site/thumbs/corporate-accounting-important-questions-single/2.webp?v=21a8420b"
+         "full": "papers/corporate-accounting-predicted-paper/output/corporate-accounting-predicted-paper-single-page-2.png?v=59fa0274",
+         "thumb": "site/thumbs/corporate-accounting-predicted-paper-single/2.webp?v=3c39ee4c"
         },
         {
-         "full": "papers/corporate-accounting-important-questions/output/corporate-accounting-important-questions-single-page-3.png?v=f88d1653",
-         "thumb": "site/thumbs/corporate-accounting-important-questions-single/3.webp?v=abe2f066"
+         "full": "papers/corporate-accounting-predicted-paper/output/corporate-accounting-predicted-paper-single-page-3.png?v=be166d13",
+         "thumb": "site/thumbs/corporate-accounting-predicted-paper-single/3.webp?v=4e075ff7"
         },
         {
-         "full": "papers/corporate-accounting-important-questions/output/corporate-accounting-important-questions-single-page-4.png?v=d9ad7d9d",
-         "thumb": "site/thumbs/corporate-accounting-important-questions-single/4.webp?v=e7e62232"
+         "full": "papers/corporate-accounting-predicted-paper/output/corporate-accounting-predicted-paper-single-page-4.png?v=63d8385d",
+         "thumb": "site/thumbs/corporate-accounting-predicted-paper-single/4.webp?v=1ed40d30"
         }
        ]
       }
@@ -322,45 +342,101 @@
      "versions": [
       {
        "label": "Two columns, for printing",
-       "pdf": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions.pdf?v=2527eccb",
-       "pdf_pages": 3,
-       "pdf_size": "13 kB",
+       "pdf": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions.pdf?v=fd5076ea",
+       "pdf_pages": 9,
+       "pdf_size": "82 kB",
        "images": [
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-1.png?v=67bc4fc6",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions/1.webp?v=e3abacf6"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-1.png?v=83f51bbd",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/1.webp?v=9629d368"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-2.png?v=4c81f598",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions/2.webp?v=2c3cd467"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-2.png?v=ecd43341",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/2.webp?v=17254253"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-3.png?v=d620ff11",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions/3.webp?v=787b633e"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-3.png?v=dedbe95f",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/3.webp?v=dde273e8"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-4.png?v=bdac84a8",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/4.webp?v=55601a30"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-5.png?v=31a2f5d5",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/5.webp?v=ce4ee628"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-6.png?v=addb6c0a",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/6.webp?v=2d35b3c6"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-7.png?v=6b5d44cc",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/7.webp?v=06b94514"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-8.png?v=2c38d595",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/8.webp?v=bbcb8978"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-page-9.png?v=a92b5102",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions/9.webp?v=94a257cb"
         }
        ]
       },
       {
        "label": "Single column, for reading",
-       "pdf": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single.pdf?v=156837a9",
-       "pdf_pages": 4,
-       "pdf_size": "14 kB",
+       "pdf": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single.pdf?v=1915cdfe",
+       "pdf_pages": 12,
+       "pdf_size": "84 kB",
        "images": [
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-1.png?v=5f503733",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/1.webp?v=001dc150"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-1.png?v=1fe50002",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/1.webp?v=9e99a6a8"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-2.png?v=4d4bbeda",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/2.webp?v=9987b356"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-2.png?v=2b35e080",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/2.webp?v=96d34d54"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-3.png?v=72dc11eb",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/3.webp?v=e3a223e5"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-3.png?v=a670e578",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/3.webp?v=d89938bd"
         },
         {
-         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-4.png?v=b2303894",
-         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/4.webp?v=4b06ddee"
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-4.png?v=2c84c461",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/4.webp?v=c30e1772"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-5.png?v=43212c56",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/5.webp?v=45935330"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-6.png?v=e00c3ba2",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/6.webp?v=89f3c3f2"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-7.png?v=e664b781",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/7.webp?v=4da9c56e"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-8.png?v=c1c51c81",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/8.webp?v=33e84507"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-9.png?v=b7a0ec78",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/9.webp?v=06ea433d"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-10.png?v=d6ec9799",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/10.webp?v=829d19df"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-11.png?v=1644be46",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/11.webp?v=54f91fd4"
+        },
+        {
+         "full": "papers/corporate-accounting-predicted-questions/output/corporate-accounting-predicted-questions-single-page-12.png?v=d13f802e",
+         "thumb": "site/thumbs/corporate-accounting-predicted-questions-single/12.webp?v=6f79467a"
         }
        ]
       }
@@ -493,10 +569,16 @@
      "pdf_size": "2.3 MB"
     },
     {
+     "title": "Corporate Accounting Predicted Paper",
+     "pdf": "papers/corporate-accounting-predicted-paper/question-paper.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "63 kB"
+    },
+    {
      "title": "Corporate Accounting Predicted Questions",
      "pdf": "papers/corporate-accounting-predicted-questions/question-paper.pdf",
-     "pdf_pages": 2,
-     "pdf_size": "6 kB"
+     "pdf_pages": 4,
+     "pdf_size": "71 kB"
     }
    ]
   },
