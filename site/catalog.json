@@ -1,49 +1,10 @@
 {
- "built": "24 November 2026, 12:03 PM IST",
+ "built": "24 November 2026, 12:05 PM IST",
  "subjects": [
   {
    "id": "hindi",
    "name": "Hindi",
    "solved": [
-    {
-     "title": "Hindi Important Questions",
-     "answered": "",
-     "updated": "23 Nov 2026",
-     "versions": [
-      {
-       "label": "Single column, for reading",
-       "pdf": "papers/hindi-important-questions/output/hindi-important-questions-single.pdf?v=4c1d82f3",
-       "pdf_pages": 6,
-       "pdf_size": "93 kB",
-       "images": [
-        {
-         "full": "papers/hindi-important-questions/output/hindi-important-questions-single-page-1.png?v=40076a64",
-         "thumb": "site/thumbs/hindi-important-questions-single/1.webp?v=de7d9929"
-        },
-        {
-         "full": "papers/hindi-important-questions/output/hindi-important-questions-single-page-2.png?v=9af2b773",
-         "thumb": "site/thumbs/hindi-important-questions-single/2.webp?v=adf7f7db"
-        },
-        {
-         "full": "papers/hindi-important-questions/output/hindi-important-questions-single-page-3.png?v=635c0722",
-         "thumb": "site/thumbs/hindi-important-questions-single/3.webp?v=769bb94e"
-        },
-        {
-         "full": "papers/hindi-important-questions/output/hindi-important-questions-single-page-4.png?v=502a3db6",
-         "thumb": "site/thumbs/hindi-important-questions-single/4.webp?v=7135d1b9"
-        },
-        {
-         "full": "papers/hindi-important-questions/output/hindi-important-questions-single-page-5.png?v=839d86f1",
-         "thumb": "site/thumbs/hindi-important-questions-single/5.webp?v=b9fd6b73"
-        },
-        {
-         "full": "papers/hindi-important-questions/output/hindi-important-questions-single-page-6.png?v=082f4da9",
-         "thumb": "site/thumbs/hindi-important-questions-single/6.webp?v=723760b7"
-        }
-       ]
-      }
-     ]
-    },
     {
      "title": "Hindi Predicted Paper",
      "answered": "",
@@ -86,6 +47,97 @@
         {
          "full": "papers/hindi-predicted-paper/output/hindi-predicted-paper-single-page-3.png?v=ab31510f",
          "thumb": "site/thumbs/hindi-predicted-paper-single/3.webp?v=f6a8d90b"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Hindi Predicted Questions",
+     "answered": "",
+     "updated": "24 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/hindi-predicted-questions/output/hindi-predicted-questions.pdf?v=422c9335",
+       "pdf_pages": 7,
+       "pdf_size": "102 kB",
+       "images": [
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-1.png?v=e4aade59",
+         "thumb": "site/thumbs/hindi-predicted-questions/1.webp?v=fe1f7b63"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-2.png?v=627e4441",
+         "thumb": "site/thumbs/hindi-predicted-questions/2.webp?v=c5f81d4a"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-3.png?v=95221a97",
+         "thumb": "site/thumbs/hindi-predicted-questions/3.webp?v=8fcc2a25"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-4.png?v=7ce41a50",
+         "thumb": "site/thumbs/hindi-predicted-questions/4.webp?v=8dd52473"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-5.png?v=e6cbc877",
+         "thumb": "site/thumbs/hindi-predicted-questions/5.webp?v=d5d033a5"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-6.png?v=245701c4",
+         "thumb": "site/thumbs/hindi-predicted-questions/6.webp?v=9d43a4d4"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-page-7.png?v=e3475905",
+         "thumb": "site/thumbs/hindi-predicted-questions/7.webp?v=fa0f2659"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single.pdf?v=59cec315",
+       "pdf_pages": 10,
+       "pdf_size": "104 kB",
+       "images": [
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-1.png?v=f8d7675c",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/1.webp?v=71549fc0"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-2.png?v=67d34144",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/2.webp?v=8908f17c"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-3.png?v=773a9445",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/3.webp?v=7de800a9"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-4.png?v=1c720143",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/4.webp?v=5c64af84"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-5.png?v=d7f1e115",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/5.webp?v=d6ac29c8"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-6.png?v=12158a29",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/6.webp?v=14a1a9b4"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-7.png?v=ab6b23db",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/7.webp?v=82780ee4"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-8.png?v=2c2fa182",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/8.webp?v=754e9929"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-9.png?v=ca0a9cc8",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/9.webp?v=5ef62203"
+        },
+        {
+         "full": "papers/hindi-predicted-questions/output/hindi-predicted-questions-single-page-10.png?v=33a2f858",
+         "thumb": "site/thumbs/hindi-predicted-questions-single/10.webp?v=a7ce5495"
         }
        ]
       }
@@ -219,6 +271,12 @@
      "pdf": "papers/hindi-predicted-paper/question-paper.pdf",
      "pdf_pages": 1,
      "pdf_size": "45 kB"
+    },
+    {
+     "title": "Hindi Predicted Questions",
+     "pdf": "papers/hindi-predicted-questions/question-paper.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "49 kB"
     }
    ]
   },
