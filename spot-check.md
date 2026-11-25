@@ -130,8 +130,3 @@ Question paper:
 Question paper:
 
 - [ ] `papers/corporate-administration-sem2-may-2026/question-paper.md` — `question-paper-1.webp` and `question-paper-2.webp`
-
-## Timetable
-
-- [ ] `papers/sem3-dec-2025-jan-2026/timetable.md` — `timetable.jpg`
-

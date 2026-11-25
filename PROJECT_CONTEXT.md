@@ -48,7 +48,7 @@ Read this first in every new chat, then `CLAUDE.md` for the full rules and `TASK
 | `notes/english/` | The Overcoat, Kirubunkal, On the Way to Goregaon, Harvest II, semester notes, model letters, combined notes PDF |
 | `notes/human-resource-development/` | Modules 1 and 2, Aarav Retail case, syllabus |
 | `notes/personality-development/` | Short notes and the question bank |
-| `papers/sem3-dec-2025-jan-2026/` | December 2025 / January 2026 papers, combined, plus the timetable |
+| `papers/sem3-dec-2025-jan-2026/` | December 2025 / January 2026 papers, combined |
 | `papers/english-sem3-dec-2025/` | English Q.P. 54302, solved |
 | `papers/corporate-administration-sem2-may-2026/` | Corporate Administration, second semester, solved |
 | `papers/business-statistics/` | Older statistics papers |
