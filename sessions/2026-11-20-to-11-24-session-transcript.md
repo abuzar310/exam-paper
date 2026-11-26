@@ -26,8 +26,6 @@ lets continue where we left get context and sesson history from git hub'
 3. **Missing notes:** AS 2, AS 10, AS 13, the standard-setting process, and Levels I to IV.
 4. **Old branches.** I can delete the old branches whose work is already in `main`, but only when you say so.
 
-**Upcoming exams:**
-
 **Camera uploads:** I can't see anything you've uploaded with the camera button from here, because this environment's network blocks the upload service. If you photographed a paper with it, send the photos here in chat instead.
 
 What next: the Hindi photos, a new paper, or something else?
