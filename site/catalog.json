@@ -1,5 +1,5 @@
 {
- "built": "27 November 2026, 12:41 AM IST",
+ "built": "27 November 2026, 05:06 PM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -1559,6 +1559,45 @@
      ]
     },
     {
+     "title": "Q.P. 50374, November / December 2026",
+     "answered": "Answered: Section A 1(a)-(j), Section B Q2-Q7, Section C Q10-Q12.",
+     "updated": "27 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/hrd-50374-nov-dec-2026/output/hrd-50374-nov-dec-2026.pdf?v=e35cd1b5",
+       "pdf_pages": 2,
+       "pdf_size": "47 kB",
+       "images": [
+        {
+         "full": "papers/hrd-50374-nov-dec-2026/output/hrd-50374-nov-dec-2026-page-1.png?v=436cdbf1",
+         "thumb": "site/thumbs/hrd-50374-nov-dec-2026/1.webp?v=7d8c6eed"
+        },
+        {
+         "full": "papers/hrd-50374-nov-dec-2026/output/hrd-50374-nov-dec-2026-page-2.png?v=e51b7ef7",
+         "thumb": "site/thumbs/hrd-50374-nov-dec-2026/2.webp?v=c732d8ba"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/hrd-50374-nov-dec-2026/output/hrd-50374-nov-dec-2026-single.pdf?v=3268bd73",
+       "pdf_pages": 2,
+       "pdf_size": "46 kB",
+       "images": [
+        {
+         "full": "papers/hrd-50374-nov-dec-2026/output/hrd-50374-nov-dec-2026-single-page-1.png?v=1b9d4ad9",
+         "thumb": "site/thumbs/hrd-50374-nov-dec-2026-single/1.webp?v=9416ab55"
+        },
+        {
+         "full": "papers/hrd-50374-nov-dec-2026/output/hrd-50374-nov-dec-2026-single-page-2.png?v=f5321017",
+         "thumb": "site/thumbs/hrd-50374-nov-dec-2026-single/2.webp?v=160ccbef"
+        }
+       ]
+      }
+     ]
+    },
+    {
      "title": "College model exam, 12 November 2026",
      "answered": "Answered: Section A Q1-Q10, Section B Q1-Q6, Section C Q1-Q4.",
      "updated": "12 Nov 2026",
@@ -1828,6 +1867,12 @@
     }
    ],
    "questions": [
+    {
+     "title": "Q.P. 50374, November / December 2026",
+     "pdf": "papers/hrd-50374-nov-dec-2026/question-paper.pdf",
+     "pdf_pages": 2,
+     "pdf_size": "771 kB"
+    },
     {
      "title": "Q.P. 50374, December 2025 / January 2026",
      "pdf": "site/question-papers/q-p-50374-december-2025-january-2026.pdf",
