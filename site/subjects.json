@@ -12,6 +12,7 @@
     {"id": "corporate-administration", "name": "Corporate Administration", "semester": "Second semester", "prefixes": ["corporate-administration"]}
   ],
   "question_papers": [
+    {"subject": "hrd", "title": "Q.P. 50374, November / December 2026", "source": "papers/hrd-50374-nov-dec-2026/question-paper.pdf"},
     {"subject": "english", "title": "Q.P. 54302, December 2025 / January 2026", "source": "papers/sem3-dec-2025-jan-2026/all-question-papers.pdf", "pages": [1, 1]},
     {"subject": "business-statistics", "title": "Q.P. 54322, December 2025 / January 2026", "source": "papers/sem3-dec-2025-jan-2026/all-question-papers.pdf", "pages": [2, 3]},
     {"subject": "hrd", "title": "Q.P. 50374, December 2025 / January 2026", "source": "papers/sem3-dec-2025-jan-2026/all-question-papers.pdf", "pages": [4, 5]},
