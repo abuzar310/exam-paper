@@ -1,5 +1,5 @@
 {
- "built": "27 November 2026, 05:06 PM IST",
+ "built": "28 November 2026, 09:31 AM IST",
  "subjects": [
   {
    "id": "hindi",
@@ -2093,6 +2093,37 @@
      ]
     },
     {
+     "title": "Personality Development Sample Paper",
+     "answered": "Answered: Section A 1(a)–(e). Section B Q2–Q7.",
+     "updated": "28 Nov 2026",
+     "versions": [
+      {
+       "label": "Two columns, for printing",
+       "pdf": "papers/personality-development-sample-paper/output/personality-development-sample-paper.pdf?v=4d35e3e3",
+       "pdf_pages": 1,
+       "pdf_size": "43 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-sample-paper/output/personality-development-sample-paper-page-1.png?v=595e321f",
+         "thumb": "site/thumbs/personality-development-sample-paper/1.webp?v=01584700"
+        }
+       ]
+      },
+      {
+       "label": "Single column, for reading",
+       "pdf": "papers/personality-development-sample-paper/output/personality-development-sample-paper-single.pdf?v=c3a008a6",
+       "pdf_pages": 1,
+       "pdf_size": "43 kB",
+       "images": [
+        {
+         "full": "papers/personality-development-sample-paper/output/personality-development-sample-paper-single-page-1.png?v=9f61f0dd",
+         "thumb": "site/thumbs/personality-development-sample-paper-single/1.webp?v=0c4a1a76"
+        }
+       ]
+      }
+     ]
+    },
+    {
      "title": "Personality Development Theory Bank",
      "answered": "",
      "updated": "18 Nov 2026",
@@ -2178,6 +2209,21 @@
        "full": "papers/personality-development-question-bank/question-paper-3.jpg?v=d916a213",
        "thumb": "site/thumbs/personality-development-question-bank-photos/3.webp?v=006faa4f",
        "view": "site/thumbs/personality-development-question-bank-photos/3-view.webp?v=a34d2d8a"
+      }
+     ]
+    },
+    {
+     "title": "Personality Development Sample Paper (photo)",
+     "photos": [
+      {
+       "full": "papers/personality-development-sample-paper/question-paper-1.jpg?v=335bf8a0",
+       "thumb": "site/thumbs/personality-development-sample-paper-photos/1.webp?v=2e7ce58c",
+       "view": "site/thumbs/personality-development-sample-paper-photos/1-view.webp?v=6b7e9c03"
+      },
+      {
+       "full": "papers/personality-development-sample-paper/question-paper-2.jpg?v=b14269c6",
+       "thumb": "site/thumbs/personality-development-sample-paper-photos/2.webp?v=79eb4539",
+       "view": "site/thumbs/personality-development-sample-paper-photos/2-view.webp?v=f366779d"
       }
      ]
     },

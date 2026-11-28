@@ -27,6 +27,8 @@ Open items first. When a task is finished, move it to Done with the date. Dates 
 
 ## Done
 
+- 2026-11-28: Solved the uploaded Personality Development sample paper, Q1(a)–(e) and Q2–Q7. Saved both original pages, the English transcription and both answer layouts.
+
 - 2026-11-27: Solved HRD Q.P. 50374 (November / December 2026), first choices in each section. Saved the original upload, upright paper, English transcription and both answer layouts.
 
 - 2026-11-27: Removed the semester schedule dates from the current question sheets, generated PDFs, notes and session transcripts on the cleanup branch. Git history cleanup and GitHub publication are pending.
